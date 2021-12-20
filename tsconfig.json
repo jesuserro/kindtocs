@@ -6,6 +6,7 @@
   "compilerOptions": {
     "types": ["node", "svelte", "jest"],
     "baseUrl": ".",
+    "outDir": "./dist",
     "paths": {
       "src": ["src/*", "tests/*"],
       "~/*": ["src/*"]
