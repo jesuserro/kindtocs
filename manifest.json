@@ -1,10 +1,10 @@
 {
-  "id": "obsidian-kindle-plugin",
-  "name": "Kindle Highlights",
-  "version": "1.5.2",
+  "id": "kindtocs",
+  "name": "Kindtocs - Kindle Table of Contents",
+  "version": "0.0.1",
   "minAppVersion": "0.10.2",
-  "description": "Sync your Kindle book highlights using your Amazon login or uploading your My Clippings file",
-  "author": "Hady Osman",
-  "authorUrl": "https://hady.geek.nz",
+  "description": "Create your tocs from Kindle",
+  "author": "Olagato33",
+  "authorUrl": "https://github.com/olagato33",
   "isDesktopOnly": true
 }

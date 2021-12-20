@@ -21,7 +21,7 @@ export default class KindlePlugin extends Plugin {
   private syncClippings!: SyncClippings;
 
   public async onload(): Promise<void> {
-    console.log('Kindle Highlights plugin: loading plugin', new Date().toLocaleString());
+    console.log('Kindtocs: loading plugin', new Date().toLocaleString());
 
     this.fileManager = new FileManager(this.app.vault, this.app.metadataCache);
     const syncManager = new SyncManager(this.fileManager);
@@ -35,9 +35,10 @@ export default class KindlePlugin extends Plugin {
     //   this.showSyncModal();
     // });
 
-    this.addRibbonIcon('kindle', 'Sync your Kindle highlights', () => {
+    const ribbonEl = this.addRibbonIcon('dice', 'Sync your Kindtocs highlights', () => {
       this.showSyncModal();
     });
+    ribbonEl.addClass('kindtocs-ribbon');
 
     this.addCommand({
       id: 'kindle-sync',
