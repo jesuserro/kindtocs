@@ -1,10 +1,9 @@
-# Obsidian Kindle Plugin
+# Obsidian Kindtocs Plugin
 
 ![CI/CD status](https://github.com/hadynz/obsidian-kindle-plugin/actions/workflows/main.yml/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/hadynz/obsidian-kindle-plugin)
 
-Sync (and resync) your Kindle notes and highlights directly into your [Obsidian][1] vault. You
-can choose to sync using one of two methods:
+Sync (and resync) your Kindle notes and highlights directly into your [Obsidian][1] vault. And create yout Table of Contents (TOCs) for your books. You can choose to sync using one of two methods:
 
 ### Amazon's Kindle Reader
 
@@ -75,7 +74,11 @@ your online Amazon account.
 
 ### Developers
 
-Execute `npm run dev` in terminal to create `main.js` and `dist` files for Obsidian.
+| Command                    | Description                                                                               | App    |
+| -------------------------- | ----------------------------------------------------------------------------------------- | ------ |
+| `git pull upstream master` | Update project from original source: https://github.com/hadynz/obsidian-kindle-plugin.git | GIT    |
+| `npm update`               | Update Node libraries                                                                     | VSCODE |
+| `npm run dev`              | create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
 
 ### Template tags
 
