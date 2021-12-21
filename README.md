@@ -74,11 +74,11 @@ your online Amazon account.
 
 ### Developers
 
-| Command                    | Description                                                                               | App    |
-| -------------------------- | ----------------------------------------------------------------------------------------- | ------ |
-| `git pull upstream master` | Update project from original source: https://github.com/hadynz/obsidian-kindle-plugin.git | GIT    |
-| `npm update`               | Update Node libraries                                                                     | VSCODE |
-| `npm run dev`              | create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
+| Command                                        | Description                                                                               | App    |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
+| `git fetch upstream; git pull upstream master` | Update project from original source: https://github.com/hadynz/obsidian-kindle-plugin.git | GIT    |
+| `npm update`                                   | Update Node libraries                                                                     | VSCODE |
+| `npm run dev`                                  | create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
 
 ### Template tags
 

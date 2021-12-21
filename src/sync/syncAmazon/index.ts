@@ -3,6 +3,7 @@ import { scrapeHighlightsForBook, scrapeBooks } from '~/scraper';
 import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
 import type { Book, KindleFile } from '~/models';
+import { Kindtoc } from './../../kindtocs/kindtoc';
 
 export default class SyncAmazon {
   constructor(private syncManager: SyncManager) {}
@@ -37,7 +38,8 @@ export default class SyncAmazon {
             url: "https://www.amazon.com/dp/B01LY1D0KZ"
          }
          */
-        console.log("booksToSync", booksToSync);
+        const MyPlugin = new Kindtoc(booksToSync);
+        console.log("booksToSync", MyPlugin.getBooks());
       }
 
       ee.emit('syncSessionSuccess');
