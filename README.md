@@ -73,6 +73,10 @@ modal that gives you several two options to sync.
 Start syncing by choosing between uploading a copy of your `My Clippings.txt` file or using
 your online Amazon account.
 
+### Developers
+
+Execute `npm run dev` in terminal to create `main.js` and `dist` files for Obsidian.
+
 ### Template tags
 
 | Tag            | Description                                         | Present                                                                            |
