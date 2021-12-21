@@ -39,7 +39,10 @@ export default class SyncAmazon {
          }
          */
         const MyPlugin = new Kindtoc(booksToSync);
-        console.log("booksToSync", MyPlugin.getBooks());
+        // console.log(MyPlugin.getBooks());
+
+        const aBook = MyPlugin.getBookByAsin('B00UVRQDA8');
+        MyPlugin.myIterate(aBook);
       }
 
       ee.emit('syncSessionSuccess');
