@@ -78,7 +78,9 @@ your online Amazon account.
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
 | `git fetch upstream; git pull upstream master` | Update project from original source: https://github.com/hadynz/obsidian-kindle-plugin.git | GIT    |
 | `npm update`                                   | Update Node libraries                                                                     | VSCODE |
-| `npm run dev`                                  | create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
+| `npm run dev`                                  | Create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
+| `npm run test`                                 | Run all tests                                                                             | VSCODE |
+| `npm test -- ./src/suma`                       | Run specific test: suma.spec.ts                                                           | VSCODE |
 
 ### Template tags
 
