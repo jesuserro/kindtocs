@@ -26,21 +26,14 @@ export default class SyncAmazon {
       ee.emit('fetchingBooksSuccess', booksToSync, remoteBooks);
 
       if (booksToSync.length > 0) {
-        // await this.syncBooks(booksToSync); // Acción del plugin original: resincronizar
-        /**
-         5: {
-            asin: "B01LY1D0KZ"
-            author: "Universidad de Navarra y Facultad de Teología"
-            id: "42843"
-            imageUrl: "https://m.media-amazon.com/images/I/81ICDdLVq2L._SY160.jpg"
-            lastAnnotatedDate: Invalid Date {}
-            title: "Sagrada Biblia"
-            url: "https://www.amazon.com/dp/B01LY1D0KZ"
-         }
-         */
-        const MyPlugin = new Kindtoc(booksToSync);
-        // console.log(MyPlugin.getBooks());
+        // 1. Acción del plugin original: resincronizar
+        // await this.syncBooks(booksToSync);
 
+        // 2. Mis libros
+        const MyPlugin = new Kindtoc(booksToSync);
+        // console.log( MyPlugin.getBooks() );
+
+        // 3. Highlights
         const aBook = MyPlugin.getBookByAsin('B00UVRQDA8');
         MyPlugin.myIterate(aBook);
       }
