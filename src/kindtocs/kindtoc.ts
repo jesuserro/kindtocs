@@ -2,7 +2,6 @@
 import type { Book } from '~/models';
 import { ee } from '~/eventEmitter';
 import { scrapeHighlightsForBook } from '~/scraper';
-import type { String } from 'lodash';
 
 export class Kindtoc {
 	books: Book[];
@@ -15,7 +14,6 @@ export class Kindtoc {
 	init(): void {
     // stuff
 	}
-
 
   public async myIterate(books: Book[]): Promise<void> {
     for (const [index, book] of books.entries()) {
@@ -33,8 +31,6 @@ export class Kindtoc {
     }
   }
 
-
-
   public getBooks(): Book[] {
     return this.books;
   }
@@ -47,11 +43,11 @@ export class Kindtoc {
    * B00UVRQDA8 Abandono
    * B01LY1D0KZ Biblia
    */
-  public getBookByAsin(asin: string) {
-    const biblia = this.books.find( book => book.asin === asin );
+  public getBookByAsin(asin: string):Book[] {
+    const book = this.books.find( book => book.asin === asin );
     let mybooks = [];
-    if(biblia){
-      mybooks = [ biblia ];
+    if(book){
+      mybooks = [ book ];
     }
     return mybooks;
   }
