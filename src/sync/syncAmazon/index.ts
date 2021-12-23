@@ -8,6 +8,45 @@ import { Kindtoc } from './../../kindtocs/kindtoc';
 export default class SyncAmazon {
   constructor(private syncManager: SyncManager) {}
 
+
+  public async startKindtocs(): Promise<void> {
+    ee.emit('syncSessionStart', 'amazon');
+
+    const success = await this.login();
+
+    if (!success) {
+      return; // Do nothing...
+    }
+
+    try {
+      ee.emit('fetchingBooks');
+
+      const remoteBooks = await scrapeBooks();
+      const booksToSync = await this.syncManager.filterBooksToSync(remoteBooks);
+
+      ee.emit('fetchingBooksSuccess', booksToSync, remoteBooks);
+
+      if (booksToSync.length > 0) {
+
+        // 1. Mis libros
+        const MyPlugin = new Kindtoc(booksToSync);
+        // const myBooks = MyPlugin.getBooks();  // Same as: booksToSync
+
+        // 2. Highlights
+        const oneBook = MyPlugin.getBookByAsin('B00UVRQDA8');
+
+        if (oneBook.length > 0) {
+          await this.createTocs(oneBook);
+        }
+      }
+
+      ee.emit('syncSessionSuccess');
+    } catch (error) {
+      console.error('Error while trying fetch books and to sync', error);
+      ee.emit('syncSessionFailure', String(error));
+    }
+  }
+
   public async startSync(): Promise<void> {
     ee.emit('syncSessionStart', 'amazon');
 
@@ -26,16 +65,7 @@ export default class SyncAmazon {
       ee.emit('fetchingBooksSuccess', booksToSync, remoteBooks);
 
       if (booksToSync.length > 0) {
-        // 1. Acción del plugin original: resincronizar
-        // await this.syncBooks(booksToSync);
-
-        // 2. Mis libros
-        const MyPlugin = new Kindtoc(booksToSync);
-        // console.log( MyPlugin.getBooks() );
-
-        // 3. Highlights
-        const aBook = MyPlugin.getBookByAsin('B00UVRQDA8');
-        MyPlugin.myIterate(aBook);
+        await this.syncBooks(booksToSync);
       }
 
       ee.emit('syncSessionSuccess');
@@ -95,4 +125,27 @@ export default class SyncAmazon {
       }
     }
   }
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createTocs(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        await this.syncManager.createBookToc(book, highlights);
+
+        ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+
 }

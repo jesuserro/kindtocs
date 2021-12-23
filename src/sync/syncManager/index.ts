@@ -42,6 +42,32 @@ export default class SyncManager {
     }
   }
 
+  /**
+   *
+   * @param book Clon de syncBook()
+   * @param highlights
+   * @returns
+   */
+  public async createBookToc(book: Book, highlights: Highlight[]): Promise<void> {
+    if (highlights.length === 0) {
+      return; // No highlights for book. Skip sync
+    }
+
+    const file = await this.fileManager.getKindleFile(book);
+
+    console.log("book", book);
+    console.log("file", file);
+    console.log("highlights", highlights);
+
+    return;
+
+    if (file == null) {
+      await this.createBook(book, highlights);
+    } else {
+      await this.resyncBook(file, book, highlights);
+    }
+  }
+
   public async resyncBook(
     file: KindleFile,
     remoteBook: Book,

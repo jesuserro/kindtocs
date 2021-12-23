@@ -13,6 +13,7 @@ import { ee } from '~/eventEmitter';
 
 import '~/sentry';
 
+
 addIcon('kindle', kindleIcon);
 
 export default class KindlePlugin extends Plugin {
@@ -85,13 +86,21 @@ export default class KindlePlugin extends Plugin {
 
   private showSyncModal(): void {
     new SyncModal(this.app, {
-      onOnlineSync: () => this.startAmazonSync(),
+      // onOnlineSync: () => this.startAmazonSync(),
+      onOnlineSync: () => this.startKindtocs(),
       onMyClippingsSync: () => this.syncClippings.startSync(),
     }).show();
   }
 
   private startAmazonSync(): void {
     this.syncAmazon.startSync();
+  }
+
+  /**
+   * Clon de startAmazonSync()
+   */
+  private startKindtocs(): void {
+    this.syncAmazon.startKindtocs();
   }
 
   public async onunload(): Promise<void> {
