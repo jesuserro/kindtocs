@@ -3,6 +3,7 @@ import { get } from 'svelte/store';
 
 import bookTemplate from './templates/bookTemplate.njk';
 import defaultHighlightTemplate from './templates/defaultHighlightTemplate.njk';
+import tocHighlightTemplate from './templates/tocHighlightTemplate.njk';
 import highlightTemplateWrapper from './templates/highlightTemplateWrapper.njk';
 import { BlockReferenceExtension, TrimAllEmptyLinesExtension } from './nunjucks.extensions';
 import { shortenTitle } from '~/utils';
@@ -40,6 +41,10 @@ export class Renderer {
     }
   }
 
+  public tocHighlightTemplate(): string {
+    return tocHighlightTemplate.trim();
+  }
+
   public defaultHighlightTemplate(): string {
     return defaultHighlightTemplate.trim();
   }
@@ -58,10 +63,8 @@ export class Renderer {
       title: shortenTitle(book.title),
       appLink: appLink(book),
       ...entry.metadata,
-      highlights: this.renderHighlights(book, highlights),
+      highlights: this.renderTocHighlights(book, highlights),
     };
-
-    console.log("params", params);
 
     return this.nunjucks.renderString(bookTemplate, params);
   }
@@ -81,6 +84,24 @@ export class Renderer {
     return this.nunjucks.renderString(bookTemplate, params);
   }
 
+  /**
+   * Clon de renderHighlight()
+   * @param book
+   * @param highlight
+   * @returns
+   */
+  public renderTocHighlight(book: Book, highlight: Highlight): string {
+    const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
+
+    const userTemplate = this.tocHighlightTemplate();
+
+    const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
+
+    const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
+
+    return trimMultipleLines(renderedHighlight);
+  }
+
   public renderHighlight(book: Book, highlight: Highlight): string {
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
 
@@ -92,6 +113,13 @@ export class Renderer {
     const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
 
     return trimMultipleLines(renderedHighlight);
+  }
+
+  private renderTocHighlights(book: Book, highlights: Highlight[]): string {
+
+    const h1Highlights = highlights.filter((highlight) => highlight.note.match(/(\.h[0-9]{1})/gm) !== null );
+    console.log("h1Highlights",h1Highlights);
+    return h1Highlights.map((h) => this.renderTocHighlight(book, h)).join('\n');
   }
 
   private renderHighlights(book: Book, highlights: Highlight[]): string {
