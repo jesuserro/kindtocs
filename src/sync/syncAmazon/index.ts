@@ -3,12 +3,17 @@ import { scrapeHighlightsForBook, scrapeBooks } from '~/scraper';
 import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
 import type { Book, KindleFile } from '~/models';
-import { Kindtoc } from './../../kindtocs/kindtoc';
 
 export default class SyncAmazon {
+
+  remoteBooks: Book[];
+
   constructor(private syncManager: SyncManager) {}
 
-
+/**
+ *
+ * @returns Clon de startSync()
+ */
   public async startKindtocs(): Promise<void> {
     ee.emit('syncSessionStart', 'amazon');
 
@@ -26,14 +31,11 @@ export default class SyncAmazon {
 
       ee.emit('fetchingBooksSuccess', booksToSync, remoteBooks);
 
-      if (booksToSync.length > 0) {
+      this.remoteBooks = remoteBooks;
 
-        // 1. Mis libros
-        const MyPlugin = new Kindtoc(booksToSync);
-        // const myBooks = MyPlugin.getBooks();  // Same as: booksToSync
+      if (remoteBooks.length > 0) {
 
-        // 2. Highlights
-        const oneBook = MyPlugin.getBookByAsin('B00UVRQDA8');
+        const oneBook = this.getBookByAsin('B00UVRQDA8');
 
         if (oneBook.length > 0) {
           await this.createTocs(oneBook);
@@ -144,6 +146,24 @@ export default class SyncAmazon {
         ee.emit('syncBookFailure', book, String(error));
       }
     }
+  }
+
+
+  /**
+   *
+   * @param asin string
+   * @returns Book[]
+   *
+   * B00UVRQDA8 Abandono
+   * B01LY1D0KZ Biblia
+   */
+   public getBookByAsin(asin: string):Book[] {
+    const book = this.remoteBooks.find( book => book.asin === asin );
+    let mybooks = [];
+    if(book){
+      mybooks = [ book ];
+    }
+    return mybooks;
   }
 
 
