@@ -53,19 +53,7 @@ export default class SyncManager {
       return; // No highlights for book. Skip sync
     }
 
-    const file = await this.fileManager.getKindleFile(book);
-
-    console.log("book", book);
-    console.log("file", file);
-    console.log("highlights", highlights);
-
-    return;
-
-    if (file == null) {
-      await this.createBook(book, highlights);
-    } else {
-      await this.resyncBook(file, book, highlights);
-    }
+    await this.createToc(book, highlights);
   }
 
   public async resyncBook(
@@ -88,6 +76,19 @@ export default class SyncManager {
     const metadata = await this.syncMetadata(book);
 
     const content = this.renderer.render({ book, highlights, metadata });
+
+    await this.fileManager.createFile(book, content, highlights.length);
+  }
+
+  /**
+   * Clon de createBook()
+   * @param book
+   * @param highlights
+   */
+  private async createToc(book: Book, highlights: Highlight[]): Promise<void> {
+    const metadata = await this.syncMetadata(book);
+
+    const content = this.renderer.renderToc({ book, highlights, metadata });
 
     await this.fileManager.createFile(book, content, highlights.length);
   }

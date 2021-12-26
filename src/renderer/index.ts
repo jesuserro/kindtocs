@@ -44,6 +44,28 @@ export class Renderer {
     return defaultHighlightTemplate.trim();
   }
 
+  /**
+   *
+   * @param entry Clon de render()
+   * @returns
+   */
+  public renderToc(entry: BookHighlight): string {
+    const { book, highlights } = entry;
+
+    const params: RenderTemplate = {
+      ...book,
+      fullTitle: book.title,
+      title: shortenTitle(book.title),
+      appLink: appLink(book),
+      ...entry.metadata,
+      highlights: this.renderHighlights(book, highlights),
+    };
+
+    console.log("params", params);
+
+    return this.nunjucks.renderString(bookTemplate, params);
+  }
+
   public render(entry: BookHighlight): string {
     const { book, highlights } = entry;
 
