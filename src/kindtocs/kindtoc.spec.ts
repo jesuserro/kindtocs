@@ -1,7 +1,7 @@
 
 import { Kindtoc } from '~/kindtocs/kindtoc';
 
-const metadata = {
+const _metadata = {
   authorUrl: "https://www.amazon.com/undefined",
   isbn: "",
   pages: undefined,
@@ -183,9 +183,7 @@ const books = [
     }
 ];
 
-/**
- *
- * const highlights = [{
+const _highlights = [{
   id: "39534",
   text: "Indice",
   color: "yellow",
@@ -200,8 +198,6 @@ const books = [
   page: "761",
   note: ".mociones .ignaciodeloyola .ejerciciosespirituales .almasdedios .corazón .perspectivas .presente .cotidiano .almasdedios \nEl flujo interior es como sigue: buena voluntad, corazón puro, mociones, llave conocimientos. Nieves decía que esperaba un acontecimiento que la eligiera. Mi ex ponía toda su energía en un hombre que la sacara de su pozo."
 }];
- *
- */
 
 
 
