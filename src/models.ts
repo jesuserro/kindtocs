@@ -10,6 +10,16 @@ export type Book = {
   lastAnnotatedDate?: Date;
 };
 
+export type HighlightToc = {
+  id: string;
+  text: string;
+  location?: string;
+  header?: string;
+  page?: string;
+  note?: string;
+  color?: 'pink' | 'blue' | 'yellow' | 'orange';
+};
+
 export type Highlight = {
   id: string;
   text: string;

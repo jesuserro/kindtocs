@@ -9,7 +9,7 @@ import { BlockReferenceExtension, TrimAllEmptyLinesExtension } from './nunjucks.
 import { shortenTitle } from '~/utils';
 import { settingsStore } from '~/store';
 import { trimMultipleLines } from './helper';
-import type { Book, BookHighlight, Highlight, RenderTemplate } from '~/models';
+import type { Book, BookHighlight, Highlight, HighlightToc, RenderTemplate } from '~/models';
 
 export const HighlightIdBlockRefPrefix = '^ref-';
 
@@ -69,6 +69,45 @@ export class Renderer {
     return this.nunjucks.renderString(bookTemplate, params);
   }
 
+  public getHeader (type: string): string {
+    const drinks = {
+      h1: '###',
+      h2: '####',
+      h3: '#####',
+      h4: '######',
+      h5: '#######',
+      h6: ' -',
+      h7: '   -',
+      h8: '     -'
+    };
+    return drinks[type];
+  }
+
+  /**
+   * Clon de renderHighlight()
+   * @param book
+   * @param highlight
+   * @returns
+   */
+  public renderTocHighlight(book: Book, highlight: HighlightToc): string {
+
+    const headers = highlight.note.match(/\.(h[0-9]{1})/);
+    console.log("header", headers);
+    const header = headers[1];
+    highlight.header = this.getHeader(header);
+
+    const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
+    const userTemplate = this.tocHighlightTemplate();
+    const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
+    const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
+    return trimMultipleLines(renderedHighlight);
+  }
+
+  private renderTocHighlights(book: Book, highlights: Highlight[]): string {
+    const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
+    return h1Highlights.map((h) => this.renderTocHighlight(book, h)).join('\n');
+  }
+
   public render(entry: BookHighlight): string {
     const { book, highlights } = entry;
 
@@ -84,24 +123,6 @@ export class Renderer {
     return this.nunjucks.renderString(bookTemplate, params);
   }
 
-  /**
-   * Clon de renderHighlight()
-   * @param book
-   * @param highlight
-   * @returns
-   */
-  public renderTocHighlight(book: Book, highlight: Highlight): string {
-    const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
-
-    const userTemplate = this.tocHighlightTemplate();
-
-    const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
-
-    const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
-
-    return trimMultipleLines(renderedHighlight);
-  }
-
   public renderHighlight(book: Book, highlight: Highlight): string {
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
 
@@ -113,13 +134,6 @@ export class Renderer {
     const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
 
     return trimMultipleLines(renderedHighlight);
-  }
-
-  private renderTocHighlights(book: Book, highlights: Highlight[]): string {
-
-    const h1Highlights = highlights.filter((highlight) => highlight.note.match(/(\.h[0-9]{1})/gm) !== null );
-    console.log("h1Highlights",h1Highlights);
-    return h1Highlights.map((h) => this.renderTocHighlight(book, h)).join('\n');
   }
 
   private renderHighlights(book: Book, highlights: Highlight[]): string {
