@@ -191,6 +191,13 @@ const _highlights = [{
   page: "6",
   note: ".h1"
 }, {
+  id: "63052",
+  text: "Prefacio",
+  color: "yellow",
+  location: "63",
+  page: "63",
+  note: ".h1\nSumario: declaración de intenciones del autor de esta edición con respecto al autor de la obra original."
+}, {
   id: "64275",
   text: "La acción divina revela sus deseos al corazón no por ideas, sino por mociones. Ella se los descubre o por hallazgos, haciéndole obrar a la aventura, o por necesidad, no permitiéndole otra opción que aquélla que se le presenta, o por la aplicación eventual de medios necesarios, como, por ejemplo, cuando es preciso decir o hacer algo en un primer movimiento, o en un impulso sobrenatural o extraordinario; o bien, en fin, por una aplicación activa de inclinación o alejamiento, según la cual se acerque o aleje de cierto objeto.",
   color: "pink",
