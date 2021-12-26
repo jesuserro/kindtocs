@@ -1,6 +1,14 @@
 
 import { Kindtoc } from '~/kindtocs/kindtoc';
 
+const metadata = {
+  authorUrl: "https://www.amazon.com/undefined",
+  isbn: "",
+  pages: undefined,
+  publication: undefined,
+  publisher: undefined
+};
+
 const books = [
     {
         id: "35587",
