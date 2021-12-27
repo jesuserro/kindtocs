@@ -18,6 +18,7 @@ export type HighlightToc = {
   page?: string;
   note?: string;
   color?: 'pink' | 'blue' | 'yellow' | 'orange';
+  icon?: string;
 };
 
 export type Highlight = {

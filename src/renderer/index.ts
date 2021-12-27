@@ -2,6 +2,7 @@ import nunjucks, { Environment } from 'nunjucks';
 import { get } from 'svelte/store';
 
 import bookTemplate from './templates/bookTemplate.njk';
+import bookTemplateToc from './templates/bookTemplateToc.njk';
 import defaultHighlightTemplate from './templates/defaultHighlightTemplate.njk';
 import tocHighlightTemplate from './templates/tocHighlightTemplate.njk';
 import highlightTemplateWrapper from './templates/highlightTemplateWrapper.njk';
@@ -66,22 +67,33 @@ export class Renderer {
       highlights: this.renderTocHighlights(book, highlights),
     };
 
-    return this.nunjucks.renderString(bookTemplate, params);
+    return this.nunjucks.renderString(bookTemplateToc, params);
   }
 
-  public getHeader (type: string): string {
-    const drinks = {
-      h1: '###',
-      h2: '####',
-      h3: '#####',
-      h4: '######',
-      h5: '#######',
-      h6: ' -',
-      h7: '   -',
-      h8: '     -'
+  public getHeader (header: string): string {
+    const headers = {
+      h1: '##',
+      h2: '###',
+      h3: '####',
+      h4: '#####',
+      h5: '######',
+      h6: '#######',
+      h7: '-',
+      h8: '  -'
     };
-    return drinks[type];
+    return headers[header];
   }
+
+  public getColorIcon (color: string): string {
+    const colors = {
+      pink: "🟥",
+      orange: "🟧",
+      blue: "🟦",
+      default: "🟨"
+    };
+    return colors[color] || colors['default'];
+  }
+
 
   /**
    * Clon de renderHighlight()
@@ -92,9 +104,9 @@ export class Renderer {
   public renderTocHighlight(book: Book, highlight: HighlightToc): string {
 
     const headers = highlight.note.match(/\.(h[0-9]{1})/);
-    console.log("header", headers);
     const header = headers[1];
     highlight.header = this.getHeader(header);
+    highlight.icon = this.getColorIcon(highlight.color);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
