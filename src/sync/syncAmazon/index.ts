@@ -35,7 +35,8 @@ export default class SyncAmazon {
 
       if (remoteBooks.length > 0) {
 
-        const oneBook = this.getBookByAsin('B00UVRQDA8');
+        // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
+        const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Bibolia
 
         if (oneBook.length > 0) {
           await this.createTocs(oneBook);

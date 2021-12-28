@@ -77,9 +77,9 @@ export class Renderer {
       h3: '####',
       h4: '#####',
       h5: '######',
-      h6: '#######',
-      h7: '-',
-      h8: '  -'
+      h6: '*',
+      h7: "  *",
+      h8: "    -"
     };
     return headers[header];
   }
@@ -105,8 +105,9 @@ export class Renderer {
 
     const headers = highlight.note.match(/\.(h[0-9]{1})/);
     const header = headers[1];
-    highlight.header = this.getHeader(header);
+    highlight.header = "\n"+this.getHeader(header);
     highlight.icon = this.getColorIcon(highlight.color);
+    highlight.text += " ("+header+")";
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
