@@ -105,13 +105,13 @@ export class Renderer {
 
     const headers = highlight.note.match(/\.(h[0-9]{1})/);
     const header = headers[1];
-    let sep = "\n";
+    let tab = "";
     if(header == "h7"){
-      sep = "\n  ";
+      tab = "  ";
     }else if(header == "h8"){
-      sep = "\n    ";
+      tab = "    ";
     }
-    highlight.header = sep+this.getHeader(header);
+    highlight.header = "\n"+tab+this.getHeader(header);
     highlight.icon = this.getColorIcon(highlight.color);
     // highlight.text += " ("+header+")";
 
