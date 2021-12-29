@@ -79,7 +79,7 @@ export class Renderer {
       h5: '######',
       h6: '*',
       h7: "  *",
-      h8: "    *"
+      h8: "    -"
     };
     return "\n"+headers[header];
   }
