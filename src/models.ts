@@ -28,6 +28,7 @@ export type HighlightToc = {
   color?: 'pink' | 'blue' | 'yellow' | 'orange';
   header?: string;
   icon?: string;
+  isFavorite?: string
 };
 
 export type BookHighlight = {

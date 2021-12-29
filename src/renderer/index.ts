@@ -109,6 +109,12 @@ export class Renderer {
     highlight.icon = this.getColorIcon(highlight.color);
     // highlight.text += " ("+header+")";
 
+    highlight.isFavorite = "";
+    const isFavorite = highlight.note.match(/\.[favoritos|favoritosBiblia]/);
+    if(isFavorite){
+      highlight.isFavorite = "❤️";
+    }
+
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
     const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
