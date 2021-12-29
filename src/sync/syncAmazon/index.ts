@@ -4,6 +4,8 @@ import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
 import type { Book, KindleFile } from '~/models';
 
+import { bibleHighlights } from '~/kindtocs/bibleHighlights';
+
 export default class SyncAmazon {
 
   remoteBooks: Book[];
@@ -138,10 +140,13 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        const highlights = await scrapeHighlightsForBook(book);
+        // const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        const highlights = bibleHighlights;
+
         await this.syncManager.createBookToc(book, highlights);
 
-        ee.emit('syncBookSuccess', book, highlights);
+        // ee.emit('syncBookSuccess', book, highlights);
       } catch (error) {
         console.error('Error syncing book', book, error);
         ee.emit('syncBookFailure', book, String(error));

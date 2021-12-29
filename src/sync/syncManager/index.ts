@@ -6,7 +6,7 @@ import { DiffManager } from '../diffManager';
 import { Renderer } from '~/renderer';
 import { diffBooks } from './diffBooks';
 import type FileManager from '~/fileManager';
-import type { Book, BookMetadata, Highlight, KindleFile } from '~/models';
+import type { Book, BookMetadata, Highlight, HighlightToc, KindleFile } from '~/models';
 import type { DiffResult } from '../diffManager';
 
 export default class SyncManager {
@@ -48,7 +48,7 @@ export default class SyncManager {
    * @param highlights
    * @returns
    */
-  public async createBookToc(book: Book, highlights: Highlight[]): Promise<void> {
+  public async createBookToc(book: Book, highlights: any[]): Promise<void> {
     if (highlights.length === 0) {
       return; // No highlights for book. Skip sync
     }

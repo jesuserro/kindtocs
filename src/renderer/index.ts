@@ -78,8 +78,8 @@ export class Renderer {
       h4: '#####',
       h5: '######',
       h6: '*',
-      h7: "  *",
-      h8: "    -"
+      h7: "*",
+      h8: "*"
     };
     return headers[header];
   }
@@ -105,9 +105,15 @@ export class Renderer {
 
     const headers = highlight.note.match(/\.(h[0-9]{1})/);
     const header = headers[1];
-    highlight.header = "\n"+this.getHeader(header);
+    let sep = "\n";
+    if(header == "h7"){
+      sep = "\n\r  ";
+    }else if(header == "h8"){
+      sep = "\n\r    ";
+    }
+    highlight.header = sep+this.getHeader(header);
     highlight.icon = this.getColorIcon(highlight.color);
-    highlight.text += " ("+header+")";
+    // highlight.text += " ("+header+")";
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
@@ -118,7 +124,7 @@ export class Renderer {
 
   private renderTocHighlights(book: Book, highlights: Highlight[]): string {
     const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
-    return h1Highlights.map((h) => this.renderTocHighlight(book, h)).join('\n');
+    return h1Highlights.map((h) => this.renderTocHighlight(book, h)).join('');
   }
 
   public render(entry: BookHighlight): string {
