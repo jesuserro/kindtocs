@@ -107,9 +107,9 @@ export class Renderer {
     const header = headers[1];
     let sep = "\n";
     if(header == "h7"){
-      sep = "\n\r  ";
+      sep = "\n  ";
     }else if(header == "h8"){
-      sep = "\n\r    ";
+      sep = "\n    ";
     }
     highlight.header = sep+this.getHeader(header);
     highlight.icon = this.getColorIcon(highlight.color);
