@@ -70,7 +70,7 @@ export class Renderer {
     return this.nunjucks.renderString(bookTemplateToc, params);
   }
 
-  public getHeader (header: string): string {
+  public getHeaderMarkdown (header: string): string {
     const headers = {
       h1: '##',
       h2: '###',
@@ -94,6 +94,19 @@ export class Renderer {
     return colors[color] || colors['default'];
   }
 
+  public getIsFavorite (note: string): string {
+    const isFavorite = note.match(/\.[favoritos|favoritosBiblia]/);
+    if(isFavorite){
+      return "❤️";
+    }
+    return "";
+  }
+
+  public getHeader (note: string): string {
+    const headers = note.match(/\.(h[0-9]{1})/);
+    return headers[1];
+  }
+
 
   /**
    * Clon de renderHighlight()
@@ -103,17 +116,11 @@ export class Renderer {
    */
   public renderTocHighlight(book: Book, highlight: HighlightToc): string {
 
-    const headers = highlight.note.match(/\.(h[0-9]{1})/);
-    const header = headers[1];
-    highlight.header = this.getHeader(header);
+    const header = this.getHeader(highlight.note);
+    highlight.header = this.getHeaderMarkdown(header);
     highlight.icon = this.getColorIcon(highlight.color);
     // highlight.text += " ("+header+")";
-
-    highlight.isFavorite = "";
-    const isFavorite = highlight.note.match(/\.[favoritos|favoritosBiblia]/);
-    if(isFavorite){
-      highlight.isFavorite = "❤️";
-    }
+    highlight.isFavorite = this.getIsFavorite(highlight.note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
