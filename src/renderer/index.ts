@@ -11,6 +11,7 @@ import { shortenTitle } from '~/utils';
 import { settingsStore } from '~/store';
 import { trimMultipleLines } from './helper';
 import type { Book, BookHighlight, Highlight, HighlightToc, RenderTemplate } from '~/models';
+import { getHeader, getHeaderMarkdown, getColorIcon, getIsFavorite } from '~/kindtocs/global';
 
 export const HighlightIdBlockRefPrefix = '^ref-';
 
@@ -70,43 +71,6 @@ export class Renderer {
     return this.nunjucks.renderString(bookTemplateToc, params);
   }
 
-  public getHeaderMarkdown (header: string): string {
-    const headers = {
-      h1: '##',
-      h2: '###',
-      h3: '####',
-      h4: '#####',
-      h5: '######',
-      h6: '*',
-      h7: "  *",
-      h8: "    -"
-    };
-    return "\n"+headers[header];
-  }
-
-  public getColorIcon (color: string): string {
-    const colors = {
-      pink: "🟥",
-      orange: "🟧",
-      blue: "🟦",
-      default: "🟨"
-    };
-    return colors[color] || colors['default'];
-  }
-
-  public getIsFavorite (note: string): string {
-    const isFavorite = note.match(/\.[favoritos|favoritosBiblia]/);
-    if(isFavorite){
-      return "❤️";
-    }
-    return "";
-  }
-
-  public getHeader (note: string): string {
-    const headers = note.match(/\.(h[0-9]{1})/);
-    return headers[1];
-  }
-
 
   /**
    * Clon de renderHighlight()
@@ -116,11 +80,11 @@ export class Renderer {
    */
   public renderTocHighlight(book: Book, highlight: HighlightToc): string {
 
-    const header = this.getHeader(highlight.note);
-    highlight.header = this.getHeaderMarkdown(header);
-    highlight.icon = this.getColorIcon(highlight.color);
+    const header = getHeader(highlight.note);
+    highlight.header = getHeaderMarkdown(header);
+    highlight.icon = getColorIcon(highlight.color);
     // highlight.text += " ("+header+")";
-    highlight.isFavorite = this.getIsFavorite(highlight.note);
+    highlight.isFavorite = getIsFavorite(highlight.note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();
