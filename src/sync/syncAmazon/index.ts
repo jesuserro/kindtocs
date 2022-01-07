@@ -4,7 +4,7 @@ import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
 import type { Book, KindleFile } from '~/models';
 
-import { bibleHighlights } from '~/kindtocs/bibleHighlights';
+import { bibleHighlights } from '~/kindtocs/bibleHighlights.spec';
 
 export default class SyncAmazon {
 
@@ -38,7 +38,7 @@ export default class SyncAmazon {
       if (remoteBooks.length > 0) {
 
         // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
-        const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Bibolia
+        const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
 
         if (oneBook.length > 0) {
           await this.createTocs(oneBook);

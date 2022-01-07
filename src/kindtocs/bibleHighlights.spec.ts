@@ -377,33 +377,36 @@ export const bibleHighlights = [
   },
   {
       "id": "26722",
-      "text": "ANTIGUO TESTAMENTO (h1)",
+      "text": "ANTIGUO TESTAMENTO",
       "color": "yellow",
       "location": "127",
       "page": "127",
       "note": ".h1",
       "header": "\n##",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21052",
-      "text": "PENTATEUCO (h2)",
+      "text": "PENTATEUCO",
       "color": "yellow",
       "location": "130",
       "page": "130",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60920",
-      "text": "GÉNESIS (h4)",
+      "text": "GÉNESIS",
       "color": "pink",
       "location": "133",
       "page": "133",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -511,33 +514,36 @@ export const bibleHighlights = [
   },
   {
       "id": "62757",
-      "text": "PRIMERA PARTE: CREACIÓN Y PRIMERA ETAPA DE LA HUMANIDAD (h5)",
+      "text": "PRIMERA PARTE: CREACIÓN Y PRIMERA ETAPA DE LA HUMANIDAD",
       "color": "pink",
       "location": "199",
       "page": "199",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "3787",
-      "text": "I. ORÍGENES DEL CIELO Y DE LA TIERRA (h6)",
+      "text": "I. ORÍGENES DEL CIELO Y DE LA TIERRA",
       "color": "pink",
       "location": "200",
       "page": "200",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "34647",
-      "text": "Relato de la creación (h7)",
+      "text": "Relato de la creación",
       "color": "pink",
       "location": "202",
       "page": "202",
-      "note": ".h7",
+      "note": ".h7 [[Gn-01#v1]] [[Gn-02#v4a]]\nAquí se explica la creación del universo.",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "38310",
@@ -549,33 +555,36 @@ export const bibleHighlights = [
   },
   {
       "id": "28982",
-      "text": "Creación de Adán (h7)",
+      "text": "Creación de Adán",
       "color": "pink",
       "location": "279",
       "page": "279",
-      "note": ".h7",
+      "note": ".h7 [[Gn-02#v4b]] [[Gn-02#v7]]",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "49143",
-      "text": "El hombre en el paraíso (h7)",
+      "text": "El hombre en el paraíso",
       "color": "pink",
       "location": "287",
       "page": "287",
-      "note": ".h7",
+      "note": ".h7 [[Gn-02#v8]] [[Gn-02#v17]]",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "16857",
-      "text": "Creación de Eva (h7)",
+      "text": "Creación de Eva",
       "color": "pink",
       "location": "304",
       "page": "304",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "63836",
@@ -587,13 +596,14 @@ export const bibleHighlights = [
   },
   {
       "id": "61233",
-      "text": "Tentación y primer pecado (h7)",
+      "text": "Tentación y primer pecado",
       "color": "pink",
       "location": "324",
       "page": "324",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "12891",
@@ -605,73 +615,80 @@ export const bibleHighlights = [
   },
   {
       "id": "32422",
-      "text": "Expulsión del paraíso (h7)",
+      "text": "Expulsión del paraíso",
       "color": "pink",
       "location": "382",
       "page": "382",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "51471",
-      "text": "Primera descendencia de Adán y Eva (h7)",
+      "text": "Primera descendencia de Adán y Eva",
       "color": "yellow",
       "location": "392",
       "page": "392",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39735",
-      "text": "Caín y Abel (h7)",
+      "text": "Caín y Abel",
       "color": "orange",
       "location": "401",
       "page": "401",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟧"
+      "icon": "🟧",
+      "isFavorite": ""
   },
   {
       "id": "53708",
-      "text": "Descendencia de Caín (h7)",
+      "text": "Descendencia de Caín",
       "color": "blue",
       "location": "429",
       "page": "429",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟦"
+      "icon": "🟦",
+      "isFavorite": ""
   },
   {
       "id": "62917",
-      "text": "Nacimiento de Set (h7)",
+      "text": "Nacimiento de Set",
       "color": "yellow",
       "location": "445",
       "page": "445",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51993",
-      "text": "II. DESCENDENCIA DE ADÁN. DESDE SET A NOÉ (h6)",
+      "text": "II. DESCENDENCIA DE ADÁN. DESDE SET A NOÉ",
       "color": "yellow",
       "location": "450",
       "page": "450",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64280",
-      "text": "Multiplicación de la humanidad (h7)",
+      "text": "Multiplicación de la humanidad",
       "color": "yellow",
       "location": "452",
       "page": "452",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "495",
@@ -691,43 +708,47 @@ export const bibleHighlights = [
   },
   {
       "id": "63908",
-      "text": "III. HISTORIA Y DESCENDENCIA DE NOÉ (h6)",
+      "text": "III. HISTORIA Y DESCENDENCIA DE NOÉ",
       "color": "pink",
       "location": "522",
       "page": "522",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "32168",
-      "text": "Anuncio del diluvio (h7)",
+      "text": "Anuncio del diluvio",
       "color": "blue",
       "location": "529",
       "page": "529",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟦"
+      "icon": "🟦",
+      "isFavorite": ""
   },
   {
       "id": "28679",
-      "text": "Entrada en el arca (h7)",
+      "text": "Entrada en el arca",
       "color": "pink",
       "location": "558",
       "page": "558",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "17972",
-      "text": "El diluvio (h7)",
+      "text": "El diluvio",
       "color": "pink",
       "location": "567",
       "page": "567",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "12690",
@@ -739,13 +760,14 @@ export const bibleHighlights = [
   },
   {
       "id": "58452",
-      "text": "Retirada de las aguas (h7)",
+      "text": "Retirada de las aguas",
       "color": "pink",
       "location": "591",
       "page": "591",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "14294",
@@ -765,23 +787,25 @@ export const bibleHighlights = [
   },
   {
       "id": "48066",
-      "text": "Salida del arca (h7)",
+      "text": "Salida del arca",
       "color": "pink",
       "location": "617",
       "page": "617",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "14576",
-      "text": "Alianza de Dios con Noé (h7)",
+      "text": "Alianza de Dios con Noé",
       "color": "pink",
       "location": "637",
       "page": "637",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "47788",
@@ -793,103 +817,113 @@ export const bibleHighlights = [
   },
   {
       "id": "17080",
-      "text": "Maldición de Canaán y bendición de Sem (h7)",
+      "text": "Maldición de Canaán y bendición de Sem",
       "color": "blue",
       "location": "672",
       "page": "672",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟦"
+      "icon": "🟦",
+      "isFavorite": ""
   },
   {
       "id": "63129",
-      "text": "IV. ORIGEN DE LOS PUEBLOS. LA CONFUSIÓN DE BABEL (h6)",
+      "text": "IV. ORIGEN DE LOS PUEBLOS. LA CONFUSIÓN DE BABEL",
       "color": "pink",
       "location": "693",
       "page": "693",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "14012",
-      "text": "Descendientes de Jafet (h7)",
+      "text": "Descendientes de Jafet",
       "color": "pink",
       "location": "699",
       "page": "699",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "9186",
-      "text": "Descendientes de Cam (h7)",
+      "text": "Descendientes de Cam",
       "color": "pink",
       "location": "705",
       "page": "705",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "23542",
-      "text": "Descendientes de Sem (h7)",
+      "text": "Descendientes de Sem",
       "color": "pink",
       "location": "726",
       "page": "726",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "52063",
-      "text": "La confusión de lenguas: Babel (h7)",
+      "text": "La confusión de lenguas: Babel",
       "color": "pink",
       "location": "743",
       "page": "743",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "4019",
-      "text": "V. LOS SEMITAS (h6)",
+      "text": "V. LOS SEMITAS",
       "color": "pink",
       "location": "765",
       "page": "765",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "64783",
-      "text": "SEGUNDA PARTE: ORIGEN Y FORMACIÓN DEL PUEBLO ELEGIDO (h5)",
+      "text": "SEGUNDA PARTE: ORIGEN Y FORMACIÓN DEL PUEBLO ELEGIDO",
       "color": "pink",
       "location": "791",
       "page": "791",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "32695",
-      "text": "VI. FAMILIA E HISTORIA DE ABRAHÁN (h6)",
+      "text": "VI. FAMILIA E HISTORIA DE ABRAHÁN",
       "color": "pink",
       "location": "793",
       "page": "793",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "10380",
-      "text": "Vocación de Abrán y promesa divina (h7)",
+      "text": "Vocación de Abrán y promesa divina",
       "color": "pink",
       "location": "805",
       "page": "805",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "43902",
@@ -901,43 +935,47 @@ export const bibleHighlights = [
   },
   {
       "id": "53739",
-      "text": "Abrán en Egipto (h7)",
+      "text": "Abrán en Egipto",
       "color": "pink",
       "location": "831",
       "page": "831",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "53615",
-      "text": "Abrán en Betel (h7)",
+      "text": "Abrán en Betel",
       "color": "pink",
       "location": "850",
       "page": "850",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "56021",
-      "text": "Separación de Abrán y Lot (h7)",
+      "text": "Separación de Abrán y Lot",
       "color": "yellow",
       "location": "863",
       "page": "863",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62760",
-      "text": "Nueva promesa de Dios a Abrán (h7)",
+      "text": "Nueva promesa de Dios a Abrán",
       "color": "yellow",
       "location": "875",
       "page": "875",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64938",
@@ -949,33 +987,36 @@ export const bibleHighlights = [
   },
   {
       "id": "45761",
-      "text": "Liberación de Lot (h7)",
+      "text": "Liberación de Lot",
       "color": "yellow",
       "location": "910",
       "page": "910",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25137",
-      "text": "Encuentro con Melquisedec (h7)",
+      "text": "Encuentro con Melquisedec",
       "color": "yellow",
       "location": "918",
       "page": "918",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17839",
-      "text": "Alianza de Dios con Abrán (h7)",
+      "text": "Alianza de Dios con Abrán",
       "color": "yellow",
       "location": "936",
       "page": "936",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32487",
@@ -995,23 +1036,25 @@ export const bibleHighlights = [
   },
   {
       "id": "37109",
-      "text": "Nacimiento de Ismael (h7)",
+      "text": "Nacimiento de Ismael",
       "color": "yellow",
       "location": "981",
       "page": "981",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31531",
-      "text": "Renovación de la Alianza: cambio de nombre a Abrán (h7)",
+      "text": "Renovación de la Alianza: cambio de nombre a Abrán",
       "color": "yellow",
       "location": "1021",
       "page": "021",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64295",
@@ -1023,23 +1066,25 @@ export const bibleHighlights = [
   },
   {
       "id": "4475",
-      "text": "Mandato de la circuncisión (h7)",
+      "text": "Mandato de la circuncisión",
       "color": "yellow",
       "location": "1039",
       "page": "039",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52791",
-      "text": "Cambio de nombre a Saray y promesa de un hijo a Abrahán (h7)",
+      "text": "Cambio de nombre a Saray y promesa de un hijo a Abrahán",
       "color": "yellow",
       "location": "1051",
       "page": "051",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30826",
@@ -1051,33 +1096,36 @@ export const bibleHighlights = [
   },
   {
       "id": "4679",
-      "text": "La circuncisión (h7)",
+      "text": "La circuncisión",
       "color": "yellow",
       "location": "1068",
       "page": "068",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22850",
-      "text": "Manifestación de Dios en Mambré (h7)",
+      "text": "Manifestación de Dios en Mambré",
       "color": "yellow",
       "location": "1077",
       "page": "077",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12079",
-      "text": "Promesa del nacimiento de Isaac (h7)",
+      "text": "Promesa del nacimiento de Isaac",
       "color": "yellow",
       "location": "1098",
       "page": "098",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2241",
@@ -1089,33 +1137,36 @@ export const bibleHighlights = [
   },
   {
       "id": "34310",
-      "text": "Abrahán intercede por Sodoma (h7)",
+      "text": "Abrahán intercede por Sodoma",
       "color": "yellow",
       "location": "1117",
       "page": "117",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57434",
-      "text": "El pecado de los habitantes de Sodoma (h7)",
+      "text": "El pecado de los habitantes de Sodoma",
       "color": "yellow",
       "location": "1159",
       "page": "159",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27593",
-      "text": "Huida de Lot y su familia (h7)",
+      "text": "Huida de Lot y su familia",
       "color": "yellow",
       "location": "1194",
       "page": "194",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22804",
@@ -1127,13 +1178,14 @@ export const bibleHighlights = [
   },
   {
       "id": "60281",
-      "text": "Destrucción de Sodoma y Gomorra (h7)",
+      "text": "Destrucción de Sodoma y Gomorra",
       "color": "yellow",
       "location": "1212",
       "page": "212",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28062",
@@ -1145,63 +1197,69 @@ export const bibleHighlights = [
   },
   {
       "id": "45756",
-      "text": "Los hijos de Lot: origen de los moabitas y amonitas (h7)",
+      "text": "Los hijos de Lot: origen de los moabitas y amonitas",
       "color": "yellow",
       "location": "1225",
       "page": "225",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55180",
-      "text": "Abrahán y Sara en Guerar: encuentro con Abimélec (h7)",
+      "text": "Abrahán y Sara en Guerar: encuentro con Abimélec",
       "color": "yellow",
       "location": "1244",
       "page": "244",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37774",
-      "text": "Nacimiento y circuncisión de Isaac (h7)",
+      "text": "Nacimiento y circuncisión de Isaac",
       "color": "yellow",
       "location": "1285",
       "page": "285",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28483",
-      "text": "Expulsión de Agar e Ismael (h7)",
+      "text": "Expulsión de Agar e Ismael",
       "color": "yellow",
       "location": "1302",
       "page": "302",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10577",
-      "text": "Alianza entre Abrahán y Abimélec (h7)",
+      "text": "Alianza entre Abrahán y Abimélec",
       "color": "yellow",
       "location": "1328",
       "page": "328",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21542",
-      "text": "Sacrificio de Isaac y renovación de la promesa (h7)",
+      "text": "Sacrificio de Isaac y renovación de la promesa",
       "color": "yellow",
       "location": "1352",
       "page": "352",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33394",
@@ -1221,203 +1279,223 @@ export const bibleHighlights = [
   },
   {
       "id": "49544",
-      "text": "Hijos de Najor (h7)",
+      "text": "Hijos de Najor",
       "color": "yellow",
       "location": "1399",
       "page": "399",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12846",
-      "text": "La compra de la cueva de Macpelá (h7)",
+      "text": "La compra de la cueva de Macpelá",
       "color": "yellow",
       "location": "1408",
       "page": "408",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12408",
-      "text": "Casamiento de Isaac (h7)",
+      "text": "Casamiento de Isaac",
       "color": "yellow",
       "location": "1450",
       "page": "450",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65023",
-      "text": "Encuentro con Rebeca (h7)",
+      "text": "Encuentro con Rebeca",
       "color": "yellow",
       "location": "1481",
       "page": "481",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17517",
-      "text": "Acogida en casa de Rebeca (h7)",
+      "text": "Acogida en casa de Rebeca",
       "color": "yellow",
       "location": "1510",
       "page": "510",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21618",
-      "text": "Encuentro de Rebeca y de Isaac (h7)",
+      "text": "Encuentro de Rebeca y de Isaac",
       "color": "yellow",
       "location": "1557",
       "page": "557",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16861",
-      "text": "Otros descendientes de Abrahán (h7)",
+      "text": "Otros descendientes de Abrahán",
       "color": "yellow",
       "location": "1588",
       "page": "588",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23195",
-      "text": "Muerte y sepultura de Abrahán (h7)",
+      "text": "Muerte y sepultura de Abrahán",
       "color": "yellow",
       "location": "1602",
       "page": "602",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10350",
-      "text": "VII. LA DESCENDENCIA DE ISMAEL (h6)",
+      "text": "VII. LA DESCENDENCIA DE ISMAEL",
       "color": "yellow",
       "location": "1611",
       "page": "611",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36960",
-      "text": "VIII. LA DESCENDENCIA DE ISAAC. HISTORIA DE JACOB (h6)",
+      "text": "VIII. LA DESCENDENCIA DE ISAAC. HISTORIA DE JACOB",
       "color": "yellow",
       "location": "1624",
       "page": "624",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16431",
-      "text": "Nacimiento de Esaú y Jacob (h7)",
+      "text": "Nacimiento de Esaú y Jacob",
       "color": "yellow",
       "location": "1625",
       "page": "625",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56343",
-      "text": "Esaú vende los derechos de primogénito (h7)",
+      "text": "Esaú vende los derechos de primogénito",
       "color": "yellow",
       "location": "1643",
       "page": "643",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4630",
-      "text": "Isaac en Guerar: encuentro con Abimélec (h7)",
+      "text": "Isaac en Guerar: encuentro con Abimélec",
       "color": "yellow",
       "location": "1660",
       "page": "660",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12266",
-      "text": "Conflictos por los pozos de agua (h7)",
+      "text": "Conflictos por los pozos de agua",
       "color": "yellow",
       "location": "1691",
       "page": "691",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63316",
-      "text": "Manifestación de Dios a Isaac (h7)",
+      "text": "Manifestación de Dios a Isaac",
       "color": "yellow",
       "location": "1708",
       "page": "708",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59837",
-      "text": "Pacto de Isaac con los habitantes de Canaán (h7)",
+      "text": "Pacto de Isaac con los habitantes de Canaán",
       "color": "yellow",
       "location": "1716",
       "page": "716",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39916",
-      "text": "Jacob se hace con la bendición de Isaac (h7)",
+      "text": "Jacob se hace con la bendición de Isaac",
       "color": "yellow",
       "location": "1735",
       "page": "735",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14933",
-      "text": "Reacción de Esaú (h7)",
+      "text": "Reacción de Esaú",
       "color": "yellow",
       "location": "1813",
       "page": "813",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59519",
-      "text": "Partida de Jacob a la región de sus antepasados (h7)",
+      "text": "Partida de Jacob a la región de sus antepasados",
       "color": "yellow",
       "location": "1845",
       "page": "845",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50049",
-      "text": "Sueño de Jacob (h7)",
+      "text": "Sueño de Jacob",
       "color": "pink",
       "location": "1868",
       "page": "868",
       "note": ".h7 .bookmark",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": "❤️"
   },
   {
       "id": "53186",
@@ -1461,103 +1539,113 @@ export const bibleHighlights = [
   },
   {
       "id": "35565",
-      "text": "Encuentro de Jacob con Labán (h7)",
+      "text": "Encuentro de Jacob con Labán",
       "color": "yellow",
       "location": "1895",
       "page": "895",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14367",
-      "text": "Matrimonio de Jacob con Lía y Raquel (h7)",
+      "text": "Matrimonio de Jacob con Lía y Raquel",
       "color": "yellow",
       "location": "1930",
       "page": "930",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33087",
-      "text": "Hijos de Jacob en Padán﻿–﻿Aram (h7)",
+      "text": "Hijos de Jacob en Padán﻿–﻿Aram",
       "color": "yellow",
       "location": "1959",
       "page": "959",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42180",
-      "text": "Jacob proyecta marchar de casa de Labán (h7)",
+      "text": "Jacob proyecta marchar de casa de Labán",
       "color": "yellow",
       "location": "2026",
       "page": "026",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4773",
-      "text": "Enriquecimiento de Jacob (h7)",
+      "text": "Enriquecimiento de Jacob",
       "color": "yellow",
       "location": "2053",
       "page": "053",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19990",
-      "text": "Jacob huye de casa de Labán (h7)",
+      "text": "Jacob huye de casa de Labán",
       "color": "yellow",
       "location": "2066",
       "page": "066",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57340",
-      "text": "Labán da alcance a Jacob (h7)",
+      "text": "Labán da alcance a Jacob",
       "color": "yellow",
       "location": "2107",
       "page": "107",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43643",
-      "text": "Pacto entre Labán y Jacob (h7)",
+      "text": "Pacto entre Labán y Jacob",
       "color": "yellow",
       "location": "2148",
       "page": "148",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49592",
-      "text": "Jacob prepara el encuentro con Esaú (h7)",
+      "text": "Jacob prepara el encuentro con Esaú",
       "color": "yellow",
       "location": "2181",
       "page": "181",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28494",
-      "text": "Lucha de Jacob con el ángel del Señor (h7)",
+      "text": "Lucha de Jacob con el ángel del Señor",
       "color": "pink",
       "location": "2217",
       "page": "217",
       "note": ".h7 .bookmark",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": "❤️"
   },
   {
       "id": "32143",
@@ -1577,123 +1665,135 @@ export const bibleHighlights = [
   },
   {
       "id": "55202",
-      "text": "Encuentro de Jacob con Esaú (h7)",
+      "text": "Encuentro de Jacob con Esaú",
       "color": "yellow",
       "location": "2243",
       "page": "243",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58862",
-      "text": "Jacob en Siquem (h7)",
+      "text": "Jacob en Siquem",
       "color": "yellow",
       "location": "2279",
       "page": "279",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53891",
-      "text": "Dina es deshonrada por Siquem (h7)",
+      "text": "Dina es deshonrada por Siquem",
       "color": "yellow",
       "location": "2288",
       "page": "288",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19146",
-      "text": "Venganza de los hijos de Jacob (h7)",
+      "text": "Venganza de los hijos de Jacob",
       "color": "yellow",
       "location": "2313",
       "page": "313",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21972",
-      "text": "Vuelta de Jacob a Betel (h7)",
+      "text": "Vuelta de Jacob a Betel",
       "color": "yellow",
       "location": "2349",
       "page": "349",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3379",
-      "text": "Nacimiento de Benjamín y muerte de Raquel (h7)",
+      "text": "Nacimiento de Benjamín y muerte de Raquel",
       "color": "yellow",
       "location": "2382",
       "page": "382",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12257",
-      "text": "Pecado de Rubén (h7)",
+      "text": "Pecado de Rubén",
       "color": "yellow",
       "location": "2392",
       "page": "392",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53704",
-      "text": "Jacob llega a Hebrón. Muerte de Isaac (h7)",
+      "text": "Jacob llega a Hebrón. Muerte de Isaac",
       "color": "yellow",
       "location": "2397",
       "page": "397",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63298",
-      "text": "IX. LA DESCENDENCIA DE ESAÚ (h6)",
+      "text": "IX. LA DESCENDENCIA DE ESAÚ",
       "color": "yellow",
       "location": "2409",
       "page": "409",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55773",
-      "text": "X. LA DESCENDENCIA DE JACOB. HISTORIA DE JOSÉ (h6)",
+      "text": "X. LA DESCENDENCIA DE JACOB. HISTORIA DE JOSÉ",
       "color": "yellow",
       "location": "2481",
       "page": "481",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17367",
-      "text": "José y sus hermanos (h7)",
+      "text": "José y sus hermanos",
       "color": "yellow",
       "location": "2483",
       "page": "483",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45598",
-      "text": "Los sueños de José (h7)",
+      "text": "Los sueños de José",
       "color": "yellow",
       "location": "2491",
       "page": "491",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44537",
@@ -1705,233 +1805,256 @@ export const bibleHighlights = [
   },
   {
       "id": "12180",
-      "text": "José vendido como esclavo a los egipcios (h7)",
+      "text": "José vendido como esclavo a los egipcios",
       "color": "yellow",
       "location": "2508",
       "page": "508",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19057",
-      "text": "Historia de Judá y Tamar (h7)",
+      "text": "Historia de Judá y Tamar",
       "color": "yellow",
       "location": "2562",
       "page": "562",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61589",
-      "text": "Conducta reprobable de Onán (h7)",
+      "text": "Conducta reprobable de Onán",
       "color": "yellow",
       "location": "2577",
       "page": "577",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32057",
-      "text": "Tamar engaña a Judá (h7)",
+      "text": "Tamar engaña a Judá",
       "color": "yellow",
       "location": "2585",
       "page": "585",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41825",
-      "text": "Nacimiento de Peres, antepasado de David (h7)",
+      "text": "Nacimiento de Peres, antepasado de David",
       "color": "yellow",
       "location": "2628",
       "page": "628",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9477",
-      "text": "José en Egipto, en casa de Putifar (h7)",
+      "text": "José en Egipto, en casa de Putifar",
       "color": "yellow",
       "location": "2638",
       "page": "638",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26547",
-      "text": "José en la cárcel (h7)",
+      "text": "José en la cárcel",
       "color": "yellow",
       "location": "2678",
       "page": "678",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29513",
-      "text": "José, intérprete de sueños (h7)",
+      "text": "José, intérprete de sueños",
       "color": "yellow",
       "location": "2685",
       "page": "685",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20561",
-      "text": "Los sueños del Faraón (h7)",
+      "text": "Los sueños del Faraón",
       "color": "yellow",
       "location": "2730",
       "page": "730",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49654",
-      "text": "José es nombrado visir del faraón (h7)",
+      "text": "José es nombrado visir del faraón",
       "color": "yellow",
       "location": "2791",
       "page": "791",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51661",
-      "text": "José, administrador de los bienes de Egipto (h7)",
+      "text": "José, administrador de los bienes de Egipto",
       "color": "yellow",
       "location": "2811",
       "page": "811",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44766",
-      "text": "Los hijos de Jacob acuden a Egipto (h7)",
+      "text": "Los hijos de Jacob acuden a Egipto",
       "color": "yellow",
       "location": "2835",
       "page": "835",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4549",
-      "text": "José pone a prueba a sus hermanos reteniendo a Simeón (h7)",
+      "text": "José pone a prueba a sus hermanos reteniendo a Simeón",
       "color": "yellow",
       "location": "2854",
       "page": "854",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14929",
-      "text": "Los hijos de Jacob vuelven a José llevando a Benjamín (h7)",
+      "text": "Los hijos de Jacob vuelven a José llevando a Benjamín",
       "color": "yellow",
       "location": "2917",
       "page": "917",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63965",
-      "text": "José prueba de nuevo a sus hermanos (h7)",
+      "text": "José prueba de nuevo a sus hermanos",
       "color": "yellow",
       "location": "2992",
       "page": "992",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19270",
-      "text": "Reacción de Judá (h7)",
+      "text": "Reacción de Judá",
       "color": "yellow",
       "location": "3028",
       "page": "028",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53938",
-      "text": "José se da a conocer a sus hermanos (h7)",
+      "text": "José se da a conocer a sus hermanos",
       "color": "yellow",
       "location": "3056",
       "page": "056",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21024",
-      "text": "Jacob baja a Egipto (h7)",
+      "text": "Jacob baja a Egipto",
       "color": "yellow",
       "location": "3112",
       "page": "112",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25417",
-      "text": "Israel se asienta en la región de Gosen (h7)",
+      "text": "Israel se asienta en la región de Gosen",
       "color": "yellow",
       "location": "3176",
       "page": "176",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8296",
-      "text": "José administra Egipto en favor del faraón (h7)",
+      "text": "José administra Egipto en favor del faraón",
       "color": "yellow",
       "location": "3207",
       "page": "207",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61868",
-      "text": "Jacob bendice a los hijos de José (h7)",
+      "text": "Jacob bendice a los hijos de José",
       "color": "yellow",
       "location": "3241",
       "page": "241",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20153",
-      "text": "Jacob adopta y bendice a Manasés y Efraím (h7)",
+      "text": "Jacob adopta y bendice a Manasés y Efraím",
       "color": "yellow",
       "location": "3254",
       "page": "254",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27801",
-      "text": "Bendiciones de Jacob a sus doce hijos (h7)",
+      "text": "Bendiciones de Jacob a sus doce hijos",
       "color": "yellow",
       "location": "3311",
       "page": "311",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59142",
@@ -1951,43 +2074,47 @@ export const bibleHighlights = [
   },
   {
       "id": "52535",
-      "text": "Sepultura de Jacob (h7)",
+      "text": "Sepultura de Jacob",
       "color": "yellow",
       "location": "3402",
       "page": "402",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27887",
-      "text": "Tras la muerte de Jacob (h7)",
+      "text": "Tras la muerte de Jacob",
       "color": "yellow",
       "location": "3432",
       "page": "432",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19868",
-      "text": "Muerte de José (h7)",
+      "text": "Muerte de José",
       "color": "yellow",
       "location": "3451",
       "page": "451",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20265",
-      "text": "ÉXODO (h4)",
+      "text": "ÉXODO",
       "color": "yellow",
       "location": "3459",
       "page": "459",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -2079,43 +2206,47 @@ export const bibleHighlights = [
   },
   {
       "id": "13761",
-      "text": "PRIMERA PARTE: LA SALIDA DE EGIPTO (h5)",
+      "text": "PRIMERA PARTE: LA SALIDA DE EGIPTO",
       "color": "yellow",
       "location": "3514",
       "page": "514",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26238",
-      "text": "I. LOS HIJOS DE ISRAEL EN EGIPTO (h6)",
+      "text": "I. LOS HIJOS DE ISRAEL EN EGIPTO",
       "color": "yellow",
       "location": "3515",
       "page": "515",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20037",
-      "text": "Progreso de los hijos de Israel en Egipto (h7)",
+      "text": "Progreso de los hijos de Israel en Egipto",
       "color": "yellow",
       "location": "3517",
       "page": "517",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40553",
-      "text": "Opresión de los hijos de Israel (h7)",
+      "text": "Opresión de los hijos de Israel",
       "color": "yellow",
       "location": "3530",
       "page": "530",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44823",
@@ -2135,43 +2266,47 @@ export const bibleHighlights = [
   },
   {
       "id": "36521",
-      "text": "II. VOCACIÓN DE MOISÉS (h6)",
+      "text": "II. VOCACIÓN DE MOISÉS",
       "color": "yellow",
       "location": "3561",
       "page": "561",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39262",
-      "text": "Nacimiento y primeros años de Moisés (h7)",
+      "text": "Nacimiento y primeros años de Moisés",
       "color": "yellow",
       "location": "3563",
       "page": "563",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45666",
-      "text": "Moisés en Madián (h7)",
+      "text": "Moisés en Madián",
       "color": "yellow",
       "location": "3587",
       "page": "587",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5835",
-      "text": "Manifestación de Dios en la zarza ardiendo (h7)",
+      "text": "Manifestación de Dios en la zarza ardiendo",
       "color": "yellow",
       "location": "3618",
       "page": "618",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27715",
@@ -2183,13 +2318,14 @@ export const bibleHighlights = [
   },
   {
       "id": "15709",
-      "text": "Revelación del nombre del Señor (h7)",
+      "text": "Revelación del nombre del Señor",
       "color": "yellow",
       "location": "3645",
       "page": "645",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36451",
@@ -2201,373 +2337,410 @@ export const bibleHighlights = [
   },
   {
       "id": "57473",
-      "text": "Misión de Moisés (h7)",
+      "text": "Misión de Moisés",
       "color": "yellow",
       "location": "3661",
       "page": "661",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17513",
-      "text": "Poder de Moisés para hacer prodigios (h7)",
+      "text": "Poder de Moisés para hacer prodigios",
       "color": "yellow",
       "location": "3676",
       "page": "676",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14807",
-      "text": "Aarón, portavoz de Moisés (h7)",
+      "text": "Aarón, portavoz de Moisés",
       "color": "yellow",
       "location": "3704",
       "page": "704",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27985",
-      "text": "Regreso de Moisés a Egipto (h7)",
+      "text": "Regreso de Moisés a Egipto",
       "color": "yellow",
       "location": "3720",
       "page": "720",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11619",
-      "text": "Circuncisión del hijo de Moisés (h7)",
+      "text": "Circuncisión del hijo de Moisés",
       "color": "yellow",
       "location": "3736",
       "page": "736",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44190",
-      "text": "Encuentro de Moisés con Aarón (h7)",
+      "text": "Encuentro de Moisés con Aarón",
       "color": "yellow",
       "location": "3744",
       "page": "744",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16510",
-      "text": "Moisés ante el Faraón (h7)",
+      "text": "Moisés ante el Faraón",
       "color": "yellow",
       "location": "3755",
       "page": "755",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14055",
-      "text": "Recrudecimiento del trabajo (h7)",
+      "text": "Recrudecimiento del trabajo",
       "color": "yellow",
       "location": "3773",
       "page": "773",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60311",
-      "text": "Intercesión de Moisés (h7)",
+      "text": "Intercesión de Moisés",
       "color": "yellow",
       "location": "3799",
       "page": "799",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37517",
-      "text": "Nueva llamada de Dios a Moisés (h7)",
+      "text": "Nueva llamada de Dios a Moisés",
       "color": "yellow",
       "location": "3816",
       "page": "816",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1048",
-      "text": "Genealogía de Aarón y Moisés (h7)",
+      "text": "Genealogía de Aarón y Moisés",
       "color": "yellow",
       "location": "3840",
       "page": "840",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15964",
-      "text": "Anuncio de las plagas (h7)",
+      "text": "Anuncio de las plagas",
       "color": "yellow",
       "location": "3865",
       "page": "865",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26860",
-      "text": "III. LAS PLAGAS (h6)",
+      "text": "III. LAS PLAGAS",
       "color": "yellow",
       "location": "3887",
       "page": "887",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27342",
-      "text": "El bastón prodigioso de Moisés (h7)",
+      "text": "El bastón prodigioso de Moisés",
       "color": "yellow",
       "location": "3889",
       "page": "889",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2713",
-      "text": "Primera plaga: las aguas del Nilo (h7)",
+      "text": "Primera plaga: las aguas del Nilo",
       "color": "yellow",
       "location": "3901",
       "page": "901",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54311",
-      "text": "Segunda plaga: las ranas (h7)",
+      "text": "Segunda plaga: las ranas",
       "color": "yellow",
       "location": "3925",
       "page": "925",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12053",
-      "text": "Tercera plaga: los mosquitos (h7)",
+      "text": "Tercera plaga: los mosquitos",
       "color": "yellow",
       "location": "3958",
       "page": "958",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45989",
-      "text": "Cuarta plaga: los tábanos (h7)",
+      "text": "Cuarta plaga: los tábanos",
       "color": "yellow",
       "location": "3971",
       "page": "971",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57006",
-      "text": "Quinta plaga: la epidemia del ganado (h7)",
+      "text": "Quinta plaga: la epidemia del ganado",
       "color": "yellow",
       "location": "4001",
       "page": "001",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20808",
-      "text": "Sexta plaga: las úlceras (h7)",
+      "text": "Sexta plaga: las úlceras",
       "color": "yellow",
       "location": "4018",
       "page": "018",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60337",
-      "text": "Séptima plaga: el granizo (h7)",
+      "text": "Séptima plaga: el granizo",
       "color": "yellow",
       "location": "4029",
       "page": "029",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38518",
-      "text": "Octava plaga: las langostas (h7)",
+      "text": "Octava plaga: las langostas",
       "color": "yellow",
       "location": "4071",
       "page": "071",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40302",
-      "text": "Novena plaga: las tinieblas (h7)",
+      "text": "Novena plaga: las tinieblas",
       "color": "yellow",
       "location": "4120",
       "page": "120",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "287",
-      "text": "Décima plaga: anuncio de la muerte de los primogénitos (h7)",
+      "text": "Décima plaga: anuncio de la muerte de los primogénitos",
       "color": "yellow",
       "location": "4141",
       "page": "141",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8414",
-      "text": "IV. LA PASCUA (h6)",
+      "text": "IV. LA PASCUA",
       "color": "yellow",
       "location": "4166",
       "page": "166",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21187",
-      "text": "Institución de la Pascua (h7)",
+      "text": "Institución de la Pascua",
       "color": "yellow",
       "location": "4168",
       "page": "168",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32006",
-      "text": "Celebración de los Ácimos (h7)",
+      "text": "Celebración de los Ácimos",
       "color": "yellow",
       "location": "4196",
       "page": "196",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11743",
-      "text": "Instrucciones sobre la Pascua (h7)",
+      "text": "Instrucciones sobre la Pascua",
       "color": "yellow",
       "location": "4209",
       "page": "209",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45249",
-      "text": "Muerte de los primogénitos (h7)",
+      "text": "Muerte de los primogénitos",
       "color": "yellow",
       "location": "4225",
       "page": "225",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28657",
-      "text": "Las provisiones para la salida (h7)",
+      "text": "Las provisiones para la salida",
       "color": "yellow",
       "location": "4235",
       "page": "235",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4607",
-      "text": "Preparativos para salir de Egipto (h7)",
+      "text": "Preparativos para salir de Egipto",
       "color": "yellow",
       "location": "4243",
       "page": "243",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54420",
-      "text": "Nuevas instrucciones sobre la Pascua (h7)",
+      "text": "Nuevas instrucciones sobre la Pascua",
       "color": "yellow",
       "location": "4254",
       "page": "254",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36216",
-      "text": "Ley de los primogénitos (h7)",
+      "text": "Ley de los primogénitos",
       "color": "yellow",
       "location": "4270",
       "page": "270",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12132",
-      "text": "Instrucciones sobre los Ácimos (h7)",
+      "text": "Instrucciones sobre los Ácimos",
       "color": "yellow",
       "location": "4278",
       "page": "278",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64783",
-      "text": "Instrucciones sobre los primogénitos (h7)",
+      "text": "Instrucciones sobre los primogénitos",
       "color": "yellow",
       "location": "4292",
       "page": "292",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43088",
-      "text": "V. SALIDA DE EGIPTO (h6)",
+      "text": "V. SALIDA DE EGIPTO",
       "color": "yellow",
       "location": "4304",
       "page": "304",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29036",
-      "text": "Inicio de la salida (h7)",
+      "text": "Inicio de la salida",
       "color": "yellow",
       "location": "4305",
       "page": "305",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18025",
@@ -2579,33 +2752,36 @@ export const bibleHighlights = [
   },
   {
       "id": "45839",
-      "text": "Iniciativa del Señor (h7)",
+      "text": "Iniciativa del Señor",
       "color": "yellow",
       "location": "4320",
       "page": "320",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8438",
-      "text": "Persecución por parte de los egipcios (h7)",
+      "text": "Persecución por parte de los egipcios",
       "color": "yellow",
       "location": "4331",
       "page": "331",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10190",
-      "text": "Paso del Mar Rojo (h7)",
+      "text": "Paso del Mar Rojo",
       "color": "yellow",
       "location": "4353",
       "page": "353",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18034",
@@ -2617,63 +2793,69 @@ export const bibleHighlights = [
   },
   {
       "id": "19944",
-      "text": "Himno triunfal (h7)",
+      "text": "Himno triunfal",
       "color": "yellow",
       "location": "4388",
       "page": "388",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60133",
-      "text": "VI. LA TRAVESÍA DEL DESIERTO (h6)",
+      "text": "VI. LA TRAVESÍA DEL DESIERTO",
       "color": "yellow",
       "location": "4446",
       "page": "446",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44215",
-      "text": "Las aguas amargas: Mará (h7)",
+      "text": "Las aguas amargas: Mará",
       "color": "yellow",
       "location": "4448",
       "page": "448",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24675",
-      "text": "El maná y las codornices (h7)",
+      "text": "El maná y las codornices",
       "color": "yellow",
       "location": "4463",
       "page": "463",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20918",
-      "text": "El agua de la roca (h7)",
+      "text": "El agua de la roca",
       "color": "yellow",
       "location": "4544",
       "page": "544",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61546",
-      "text": "Victoria sobre Amalec (h7)",
+      "text": "Victoria sobre Amalec",
       "color": "yellow",
       "location": "4566",
       "page": "566",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42707",
@@ -2685,63 +2867,69 @@ export const bibleHighlights = [
   },
   {
       "id": "20145",
-      "text": "Encuentro de Jetró con Moisés (h7)",
+      "text": "Encuentro de Jetró con Moisés",
       "color": "yellow",
       "location": "4586",
       "page": "586",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51271",
-      "text": "Institución de los jueces (h7)",
+      "text": "Institución de los jueces",
       "color": "yellow",
       "location": "4612",
       "page": "612",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3704",
-      "text": "SEGUNDA PARTE: EL PUEBLO DE ISRAEL EN EL SINAÍ (h5)",
+      "text": "SEGUNDA PARTE: EL PUEBLO DE ISRAEL EN EL SINAÍ",
       "color": "yellow",
       "location": "4639",
       "page": "639",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49539",
-      "text": "VII. LA ALIANZA DEL SINAÍ (h6)",
+      "text": "VII. LA ALIANZA DEL SINAÍ",
       "color": "yellow",
       "location": "4641",
       "page": "641",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58441",
-      "text": "Llegada a la región del Sinaí (h7)",
+      "text": "Llegada a la región del Sinaí",
       "color": "yellow",
       "location": "4643",
       "page": "643",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9690",
-      "text": "Promesa divina (h7)",
+      "text": "Promesa divina",
       "color": "yellow",
       "location": "4652",
       "page": "652",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23428",
@@ -2753,23 +2941,25 @@ export const bibleHighlights = [
   },
   {
       "id": "24146",
-      "text": "Teofanía (h7)",
+      "text": "Teofanía",
       "color": "yellow",
       "location": "4668",
       "page": "668",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18298",
-      "text": "El Decálogo (h7)",
+      "text": "El Decálogo",
       "color": "yellow",
       "location": "4700",
       "page": "700",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34591",
@@ -2781,23 +2971,25 @@ export const bibleHighlights = [
   },
   {
       "id": "43813",
-      "text": "VIII. CÓDIGO DE LA ALIANZA (h6)",
+      "text": "VIII. CÓDIGO DE LA ALIANZA",
       "color": "yellow",
       "location": "4745",
       "page": "745",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43811",
-      "text": "Leyes sobre el culto (h7)",
+      "text": "Leyes sobre el culto",
       "color": "yellow",
       "location": "4747",
       "page": "747",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8403",
@@ -2809,123 +3001,135 @@ export const bibleHighlights = [
   },
   {
       "id": "17114",
-      "text": "Leyes sobre los esclavos (h7)",
+      "text": "Leyes sobre los esclavos",
       "color": "yellow",
       "location": "4759",
       "page": "759",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53938",
-      "text": "Leyes sobre el homicidio (h7)",
+      "text": "Leyes sobre el homicidio",
       "color": "yellow",
       "location": "4779",
       "page": "779",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37106",
-      "text": "Leyes sobre daños a personas (h7)",
+      "text": "Leyes sobre daños a personas",
       "color": "yellow",
       "location": "4790",
       "page": "790",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56528",
-      "text": "Leyes sobre daños a posesiones (h7)",
+      "text": "Leyes sobre daños a posesiones",
       "color": "yellow",
       "location": "4817",
       "page": "817",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12484",
-      "text": "Caso de violación (h7)",
+      "text": "Caso de violación",
       "color": "yellow",
       "location": "4856",
       "page": "856",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7645",
-      "text": "Leyes sociales (h7)",
+      "text": "Leyes sociales",
       "color": "yellow",
       "location": "4861",
       "page": "861",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59529",
-      "text": "Deberes de justicia (h7)",
+      "text": "Deberes de justicia",
       "color": "yellow",
       "location": "4885",
       "page": "885",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62497",
-      "text": "Año sabático y sábado (h7)",
+      "text": "Año sabático y sábado",
       "color": "yellow",
       "location": "4905",
       "page": "905",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49245",
-      "text": "Leyes cultuales (h7)",
+      "text": "Leyes cultuales",
       "color": "yellow",
       "location": "4914",
       "page": "914",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51816",
-      "text": "Advertencias y promesas (h7)",
+      "text": "Advertencias y promesas",
       "color": "yellow",
       "location": "4929",
       "page": "929",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18058",
-      "text": "IX. RATIFICACIÓN DE LA ALIANZA (h6)",
+      "text": "IX. RATIFICACIÓN DE LA ALIANZA",
       "color": "yellow",
       "location": "4955",
       "page": "955",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46049",
-      "text": "Comida cultual y aspersión con la sangre (h7)",
+      "text": "Comida cultual y aspersión con la sangre",
       "color": "yellow",
       "location": "4957",
       "page": "957",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17228",
@@ -2937,313 +3141,344 @@ export const bibleHighlights = [
   },
   {
       "id": "19617",
-      "text": "Moisés sube de nuevo al monte (h7)",
+      "text": "Moisés sube de nuevo al monte",
       "color": "yellow",
       "location": "4984",
       "page": "984",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34569",
-      "text": "X. NORMAS SOBRE EL SANTUARIO (h6)",
+      "text": "X. NORMAS SOBRE EL SANTUARIO",
       "color": "yellow",
       "location": "4998",
       "page": "998",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29581",
-      "text": "Ofrendas para el Santuario (h7)",
+      "text": "Ofrendas para el Santuario",
       "color": "yellow",
       "location": "5000",
       "page": "000",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56013",
-      "text": "El Arca (h7)",
+      "text": "El Arca",
       "color": "yellow",
       "location": "5016",
       "page": "016",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31406",
-      "text": "La mesa de los panes (h7)",
+      "text": "La mesa de los panes",
       "color": "yellow",
       "location": "5037",
       "page": "037",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47007",
-      "text": "El candelabro de oro (h7)",
+      "text": "El candelabro de oro",
       "color": "yellow",
       "location": "5051",
       "page": "051",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6861",
-      "text": "El Tabernáculo (h7)",
+      "text": "El Tabernáculo",
       "color": "yellow",
       "location": "5068",
       "page": "068",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60245",
-      "text": "Armazón del Tabernáculo (h7)",
+      "text": "Armazón del Tabernáculo",
       "color": "yellow",
       "location": "5095",
       "page": "095",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14587",
-      "text": "El velo del Tabernáculo (h7)",
+      "text": "El velo del Tabernáculo",
       "color": "yellow",
       "location": "5119",
       "page": "119",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32321",
-      "text": "La cortina de la entrada (h7)",
+      "text": "La cortina de la entrada",
       "color": "yellow",
       "location": "5129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26523",
-      "text": "El altar de los sacrificios (h7)",
+      "text": "El altar de los sacrificios",
       "color": "yellow",
       "location": "5135",
       "page": "135",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37733",
-      "text": "El atrio del Tabernáculo (h7)",
+      "text": "El atrio del Tabernáculo",
       "color": "yellow",
       "location": "5150",
       "page": "150",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8873",
-      "text": "El aceite de las lámparas (h7)",
+      "text": "El aceite de las lámparas",
       "color": "yellow",
       "location": "5170",
       "page": "170",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36124",
-      "text": "Los ornamentos sacerdotales (h7)",
+      "text": "Los ornamentos sacerdotales",
       "color": "yellow",
       "location": "5176",
       "page": "176",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57812",
-      "text": "El efod (h7)",
+      "text": "El efod",
       "color": "yellow",
       "location": "5190",
       "page": "190",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53906",
-      "text": "El pectoral (h7)",
+      "text": "El pectoral",
       "color": "yellow",
       "location": "5204",
       "page": "204",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22358",
-      "text": "El manto (h7)",
+      "text": "El manto",
       "color": "yellow",
       "location": "5231",
       "page": "231",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18500",
-      "text": "La tiara (h7)",
+      "text": "La tiara",
       "color": "yellow",
       "location": "5241",
       "page": "241",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11952",
-      "text": "Vestiduras sacerdotales (h7)",
+      "text": "Vestiduras sacerdotales",
       "color": "yellow",
       "location": "5250",
       "page": "250",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54325",
-      "text": "Consagración de los sacerdotes (h7)",
+      "text": "Consagración de los sacerdotes",
       "color": "yellow",
       "location": "5260",
       "page": "260",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28388",
-      "text": "Sacrificios de consagración (h7)",
+      "text": "Sacrificios de consagración",
       "color": "yellow",
       "location": "5279",
       "page": "279",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60474",
-      "text": "Banquete sacrificial (h7)",
+      "text": "Banquete sacrificial",
       "color": "yellow",
       "location": "5319",
       "page": "319",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65235",
-      "text": "Consagración del altar (h7)",
+      "text": "Consagración del altar",
       "color": "yellow",
       "location": "5326",
       "page": "326",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6952",
-      "text": "Sacrificios cotidianos (h7)",
+      "text": "Sacrificios cotidianos",
       "color": "yellow",
       "location": "5333",
       "page": "333",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60957",
-      "text": "El altar del incienso (h7)",
+      "text": "El altar del incienso",
       "color": "yellow",
       "location": "5350",
       "page": "350",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24162",
-      "text": "Aportación religiosa (h7)",
+      "text": "Aportación religiosa",
       "color": "yellow",
       "location": "5371",
       "page": "371",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40286",
-      "text": "La pila de bronce (h7)",
+      "text": "La pila de bronce",
       "color": "yellow",
       "location": "5384",
       "page": "384",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25279",
-      "text": "El óleo de la unción (h7)",
+      "text": "El óleo de la unción",
       "color": "yellow",
       "location": "5395",
       "page": "395",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38288",
-      "text": "El incienso (h7)",
+      "text": "El incienso",
       "color": "yellow",
       "location": "5414",
       "page": "414",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23254",
-      "text": "Los artesanos del Santuario (h7)",
+      "text": "Los artesanos del Santuario",
       "color": "yellow",
       "location": "5425",
       "page": "425",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35197",
-      "text": "Descanso del sábado (h7)",
+      "text": "Descanso del sábado",
       "color": "yellow",
       "location": "5445",
       "page": "445",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27132",
@@ -3255,103 +3490,113 @@ export const bibleHighlights = [
   },
   {
       "id": "52388",
-      "text": "Las Tablas de la Ley (h7)",
+      "text": "Las Tablas de la Ley",
       "color": "yellow",
       "location": "5456",
       "page": "456",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18567",
-      "text": "XI. APOSTASÍA DEL PUEBLO (h6)",
+      "text": "XI. APOSTASÍA DEL PUEBLO",
       "color": "yellow",
       "location": "5460",
       "page": "460",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54133",
-      "text": "El becerro de oro (h7)",
+      "text": "El becerro de oro",
       "color": "yellow",
       "location": "5462",
       "page": "462",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1880",
-      "text": "La cólera del Señor (h7)",
+      "text": "La cólera del Señor",
       "color": "yellow",
       "location": "5481",
       "page": "481",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60311",
-      "text": "Intercesión de Moisés (h7)",
+      "text": "Intercesión de Moisés",
       "color": "yellow",
       "location": "5490",
       "page": "490",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "492",
-      "text": "Destrucción del becerro de oro (h7)",
+      "text": "Destrucción del becerro de oro",
       "color": "yellow",
       "location": "5501",
       "page": "501",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50972",
-      "text": "Intervención de los levitas (h7)",
+      "text": "Intervención de los levitas",
       "color": "yellow",
       "location": "5523",
       "page": "523",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51160",
-      "text": "Nueva intercesión de Moisés (h7)",
+      "text": "Nueva intercesión de Moisés",
       "color": "yellow",
       "location": "5537",
       "page": "537",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27968",
-      "text": "Orden de partida. El ángel acompañará al pueblo (h7)",
+      "text": "Orden de partida. El ángel acompañará al pueblo",
       "color": "yellow",
       "location": "5551",
       "page": "551",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1006",
-      "text": "La Tienda de la Reunión (h7)",
+      "text": "La Tienda de la Reunión",
       "color": "yellow",
       "location": "5568",
       "page": "568",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40366",
@@ -3363,323 +3608,355 @@ export const bibleHighlights = [
   },
   {
       "id": "36581",
-      "text": "Oración de Moisés: Dios acompañará a su pueblo (h7)",
+      "text": "Oración de Moisés: Dios acompañará a su pueblo",
       "color": "yellow",
       "location": "5580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20109",
-      "text": "La visión de la gloria de Dios (h7)",
+      "text": "La visión de la gloria de Dios",
       "color": "yellow",
       "location": "5595",
       "page": "595",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40062",
-      "text": "XII. RENOVACIÓN DE LA ALIANZA (h6)",
+      "text": "XII. RENOVACIÓN DE LA ALIANZA",
       "color": "yellow",
       "location": "5609",
       "page": "609",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57394",
-      "text": "Revelación de Dios (h7)",
+      "text": "Revelación de Dios",
       "color": "yellow",
       "location": "5623",
       "page": "623",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48660",
-      "text": "La Alianza (h7)",
+      "text": "La Alianza",
       "color": "yellow",
       "location": "5634",
       "page": "634",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29302",
-      "text": "Código Ritual (h7)",
+      "text": "Código Ritual",
       "color": "yellow",
       "location": "5644",
       "page": "644",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28440",
-      "text": "El resplandor de Moisés (h7)",
+      "text": "El resplandor de Moisés",
       "color": "yellow",
       "location": "5678",
       "page": "678",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7169",
-      "text": "XIII. CONSTRUCCIÓN DEL SANTUARIO (h6)",
+      "text": "XIII. CONSTRUCCIÓN DEL SANTUARIO",
       "color": "yellow",
       "location": "5692",
       "page": "692",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48132",
-      "text": "Descanso sabático (h7)",
+      "text": "Descanso sabático",
       "color": "yellow",
       "location": "5693",
       "page": "693",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35034",
-      "text": "Generosidad en las ofrendas (h7)",
+      "text": "Generosidad en las ofrendas",
       "color": "yellow",
       "location": "5703",
       "page": "703",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56609",
-      "text": "Elección de los artesanos (h7)",
+      "text": "Elección de los artesanos",
       "color": "yellow",
       "location": "5743",
       "page": "743",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15481",
-      "text": "Construcción del Tabernáculo (h7)",
+      "text": "Construcción del Tabernáculo",
       "color": "yellow",
       "location": "5772",
       "page": "772",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42823",
-      "text": "El armazón del Tabernáculo (h7)",
+      "text": "El armazón del Tabernáculo",
       "color": "yellow",
       "location": "5792",
       "page": "792",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14587",
-      "text": "El velo del Tabernáculo (h7)",
+      "text": "El velo del Tabernáculo",
       "color": "yellow",
       "location": "5814",
       "page": "814",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56013",
-      "text": "El Arca (h7)",
+      "text": "El Arca",
       "color": "yellow",
       "location": "5821",
       "page": "821",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31406",
-      "text": "La mesa de los panes (h7)",
+      "text": "La mesa de los panes",
       "color": "yellow",
       "location": "5839",
       "page": "839",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47007",
-      "text": "El candelabro de oro (h7)",
+      "text": "El candelabro de oro",
       "color": "yellow",
       "location": "5850",
       "page": "850",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60957",
-      "text": "El altar del incienso (h7)",
+      "text": "El altar del incienso",
       "color": "yellow",
       "location": "5864",
       "page": "864",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26523",
-      "text": "El altar de los sacrificios (h7)",
+      "text": "El altar de los sacrificios",
       "color": "yellow",
       "location": "5874",
       "page": "874",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54950",
-      "text": "El atrio del santuario (h7)",
+      "text": "El atrio del santuario",
       "color": "yellow",
       "location": "5891",
       "page": "891",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21759",
-      "text": "Material empleado (h7)",
+      "text": "Material empleado",
       "color": "yellow",
       "location": "5913",
       "page": "913",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36124",
-      "text": "Los ornamentos sacerdotales (h7)",
+      "text": "Los ornamentos sacerdotales",
       "color": "yellow",
       "location": "5935",
       "page": "935",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57812",
-      "text": "El efod (h7)",
+      "text": "El efod",
       "color": "yellow",
       "location": "5942",
       "page": "942",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53906",
-      "text": "El pectoral (h7)",
+      "text": "El pectoral",
       "color": "yellow",
       "location": "5952",
       "page": "952",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22358",
-      "text": "El manto (h7)",
+      "text": "El manto",
       "color": "yellow",
       "location": "5974",
       "page": "974",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53734",
-      "text": "Otros ornamentos (h7)",
+      "text": "Otros ornamentos",
       "color": "yellow",
       "location": "5983",
       "page": "983",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18500",
-      "text": "La tiara (h7)",
+      "text": "La tiara",
       "color": "yellow",
       "location": "5988",
       "page": "988",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45427",
-      "text": "Entrega de las obras a Moisés (h7)",
+      "text": "Entrega de las obras a Moisés",
       "color": "yellow",
       "location": "5995",
       "page": "995",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3991",
-      "text": "Consagración del Santuario (h7)",
+      "text": "Consagración del Santuario",
       "color": "yellow",
       "location": "6013",
       "page": "013",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51438",
-      "text": "Obediencia de Moisés (h7)",
+      "text": "Obediencia de Moisés",
       "color": "yellow",
       "location": "6038",
       "page": "038",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10700",
-      "text": "Presencia del Señor en el Tabernáculo (h7)",
+      "text": "Presencia del Señor en el Tabernáculo",
       "color": "yellow",
       "location": "6065",
       "page": "065",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30570",
-      "text": "LEVÍTICO (h4)",
+      "text": "LEVÍTICO",
       "color": "yellow",
       "location": "6074",
       "page": "074",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38244",
@@ -3699,293 +3976,322 @@ export const bibleHighlights = [
   },
   {
       "id": "47902",
-      "text": "PRIMERA PARTE: PRESCRIPCIONES SOBRE LOS SACRIFICIOS (h5)",
+      "text": "PRIMERA PARTE: PRESCRIPCIONES SOBRE LOS SACRIFICIOS",
       "color": "yellow",
       "location": "6116",
       "page": "116",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18298",
-      "text": "El holocausto (h7)",
+      "text": "El holocausto",
       "color": "yellow",
       "location": "6118",
       "page": "118",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43907",
-      "text": "La oblación (h7)",
+      "text": "La oblación",
       "color": "yellow",
       "location": "6151",
       "page": "151",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14290",
-      "text": "El sacrificio de comunión (h7)",
+      "text": "El sacrificio de comunión",
       "color": "yellow",
       "location": "6184",
       "page": "184",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50059",
-      "text": "El sacrificio por el pecado (h7)",
+      "text": "El sacrificio por el pecado",
       "color": "yellow",
       "location": "6217",
       "page": "217",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52227",
-      "text": "El sacrificio por el pecado del sacerdote (h7)",
+      "text": "El sacrificio por el pecado del sacerdote",
       "color": "yellow",
       "location": "6226",
       "page": "226",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21454",
-      "text": "El sacrificio por el pecado del pueblo (h7)",
+      "text": "El sacrificio por el pecado del pueblo",
       "color": "yellow",
       "location": "6244",
       "page": "244",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64901",
-      "text": "El sacrificio por el pecado de un príncipe (h7)",
+      "text": "El sacrificio por el pecado de un príncipe",
       "color": "yellow",
       "location": "6260",
       "page": "260",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16219",
-      "text": "El sacrificio por el pecado de un particular (h7)",
+      "text": "El sacrificio por el pecado de un particular",
       "color": "yellow",
       "location": "6270",
       "page": "270",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16742",
-      "text": "Otros sacrificios por el pecado (h7)",
+      "text": "Otros sacrificios por el pecado",
       "color": "yellow",
       "location": "6289",
       "page": "289",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45626",
-      "text": "El sacrificio por el pecado de un pobre (h7)",
+      "text": "El sacrificio por el pecado de un pobre",
       "color": "yellow",
       "location": "6306",
       "page": "306",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7342",
-      "text": "Sacrificio por el delito (h7)",
+      "text": "Sacrificio por el delito",
       "color": "yellow",
       "location": "6324",
       "page": "324",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53543",
-      "text": "El sacerdote y el holocausto (h7)",
+      "text": "El sacerdote y el holocausto",
       "color": "yellow",
       "location": "6350",
       "page": "350",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35120",
-      "text": "El sacerdote y la oblación (h7)",
+      "text": "El sacerdote y la oblación",
       "color": "yellow",
       "location": "6365",
       "page": "365",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50555",
-      "text": "El sacerdote y el sacrificio por el pecado (h7)",
+      "text": "El sacerdote y el sacrificio por el pecado",
       "color": "yellow",
       "location": "6385",
       "page": "385",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55696",
-      "text": "El sacerdote y el sacrificio por el delito (h7)",
+      "text": "El sacerdote y el sacrificio por el delito",
       "color": "yellow",
       "location": "6398",
       "page": "398",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22978",
-      "text": "El sacerdote y el sacrificio de comunión (h7)",
+      "text": "El sacerdote y el sacrificio de comunión",
       "color": "yellow",
       "location": "6417",
       "page": "417",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54479",
-      "text": "Normas rituales sobre las víctimas (h7)",
+      "text": "Normas rituales sobre las víctimas",
       "color": "yellow",
       "location": "6432",
       "page": "432",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38706",
-      "text": "Derechos de los sacerdotes sobre las víctimas (h7)",
+      "text": "Derechos de los sacerdotes sobre las víctimas",
       "color": "yellow",
       "location": "6448",
       "page": "448",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23625",
-      "text": "Conclusión (h7)",
+      "text": "Conclusión",
       "color": "yellow",
       "location": "6463",
       "page": "463",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36217",
-      "text": "SEGUNDA PARTE: INSTITUCIÓN DE LOS SACERDOTES (h5)",
+      "text": "SEGUNDA PARTE: INSTITUCIÓN DE LOS SACERDOTES",
       "color": "yellow",
       "location": "6470",
       "page": "470",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23072",
-      "text": "Unción sacerdotal (h7)",
+      "text": "Unción sacerdotal",
       "color": "yellow",
       "location": "6473",
       "page": "473",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30666",
-      "text": "Sacrificios de los nuevos sacerdotes (h7)",
+      "text": "Sacrificios de los nuevos sacerdotes",
       "color": "yellow",
       "location": "6540",
       "page": "540",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48921",
-      "text": "Infracciones rituales: su castigo (h7)",
+      "text": "Infracciones rituales: su castigo",
       "color": "yellow",
       "location": "6586",
       "page": "586",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60235",
-      "text": "Normas para los sacerdotes que ofician (h7)",
+      "text": "Normas para los sacerdotes que ofician",
       "color": "yellow",
       "location": "6598",
       "page": "598",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34200",
-      "text": "TERCERA PARTE: LEY DE LA PUREZA RITUAL (h5)",
+      "text": "TERCERA PARTE: LEY DE LA PUREZA RITUAL",
       "color": "yellow",
       "location": "6636",
       "page": "636",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57062",
-      "text": "Animales puros e impuros (h7)",
+      "text": "Animales puros e impuros",
       "color": "yellow",
       "location": "6638",
       "page": "638",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22345",
-      "text": "Purificación de la mujer tras el parto (h7)",
+      "text": "Purificación de la mujer tras el parto",
       "color": "yellow",
       "location": "6713",
       "page": "713",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24165",
-      "text": "La lepra: diversas manifestaciones (h7)",
+      "text": "La lepra: diversas manifestaciones",
       "color": "yellow",
       "location": "6735",
       "page": "735",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51164",
@@ -4037,343 +4343,377 @@ export const bibleHighlights = [
   },
   {
       "id": "31636",
-      "text": "Lepra en los vestidos (h7)",
+      "text": "Lepra en los vestidos",
       "color": "yellow",
       "location": "6813",
       "page": "813",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5833",
-      "text": "Purificación del leproso (h7)",
+      "text": "Purificación del leproso",
       "color": "yellow",
       "location": "6836",
       "page": "836",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2591",
-      "text": "Lepra en las casas (h7)",
+      "text": "Lepra en las casas",
       "color": "yellow",
       "location": "6897",
       "page": "897",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50381",
-      "text": "Impurezas del varón (h7)",
+      "text": "Impurezas del varón",
       "color": "yellow",
       "location": "6936",
       "page": "936",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35207",
-      "text": "Impurezas de la mujer (h7)",
+      "text": "Impurezas de la mujer",
       "color": "yellow",
       "location": "6969",
       "page": "969",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55923",
-      "text": "El Día de la Expiación (h7)",
+      "text": "El Día de la Expiación",
       "color": "yellow",
       "location": "6996",
       "page": "996",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10238",
-      "text": "CUARTA PARTE: LEY DE SANTIDAD (h5)",
+      "text": "CUARTA PARTE: LEY DE SANTIDAD",
       "color": "yellow",
       "location": "7065",
       "page": "065",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59655",
-      "text": "Lugar de los sacrificios y uso de la sangre (h7)",
+      "text": "Lugar de los sacrificios y uso de la sangre",
       "color": "yellow",
       "location": "7066",
       "page": "066",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55237",
-      "text": "Disposiciones sobre el matrimonio y la castidad (h7)",
+      "text": "Disposiciones sobre el matrimonio y la castidad",
       "color": "yellow",
       "location": "7100",
       "page": "100",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28724",
-      "text": "Deberes morales y religiosos (h7)",
+      "text": "Deberes morales y religiosos",
       "color": "yellow",
       "location": "7156",
       "page": "156",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37093",
-      "text": "Castigos contra las faltas religiosas (h7)",
+      "text": "Castigos contra las faltas religiosas",
       "color": "yellow",
       "location": "7227",
       "page": "227",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18853",
-      "text": "Castigos contra las faltas morales (h7)",
+      "text": "Castigos contra las faltas morales",
       "color": "yellow",
       "location": "7244",
       "page": "244",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57618",
-      "text": "Exhortación a la santidad (h7)",
+      "text": "Exhortación a la santidad",
       "color": "yellow",
       "location": "7272",
       "page": "272",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13180",
-      "text": "Santidad de los sacerdotes (h7)",
+      "text": "Santidad de los sacerdotes",
       "color": "yellow",
       "location": "7286",
       "page": "286",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7403",
-      "text": "Santidad del sumo sacerdote (h7)",
+      "text": "Santidad del sumo sacerdote",
       "color": "yellow",
       "location": "7305",
       "page": "305",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41961",
-      "text": "Integridad física de los sacerdotes (h7)",
+      "text": "Integridad física de los sacerdotes",
       "color": "yellow",
       "location": "7316",
       "page": "316",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49721",
-      "text": "Participación de los sacerdotes en los alimentos sagrados (h7)",
+      "text": "Participación de los sacerdotes en los alimentos sagrados",
       "color": "yellow",
       "location": "7333",
       "page": "333",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49167",
-      "text": "Participación de otras personas en los alimentos sagrados (h7)",
+      "text": "Participación de otras personas en los alimentos sagrados",
       "color": "yellow",
       "location": "7353",
       "page": "353",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53884",
-      "text": "Integridad de las víctimas (h7)",
+      "text": "Integridad de las víctimas",
       "color": "yellow",
       "location": "7366",
       "page": "366",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39117",
-      "text": "Exhortación a la obediencia (h7)",
+      "text": "Exhortación a la obediencia",
       "color": "yellow",
       "location": "7391",
       "page": "391",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19373",
-      "text": "Celebración del Sábado (h7)",
+      "text": "Celebración del Sábado",
       "color": "yellow",
       "location": "7397",
       "page": "397",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54195",
-      "text": "Celebración de la Pascua y los Ácimos (h7)",
+      "text": "Celebración de la Pascua y los Ácimos",
       "color": "yellow",
       "location": "7409",
       "page": "409",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33082",
-      "text": "Celebración de las Primicias (h7)",
+      "text": "Celebración de las Primicias",
       "color": "yellow",
       "location": "7417",
       "page": "417",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8797",
-      "text": "Celebración de la Fiesta de las Semanas (h7)",
+      "text": "Celebración de la Fiesta de las Semanas",
       "color": "yellow",
       "location": "7430",
       "page": "430",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42006",
-      "text": "Celebración del Año Nuevo (h7)",
+      "text": "Celebración del Año Nuevo",
       "color": "yellow",
       "location": "7448",
       "page": "448",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18366",
-      "text": "Celebración del Día de la Expiación (h7)",
+      "text": "Celebración del Día de la Expiación",
       "color": "yellow",
       "location": "7454",
       "page": "454",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45964",
-      "text": "Celebración de la Fiesta de los Tabernáculos (h7)",
+      "text": "Celebración de la Fiesta de los Tabernáculos",
       "color": "yellow",
       "location": "7466",
       "page": "466",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22873",
-      "text": "Normas sobre la iluminación del Santuario (h7)",
+      "text": "Normas sobre la iluminación del Santuario",
       "color": "yellow",
       "location": "7490",
       "page": "490",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30715",
-      "text": "Normas sobre los Panes de la Proposición (h7)",
+      "text": "Normas sobre los Panes de la Proposición",
       "color": "yellow",
       "location": "7502",
       "page": "502",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45042",
-      "text": "Castigo del blasfemo (h7)",
+      "text": "Castigo del blasfemo",
       "color": "yellow",
       "location": "7512",
       "page": "512",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15254",
-      "text": "Ley del talión (h7)",
+      "text": "Ley del talión",
       "color": "yellow",
       "location": "7526",
       "page": "526",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42268",
-      "text": "Normas sobre el año sabático (h7)",
+      "text": "Normas sobre el año sabático",
       "color": "yellow",
       "location": "7539",
       "page": "539",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61370",
-      "text": "Normas sobre el año jubilar (h7)",
+      "text": "Normas sobre el año jubilar",
       "color": "yellow",
       "location": "7555",
       "page": "555",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45847",
-      "text": "Normas sobre el rescate de la tierra (h7)",
+      "text": "Normas sobre el rescate de la tierra",
       "color": "yellow",
       "location": "7580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4111",
@@ -4385,13 +4725,14 @@ export const bibleHighlights = [
   },
   {
       "id": "47389",
-      "text": "Normas sobre préstamos (h7)",
+      "text": "Normas sobre préstamos",
       "color": "yellow",
       "location": "7603",
       "page": "603",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7581",
@@ -4403,103 +4744,113 @@ export const bibleHighlights = [
   },
   {
       "id": "65097",
-      "text": "Normas sobre los esclavos (h7)",
+      "text": "Normas sobre los esclavos",
       "color": "yellow",
       "location": "7610",
       "page": "610",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45545",
-      "text": "Bendiciones por la observancia de la Ley (h7)",
+      "text": "Bendiciones por la observancia de la Ley",
       "color": "yellow",
       "location": "7639",
       "page": "639",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10966",
-      "text": "Maldiciones por la rebeldía (h7)",
+      "text": "Maldiciones por la rebeldía",
       "color": "yellow",
       "location": "7664",
       "page": "664",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26180",
-      "text": "APÉNDICE (h6)",
+      "text": "APÉNDICE",
       "color": "yellow",
       "location": "7720",
       "page": "720",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64823",
-      "text": "Conmutación de votos (h7)",
+      "text": "Conmutación de votos",
       "color": "yellow",
       "location": "7721",
       "page": "721",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62811",
-      "text": "Tasación por el rescate de un animal (h7)",
+      "text": "Tasación por el rescate de un animal",
       "color": "yellow",
       "location": "7738",
       "page": "738",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12509",
-      "text": "Compensación por el rescate de casas y campos (h7)",
+      "text": "Compensación por el rescate de casas y campos",
       "color": "yellow",
       "location": "7746",
       "page": "746",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26044",
-      "text": "Compensación por el rescate de personas (h7)",
+      "text": "Compensación por el rescate de personas",
       "color": "yellow",
       "location": "7770",
       "page": "770",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52963",
-      "text": "Normas sobre los diezmos (h7)",
+      "text": "Normas sobre los diezmos",
       "color": "yellow",
       "location": "7779",
       "page": "779",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36885",
-      "text": "NÚMEROS (h4)",
+      "text": "NÚMEROS",
       "color": "yellow",
       "location": "7788",
       "page": "788",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39785",
@@ -4519,243 +4870,267 @@ export const bibleHighlights = [
   },
   {
       "id": "4512",
-      "text": "I. DESCRIPCIÓN DE LA COMUNIDAD DE ISRAEL (h6)",
+      "text": "I. DESCRIPCIÓN DE LA COMUNIDAD DE ISRAEL",
       "color": "yellow",
       "location": "7841",
       "page": "841",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39273",
-      "text": "El censo de las tribus de Israel (h7)",
+      "text": "El censo de las tribus de Israel",
       "color": "yellow",
       "location": "7843",
       "page": "843",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6297",
-      "text": "Peculiaridad de la tribu de Leví (h7)",
+      "text": "Peculiaridad de la tribu de Leví",
       "color": "yellow",
       "location": "7924",
       "page": "924",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64403",
-      "text": "Disposición del campamento (h7)",
+      "text": "Disposición del campamento",
       "color": "yellow",
       "location": "7939",
       "page": "939",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34845",
-      "text": "La tribu de Leví (h7)",
+      "text": "La tribu de Leví",
       "color": "yellow",
       "location": "7994",
       "page": "994",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9699",
-      "text": "Los sacerdotes (h7)",
+      "text": "Los sacerdotes",
       "color": "yellow",
       "location": "8001",
       "page": "001",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8365",
-      "text": "Los levitas (h7)",
+      "text": "Los levitas",
       "color": "yellow",
       "location": "8007",
       "page": "007",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11285",
-      "text": "Censo de los levitas (h7)",
+      "text": "Censo de los levitas",
       "color": "yellow",
       "location": "8025",
       "page": "025",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15590",
-      "text": "Rescate de los primogénitos de Israel (h7)",
+      "text": "Rescate de los primogénitos de Israel",
       "color": "yellow",
       "location": "8069",
       "page": "069",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19007",
-      "text": "El linaje de Quehat (h7)",
+      "text": "El linaje de Quehat",
       "color": "yellow",
       "location": "8093",
       "page": "093",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46786",
-      "text": "El linaje de Guersón (h7)",
+      "text": "El linaje de Guersón",
       "color": "yellow",
       "location": "8132",
       "page": "132",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45375",
-      "text": "El linaje de Merarí (h7)",
+      "text": "El linaje de Merarí",
       "color": "yellow",
       "location": "8147",
       "page": "147",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49061",
-      "text": "Resultado del censo de los levitas (h7)",
+      "text": "Resultado del censo de los levitas",
       "color": "yellow",
       "location": "8157",
       "page": "157",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54433",
-      "text": "II. NORMAS SOBRE PUREZA RITUAL (h6)",
+      "text": "II. NORMAS SOBRE PUREZA RITUAL",
       "color": "yellow",
       "location": "8184",
       "page": "184",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27890",
-      "text": "La expulsión de los impuros (h7)",
+      "text": "La expulsión de los impuros",
       "color": "yellow",
       "location": "8186",
       "page": "186",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64587",
-      "text": "La restitución de apropiaciones injustas (h7)",
+      "text": "La restitución de apropiaciones injustas",
       "color": "yellow",
       "location": "8198",
       "page": "198",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47835",
-      "text": "El juicio en caso de celos (h7)",
+      "text": "El juicio en caso de celos",
       "color": "yellow",
       "location": "8210",
       "page": "210",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63461",
-      "text": "La ley del nazareo (h7)",
+      "text": "La ley del nazareo",
       "color": "yellow",
       "location": "8251",
       "page": "251",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51502",
-      "text": "La bendición sacerdotal (h7)",
+      "text": "La bendición sacerdotal",
       "color": "yellow",
       "location": "8294",
       "page": "294",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28227",
-      "text": "III. OFRENDAS EN LA CONSAGRACIÓN DEL SANTUARIO (h6)",
+      "text": "III. OFRENDAS EN LA CONSAGRACIÓN DEL SANTUARIO",
       "color": "yellow",
       "location": "8305",
       "page": "305",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12333",
-      "text": "Presentación de las oblaciones (h7)",
+      "text": "Presentación de las oblaciones",
       "color": "yellow",
       "location": "8306",
       "page": "306",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9774",
-      "text": "Ofrendas de los príncipes (h7)",
+      "text": "Ofrendas de los príncipes",
       "color": "yellow",
       "location": "8325",
       "page": "325",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50283",
-      "text": "Diálogos de Moisés con el Señor (h7)",
+      "text": "Diálogos de Moisés con el Señor",
       "color": "yellow",
       "location": "8451",
       "page": "451",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47007",
-      "text": "El candelabro de oro (h7)",
+      "text": "El candelabro de oro",
       "color": "yellow",
       "location": "8456",
       "page": "456",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42722",
@@ -4767,133 +5142,146 @@ export const bibleHighlights = [
   },
   {
       "id": "53909",
-      "text": "IV. PREPARATIVOS PARA LA PARTIDA (h6)",
+      "text": "IV. PREPARATIVOS PARA LA PARTIDA",
       "color": "yellow",
       "location": "8507",
       "page": "507",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10891",
-      "text": "Segunda celebración de la Pascua (h7)",
+      "text": "Segunda celebración de la Pascua",
       "color": "yellow",
       "location": "8509",
       "page": "509",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28562",
-      "text": "Casos particulares (h7)",
+      "text": "Casos particulares",
       "color": "yellow",
       "location": "8522",
       "page": "522",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3391",
-      "text": "La nube cubre el Santuario (h7)",
+      "text": "La nube cubre el Santuario",
       "color": "yellow",
       "location": "8541",
       "page": "541",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62629",
-      "text": "Las trompetas de plata (h7)",
+      "text": "Las trompetas de plata",
       "color": "yellow",
       "location": "8560",
       "page": "560",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12895",
-      "text": "SEGUNDA PARTE: EL PUEBLO EN CADÉS (h5)",
+      "text": "SEGUNDA PARTE: EL PUEBLO EN CADÉS",
       "color": "yellow",
       "location": "8581",
       "page": "581",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3281",
-      "text": "V. LA MARCHA POR EL DESIERTO (h6)",
+      "text": "V. LA MARCHA POR EL DESIERTO",
       "color": "yellow",
       "location": "8582",
       "page": "582",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38847",
-      "text": "Partida del Sinaí (h7)",
+      "text": "Partida del Sinaí",
       "color": "yellow",
       "location": "8584",
       "page": "584",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "708",
-      "text": "Orden de marcha en el desierto (h7)",
+      "text": "Orden de marcha en el desierto",
       "color": "yellow",
       "location": "8588",
       "page": "588",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25779",
-      "text": "Propuesta de Moisés a Jobab (h7)",
+      "text": "Propuesta de Moisés a Jobab",
       "color": "yellow",
       "location": "8614",
       "page": "614",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46839",
-      "text": "VI. REBELDÍAS DE ISRAEL (h6)",
+      "text": "VI. REBELDÍAS DE ISRAEL",
       "color": "yellow",
       "location": "8635",
       "page": "635",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48844",
-      "text": "El fuego de Taberá (h7)",
+      "text": "El fuego de Taberá",
       "color": "yellow",
       "location": "8637",
       "page": "637",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36946",
-      "text": "Añoranza del alimento de Egipto (h7)",
+      "text": "Añoranza del alimento de Egipto",
       "color": "yellow",
       "location": "8646",
       "page": "646",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45989",
@@ -4905,103 +5293,113 @@ export const bibleHighlights = [
   },
   {
       "id": "7390",
-      "text": "Moisés habla con el Señor (h7)",
+      "text": "Moisés habla con el Señor",
       "color": "yellow",
       "location": "8658",
       "page": "658",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63343",
-      "text": "Institución de los setenta ancianos (h7)",
+      "text": "Institución de los setenta ancianos",
       "color": "yellow",
       "location": "8687",
       "page": "687",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29649",
-      "text": "Las codornices (h7)",
+      "text": "Las codornices",
       "color": "yellow",
       "location": "8704",
       "page": "704",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7647",
-      "text": "Murmuración de María y Aarón contra Moisés (h7)",
+      "text": "Murmuración de María y Aarón contra Moisés",
       "color": "yellow",
       "location": "8718",
       "page": "718",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60311",
-      "text": "Intercesión de Moisés (h7)",
+      "text": "Intercesión de Moisés",
       "color": "yellow",
       "location": "8748",
       "page": "748",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45796",
-      "text": "Exploración de la tierra prometida (h7)",
+      "text": "Exploración de la tierra prometida",
       "color": "yellow",
       "location": "8758",
       "page": "758",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2583",
-      "text": "Regreso de los exploradores (h7)",
+      "text": "Regreso de los exploradores",
       "color": "yellow",
       "location": "8802",
       "page": "802",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39569",
-      "text": "Rebelión de la comunidad (h7)",
+      "text": "Rebelión de la comunidad",
       "color": "yellow",
       "location": "8823",
       "page": "823",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31229",
-      "text": "Amenaza divina e intercesión de Moisés (h7)",
+      "text": "Amenaza divina e intercesión de Moisés",
       "color": "yellow",
       "location": "8844",
       "page": "844",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37407",
-      "text": "Nueva respuesta de Dios (h7)",
+      "text": "Nueva respuesta de Dios",
       "color": "yellow",
       "location": "8874",
       "page": "874",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27887",
@@ -5013,203 +5411,223 @@ export const bibleHighlights = [
   },
   {
       "id": "15573",
-      "text": "VII. ORDENANZAS PARA LOS SACERDOTES Y LEVITAS (h6)",
+      "text": "VII. ORDENANZAS PARA LOS SACERDOTES Y LEVITAS",
       "color": "yellow",
       "location": "8912",
       "page": "912",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18565",
-      "text": "Prescripciones acerca de las oblaciones (h7)",
+      "text": "Prescripciones acerca de las oblaciones",
       "color": "yellow",
       "location": "8914",
       "page": "914",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50661",
-      "text": "Expiación de los pecados por inadvertencia (h7)",
+      "text": "Expiación de los pecados por inadvertencia",
       "color": "yellow",
       "location": "8953",
       "page": "953",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10733",
-      "text": "Castigo por la violación del sábado (h7)",
+      "text": "Castigo por la violación del sábado",
       "color": "yellow",
       "location": "8974",
       "page": "974",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9009",
-      "text": "Los flecos (h7)",
+      "text": "Los flecos",
       "color": "yellow",
       "location": "8984",
       "page": "984",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49888",
-      "text": "Motín y castigo de Coré, Datán y Abiram (h7)",
+      "text": "Motín y castigo de Coré, Datán y Abiram",
       "color": "yellow",
       "location": "8994",
       "page": "994",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48469",
-      "text": "El revestimiento del altar (h7)",
+      "text": "El revestimiento del altar",
       "color": "yellow",
       "location": "9064",
       "page": "064",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62955",
-      "text": "Murmuración y castigo del pueblo (h7)",
+      "text": "Murmuración y castigo del pueblo",
       "color": "yellow",
       "location": "9078",
       "page": "078",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12290",
-      "text": "La vara de Aarón (h7)",
+      "text": "La vara de Aarón",
       "color": "yellow",
       "location": "9098",
       "page": "098",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51497",
-      "text": "Sacerdotes y levitas (h7)",
+      "text": "Sacerdotes y levitas",
       "color": "yellow",
       "location": "9123",
       "page": "123",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18554",
-      "text": "Diezmos y tributos (h7)",
+      "text": "Diezmos y tributos",
       "color": "yellow",
       "location": "9141",
       "page": "141",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23105",
-      "text": "El ceremonial de la vaca roja (h7)",
+      "text": "El ceremonial de la vaca roja",
       "color": "yellow",
       "location": "9190",
       "page": "190",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15322",
-      "text": "Purificación con agua lustral (h7)",
+      "text": "Purificación con agua lustral",
       "color": "yellow",
       "location": "9210",
       "page": "210",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29504",
-      "text": "VIII. DIVERSOS SUCESOS EN CADÉS (h6)",
+      "text": "VIII. DIVERSOS SUCESOS EN CADÉS",
       "color": "yellow",
       "location": "9233",
       "page": "233",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59102",
-      "text": "Moisés hace brotar agua de la roca (h7)",
+      "text": "Moisés hace brotar agua de la roca",
       "color": "yellow",
       "location": "9234",
       "page": "234",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9870",
-      "text": "Edom impide el paso (h7)",
+      "text": "Edom impide el paso",
       "color": "yellow",
       "location": "9265",
       "page": "265",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39435",
-      "text": "TERCERA PARTE: EL PUEBLO EN EL CAMINO ENTRE CADÉS Y MOAB (h5)",
+      "text": "TERCERA PARTE: EL PUEBLO EN EL CAMINO ENTRE CADÉS Y MOAB",
       "color": "yellow",
       "location": "9283",
       "page": "283",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60412",
-      "text": "Muerte de Aarón (h7)",
+      "text": "Muerte de Aarón",
       "color": "yellow",
       "location": "9285",
       "page": "285",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50774",
-      "text": "Exterminio de los habitantes de Arad (h7)",
+      "text": "Exterminio de los habitantes de Arad",
       "color": "yellow",
       "location": "9299",
       "page": "299",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8841",
-      "text": "La serpiente de bronce (h7)",
+      "text": "La serpiente de bronce",
       "color": "yellow",
       "location": "9310",
       "page": "310",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46579",
@@ -5221,163 +5639,179 @@ export const bibleHighlights = [
   },
   {
       "id": "26319",
-      "text": "Desplazamientos por Moab (h7)",
+      "text": "Desplazamientos por Moab",
       "color": "yellow",
       "location": "9325",
       "page": "325",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13878",
-      "text": "Victorias sobre Sijón y Og (h7)",
+      "text": "Victorias sobre Sijón y Og",
       "color": "yellow",
       "location": "9345",
       "page": "345",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35301",
-      "text": "CUARTA PARTE: EL PUEBLO EN LAS LLANURAS DE MOAB (h5)",
+      "text": "CUARTA PARTE: EL PUEBLO EN LAS LLANURAS DE MOAB",
       "color": "yellow",
       "location": "9380",
       "page": "380",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38535",
-      "text": "IX. HISTORIA DE BALAAM (h6)",
+      "text": "IX. HISTORIA DE BALAAM",
       "color": "yellow",
       "location": "9382",
       "page": "382",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6136",
-      "text": "Balac manda llamar a Balaam (h7)",
+      "text": "Balac manda llamar a Balaam",
       "color": "yellow",
       "location": "9383",
       "page": "383",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17849",
-      "text": "La burra de Balaam (h7)",
+      "text": "La burra de Balaam",
       "color": "yellow",
       "location": "9432",
       "page": "432",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58459",
-      "text": "Primer oráculo de Balaam (h7)",
+      "text": "Primer oráculo de Balaam",
       "color": "yellow",
       "location": "9475",
       "page": "475",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49601",
-      "text": "Segundo oráculo de Balaam (h7)",
+      "text": "Segundo oráculo de Balaam",
       "color": "yellow",
       "location": "9508",
       "page": "508",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63569",
-      "text": "Tercer oráculo de Balaam (h7)",
+      "text": "Tercer oráculo de Balaam",
       "color": "yellow",
       "location": "9552",
       "page": "552",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39770",
-      "text": "Cuarto oráculo de Balaam (h7)",
+      "text": "Cuarto oráculo de Balaam",
       "color": "yellow",
       "location": "9580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36863",
-      "text": "Castigo de la idolatría de Israel (h7)",
+      "text": "Castigo de la idolatría de Israel",
       "color": "yellow",
       "location": "9621",
       "page": "621",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2927",
-      "text": "El celo de Pinjás (h7)",
+      "text": "El celo de Pinjás",
       "color": "yellow",
       "location": "9634",
       "page": "634",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15055",
-      "text": "X. NUEVAS DISPOSICIONES Y NORMAS LEGALES (h6)",
+      "text": "X. NUEVAS DISPOSICIONES Y NORMAS LEGALES",
       "color": "yellow",
       "location": "9658",
       "page": "658",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55229",
-      "text": "El censo de Israel en las estepas de Moab (h7)",
+      "text": "El censo de Israel en las estepas de Moab",
       "color": "yellow",
       "location": "9660",
       "page": "660",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44879",
-      "text": "La herencia de las mujeres sin hermanos (h7)",
+      "text": "La herencia de las mujeres sin hermanos",
       "color": "yellow",
       "location": "9765",
       "page": "765",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32604",
-      "text": "Sucesión de Moisés (h7)",
+      "text": "Sucesión de Moisés",
       "color": "yellow",
       "location": "9788",
       "page": "788",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41684",
@@ -5389,123 +5823,135 @@ export const bibleHighlights = [
   },
   {
       "id": "52530",
-      "text": "Prescripciones sobre sacrificios y ofrendas (h7)",
+      "text": "Prescripciones sobre sacrificios y ofrendas",
       "color": "yellow",
       "location": "9812",
       "page": "812",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47613",
-      "text": "Sacrificio diario (h7)",
+      "text": "Sacrificio diario",
       "color": "yellow",
       "location": "9819",
       "page": "819",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61258",
-      "text": "Sacrificio del sábado (h7)",
+      "text": "Sacrificio del sábado",
       "color": "yellow",
       "location": "9831",
       "page": "831",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46237",
-      "text": "Los días de luna nueva (h7)",
+      "text": "Los días de luna nueva",
       "color": "yellow",
       "location": "9836",
       "page": "836",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37941",
-      "text": "Los Ácimos (h7)",
+      "text": "Los Ácimos",
       "color": "yellow",
       "location": "9847",
       "page": "847",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7753",
-      "text": "La Fiesta de las Semanas (h7)",
+      "text": "La Fiesta de las Semanas",
       "color": "yellow",
       "location": "9862",
       "page": "862",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7267",
-      "text": "El Día del Clamor (h7)",
+      "text": "El Día del Clamor",
       "color": "yellow",
       "location": "9872",
       "page": "872",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55923",
-      "text": "El Día de la Expiación (h7)",
+      "text": "El Día de la Expiación",
       "color": "yellow",
       "location": "9886",
       "page": "886",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14200",
-      "text": "La Fiesta de los Tabernáculos (h7)",
+      "text": "La Fiesta de los Tabernáculos",
       "color": "yellow",
       "location": "9895",
       "page": "895",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2595",
-      "text": "Normas sobre los votos (h7)",
+      "text": "Normas sobre los votos",
       "color": "yellow",
       "location": "9941",
       "page": "941",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54468",
-      "text": "XI. PREPARACIÓN PARA LA ENTRADA EN LA TIERRA PROMETIDA (h6)",
+      "text": "XI. PREPARACIÓN PARA LA ENTRADA EN LA TIERRA PROMETIDA",
       "color": "yellow",
       "location": "9975",
       "page": "975",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11169",
-      "text": "Venganza de Israel contra Madián: reparto del botín (h7)",
+      "text": "Venganza de Israel contra Madián: reparto del botín",
       "color": "yellow",
       "location": "9977",
       "page": "977",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26047",
@@ -5517,83 +5963,91 @@ export const bibleHighlights = [
   },
   {
       "id": "16225",
-      "text": "Etapas de la peregrinación en el desierto (h7)",
+      "text": "Etapas de la peregrinación en el desierto",
       "color": "yellow",
       "location": "10142",
       "page": "142",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34182",
-      "text": "Ley del anatema para la conquista de Canaán (h7)",
+      "text": "Ley del anatema para la conquista de Canaán",
       "color": "yellow",
       "location": "10208",
       "page": "208",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21613",
-      "text": "Las fronteras de la tierra prometida (h7)",
+      "text": "Las fronteras de la tierra prometida",
       "color": "yellow",
       "location": "10223",
       "page": "223",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23906",
-      "text": "Los encargados de repartir la Tierra (h7)",
+      "text": "Los encargados de repartir la Tierra",
       "color": "yellow",
       "location": "10254",
       "page": "254",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21788",
-      "text": "Ciudades para los levitas (h7)",
+      "text": "Ciudades para los levitas",
       "color": "yellow",
       "location": "10273",
       "page": "273",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22918",
-      "text": "Ciudades de refugio (h7)",
+      "text": "Ciudades de refugio",
       "color": "yellow",
       "location": "10294",
       "page": "294",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53707",
-      "text": "Leyes sobre las herencias de las mujeres (h7)",
+      "text": "Leyes sobre las herencias de las mujeres",
       "color": "yellow",
       "location": "10337",
       "page": "337",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6175",
-      "text": "DEUTERONOMIO (h4)",
+      "text": "DEUTERONOMIO",
       "color": "yellow",
       "location": "10367",
       "page": "367",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13878",
@@ -5661,123 +6115,135 @@ export const bibleHighlights = [
   },
   {
       "id": "20766",
-      "text": "INTRODUCCIÓN (h5)",
+      "text": "INTRODUCCIÓN",
       "color": "yellow",
       "location": "10416",
       "page": "416",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44286",
-      "text": "PRIMERA PARTE: PRIMER DISCURSO DE MOISÉS: INTRODUCCIÓN HISTÓRICA (h5)",
+      "text": "PRIMERA PARTE: PRIMER DISCURSO DE MOISÉS: INTRODUCCIÓN HISTÓRICA",
       "color": "yellow",
       "location": "10430",
       "page": "430",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46047",
-      "text": "I. RESUMEN HISTÓRICO DEL ÉXODO (h6)",
+      "text": "I. RESUMEN HISTÓRICO DEL ÉXODO",
       "color": "yellow",
       "location": "10431",
       "page": "431",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20895",
-      "text": "Partida del Horeb﻿–﻿Sinaí (h7)",
+      "text": "Partida del Horeb﻿–﻿Sinaí",
       "color": "yellow",
       "location": "10433",
       "page": "433",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56468",
-      "text": "Institución de Jueces (h7)",
+      "text": "Institución de Jueces",
       "color": "yellow",
       "location": "10441",
       "page": "441",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58248",
-      "text": "Rebelión y castigo del pueblo (h7)",
+      "text": "Rebelión y castigo del pueblo",
       "color": "yellow",
       "location": "10458",
       "page": "458",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37515",
-      "text": "Desde Cadés a Transjordania (h7)",
+      "text": "Desde Cadés a Transjordania",
       "color": "yellow",
       "location": "10506",
       "page": "506",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6962",
-      "text": "Victoria sobre Sijón (h7)",
+      "text": "Victoria sobre Sijón",
       "color": "yellow",
       "location": "10549",
       "page": "549",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48859",
-      "text": "Victoria sobre Og (h7)",
+      "text": "Victoria sobre Og",
       "color": "yellow",
       "location": "10577",
       "page": "577",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30224",
-      "text": "Distribución de la Transjordania (h7)",
+      "text": "Distribución de la Transjordania",
       "color": "yellow",
       "location": "10600",
       "page": "600",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51653",
-      "text": "Exhortación a Josué (h7)",
+      "text": "Exhortación a Josué",
       "color": "yellow",
       "location": "10619",
       "page": "619",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43492",
-      "text": "Súplica de Moisés (h7)",
+      "text": "Súplica de Moisés",
       "color": "yellow",
       "location": "10625",
       "page": "625",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10563",
@@ -5789,103 +6255,113 @@ export const bibleHighlights = [
   },
   {
       "id": "7281",
-      "text": "Fidelidad a la Ley. Cercanía de Dios a su pueblo. (h7)",
+      "text": "Fidelidad a la Ley. Cercanía de Dios a su pueblo.",
       "color": "yellow",
       "location": "10639",
       "page": "639",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6610",
-      "text": "Revelación en el Horeb (h7)",
+      "text": "Revelación en el Horeb",
       "color": "yellow",
       "location": "10659",
       "page": "659",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11528",
-      "text": "Condena y castigo de la idolatría (h7)",
+      "text": "Condena y castigo de la idolatría",
       "color": "yellow",
       "location": "10672",
       "page": "672",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8869",
-      "text": "Singular providencia del Señor con su pueblo (h7)",
+      "text": "Singular providencia del Señor con su pueblo",
       "color": "yellow",
       "location": "10702",
       "page": "702",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22918",
-      "text": "Ciudades de refugio (h7)",
+      "text": "Ciudades de refugio",
       "color": "yellow",
       "location": "10721",
       "page": "721",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48328",
-      "text": "SEGUNDA PARTE: SEGUNDO DISCURSO DE MOISÉS: LA LEY (h5)",
+      "text": "SEGUNDA PARTE: SEGUNDO DISCURSO DE MOISÉS: LA LEY",
       "color": "yellow",
       "location": "10727",
       "page": "727",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39663",
-      "text": "Encuadramiento histórico y geográfico (h7)",
+      "text": "Encuadramiento histórico y geográfico",
       "color": "yellow",
       "location": "10729",
       "page": "729",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38149",
-      "text": "III. EL DECÁLOGO (h6)",
+      "text": "III. EL DECÁLOGO",
       "color": "yellow",
       "location": "10741",
       "page": "741",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42464",
-      "text": "El Señor, el Dios único (h7)",
+      "text": "El Señor, el Dios único",
       "color": "yellow",
       "location": "10811",
       "page": "811",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59461",
-      "text": "La Shemá (h7)",
+      "text": "La Shemá",
       "color": "yellow",
       "location": "10822",
       "page": "822",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49392",
@@ -5897,73 +6373,80 @@ export const bibleHighlights = [
   },
   {
       "id": "43104",
-      "text": "Exhortación a la fidelidad (h7)",
+      "text": "Exhortación a la fidelidad",
       "color": "yellow",
       "location": "10831",
       "page": "831",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63173",
-      "text": "IV. ISRAEL, EL PUEBLO CONSAGRADO AL SEÑOR (h6)",
+      "text": "IV. ISRAEL, EL PUEBLO CONSAGRADO AL SEÑOR",
       "color": "yellow",
       "location": "10862",
       "page": "862",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28673",
-      "text": "Anatema para los cananeos (h7)",
+      "text": "Anatema para los cananeos",
       "color": "yellow",
       "location": "10863",
       "page": "863",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53434",
-      "text": "Elección divina de Israel (h7)",
+      "text": "Elección divina de Israel",
       "color": "yellow",
       "location": "10879",
       "page": "879",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25540",
-      "text": "Confianza en Dios (h7)",
+      "text": "Confianza en Dios",
       "color": "yellow",
       "location": "10899",
       "page": "899",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44077",
-      "text": "V. EL DON DE LA TIERRA PROMETIDA (h6)",
+      "text": "V. EL DON DE LA TIERRA PROMETIDA",
       "color": "yellow",
       "location": "10917",
       "page": "917",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14102",
-      "text": "Forja del temple de Israel en el desierto (h7)",
+      "text": "Forja del temple de Israel en el desierto",
       "color": "yellow",
       "location": "10919",
       "page": "919",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39588",
@@ -5983,63 +6466,69 @@ export const bibleHighlights = [
   },
   {
       "id": "15077",
-      "text": "No olvidar a Dios en la prosperidad de la tierra prometida (h7)",
+      "text": "No olvidar a Dios en la prosperidad de la tierra prometida",
       "color": "yellow",
       "location": "10934",
       "page": "934",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18122",
-      "text": "La victoria, don del Señor (h7)",
+      "text": "La victoria, don del Señor",
       "color": "yellow",
       "location": "10959",
       "page": "959",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43334",
-      "text": "Infidelidades de Israel. Oración de Moisés (h7)",
+      "text": "Infidelidades de Israel. Oración de Moisés",
       "color": "yellow",
       "location": "10977",
       "page": "977",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3117",
-      "text": "Inciso histórico: Arca de la Alianza y elección de Leví (h7)",
+      "text": "Inciso histórico: Arca de la Alianza y elección de Leví",
       "color": "yellow",
       "location": "11020",
       "page": "020",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51873",
-      "text": "Nueva exhortación a la fidelidad (h7)",
+      "text": "Nueva exhortación a la fidelidad",
       "color": "yellow",
       "location": "11045",
       "page": "045",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12262",
-      "text": "Nueva evocación del Éxodo (h7)",
+      "text": "Nueva evocación del Éxodo",
       "color": "yellow",
       "location": "11065",
       "page": "065",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30468",
@@ -6051,93 +6540,102 @@ export const bibleHighlights = [
   },
   {
       "id": "1187",
-      "text": "La tierra prometida (h7)",
+      "text": "La tierra prometida",
       "color": "yellow",
       "location": "11081",
       "page": "081",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51765",
-      "text": "Nueva exhortación (h7)",
+      "text": "Nueva exhortación",
       "color": "yellow",
       "location": "11100",
       "page": "100",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41340",
-      "text": "Rito de bendición y maldición (h7)",
+      "text": "Rito de bendición y maldición",
       "color": "yellow",
       "location": "11116",
       "page": "116",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33179",
-      "text": "VI. CÓDIGO DEUTERONÓMICO (h6)",
+      "text": "VI. CÓDIGO DEUTERONÓMICO",
       "color": "yellow",
       "location": "11129",
       "page": "129",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29393",
-      "text": "1. DEBERES CON DIOS (h7)",
+      "text": "1. DEBERES CON DIOS",
       "color": "yellow",
       "location": "11131",
       "page": "131",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20587",
-      "text": "Ley del Santuario único (h8)",
+      "text": "Ley del Santuario único",
       "color": "yellow",
       "location": "11132",
       "page": "132",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39682",
-      "text": "Normas para los sacrificios (h8)",
+      "text": "Normas para los sacrificios",
       "color": "yellow",
       "location": "11159",
       "page": "159",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60496",
-      "text": "Prevención contra los cananeos (h8)",
+      "text": "Prevención contra los cananeos",
       "color": "yellow",
       "location": "11189",
       "page": "189",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9611",
-      "text": "honor de sus dioses. Castigo para los que incitan a la apostasía (h8)",
+      "text": "honor de sus dioses. Castigo para los que incitan a la apostasía",
       "color": "yellow",
       "location": "11196",
       "page": "196",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41515",
@@ -6165,133 +6663,146 @@ export const bibleHighlights = [
   },
   {
       "id": "13388",
-      "text": "Prohibición de algunos ritos fúnebres (h8)",
+      "text": "Prohibición de algunos ritos fúnebres",
       "color": "yellow",
       "location": "11238",
       "page": "238",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57062",
-      "text": "Animales puros e impuros (h8)",
+      "text": "Animales puros e impuros",
       "color": "yellow",
       "location": "11245",
       "page": "245",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62896",
-      "text": "Los diezmos (h8)",
+      "text": "Los diezmos",
       "color": "yellow",
       "location": "11272",
       "page": "272",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25640",
-      "text": "El año de la remisión (h8)",
+      "text": "El año de la remisión",
       "color": "yellow",
       "location": "11288",
       "page": "288",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61974",
-      "text": "Los esclavos (h8)",
+      "text": "Los esclavos",
       "color": "yellow",
       "location": "11312",
       "page": "312",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40828",
-      "text": "Los primogénitos de los ganados (h8)",
+      "text": "Los primogénitos de los ganados",
       "color": "yellow",
       "location": "11325",
       "page": "325",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19325",
-      "text": "LAS TRES GRANDES FIESTAS (h7)",
+      "text": "LAS TRES GRANDES FIESTAS",
       "color": "yellow",
       "location": "11335",
       "page": "335",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "627",
-      "text": "1. La Pascua (h8)",
+      "text": "1. La Pascua",
       "color": "yellow",
       "location": "11336",
       "page": "336",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13531",
-      "text": "2. Fiesta de las Semanas (h8)",
+      "text": "2. Fiesta de las Semanas",
       "color": "yellow",
       "location": "11355",
       "page": "355",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56332",
-      "text": "3. Fiesta de los Tabernáculos (h8)",
+      "text": "3. Fiesta de los Tabernáculos",
       "color": "yellow",
       "location": "11364",
       "page": "364",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50730",
-      "text": "2. INSTITUCIONES DE ISRAEL (h7)",
+      "text": "2. INSTITUCIONES DE ISRAEL",
       "color": "yellow",
       "location": "11376",
       "page": "376",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21556",
-      "text": "Los Jueces (h8)",
+      "text": "Los Jueces",
       "color": "yellow",
       "location": "11377",
       "page": "377",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22236",
-      "text": "Los Reyes (h8)",
+      "text": "Los Reyes",
       "color": "yellow",
       "location": "11414",
       "page": "414",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9699",
@@ -6303,13 +6814,14 @@ export const bibleHighlights = [
   },
   {
       "id": "23578",
-      "text": "Los Profetas (h8)",
+      "text": "Los Profetas",
       "color": "yellow",
       "location": "11447",
       "page": "447",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40126",
@@ -6321,133 +6833,146 @@ export const bibleHighlights = [
   },
   {
       "id": "17035",
-      "text": "3. DERECHOS SOCIALES (h7)",
+      "text": "3. DERECHOS SOCIALES",
       "color": "yellow",
       "location": "11471",
       "page": "471",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22918",
-      "text": "Ciudades de refugio (h8)",
+      "text": "Ciudades de refugio",
       "color": "yellow",
       "location": "11472",
       "page": "472",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55176",
-      "text": "Límites de las propiedades (h8)",
+      "text": "Límites de las propiedades",
       "color": "yellow",
       "location": "11500",
       "page": "500",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33832",
-      "text": "Los testigos (h8)",
+      "text": "Los testigos",
       "color": "yellow",
       "location": "11503",
       "page": "503",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33942",
-      "text": "Ley del talión (h8)",
+      "text": "Ley del talión",
       "color": "yellow",
       "location": "11514",
       "page": "514",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37675",
-      "text": "4. NORMATIVA JURÍDICA Y MORAL (h7)",
+      "text": "4. NORMATIVA JURÍDICA Y MORAL",
       "color": "yellow",
       "location": "11517",
       "page": "517",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12281",
-      "text": "Leyes de guerra (h8)",
+      "text": "Leyes de guerra",
       "color": "yellow",
       "location": "11518",
       "page": "518",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22982",
-      "text": "Expiación por homicidio de autor desconocido (h8)",
+      "text": "Expiación por homicidio de autor desconocido",
       "color": "yellow",
       "location": "11557",
       "page": "557",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19015",
-      "text": "Cautivos de guerra (h8)",
+      "text": "Cautivos de guerra",
       "color": "yellow",
       "location": "11576",
       "page": "576",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27075",
-      "text": "Derechos del primogénito (h8)",
+      "text": "Derechos del primogénito",
       "color": "yellow",
       "location": "11585",
       "page": "585",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13338",
-      "text": "El hijo rebelde (h8)",
+      "text": "El hijo rebelde",
       "color": "yellow",
       "location": "11592",
       "page": "592",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9515",
-      "text": "Cadáver del ajusticiado (h8)",
+      "text": "Cadáver del ajusticiado",
       "color": "yellow",
       "location": "11599",
       "page": "599",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21541",
-      "text": "Ordenanzas varias (h8)",
+      "text": "Ordenanzas varias",
       "color": "yellow",
       "location": "11605",
       "page": "605",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46497",
@@ -6459,63 +6984,69 @@ export const bibleHighlights = [
   },
   {
       "id": "34621",
-      "text": "Leyes sobre el matrimonio (h8)",
+      "text": "Leyes sobre el matrimonio",
       "color": "yellow",
       "location": "11630",
       "page": "630",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9626",
-      "text": "Impedimentos para el culto (h8)",
+      "text": "Impedimentos para el culto",
       "color": "yellow",
       "location": "11666",
       "page": "666",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17020",
-      "text": "Pureza del campamento (h8)",
+      "text": "Pureza del campamento",
       "color": "yellow",
       "location": "11681",
       "page": "681",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29309",
-      "text": "Otras prescripciones (h8)",
+      "text": "Otras prescripciones",
       "color": "yellow",
       "location": "11692",
       "page": "692",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6323",
-      "text": "El libelo de repudio (h8)",
+      "text": "El libelo de repudio",
       "color": "yellow",
       "location": "11713",
       "page": "713",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60488",
-      "text": "Medidas humanitarias (h8)",
+      "text": "Medidas humanitarias",
       "color": "yellow",
       "location": "11725",
       "page": "725",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60550",
@@ -6527,183 +7058,201 @@ export const bibleHighlights = [
   },
   {
       "id": "29294",
-      "text": "Ley del levirato (h8)",
+      "text": "Ley del levirato",
       "color": "yellow",
       "location": "11768",
       "page": "768",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6274",
-      "text": "Honestidad y honradez (h8)",
+      "text": "Honestidad y honradez",
       "color": "yellow",
       "location": "11780",
       "page": "780",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35530",
-      "text": "Los amalecitas (h8)",
+      "text": "Los amalecitas",
       "color": "yellow",
       "location": "11791",
       "page": "791",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63081",
-      "text": "Las primicias (h8)",
+      "text": "Las primicias",
       "color": "yellow",
       "location": "11798",
       "page": "798",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62673",
-      "text": "El diezmo trienal (h8)",
+      "text": "El diezmo trienal",
       "color": "yellow",
       "location": "11822",
       "page": "822",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32119",
-      "text": "Israel, el pueblo del Señor (h8)",
+      "text": "Israel, el pueblo del Señor",
       "color": "yellow",
       "location": "11832",
       "page": "832",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1599",
-      "text": "VII. DISCURSOS CONCLUSIVOS. ISRAEL, PUEBLO DE DIOS (h6)",
+      "text": "VII. DISCURSOS CONCLUSIVOS. ISRAEL, PUEBLO DE DIOS",
       "color": "yellow",
       "location": "11842",
       "page": "842",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54211",
-      "text": "Instrucciones sobre la ley y el culto (h7)",
+      "text": "Instrucciones sobre la ley y el culto",
       "color": "yellow",
       "location": "11844",
       "page": "844",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19205",
-      "text": "Maldiciones por la infidelidad (h7)",
+      "text": "Maldiciones por la infidelidad",
       "color": "yellow",
       "location": "11871",
       "page": "871",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44328",
-      "text": "Bendiciones por la fidelidad (h7)",
+      "text": "Bendiciones por la fidelidad",
       "color": "yellow",
       "location": "11897",
       "page": "897",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10779",
-      "text": "Otras maldiciones (h7)",
+      "text": "Otras maldiciones",
       "color": "yellow",
       "location": "11929",
       "page": "929",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21401",
-      "text": "TERCERA PARTE: TERCER DISCURSO DE MOISÉS: LA ALIANZA DE MOAB (h5)",
+      "text": "TERCERA PARTE: TERCER DISCURSO DE MOISÉS: LA ALIANZA DE MOAB",
       "color": "yellow",
       "location": "12033",
       "page": "033",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57230",
-      "text": "Nuevo recuerdo del Éxodo (h7)",
+      "text": "Nuevo recuerdo del Éxodo",
       "color": "yellow",
       "location": "12038",
       "page": "038",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33407",
-      "text": "Perennidad de la Alianza (h7)",
+      "text": "Perennidad de la Alianza",
       "color": "yellow",
       "location": "12057",
       "page": "057",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29045",
-      "text": "Amenazas de destierro (h7)",
+      "text": "Amenazas de destierro",
       "color": "yellow",
       "location": "12080",
       "page": "080",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35875",
-      "text": "Conversión del pueblo y perdón de Dios (h7)",
+      "text": "Conversión del pueblo y perdón de Dios",
       "color": "yellow",
       "location": "12096",
       "page": "096",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8230",
-      "text": "La Ley de Dios asequible a todos (h7)",
+      "text": "La Ley de Dios asequible a todos",
       "color": "yellow",
       "location": "12121",
       "page": "121",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57770",
-      "text": "Israel ante la vida y la muerte: los dos caminos (h7)",
+      "text": "Israel ante la vida y la muerte: los dos caminos",
       "color": "yellow",
       "location": "12129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14528",
@@ -6715,33 +7264,36 @@ export const bibleHighlights = [
   },
   {
       "id": "48699",
-      "text": "CONCLUSIÓN HISTÓRICA (h5)",
+      "text": "CONCLUSIÓN HISTÓRICA",
       "color": "yellow",
       "location": "12143",
       "page": "143",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31511",
-      "text": "Misión de Josué (h7)",
+      "text": "Misión de Josué",
       "color": "yellow",
       "location": "12144",
       "page": "144",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31896",
-      "text": "Lectura periódica de la Ley (h7)",
+      "text": "Lectura periódica de la Ley",
       "color": "yellow",
       "location": "12163",
       "page": "163",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39925",
@@ -6753,123 +7305,135 @@ export const bibleHighlights = [
   },
   {
       "id": "11610",
-      "text": "Futura apostasía de Israel (h7)",
+      "text": "Futura apostasía de Israel",
       "color": "yellow",
       "location": "12175",
       "page": "175",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61936",
-      "text": "Cántico del Testimonio (h7)",
+      "text": "Cántico del Testimonio",
       "color": "yellow",
       "location": "12187",
       "page": "187",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49403",
-      "text": "La Ley junto al Arca (h7)",
+      "text": "La Ley junto al Arca",
       "color": "yellow",
       "location": "12199",
       "page": "199",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47567",
-      "text": "Cántico de Moisés (h7)",
+      "text": "Cántico de Moisés",
       "color": "yellow",
       "location": "12214",
       "page": "214",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25775",
-      "text": "La Ley es la vida (h7)",
+      "text": "La Ley es la vida",
       "color": "yellow",
       "location": "12344",
       "page": "344",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56298",
-      "text": "Anuncio de la muerte de Moisés (h7)",
+      "text": "Anuncio de la muerte de Moisés",
       "color": "yellow",
       "location": "12352",
       "page": "352",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35486",
-      "text": "Bendición de Moisés (h7)",
+      "text": "Bendición de Moisés",
       "color": "yellow",
       "location": "12362",
       "page": "362",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15740",
-      "text": "Muerte de Moisés (h7)",
+      "text": "Muerte de Moisés",
       "color": "yellow",
       "location": "12461",
       "page": "461",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62825",
-      "text": "Elogio de Moisés (h7)",
+      "text": "Elogio de Moisés",
       "color": "yellow",
       "location": "12481",
       "page": "481",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11521",
-      "text": "LIBROS HISTÓRICOS (h2)",
+      "text": "LIBROS HISTÓRICOS",
       "color": "yellow",
       "location": "12487",
       "page": "487",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63359",
-      "text": "HISTORIA DEUTERONOMISTA (h3)",
+      "text": "HISTORIA DEUTERONOMISTA",
       "color": "yellow",
       "location": "12490",
       "page": "490",
       "note": ".h3",
       "header": "\n####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2864",
-      "text": "JOSUÉ (h4)",
+      "text": "JOSUÉ",
       "color": "yellow",
       "location": "12493",
       "page": "493",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -6881,23 +7445,25 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "PRÓLOGO (h5)",
+      "text": "PRÓLOGO",
       "color": "yellow",
       "location": "12531",
       "page": "531",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49003",
-      "text": "Josué, sucesor de Moisés (h7)",
+      "text": "Josué, sucesor de Moisés",
       "color": "yellow",
       "location": "12533",
       "page": "533",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32176",
@@ -6909,193 +7475,212 @@ export const bibleHighlights = [
   },
   {
       "id": "32158",
-      "text": "La tribus de Transjordania ayudan a tomar posesión de la tierra (h7)",
+      "text": "La tribus de Transjordania ayudan a tomar posesión de la tierra",
       "color": "yellow",
       "location": "12553",
       "page": "553",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34407",
-      "text": "I. TOMA DE POSESIÓN DE LA TIERRA PROMETIDA (h5)",
+      "text": "I. TOMA DE POSESIÓN DE LA TIERRA PROMETIDA",
       "color": "yellow",
       "location": "12573",
       "page": "573",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58696",
-      "text": "Envío de los exploradores (h7)",
+      "text": "Envío de los exploradores",
       "color": "yellow",
       "location": "12575",
       "page": "575",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47155",
-      "text": "Preparativos para el paso del Jordán (h7)",
+      "text": "Preparativos para el paso del Jordán",
       "color": "yellow",
       "location": "12631",
       "page": "631",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59172",
-      "text": "Las aguas del Jordán se detienen y pasa el pueblo (h7)",
+      "text": "Las aguas del Jordán se detienen y pasa el pueblo",
       "color": "yellow",
       "location": "12652",
       "page": "652",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32497",
-      "text": "Las doce piedras del Jordán: el monumento de Guilgal (h7)",
+      "text": "Las doce piedras del Jordán: el monumento de Guilgal",
       "color": "yellow",
       "location": "12673",
       "page": "673",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25941",
-      "text": "Circuncisión en Guilgal (h7)",
+      "text": "Circuncisión en Guilgal",
       "color": "yellow",
       "location": "12722",
       "page": "722",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4288",
-      "text": "Celebración de la Pascua en Guilgal (h7)",
+      "text": "Celebración de la Pascua en Guilgal",
       "color": "yellow",
       "location": "12746",
       "page": "746",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14291",
-      "text": "Aparición frente a Jericó (h7)",
+      "text": "Aparición frente a Jericó",
       "color": "yellow",
       "location": "12753",
       "page": "753",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17196",
-      "text": "Instrucciones para la toma de Jericó (h7)",
+      "text": "Instrucciones para la toma de Jericó",
       "color": "yellow",
       "location": "12765",
       "page": "765",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62086",
-      "text": "Toma de Jericó (h7)",
+      "text": "Toma de Jericó",
       "color": "yellow",
       "location": "12792",
       "page": "792",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42959",
-      "text": "Intento fallido de tomar Ay por la prevaricación de Acán (h7)",
+      "text": "Intento fallido de tomar Ay por la prevaricación de Acán",
       "color": "yellow",
       "location": "12828",
       "page": "828",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45696",
-      "text": "Instrucciones para la toma de Ay (h7)",
+      "text": "Instrucciones para la toma de Ay",
       "color": "yellow",
       "location": "12890",
       "page": "890",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40666",
-      "text": "Toma de Ay (h7)",
+      "text": "Toma de Ay",
       "color": "yellow",
       "location": "12924",
       "page": "924",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13414",
-      "text": "Confirmación de la Alianza (h7)",
+      "text": "Confirmación de la Alianza",
       "color": "yellow",
       "location": "12949",
       "page": "949",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20854",
-      "text": "Los reyes del centro y del sur se unen contra Israel (h7)",
+      "text": "Los reyes del centro y del sur se unen contra Israel",
       "color": "yellow",
       "location": "12962",
       "page": "962",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64071",
-      "text": "Alianza de Israel con los gabaonitas (h7)",
+      "text": "Alianza de Israel con los gabaonitas",
       "color": "yellow",
       "location": "12971",
       "page": "971",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10258",
-      "text": "Los reyes del centro y del sur atacan a los gabaonitas (h7)",
+      "text": "Los reyes del centro y del sur atacan a los gabaonitas",
       "color": "yellow",
       "location": "13023",
       "page": "023",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42945",
-      "text": "El sol se detiene (h7)",
+      "text": "El sol se detiene",
       "color": "pink",
       "location": "13045",
       "page": "045",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "36719",
@@ -7107,393 +7692,432 @@ export const bibleHighlights = [
   },
   {
       "id": "47890",
-      "text": "Persecución y exterminio de los reyes del centro y del sur (h7)",
+      "text": "Persecución y exterminio de los reyes del centro y del sur",
       "color": "yellow",
       "location": "13063",
       "page": "063",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52126",
-      "text": "Conquista de los reinos central y meridional (h7)",
+      "text": "Conquista de los reinos central y meridional",
       "color": "yellow",
       "location": "13090",
       "page": "090",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5665",
-      "text": "Los reyes del norte se unen contra Israel (h7)",
+      "text": "Los reyes del norte se unen contra Israel",
       "color": "yellow",
       "location": "13121",
       "page": "121",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22744",
-      "text": "Conquista de la región septentrional (h7)",
+      "text": "Conquista de la región septentrional",
       "color": "yellow",
       "location": "13133",
       "page": "133",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32245",
-      "text": "Relación de territorios conquistados (h7)",
+      "text": "Relación de territorios conquistados",
       "color": "yellow",
       "location": "13153",
       "page": "153",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65470",
-      "text": "Relación de monarcas vencidos (h7)",
+      "text": "Relación de monarcas vencidos",
       "color": "yellow",
       "location": "13170",
       "page": "170",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43121",
-      "text": "II. DISTRIBUCIÓN DE LA TIERRA PROMETIDA (h5)",
+      "text": "II. DISTRIBUCIÓN DE LA TIERRA PROMETIDA",
       "color": "yellow",
       "location": "13210",
       "page": "210",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50668",
-      "text": "Instrucciones para el reparto (h7)",
+      "text": "Instrucciones para el reparto",
       "color": "yellow",
       "location": "13212",
       "page": "212",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15810",
-      "text": "Reparto de Transjordania (h7)",
+      "text": "Reparto de Transjordania",
       "color": "yellow",
       "location": "13229",
       "page": "229",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6961",
-      "text": "La heredad de Rubén (h7)",
+      "text": "La heredad de Rubén",
       "color": "yellow",
       "location": "13244",
       "page": "244",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50744",
-      "text": "La heredad de Gad (h7)",
+      "text": "La heredad de Gad",
       "color": "yellow",
       "location": "13259",
       "page": "259",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58570",
-      "text": "La heredad de Manasés en Transjordania (h7)",
+      "text": "La heredad de Manasés en Transjordania",
       "color": "yellow",
       "location": "13269",
       "page": "269",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26598",
-      "text": "Reparto de las nuevas tierras (h7)",
+      "text": "Reparto de las nuevas tierras",
       "color": "yellow",
       "location": "13281",
       "page": "281",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14204",
-      "text": "Caleb recibe la heredad de Hebrón (h7)",
+      "text": "Caleb recibe la heredad de Hebrón",
       "color": "yellow",
       "location": "13295",
       "page": "295",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49076",
-      "text": "La heredad de Judá (h7)",
+      "text": "La heredad de Judá",
       "color": "yellow",
       "location": "13317",
       "page": "317",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26485",
-      "text": "Reparto de la heredad de los hijos de José (h7)",
+      "text": "Reparto de la heredad de los hijos de José",
       "color": "yellow",
       "location": "13411",
       "page": "411",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38793",
-      "text": "La heredad de Efraím (h7)",
+      "text": "La heredad de Efraím",
       "color": "yellow",
       "location": "13421",
       "page": "421",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5117",
-      "text": "La heredad de Manasés (h7)",
+      "text": "La heredad de Manasés",
       "color": "yellow",
       "location": "13433",
       "page": "433",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33554",
-      "text": "Reparto en Siló del resto del territorio (h7)",
+      "text": "Reparto en Siló del resto del territorio",
       "color": "yellow",
       "location": "13479",
       "page": "479",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33114",
-      "text": "La heredad de Benjamín (h7)",
+      "text": "La heredad de Benjamín",
       "color": "yellow",
       "location": "13502",
       "page": "502",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4256",
-      "text": "La heredad de Simeón (h7)",
+      "text": "La heredad de Simeón",
       "color": "yellow",
       "location": "13535",
       "page": "535",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35345",
-      "text": "La heredad de Zabulón (h7)",
+      "text": "La heredad de Zabulón",
       "color": "yellow",
       "location": "13551",
       "page": "551",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10624",
-      "text": "La heredad de Isacar (h7)",
+      "text": "La heredad de Isacar",
       "color": "yellow",
       "location": "13562",
       "page": "562",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37303",
-      "text": "La heredad de Aser (h7)",
+      "text": "La heredad de Aser",
       "color": "yellow",
       "location": "13572",
       "page": "572",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34552",
-      "text": "La heredad de Neftalí (h7)",
+      "text": "La heredad de Neftalí",
       "color": "yellow",
       "location": "13585",
       "page": "585",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51007",
-      "text": "La heredad de Dan (h7)",
+      "text": "La heredad de Dan",
       "color": "yellow",
       "location": "13597",
       "page": "597",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65314",
-      "text": "Las tribus entregan una heredad a Josué (h7)",
+      "text": "Las tribus entregan una heredad a Josué",
       "color": "yellow",
       "location": "13610",
       "page": "610",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22918",
-      "text": "Ciudades de refugio (h7)",
+      "text": "Ciudades de refugio",
       "color": "yellow",
       "location": "13618",
       "page": "618",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34368",
-      "text": "Ciudades de los levitas (h7)",
+      "text": "Ciudades de los levitas",
       "color": "yellow",
       "location": "13640",
       "page": "640",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1181",
-      "text": "El Señor ha cumplido todas sus promesas (h7)",
+      "text": "El Señor ha cumplido todas sus promesas",
       "color": "yellow",
       "location": "13709",
       "page": "709",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30713",
-      "text": "EPÍLOGO (h5)",
+      "text": "EPÍLOGO",
       "color": "yellow",
       "location": "13717",
       "page": "717",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20298",
-      "text": "Regreso de las tribus de Transjordania (h7)",
+      "text": "Regreso de las tribus de Transjordania",
       "color": "yellow",
       "location": "13719",
       "page": "719",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59805",
-      "text": "El altar «testigo» (h7)",
+      "text": "El altar «testigo»",
       "color": "yellow",
       "location": "13740",
       "page": "740",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43566",
-      "text": "Exhortación de Josué (h7)",
+      "text": "Exhortación de Josué",
       "color": "yellow",
       "location": "13800",
       "page": "800",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40191",
-      "text": "Josué y la renovación de la Alianza (h7)",
+      "text": "Josué y la renovación de la Alianza",
       "color": "yellow",
       "location": "13835",
       "page": "835",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58871",
-      "text": "Muerte y sepultura de Josué (h7)",
+      "text": "Muerte y sepultura de Josué",
       "color": "yellow",
       "location": "13895",
       "page": "895",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7306",
-      "text": "Sepultura de los huesos de José (h7)",
+      "text": "Sepultura de los huesos de José",
       "color": "yellow",
       "location": "13902",
       "page": "902",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6318",
-      "text": "Muerte y sepultura de Eleazar (h7)",
+      "text": "Muerte y sepultura de Eleazar",
       "color": "yellow",
       "location": "13906",
       "page": "906",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51073",
-      "text": "JUECES (h4)",
+      "text": "JUECES",
       "color": "yellow",
       "location": "13910",
       "page": "910",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -7513,133 +8137,146 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "PRÓLOGO (h5)",
+      "text": "PRÓLOGO",
       "color": "yellow",
       "location": "13945",
       "page": "945",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64586",
-      "text": "ISRAEL EN LA TIERRA DE CANAÁN (h6)",
+      "text": "ISRAEL EN LA TIERRA DE CANAÁN",
       "color": "yellow",
       "location": "13946",
       "page": "946",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2821",
-      "text": "¿Quién será el primero en subir a luchar contra los cananeos? (h7)",
+      "text": "¿Quién será el primero en subir a luchar contra los cananeos?",
       "color": "yellow",
       "location": "13948",
       "page": "948",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32930",
-      "text": "Judá lucha por dominar su territorio (h7)",
+      "text": "Judá lucha por dominar su territorio",
       "color": "yellow",
       "location": "13960",
       "page": "960",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26628",
-      "text": "La heredad de Caleb (h7)",
+      "text": "La heredad de Caleb",
       "color": "yellow",
       "location": "13993",
       "page": "993",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47944",
-      "text": "Benjamín lucha por dominar su territorio (h7)",
+      "text": "Benjamín lucha por dominar su territorio",
       "color": "yellow",
       "location": "13996",
       "page": "996",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15496",
-      "text": "La casa de José lucha por dominar su territorio (h7)",
+      "text": "La casa de José lucha por dominar su territorio",
       "color": "yellow",
       "location": "13999",
       "page": "999",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55188",
-      "text": "Las demás tribus luchan por dominar su territorio (h7)",
+      "text": "Las demás tribus luchan por dominar su territorio",
       "color": "yellow",
       "location": "14015",
       "page": "015",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43330",
-      "text": "POSESIÓN DE LA TIERRA DE CANAÁN Y FIDELIDAD A LA ALIANZA (h6)",
+      "text": "POSESIÓN DE LA TIERRA DE CANAÁN Y FIDELIDAD A LA ALIANZA",
       "color": "yellow",
       "location": "14030",
       "page": "030",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37935",
-      "text": "Los habitantes de Canaán permanecen allí porque el pueblo fue infiel a la Alianza (h7)",
+      "text": "Los habitantes de Canaán permanecen allí porque el pueblo fue infiel a la Alianza",
       "color": "yellow",
       "location": "14032",
       "page": "032",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41937",
-      "text": "La generación de Josué fue fiel, pero la nueva generación no conoció al Señor (h7)",
+      "text": "La generación de Josué fue fiel, pero la nueva generación no conoció al Señor",
       "color": "yellow",
       "location": "14045",
       "page": "045",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27599",
-      "text": "Reincidencia de Israel en la infidelidad e insistencia de Dios en salvar a su pueblo (h7)",
+      "text": "Reincidencia de Israel en la infidelidad e insistencia de Dios en salvar a su pueblo",
       "color": "yellow",
       "location": "14056",
       "page": "056",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30129",
-      "text": "Las gentes cananeas que permanecieron en su tierra (h7)",
+      "text": "Las gentes cananeas que permanecieron en su tierra",
       "color": "yellow",
       "location": "14082",
       "page": "082",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39118",
@@ -7651,143 +8288,157 @@ export const bibleHighlights = [
   },
   {
       "id": "7503",
-      "text": "I. OTNIEL, DE LA FAMILIA DE CALEB (h5)",
+      "text": "I. OTNIEL, DE LA FAMILIA DE CALEB",
       "color": "yellow",
       "location": "14096",
       "page": "096",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29928",
-      "text": "Los israelitas hicieron el mal y fueron oprimidos por Cusán Risataim (h6)",
+      "text": "Los israelitas hicieron el mal y fueron oprimidos por Cusán Risataim",
       "color": "yellow",
       "location": "14098",
       "page": "098",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56198",
-      "text": "Otniel vence a Cusán Risataim (h6)",
+      "text": "Otniel vence a Cusán Risataim",
       "color": "yellow",
       "location": "14103",
       "page": "103",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24443",
-      "text": "II. EHUD, DE LA TRIBU DE BENJAMÍN (h5)",
+      "text": "II. EHUD, DE LA TRIBU DE BENJAMÍN",
       "color": "yellow",
       "location": "14109",
       "page": "109",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10279",
-      "text": "Los israelitas hicieron el mal y fueron oprimidos por Eglón (h6)",
+      "text": "Los israelitas hicieron el mal y fueron oprimidos por Eglón",
       "color": "yellow",
       "location": "14111",
       "page": "111",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6110",
-      "text": "Ehud vence a Eglón (h6)",
+      "text": "Ehud vence a Eglón",
       "color": "yellow",
       "location": "14118",
       "page": "118",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48253",
-      "text": "Samgar (h6)",
+      "text": "Samgar",
       "color": "yellow",
       "location": "14149",
       "page": "149",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27107",
-      "text": "III. DÉBORA, DE LA TRIBU DE EFRAÍM (h5)",
+      "text": "III. DÉBORA, DE LA TRIBU DE EFRAÍM",
       "color": "yellow",
       "location": "14153",
       "page": "153",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20005",
-      "text": "Los israelitas hicieron el mal y fueron oprimidos por Yabín (h6)",
+      "text": "Los israelitas hicieron el mal y fueron oprimidos por Yabín",
       "color": "yellow",
       "location": "14155",
       "page": "155",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57260",
-      "text": "Débora vence a Yabín (h6)",
+      "text": "Débora vence a Yabín",
       "color": "yellow",
       "location": "14164",
       "page": "164",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34643",
-      "text": "ANEXO: CANTO DE DÉBORA (h6)",
+      "text": "ANEXO: CANTO DE DÉBORA",
       "color": "yellow",
       "location": "14211",
       "page": "211",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34855",
-      "text": "IV. GEDEÓN﻿–﻿YERUBAAL, DE LA TRIBU DE MANASÉS (h5)",
+      "text": "IV. GEDEÓN﻿–﻿YERUBAAL, DE LA TRIBU DE MANASÉS",
       "color": "yellow",
       "location": "14304",
       "page": "304",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61658",
-      "text": "Los israelitas hicieron el mal y fueron oprimidos por Madián y Amalec (h6)",
+      "text": "Los israelitas hicieron el mal y fueron oprimidos por Madián y Amalec",
       "color": "yellow",
       "location": "14306",
       "page": "306",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17447",
-      "text": "Vocación de Gedeón (h6)",
+      "text": "Vocación de Gedeón",
       "color": "yellow",
       "location": "14327",
       "page": "327",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1216",
@@ -7855,23 +8506,25 @@ export const bibleHighlights = [
   },
   {
       "id": "17391",
-      "text": "Gedeón selecciona a los que lucharán contra Madián y Amalec (h6)",
+      "text": "Gedeón selecciona a los que lucharán contra Madián y Amalec",
       "color": "yellow",
       "location": "14402",
       "page": "402",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63847",
-      "text": "Gedeón vence a Madián y Amalec (h6)",
+      "text": "Gedeón vence a Madián y Amalec",
       "color": "yellow",
       "location": "14428",
       "page": "428",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37490",
@@ -7883,213 +8536,234 @@ export const bibleHighlights = [
   },
   {
       "id": "29462",
-      "text": "Gedeón combate a los fugitivos de Madián y Amalec (h6)",
+      "text": "Gedeón combate a los fugitivos de Madián y Amalec",
       "color": "yellow",
       "location": "14462",
       "page": "462",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34907",
-      "text": "Ancianidad y muerte de Gedeón (h6)",
+      "text": "Ancianidad y muerte de Gedeón",
       "color": "yellow",
       "location": "14538",
       "page": "538",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14930",
-      "text": "ANEXO: ABIMÉLEC, HIJO DE YERUBAAL (h6)",
+      "text": "ANEXO: ABIMÉLEC, HIJO DE YERUBAAL",
       "color": "yellow",
       "location": "14549",
       "page": "549",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12119",
-      "text": "Abimélec intenta ser rey de Siquem (h7)",
+      "text": "Abimélec intenta ser rey de Siquem",
       "color": "yellow",
       "location": "14551",
       "page": "551",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36489",
-      "text": "Rebelión de Siquem contra Abimélec (h7)",
+      "text": "Rebelión de Siquem contra Abimélec",
       "color": "yellow",
       "location": "14607",
       "page": "607",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30439",
-      "text": "Venganza de Abimélec (h7)",
+      "text": "Venganza de Abimélec",
       "color": "yellow",
       "location": "14653",
       "page": "653",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22047",
-      "text": "Muerte de Abimélec (h7)",
+      "text": "Muerte de Abimélec",
       "color": "yellow",
       "location": "14663",
       "page": "663",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29365",
-      "text": "Tolá (h7)",
+      "text": "Tolá",
       "color": "yellow",
       "location": "14676",
       "page": "676",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64958",
-      "text": "Yaír (h7)",
+      "text": "Yaír",
       "color": "yellow",
       "location": "14683",
       "page": "683",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39157",
-      "text": "V. JEFTÉ, DE GALAAD (h5)",
+      "text": "V. JEFTÉ, DE GALAAD",
       "color": "yellow",
       "location": "14690",
       "page": "690",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8474",
-      "text": "Los israelitas hicieron el mal y fueron oprimidos por los amonitas (h6)",
+      "text": "Los israelitas hicieron el mal y fueron oprimidos por los amonitas",
       "color": "yellow",
       "location": "14692",
       "page": "692",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4786",
-      "text": "Elección de Jefté (h6)",
+      "text": "Elección de Jefté",
       "color": "yellow",
       "location": "14714",
       "page": "714",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52903",
-      "text": "Jefté envía mensajeros a los amonitas (h6)",
+      "text": "Jefté envía mensajeros a los amonitas",
       "color": "yellow",
       "location": "14745",
       "page": "745",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26907",
-      "text": "Voto temerario de Jefté (h6)",
+      "text": "Voto temerario de Jefté",
       "color": "yellow",
       "location": "14777",
       "page": "777",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45890",
-      "text": "Jefté vence a los amonitas (h6)",
+      "text": "Jefté vence a los amonitas",
       "color": "yellow",
       "location": "14784",
       "page": "784",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25509",
-      "text": "Jefté sacrifica a su hija en cumplimiento del voto (h6)",
+      "text": "Jefté sacrifica a su hija en cumplimiento del voto",
       "color": "yellow",
       "location": "14789",
       "page": "789",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12500",
-      "text": "Jefté se enfrenta a la tribu de Efraím (h6)",
+      "text": "Jefté se enfrenta a la tribu de Efraím",
       "color": "yellow",
       "location": "14807",
       "page": "807",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12051",
-      "text": "Ibsán (h6)",
+      "text": "Ibsán",
       "color": "yellow",
       "location": "14828",
       "page": "828",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52663",
-      "text": "Elón (h6)",
+      "text": "Elón",
       "color": "yellow",
       "location": "14833",
       "page": "833",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58894",
-      "text": "Abdón (h6)",
+      "text": "Abdón",
       "color": "yellow",
       "location": "14837",
       "page": "837",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16482",
-      "text": "VI. SANSÓN, DE LA TRIBU DE DAN (h5)",
+      "text": "VI. SANSÓN, DE LA TRIBU DE DAN",
       "color": "yellow",
       "location": "14843",
       "page": "843",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48784",
@@ -8101,243 +8775,267 @@ export const bibleHighlights = [
   },
   {
       "id": "43698",
-      "text": "Sansón, nazareo de Dios desde el vientre materno (h6)",
+      "text": "Sansón, nazareo de Dios desde el vientre materno",
       "color": "yellow",
       "location": "14851",
       "page": "851",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48604",
-      "text": "Sansón se casa con una mujer filistea (h6)",
+      "text": "Sansón se casa con una mujer filistea",
       "color": "yellow",
       "location": "14904",
       "page": "904",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34204",
-      "text": "Sansón se enfrenta con los filisteos (h6)",
+      "text": "Sansón se enfrenta con los filisteos",
       "color": "yellow",
       "location": "14956",
       "page": "956",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29781",
-      "text": "Sansón arranca las puertas de Gaza (h6)",
+      "text": "Sansón arranca las puertas de Gaza",
       "color": "yellow",
       "location": "15012",
       "page": "012",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50566",
-      "text": "Dalila seduce a Sansón (h6)",
+      "text": "Dalila seduce a Sansón",
       "color": "yellow",
       "location": "15024",
       "page": "024",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22669",
-      "text": "Muerte de Sansón y matanza de filisteos (h6)",
+      "text": "Muerte de Sansón y matanza de filisteos",
       "color": "yellow",
       "location": "15077",
       "page": "077",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47044",
-      "text": "ANEXO I: UN LEVITA ES BIEN ACOGIDO (h6)",
+      "text": "ANEXO I: UN LEVITA ES BIEN ACOGIDO",
       "color": "yellow",
       "location": "15103",
       "page": "103",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43303",
-      "text": "Micá, un efraimita, acoge a un levita en su casa (h7)",
+      "text": "Micá, un efraimita, acoge a un levita en su casa",
       "color": "yellow",
       "location": "15105",
       "page": "105",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25689",
-      "text": "Los danitas contratan al levita de Micá para su santuario (h7)",
+      "text": "Los danitas contratan al levita de Micá para su santuario",
       "color": "yellow",
       "location": "15136",
       "page": "136",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14018",
-      "text": "ANEXO II: UN LEVITA ES MALTRATADO (h6)",
+      "text": "ANEXO II: UN LEVITA ES MALTRATADO",
       "color": "yellow",
       "location": "15209",
       "page": "209",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5683",
-      "text": "El crimen de Guibeá (h7)",
+      "text": "El crimen de Guibeá",
       "color": "yellow",
       "location": "15211",
       "page": "211",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50611",
-      "text": "Las tribus deciden castigar a los culpables (h7)",
+      "text": "Las tribus deciden castigar a los culpables",
       "color": "yellow",
       "location": "15282",
       "page": "282",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41558",
-      "text": "¿Quién será el primero en subir a luchar contra Benjamín? (h7)",
+      "text": "¿Quién será el primero en subir a luchar contra Benjamín?",
       "color": "yellow",
       "location": "15320",
       "page": "320",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46684",
-      "text": "RUT (h4)",
+      "text": "RUT",
       "color": "yellow",
       "location": "15440",
       "page": "440",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45235",
-      "text": "I. RUT SE ACOGE A LA PROTECCIÓN DEL SEÑOR (h5)",
+      "text": "I. RUT SE ACOGE A LA PROTECCIÓN DEL SEÑOR",
       "color": "yellow",
       "location": "15455",
       "page": "455",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33772",
-      "text": "La familia de Elimélec abandona su tierra (h6)",
+      "text": "La familia de Elimélec abandona su tierra",
       "color": "yellow",
       "location": "15457",
       "page": "457",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53703",
-      "text": "Rut, la moabita, deja su tierra y se marcha a Judá (h6)",
+      "text": "Rut, la moabita, deja su tierra y se marcha a Judá",
       "color": "yellow",
       "location": "15470",
       "page": "470",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26580",
-      "text": "Rut es bien acogida por Booz (h6)",
+      "text": "Rut es bien acogida por Booz",
       "color": "yellow",
       "location": "15506",
       "page": "506",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8234",
-      "text": "II. RUT SE INCORPORA A LA CASA DE ISRAEL (h5)",
+      "text": "II. RUT SE INCORPORA A LA CASA DE ISRAEL",
       "color": "yellow",
       "location": "15551",
       "page": "551",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20824",
-      "text": "Booz, posible «goel» de Rut (h6)",
+      "text": "Booz, posible «goel» de Rut",
       "color": "yellow",
       "location": "15553",
       "page": "553",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61199",
-      "text": "Booz se dispone a asumir su responsabilidad de «goel» (h6)",
+      "text": "Booz se dispone a asumir su responsabilidad de «goel»",
       "color": "yellow",
       "location": "15571",
       "page": "571",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28073",
-      "text": "Booz asume públicamente su responsabilidad de «goel» (h6)",
+      "text": "Booz asume públicamente su responsabilidad de «goel»",
       "color": "yellow",
       "location": "15613",
       "page": "613",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33189",
-      "text": "Matrimonio de Booz y Rut (h6)",
+      "text": "Matrimonio de Booz y Rut",
       "color": "yellow",
       "location": "15650",
       "page": "650",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36207",
-      "text": "Genealogía de David (h6)",
+      "text": "Genealogía de David",
       "color": "yellow",
       "location": "15661",
       "page": "661",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10079",
@@ -8357,43 +9055,47 @@ export const bibleHighlights = [
   },
   {
       "id": "1108",
-      "text": "I. HISTORIA DE SAMUEL. EL ARCA (h5)",
+      "text": "I. HISTORIA DE SAMUEL. EL ARCA",
       "color": "yellow",
       "location": "15714",
       "page": "714",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44546",
-      "text": "Nacimiento de Samuel (h6)",
+      "text": "Nacimiento de Samuel",
       "color": "yellow",
       "location": "15716",
       "page": "716",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48346",
-      "text": "Consagración de Samuel (h6)",
+      "text": "Consagración de Samuel",
       "color": "yellow",
       "location": "15757",
       "page": "757",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48486",
-      "text": "Cántico de Ana (h6)",
+      "text": "Cántico de Ana",
       "color": "yellow",
       "location": "15775",
       "page": "775",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2285",
@@ -8413,243 +9115,267 @@ export const bibleHighlights = [
   },
   {
       "id": "17951",
-      "text": "Los hijos de Elí (h6)",
+      "text": "Los hijos de Elí",
       "color": "yellow",
       "location": "15811",
       "page": "811",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21148",
-      "text": "Castigo de los hijos de Elí (h6)",
+      "text": "Castigo de los hijos de Elí",
       "color": "yellow",
       "location": "15841",
       "page": "841",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41268",
-      "text": "Vocación de Samuel (h6)",
+      "text": "Vocación de Samuel",
       "color": "yellow",
       "location": "15862",
       "page": "862",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29362",
-      "text": "El Arca capturada. Muerte de Elí y sus hijos (h6)",
+      "text": "El Arca capturada. Muerte de Elí y sus hijos",
       "color": "yellow",
       "location": "15918",
       "page": "918",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16851",
-      "text": "El Arca en poder de los filisteos (h6)",
+      "text": "El Arca en poder de los filisteos",
       "color": "yellow",
       "location": "15968",
       "page": "968",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15948",
-      "text": "Regreso del Arca (h6)",
+      "text": "Regreso del Arca",
       "color": "yellow",
       "location": "16000",
       "page": "000",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58328",
-      "text": "Samuel, juez (h6)",
+      "text": "Samuel, juez",
       "color": "yellow",
       "location": "16056",
       "page": "056",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64938",
-      "text": "II. SAMUEL Y SAÚL (h5)",
+      "text": "II. SAMUEL Y SAÚL",
       "color": "yellow",
       "location": "16091",
       "page": "091",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52539",
-      "text": "El pueblo pide un rey (h6)",
+      "text": "El pueblo pide un rey",
       "color": "yellow",
       "location": "16093",
       "page": "093",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23346",
-      "text": "Encuentro de Saúl con Samuel (h6)",
+      "text": "Encuentro de Saúl con Samuel",
       "color": "yellow",
       "location": "16135",
       "page": "135",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26019",
-      "text": "Unción de Saúl (h6)",
+      "text": "Unción de Saúl",
       "color": "yellow",
       "location": "16201",
       "page": "201",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7805",
-      "text": "Saúl entre los profetas (h6)",
+      "text": "Saúl entre los profetas",
       "color": "yellow",
       "location": "16224",
       "page": "224",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53282",
-      "text": "Elección de Saúl como rey (h6)",
+      "text": "Elección de Saúl como rey",
       "color": "yellow",
       "location": "16242",
       "page": "242",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42276",
-      "text": "Victoria de Saúl sobre los amonitas (h6)",
+      "text": "Victoria de Saúl sobre los amonitas",
       "color": "yellow",
       "location": "16268",
       "page": "268",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14662",
-      "text": "Discurso de Samuel (h6)",
+      "text": "Discurso de Samuel",
       "color": "yellow",
       "location": "16307",
       "page": "307",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5181",
-      "text": "Sublevación contra los filisteos (h6)",
+      "text": "Sublevación contra los filisteos",
       "color": "yellow",
       "location": "16361",
       "page": "361",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49149",
-      "text": "Condena solemne de Saúl (h6)",
+      "text": "Condena solemne de Saúl",
       "color": "yellow",
       "location": "16379",
       "page": "379",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43091",
-      "text": "Preparativos para la batalla (h6)",
+      "text": "Preparativos para la batalla",
       "color": "yellow",
       "location": "16401",
       "page": "401",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43010",
-      "text": "Actuación de Jonatán (h6)",
+      "text": "Actuación de Jonatán",
       "color": "yellow",
       "location": "16418",
       "page": "418",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51817",
-      "text": "Batalla contra los filisteos (h6)",
+      "text": "Batalla contra los filisteos",
       "color": "yellow",
       "location": "16452",
       "page": "452",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43551",
-      "text": "Jonatán viola una orden de Saúl (h6)",
+      "text": "Jonatán viola una orden de Saúl",
       "color": "yellow",
       "location": "16472",
       "page": "472",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6953",
-      "text": "Nueva condena de Saúl (h6)",
+      "text": "Nueva condena de Saúl",
       "color": "yellow",
       "location": "16542",
       "page": "542",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60052",
-      "text": "III. SAÚL Y DAVID (h5)",
+      "text": "III. SAÚL Y DAVID",
       "color": "yellow",
       "location": "16623",
       "page": "623",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34797",
-      "text": "Unción de David (h6)",
+      "text": "Unción de David",
       "color": "yellow",
       "location": "16625",
       "page": "625",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24319",
@@ -8661,13 +9387,14 @@ export const bibleHighlights = [
   },
   {
       "id": "49615",
-      "text": "David al servicio de Saúl (h6)",
+      "text": "David al servicio de Saúl",
       "color": "yellow",
       "location": "16664",
       "page": "664",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63329",
@@ -8679,153 +9406,168 @@ export const bibleHighlights = [
   },
   {
       "id": "14985",
-      "text": "David y Goliat (h6)",
+      "text": "David y Goliat",
       "color": "yellow",
       "location": "16686",
       "page": "686",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36847",
-      "text": "Envidia de Saúl (h6)",
+      "text": "Envidia de Saúl",
       "color": "yellow",
       "location": "16818",
       "page": "818",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8594",
-      "text": "David, yerno de Saúl (h6)",
+      "text": "David, yerno de Saúl",
       "color": "yellow",
       "location": "16837",
       "page": "837",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47611",
-      "text": "Fuga de David (h6)",
+      "text": "Fuga de David",
       "color": "yellow",
       "location": "16870",
       "page": "870",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62253",
-      "text": "Mical ayuda a David (h6)",
+      "text": "Mical ayuda a David",
       "color": "yellow",
       "location": "16894",
       "page": "894",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21874",
-      "text": "David es protegido por el Señor (h6)",
+      "text": "David es protegido por el Señor",
       "color": "yellow",
       "location": "16910",
       "page": "910",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13816",
-      "text": "David y Jonatán (h6)",
+      "text": "David y Jonatán",
       "color": "yellow",
       "location": "16927",
       "page": "927",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33755",
-      "text": "David en Nob y Gat (h6)",
+      "text": "David en Nob y Gat",
       "color": "yellow",
       "location": "17022",
       "page": "022",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15406",
-      "text": "Saúl y los sacerdotes de Nob (h6)",
+      "text": "Saúl y los sacerdotes de Nob",
       "color": "yellow",
       "location": "17059",
       "page": "059",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8872",
-      "text": "Persecución de Saúl a David (h6)",
+      "text": "Persecución de Saúl a David",
       "color": "yellow",
       "location": "17114",
       "page": "114",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42072",
-      "text": "Visita de Jonatán en el desierto de Zif (h6)",
+      "text": "Visita de Jonatán en el desierto de Zif",
       "color": "yellow",
       "location": "17152",
       "page": "152",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40497",
-      "text": "Nueva persecución (h6)",
+      "text": "Nueva persecución",
       "color": "yellow",
       "location": "17161",
       "page": "161",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39781",
-      "text": "Saúl y David en la cueva (h6)",
+      "text": "Saúl y David en la cueva",
       "color": "yellow",
       "location": "17183",
       "page": "183",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23514",
-      "text": "David y Abigaíl (h6)",
+      "text": "David y Abigaíl",
       "color": "yellow",
       "location": "17230",
       "page": "230",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13763",
-      "text": "Último encuentro entre Saúl y David (h6)",
+      "text": "Último encuentro entre Saúl y David",
       "color": "yellow",
       "location": "17321",
       "page": "321",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14390",
@@ -8837,53 +9579,58 @@ export const bibleHighlights = [
   },
   {
       "id": "56369",
-      "text": "Saúl y el espectro de Samuel (h6)",
+      "text": "Saúl y el espectro de Samuel",
       "color": "yellow",
       "location": "17413",
       "page": "413",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32617",
-      "text": "David, rechazado por los filisteos (h6)",
+      "text": "David, rechazado por los filisteos",
       "color": "yellow",
       "location": "17479",
       "page": "479",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36577",
-      "text": "David contra los amalecitas (h6)",
+      "text": "David contra los amalecitas",
       "color": "yellow",
       "location": "17510",
       "page": "510",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58273",
-      "text": "Muerte de Saúl (h6)",
+      "text": "Muerte de Saúl",
       "color": "yellow",
       "location": "17576",
       "page": "576",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27333",
-      "text": "SEGUNDO LIBRO DE SAMUEL (h4)",
+      "text": "SEGUNDO LIBRO DE SAMUEL",
       "color": "yellow",
       "location": "17604",
       "page": "604",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14135",
@@ -8895,43 +9642,47 @@ export const bibleHighlights = [
   },
   {
       "id": "18698",
-      "text": "Noticia de la muerte de Saúl (h6)",
+      "text": "Noticia de la muerte de Saúl",
       "color": "yellow",
       "location": "17643",
       "page": "643",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60541",
-      "text": "Elegía sobre Saúl y Jonatán (h6)",
+      "text": "Elegía sobre Saúl y Jonatán",
       "color": "yellow",
       "location": "17682",
       "page": "682",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18713",
-      "text": "IV. DAVID, REY (h5)",
+      "text": "IV. DAVID, REY",
       "color": "yellow",
       "location": "17713",
       "page": "713",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3078",
-      "text": "Unción de David en Hebrón como rey de Judá (h6)",
+      "text": "Unción de David en Hebrón como rey de Judá",
       "color": "yellow",
       "location": "17714",
       "page": "714",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2574",
@@ -8951,13 +9702,14 @@ export const bibleHighlights = [
   },
   {
       "id": "28783",
-      "text": "PRIMER LIBRO DE LOS REYES (h4)",
+      "text": "PRIMER LIBRO DE LOS REYES",
       "color": "yellow",
       "location": "19287",
       "page": "287",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12850",
@@ -8985,93 +9737,102 @@ export const bibleHighlights = [
   },
   {
       "id": "25012",
-      "text": "PRIMERA PARTE: EL REY SALOMÓN SUCESOR DE DAVID (h5)",
+      "text": "PRIMERA PARTE: EL REY SALOMÓN SUCESOR DE DAVID",
       "color": "yellow",
       "location": "19322",
       "page": "322",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17205",
-      "text": "I. MUERTE DE DAVID Y SUBIDA DE SALOMÓN AL TRONO (h6)",
+      "text": "I. MUERTE DE DAVID Y SUBIDA DE SALOMÓN AL TRONO",
       "color": "yellow",
       "location": "19324",
       "page": "324",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26474",
-      "text": "A. SALOMÓN APOYADO POR NATÁN FRENTE A ADONÍAS (h7)",
+      "text": "A. SALOMÓN APOYADO POR NATÁN FRENTE A ADONÍAS",
       "color": "yellow",
       "location": "19326",
       "page": "326",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2429",
-      "text": "Vejez de David (h8)",
+      "text": "Vejez de David",
       "color": "yellow",
       "location": "19328",
       "page": "328",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6995",
-      "text": "Pretensión de Adonías al trono (h8)",
+      "text": "Pretensión de Adonías al trono",
       "color": "yellow",
       "location": "19339",
       "page": "339",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32667",
-      "text": "Intervención de Natán y Betsabé ante David (h8)",
+      "text": "Intervención de Natán y Betsabé ante David",
       "color": "yellow",
       "location": "19352",
       "page": "352",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61671",
-      "text": "Unción de Salomón (h8)",
+      "text": "Unción de Salomón",
       "color": "yellow",
       "location": "19394",
       "page": "394",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30328",
-      "text": "B. CONSOLIDACIÓN DE SALOMÓN EN EL TRONO (h7)",
+      "text": "B. CONSOLIDACIÓN DE SALOMÓN EN EL TRONO",
       "color": "yellow",
       "location": "19444",
       "page": "444",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6555",
-      "text": "Instrucciones de David antes de morir (h8)",
+      "text": "Instrucciones de David antes de morir",
       "color": "yellow",
       "location": "19445",
       "page": "445",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43777",
@@ -9195,183 +9956,201 @@ export const bibleHighlights = [
   },
   {
       "id": "59093",
-      "text": "SEGUNDO LIBRO DE LOS REYES (h4)",
+      "text": "SEGUNDO LIBRO DE LOS REYES",
       "color": "yellow",
       "location": "21180",
       "page": "180",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60341",
-      "text": "E. ELÍAS Y EL REY OCOZÍAS (h7)",
+      "text": "E. ELÍAS Y EL REY OCOZÍAS",
       "color": "yellow",
       "location": "21219",
       "page": "219",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60802",
-      "text": "Envío de Elías por parte de Dios (h8)",
+      "text": "Envío de Elías por parte de Dios",
       "color": "yellow",
       "location": "21221",
       "page": "221",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59659",
-      "text": "Intento inútil del rey de apresar a Elías (h8)",
+      "text": "Intento inútil del rey de apresar a Elías",
       "color": "yellow",
       "location": "21235",
       "page": "235",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49893",
-      "text": "Castigo de Ocozías por consultar a Baal Zebub (h8)",
+      "text": "Castigo de Ocozías por consultar a Baal Zebub",
       "color": "yellow",
       "location": "21266",
       "page": "266",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30639",
-      "text": "V. REYES EN LOS DIAS DE ELISEO (h6)",
+      "text": "V. REYES EN LOS DIAS DE ELISEO",
       "color": "yellow",
       "location": "21276",
       "page": "276",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29363",
-      "text": "A. ELISEO, HEREDERO DEL ESPÍRITU DE ELÍAS (h7)",
+      "text": "A. ELISEO, HEREDERO DEL ESPÍRITU DE ELÍAS",
       "color": "yellow",
       "location": "21278",
       "page": "278",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57587",
-      "text": "Elías arrebatado al cielo (h8)",
+      "text": "Elías arrebatado al cielo",
       "color": "yellow",
       "location": "21280",
       "page": "280",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27408",
-      "text": "Eliseo sucesor de Elías (h8)",
+      "text": "Eliseo sucesor de Elías",
       "color": "yellow",
       "location": "21319",
       "page": "319",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25030",
-      "text": "Primeros milagros de Eliseo (h8)",
+      "text": "Primeros milagros de Eliseo",
       "color": "yellow",
       "location": "21338",
       "page": "338",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11154",
-      "text": "B. ELISEO ANTE JORAM, REY DE ISRAEL, Y JOSAFAT, REY DE JUDÁ (h7)",
+      "text": "B. ELISEO ANTE JORAM, REY DE ISRAEL, Y JOSAFAT, REY DE JUDÁ",
       "color": "yellow",
       "location": "21355",
       "page": "355",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44890",
-      "text": "Reinado de Joram en Israel y guerra contra Moab (h8)",
+      "text": "Reinado de Joram en Israel y guerra contra Moab",
       "color": "yellow",
       "location": "21357",
       "page": "357",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15141",
-      "text": "Profecía de Eliseo (h8)",
+      "text": "Profecía de Eliseo",
       "color": "yellow",
       "location": "21388",
       "page": "388",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28141",
-      "text": "Cumplimiento de la profecía: victoria sobre Moab (h8)",
+      "text": "Cumplimiento de la profecía: victoria sobre Moab",
       "color": "yellow",
       "location": "21405",
       "page": "405",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45607",
-      "text": "C. MILAGROS DE ELISEO (h7)",
+      "text": "C. MILAGROS DE ELISEO",
       "color": "yellow",
       "location": "21423",
       "page": "423",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63762",
-      "text": "Multiplicación del aceite (h8)",
+      "text": "Multiplicación del aceite",
       "color": "yellow",
       "location": "21424",
       "page": "424",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54150",
-      "text": "HISTORIA DEL CRONISTA (h3)",
+      "text": "HISTORIA DEL CRONISTA",
       "color": "yellow",
       "location": "23071",
       "page": "071",
       "note": ".h3",
       "header": "\n####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22487",
-      "text": "PRIMER LIBRO DE LAS CRÓNICAS (h4)",
+      "text": "PRIMER LIBRO DE LAS CRÓNICAS",
       "color": "yellow",
       "location": "23074",
       "page": "074",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13364",
@@ -9391,123 +10170,135 @@ export const bibleHighlights = [
   },
   {
       "id": "47506",
-      "text": "I. GENEALOGÍAS ANTERIORES A LA MONARQUÍA (h5)",
+      "text": "I. GENEALOGÍAS ANTERIORES A LA MONARQUÍA",
       "color": "yellow",
       "location": "23118",
       "page": "118",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53939",
-      "text": "De Adán a Noé (h6)",
+      "text": "De Adán a Noé",
       "color": "yellow",
       "location": "23119",
       "page": "119",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14012",
-      "text": "Descendientes de Jafet (h6)",
+      "text": "Descendientes de Jafet",
       "color": "yellow",
       "location": "23127",
       "page": "127",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9186",
-      "text": "Descendientes de Cam (h6)",
+      "text": "Descendientes de Cam",
       "color": "yellow",
       "location": "23132",
       "page": "132",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23542",
-      "text": "Descendientes de Sem (h6)",
+      "text": "Descendientes de Sem",
       "color": "yellow",
       "location": "23144",
       "page": "144",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42286",
-      "text": "Descendientes de Ismael (h6)",
+      "text": "Descendientes de Ismael",
       "color": "yellow",
       "location": "23157",
       "page": "157",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6765",
-      "text": "Descendientes de Seír (h6)",
+      "text": "Descendientes de Seír",
       "color": "yellow",
       "location": "23172",
       "page": "172",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50206",
-      "text": "Reyes de Edom (h6)",
+      "text": "Reyes de Edom",
       "color": "yellow",
       "location": "23182",
       "page": "182",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27226",
-      "text": "Descendientes de Judá (h6)",
+      "text": "Descendientes de Judá",
       "color": "yellow",
       "location": "23198",
       "page": "198",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39286",
-      "text": "Hijos de David (h6)",
+      "text": "Hijos de David",
       "color": "yellow",
       "location": "23275",
       "page": "275",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4276",
-      "text": "Descendientes de Salomón (h6)",
+      "text": "Descendientes de Salomón",
       "color": "yellow",
       "location": "23292",
       "page": "292",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27226",
-      "text": "Descendientes de Judá (h6)",
+      "text": "Descendientes de Judá",
       "color": "yellow",
       "location": "23313",
       "page": "313",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36908",
@@ -9519,483 +10310,531 @@ export const bibleHighlights = [
   },
   {
       "id": "1606",
-      "text": "Descendientes de Simeón (h6)",
+      "text": "Descendientes de Simeón",
       "color": "yellow",
       "location": "23353",
       "page": "353",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27606",
-      "text": "Descendientes de Rubén (h6)",
+      "text": "Descendientes de Rubén",
       "color": "yellow",
       "location": "23383",
       "page": "383",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9949",
-      "text": "Descendientes de Gad (h6)",
+      "text": "Descendientes de Gad",
       "color": "yellow",
       "location": "23404",
       "page": "404",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15212",
-      "text": "Descendientes de la media tribu de Manasés (h6)",
+      "text": "Descendientes de la media tribu de Manasés",
       "color": "yellow",
       "location": "23424",
       "page": "424",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30314",
-      "text": "Descendientes de Leví (h6)",
+      "text": "Descendientes de Leví",
       "color": "yellow",
       "location": "23433",
       "page": "433",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32707",
-      "text": "Otros descendientes de Leví (h6)",
+      "text": "Otros descendientes de Leví",
       "color": "yellow",
       "location": "23453",
       "page": "453",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35031",
-      "text": "Los cantores y sus familias (h6)",
+      "text": "Los cantores y sus familias",
       "color": "yellow",
       "location": "23476",
       "page": "476",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9592",
-      "text": "Ciudades levíticas (h6)",
+      "text": "Ciudades levíticas",
       "color": "yellow",
       "location": "23508",
       "page": "508",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31014",
-      "text": "Descendientes de Isacar (h6)",
+      "text": "Descendientes de Isacar",
       "color": "yellow",
       "location": "23549",
       "page": "549",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49919",
-      "text": "Descendientes de Benjamín (h6)",
+      "text": "Descendientes de Benjamín",
       "color": "yellow",
       "location": "23561",
       "page": "561",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8862",
-      "text": "Descendientes de Neftalí (h6)",
+      "text": "Descendientes de Neftalí",
       "color": "yellow",
       "location": "23573",
       "page": "573",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44707",
-      "text": "Descendientes de Manasés (h6)",
+      "text": "Descendientes de Manasés",
       "color": "yellow",
       "location": "23576",
       "page": "576",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36143",
-      "text": "Descendientes de Efraím (h6)",
+      "text": "Descendientes de Efraím",
       "color": "yellow",
       "location": "23585",
       "page": "585",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38493",
-      "text": "Descendientes de Aser (h6)",
+      "text": "Descendientes de Aser",
       "color": "yellow",
       "location": "23602",
       "page": "602",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49919",
-      "text": "Descendientes de Benjamín (h6)",
+      "text": "Descendientes de Benjamín",
       "color": "yellow",
       "location": "23616",
       "page": "616",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7792",
-      "text": "Descendientes de Saúl (h6)",
+      "text": "Descendientes de Saúl",
       "color": "yellow",
       "location": "23655",
       "page": "655",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60551",
-      "text": "Jerusalén después del destierro (h6)",
+      "text": "Jerusalén después del destierro",
       "color": "yellow",
       "location": "23668",
       "page": "668",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42448",
-      "text": "La familia de Saúl (h6)",
+      "text": "La familia de Saúl",
       "color": "yellow",
       "location": "23724",
       "page": "724",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12434",
-      "text": "II. EL REINADO DE DAVID (h5)",
+      "text": "II. EL REINADO DE DAVID",
       "color": "yellow",
       "location": "23738",
       "page": "738",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58273",
-      "text": "Muerte de Saúl (h6)",
+      "text": "Muerte de Saúl",
       "color": "yellow",
       "location": "23740",
       "page": "740",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2084",
-      "text": "Proclamación de David como rey (h6)",
+      "text": "Proclamación de David como rey",
       "color": "yellow",
       "location": "23769",
       "page": "769",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31484",
-      "text": "Conquista de Jerusalén (h6)",
+      "text": "Conquista de Jerusalén",
       "color": "yellow",
       "location": "23782",
       "page": "782",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15012",
-      "text": "La valentía de David (h6)",
+      "text": "La valentía de David",
       "color": "yellow",
       "location": "23794",
       "page": "794",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44946",
-      "text": "Primeros partidarios de David (h6)",
+      "text": "Primeros partidarios de David",
       "color": "yellow",
       "location": "23850",
       "page": "850",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58069",
-      "text": "El ejército de David que lo proclamó rey (h6)",
+      "text": "El ejército de David que lo proclamó rey",
       "color": "yellow",
       "location": "23894",
       "page": "894",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42415",
-      "text": "Traslado del Arca (h6)",
+      "text": "Traslado del Arca",
       "color": "yellow",
       "location": "23923",
       "page": "923",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39478",
-      "text": "David en Jerusalén (h6)",
+      "text": "David en Jerusalén",
       "color": "yellow",
       "location": "23952",
       "page": "952",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59919",
-      "text": "Entronización del Arca en Jerusalén (h6)",
+      "text": "Entronización del Arca en Jerusalén",
       "color": "yellow",
       "location": "23985",
       "page": "985",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16687",
-      "text": "El Arca dentro de la Tienda (h6)",
+      "text": "El Arca dentro de la Tienda",
       "color": "yellow",
       "location": "24036",
       "page": "036",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52921",
-      "text": "Profecía de Natán (h6)",
+      "text": "Profecía de Natán",
       "color": "yellow",
       "location": "24126",
       "page": "126",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22861",
-      "text": "Oración de David (h7)",
+      "text": "Oración de David",
       "color": "yellow",
       "location": "24156",
       "page": "156",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57391",
-      "text": "Victorias de David (h6)",
+      "text": "Victorias de David",
       "color": "yellow",
       "location": "24178",
       "page": "178",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63626",
-      "text": "Victorias sobre los amonitas (h6)",
+      "text": "Victorias sobre los amonitas",
       "color": "yellow",
       "location": "24211",
       "page": "211",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2872",
-      "text": "Asedio y conquista de Rabá (h6)",
+      "text": "Asedio y conquista de Rabá",
       "color": "yellow",
       "location": "24256",
       "page": "256",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65187",
-      "text": "Otras victorias de David sobre los filisteos (h7)",
+      "text": "Otras victorias de David sobre los filisteos",
       "color": "yellow",
       "location": "24267",
       "page": "267",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50907",
-      "text": "El censo de Israel (h6)",
+      "text": "El censo de Israel",
       "color": "yellow",
       "location": "24278",
       "page": "278",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21778",
-      "text": "Castigo por el censo (h7)",
+      "text": "Castigo por el censo",
       "color": "yellow",
       "location": "24294",
       "page": "294",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3697",
-      "text": "Preparativos para edificar el Templo (h6)",
+      "text": "Preparativos para edificar el Templo",
       "color": "yellow",
       "location": "24345",
       "page": "345",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13836",
-      "text": "Organización de los levitas (h6)",
+      "text": "Organización de los levitas",
       "color": "yellow",
       "location": "24386",
       "page": "386",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22082",
-      "text": "Organización de los sacerdotes (h6)",
+      "text": "Organización de los sacerdotes",
       "color": "yellow",
       "location": "24437",
       "page": "437",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27287",
-      "text": "Otros levitas (h7)",
+      "text": "Otros levitas",
       "color": "yellow",
       "location": "24468",
       "page": "468",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23411",
-      "text": "Organización de los cantores (h6)",
+      "text": "Organización de los cantores",
       "color": "yellow",
       "location": "24485",
       "page": "485",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10898",
-      "text": "Organización de los porteros (h6)",
+      "text": "Organización de los porteros",
       "color": "yellow",
       "location": "24533",
       "page": "533",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25876",
-      "text": "Otras funciones de los levitas (h6)",
+      "text": "Otras funciones de los levitas",
       "color": "yellow",
       "location": "24566",
       "page": "566",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4201",
-      "text": "Organización militar (h6)",
+      "text": "Organización militar",
       "color": "yellow",
       "location": "24591",
       "page": "591",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37773",
-      "text": "Organización civil (h6)",
+      "text": "Organización civil",
       "color": "yellow",
       "location": "24624",
       "page": "624",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18778",
-      "text": "Organización administrativa (h6)",
+      "text": "Organización administrativa",
       "color": "yellow",
       "location": "24638",
       "page": "638",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7789",
-      "text": "Instrucciones para la edificación del Templo (h6)",
+      "text": "Instrucciones para la edificación del Templo",
       "color": "yellow",
       "location": "24655",
       "page": "655",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14945",
@@ -10007,23 +10846,25 @@ export const bibleHighlights = [
   },
   {
       "id": "5305",
-      "text": "Donativos para la edificación del Templo (h7)",
+      "text": "Donativos para la edificación del Templo",
       "color": "yellow",
       "location": "24704",
       "page": "704",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22861",
-      "text": "Oración de David (h6)",
+      "text": "Oración de David",
       "color": "yellow",
       "location": "24728",
       "page": "728",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12850",
@@ -10083,33 +10924,36 @@ export const bibleHighlights = [
   },
   {
       "id": "20745",
-      "text": "LOS ÚLTIMOS LIBROS HISTÓRICOS DEL ANTIGUO TESTAMENTO (h3)",
+      "text": "LOS ÚLTIMOS LIBROS HISTÓRICOS DEL ANTIGUO TESTAMENTO",
       "color": "yellow",
       "location": "28133",
       "page": "133",
       "note": ".h3",
       "header": "\n####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61458",
-      "text": "LIBROS POÉTICOS Y SAPIENCIALES (h2)",
+      "text": "LIBROS POÉTICOS Y SAPIENCIALES",
       "color": "yellow",
       "location": "33355",
       "page": "355",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32828",
-      "text": "JOB (h4)",
+      "text": "JOB",
       "color": "yellow",
       "location": "33358",
       "page": "358",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14649",
@@ -10145,163 +10989,179 @@ export const bibleHighlights = [
   },
   {
       "id": "31531",
-      "text": "Prosperidad de Job (h6)",
+      "text": "Prosperidad de Job",
       "color": "yellow",
       "location": "33419",
       "page": "419",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10894",
-      "text": "Exigencias de Satán (h6)",
+      "text": "Exigencias de Satán",
       "color": "yellow",
       "location": "33432",
       "page": "432",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37297",
-      "text": "Destrucción de los bienes de Job (h6)",
+      "text": "Destrucción de los bienes de Job",
       "color": "yellow",
       "location": "33449",
       "page": "449",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37861",
-      "text": "Las úlceras de Job (h6)",
+      "text": "Las úlceras de Job",
       "color": "yellow",
       "location": "33472",
       "page": "472",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63372",
-      "text": "La visita de los amigos de Job (h6)",
+      "text": "La visita de los amigos de Job",
       "color": "yellow",
       "location": "33498",
       "page": "498",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64839",
-      "text": "II. DISCURSOS (h5)",
+      "text": "II. DISCURSOS",
       "color": "yellow",
       "location": "33506",
       "page": "506",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39956",
-      "text": "A. LAMENTACIÓN DE JOB (h6)",
+      "text": "A. LAMENTACIÓN DE JOB",
       "color": "yellow",
       "location": "33508",
       "page": "508",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14954",
-      "text": "B. DIÁLOGO DE JOB CON SUS AMIGOS (h6)",
+      "text": "B. DIÁLOGO DE JOB CON SUS AMIGOS",
       "color": "yellow",
       "location": "33584",
       "page": "584",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53483",
-      "text": "PRIMER DISCURSO DE ELIFAZ (h7)",
+      "text": "PRIMER DISCURSO DE ELIFAZ",
       "color": "yellow",
       "location": "33586",
       "page": "586",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21266",
-      "text": "Invitación a confiar en Dios (h8)",
+      "text": "Invitación a confiar en Dios",
       "color": "yellow",
       "location": "33587",
       "page": "587",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "33729",
       "page": "729",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2215",
-      "text": "Experiencia de la propia desgracia (h8)",
+      "text": "Experiencia de la propia desgracia",
       "color": "yellow",
       "location": "33730",
       "page": "730",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40912",
-      "text": "PRIMER DISCURSO DE BILDAD (h7)",
+      "text": "PRIMER DISCURSO DE BILDAD",
       "color": "yellow",
       "location": "33885",
       "page": "885",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17282",
-      "text": "Job todavía puede librarse (h8)",
+      "text": "Job todavía puede librarse",
       "color": "yellow",
       "location": "33886",
       "page": "886",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "33951",
       "page": "951",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54074",
-      "text": "El hombre nada puede ante Dios (h8)",
+      "text": "El hombre nada puede ante Dios",
       "color": "yellow",
       "location": "33952",
       "page": "952",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4388",
@@ -10321,63 +11181,69 @@ export const bibleHighlights = [
   },
   {
       "id": "13707",
-      "text": "PRIMER DISCURSO DE SOFAR (h7)",
+      "text": "PRIMER DISCURSO DE SOFAR",
       "color": "yellow",
       "location": "34124",
       "page": "124",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33881",
-      "text": "Acusación a Job de insolencia (h8)",
+      "text": "Acusación a Job de insolencia",
       "color": "yellow",
       "location": "34125",
       "page": "125",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "34187",
       "page": "187",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4240",
-      "text": "Apelación a Dios en medio del dolor (h8)",
+      "text": "Apelación a Dios en medio del dolor",
       "color": "yellow",
       "location": "34188",
       "page": "188",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44370",
-      "text": "SEGUNDO DISCURSO DE ELIFAZ (h7)",
+      "text": "SEGUNDO DISCURSO DE ELIFAZ",
       "color": "yellow",
       "location": "34418",
       "page": "418",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13267",
-      "text": "Condena de la actitud de Job (h8)",
+      "text": "Condena de la actitud de Job",
       "color": "yellow",
       "location": "34419",
       "page": "419",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
@@ -10389,243 +11255,267 @@ export const bibleHighlights = [
   },
   {
       "id": "32269",
-      "text": "Súplica a Dios ante el consuelo ficticio de los amigos (h8)",
+      "text": "Súplica a Dios ante el consuelo ficticio de los amigos",
       "color": "yellow",
       "location": "34523",
       "page": "523",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31799",
-      "text": "SEGUNDO DISCURSO DE BILDAD (h7)",
+      "text": "SEGUNDO DISCURSO DE BILDAD",
       "color": "yellow",
       "location": "34640",
       "page": "640",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2869",
-      "text": "Condena de la presunción de Job (h8)",
+      "text": "Condena de la presunción de Job",
       "color": "yellow",
       "location": "34641",
       "page": "641",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "34702",
       "page": "702",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52239",
-      "text": "Confianza en Dios por encima de todo (h8)",
+      "text": "Confianza en Dios por encima de todo",
       "color": "yellow",
       "location": "34703",
       "page": "703",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44017",
-      "text": "SEGUNDO DISCURSO DE SOFAR (h7)",
+      "text": "SEGUNDO DISCURSO DE SOFAR",
       "color": "yellow",
       "location": "34796",
       "page": "796",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25157",
-      "text": "El destino de los malvados (h8)",
+      "text": "El destino de los malvados",
       "color": "yellow",
       "location": "34797",
       "page": "797",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "34883",
       "page": "883",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63425",
-      "text": "El aparente bienestar de los impíos (h8)",
+      "text": "El aparente bienestar de los impíos",
       "color": "yellow",
       "location": "34885",
       "page": "885",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58593",
-      "text": "TERCER DISCURSO DE ELIFAZ (h7)",
+      "text": "TERCER DISCURSO DE ELIFAZ",
       "color": "yellow",
       "location": "34985",
       "page": "985",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58684",
-      "text": "Acusación de abusos sociales y de impiedad (h8)",
+      "text": "Acusación de abusos sociales y de impiedad",
       "color": "yellow",
       "location": "34986",
       "page": "986",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "35074",
       "page": "074",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1230",
-      "text": "El castigo de Dios a los malvados (h8)",
+      "text": "El castigo de Dios a los malvados",
       "color": "yellow",
       "location": "35075",
       "page": "075",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46022",
-      "text": "TERCER DISCURSO DE BILDAD (h7)",
+      "text": "TERCER DISCURSO DE BILDAD",
       "color": "yellow",
       "location": "35208",
       "page": "208",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18669",
-      "text": "Grandeza de Dios, pequeñez de la criatura (h8)",
+      "text": "Grandeza de Dios, pequeñez de la criatura",
       "color": "yellow",
       "location": "35209",
       "page": "209",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29033",
-      "text": "RESPUESTA DE JOB (h7)",
+      "text": "RESPUESTA DE JOB",
       "color": "yellow",
       "location": "35229",
       "page": "229",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63110",
-      "text": "Sinceridad de su alabanza a Dios (h8)",
+      "text": "Sinceridad de su alabanza a Dios",
       "color": "yellow",
       "location": "35230",
       "page": "230",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21956",
-      "text": "C. ELOGIO SOBRE LA SABIDURÍA (h6)",
+      "text": "C. ELOGIO SOBRE LA SABIDURÍA",
       "color": "yellow",
       "location": "35344",
       "page": "344",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58391",
-      "text": "D. LAMENTACIÓN DE JOB (h6)",
+      "text": "D. LAMENTACIÓN DE JOB",
       "color": "yellow",
       "location": "35429",
       "page": "429",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52355",
-      "text": "Recuerdos del pasado feliz (h7)",
+      "text": "Recuerdos del pasado feliz",
       "color": "yellow",
       "location": "35431",
       "page": "431",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19297",
-      "text": "La desgracia presente (h7)",
+      "text": "La desgracia presente",
       "color": "yellow",
       "location": "35506",
       "page": "506",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44745",
-      "text": "Confesión de inocencia (h7)",
+      "text": "Confesión de inocencia",
       "color": "yellow",
       "location": "35601",
       "page": "601",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55646",
-      "text": "III. INTERVENCIÓN DE ELIHÚ (h5)",
+      "text": "III. INTERVENCIÓN DE ELIHÚ",
       "color": "yellow",
       "location": "35723",
       "page": "723",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14497",
-      "text": "Justificación del discurso (h6)",
+      "text": "Justificación del discurso",
       "color": "yellow",
       "location": "35736",
       "page": "736",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8773",
@@ -10645,63 +11535,69 @@ export const bibleHighlights = [
   },
   {
       "id": "5257",
-      "text": "Desprecio de la sabiduría de Job (h6)",
+      "text": "Desprecio de la sabiduría de Job",
       "color": "yellow",
       "location": "35882",
       "page": "882",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14087",
-      "text": "Condiciones de la oración (h6)",
+      "text": "Condiciones de la oración",
       "color": "yellow",
       "location": "35995",
       "page": "995",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12802",
-      "text": "Incomprensión de las decisiones divinas (h6)",
+      "text": "Incomprensión de las decisiones divinas",
       "color": "yellow",
       "location": "36043",
       "page": "043",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4080",
-      "text": "IV. LOS DISCURSOS DEL SEÑOR (h5)",
+      "text": "IV. LOS DISCURSOS DEL SEÑOR",
       "color": "yellow",
       "location": "36218",
       "page": "218",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15371",
-      "text": "PRIMER DISCURSO DEL SEÑOR (h6)",
+      "text": "PRIMER DISCURSO DEL SEÑOR",
       "color": "yellow",
       "location": "36220",
       "page": "220",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56671",
-      "text": "Las maravillas de la creación (h7)",
+      "text": "Las maravillas de la creación",
       "color": "yellow",
       "location": "36232",
       "page": "232",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59104",
@@ -10713,63 +11609,69 @@ export const bibleHighlights = [
   },
   {
       "id": "23270",
-      "text": "Maravillas del mundo animal (h7)",
+      "text": "Maravillas del mundo animal",
       "color": "yellow",
       "location": "36331",
       "page": "331",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10724",
-      "text": "DIÁLOGO ENTRE EL SEÑOR Y JOB (h6)",
+      "text": "DIÁLOGO ENTRE EL SEÑOR Y JOB",
       "color": "yellow",
       "location": "36425",
       "page": "425",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48791",
-      "text": "Imposibilidad de replicar a Dios (h7)",
+      "text": "Imposibilidad de replicar a Dios",
       "color": "yellow",
       "location": "36427",
       "page": "427",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14752",
-      "text": "Aceptación por parte de Job (h7)",
+      "text": "Aceptación por parte de Job",
       "color": "yellow",
       "location": "36435",
       "page": "435",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32625",
-      "text": "SEGUNDO DISCURSO DEL SEÑOR (h6)",
+      "text": "SEGUNDO DISCURSO DEL SEÑOR",
       "color": "yellow",
       "location": "36445",
       "page": "445",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33969",
-      "text": "La fuerza de Behemot (h8)",
+      "text": "La fuerza de Behemot",
       "color": "yellow",
       "location": "36471",
       "page": "471",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56173",
@@ -10781,13 +11683,14 @@ export const bibleHighlights = [
   },
   {
       "id": "12199",
-      "text": "La ferocidad del Leviatán (h8)",
+      "text": "La ferocidad del Leviatán",
       "color": "yellow",
       "location": "36500",
       "page": "500",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32599",
@@ -10799,63 +11702,69 @@ export const bibleHighlights = [
   },
   {
       "id": "21025",
-      "text": "RESPUESTA ÚLTIMA DE JOB (h6)",
+      "text": "RESPUESTA ÚLTIMA DE JOB",
       "color": "yellow",
       "location": "36596",
       "page": "596",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29985",
-      "text": "Aceptación del designio divino (h8)",
+      "text": "Aceptación del designio divino",
       "color": "yellow",
       "location": "36597",
       "page": "597",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16898",
-      "text": "V. EPÍLOGO (h5)",
+      "text": "V. EPÍLOGO",
       "color": "yellow",
       "location": "36618",
       "page": "618",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58826",
-      "text": "Dios reprende a Elifaz y sus amigos (h6)",
+      "text": "Dios reprende a Elifaz y sus amigos",
       "color": "yellow",
       "location": "36619",
       "page": "619",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9150",
-      "text": "Dios bendice a Job (h6)",
+      "text": "Dios bendice a Job",
       "color": "yellow",
       "location": "36628",
       "page": "628",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59281",
-      "text": "SALMOS (h4)",
+      "text": "SALMOS",
       "color": "yellow",
       "location": "36643",
       "page": "643",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37473",
@@ -11091,243 +12000,267 @@ export const bibleHighlights = [
   },
   {
       "id": "34311",
-      "text": "Salmos 1-2 Introducción (h6)",
+      "text": "Salmos 1-2 Introducción",
       "color": "yellow",
       "location": "36825",
       "page": "825",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27570",
-      "text": "SALMO 1 (h7)",
+      "text": "SALMO 1",
       "color": "yellow",
       "location": "36830",
       "page": "830",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57890",
-      "text": "Invitación a vivir según la Ley divina (h8)",
+      "text": "Invitación a vivir según la Ley divina",
       "color": "yellow",
       "location": "36831",
       "page": "831",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27827",
-      "text": "SALMO 2 (h7)",
+      "text": "SALMO 2",
       "color": "yellow",
       "location": "36858",
       "page": "858",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40755",
-      "text": "Dios cumple sus designios estableciendo a su Ungido (h8)",
+      "text": "Dios cumple sus designios estableciendo a su Ungido",
       "color": "yellow",
       "location": "36859",
       "page": "859",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22251",
-      "text": "Salmos Libro I: Salmos 3-41 Introducción (h5)",
+      "text": "Salmos Libro I: Salmos 3-41 Introducción",
       "color": "yellow",
       "location": "36898",
       "page": "898",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25660",
-      "text": "Salmos 3-14 Introducción (h6)",
+      "text": "Salmos 3-14 Introducción",
       "color": "yellow",
       "location": "36900",
       "page": "900",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28084",
-      "text": "SALMO 3 (h7)",
+      "text": "SALMO 3",
       "color": "yellow",
       "location": "36905",
       "page": "905",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38538",
-      "text": "Invocación confiada al Señor, que protege durante la noche desde el Templo (h8)",
+      "text": "Invocación confiada al Señor, que protege durante la noche desde el Templo",
       "color": "yellow",
       "location": "36906",
       "page": "906",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28341",
-      "text": "SALMO 4 (h7)",
+      "text": "SALMO 4",
       "color": "yellow",
       "location": "36940",
       "page": "940",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45130",
-      "text": "Súplica al Señor reconociendo su protección (h8)",
+      "text": "Súplica al Señor reconociendo su protección",
       "color": "yellow",
       "location": "36941",
       "page": "941",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28598",
-      "text": "SALMO 5 (h7)",
+      "text": "SALMO 5",
       "color": "yellow",
       "location": "36976",
       "page": "976",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59767",
-      "text": "Petición de ayuda al Señor a lo largo del día (h8)",
+      "text": "Petición de ayuda al Señor a lo largo del día",
       "color": "yellow",
       "location": "36977",
       "page": "977",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28855",
-      "text": "SALMO 6 (h7)",
+      "text": "SALMO 6",
       "color": "yellow",
       "location": "37027",
       "page": "027",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36301",
-      "text": "Petición de perdón desde la enfermedad (h8)",
+      "text": "Petición de perdón desde la enfermedad",
       "color": "yellow",
       "location": "37028",
       "page": "028",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29112",
-      "text": "SALMO 7 (h7)",
+      "text": "SALMO 7",
       "color": "yellow",
       "location": "37066",
       "page": "066",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54119",
-      "text": "Petición de ayuda porque se confía en Dios (h8)",
+      "text": "Petición de ayuda porque se confía en Dios",
       "color": "yellow",
       "location": "37067",
       "page": "067",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29369",
-      "text": "SALMO 8 (h7)",
+      "text": "SALMO 8",
       "color": "yellow",
       "location": "37129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21416",
-      "text": "Reconocimiento de la grandeza de Dios en la dignidad del hombre (h8)",
+      "text": "Reconocimiento de la grandeza de Dios en la dignidad del hombre",
       "color": "yellow",
       "location": "37130",
       "page": "130",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38462",
-      "text": "Salmos 9-10 Introducción (h6)",
+      "text": "Salmos 9-10 Introducción",
       "color": "yellow",
       "location": "37161",
       "page": "161",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29626",
-      "text": "SALMO 9 (h7)",
+      "text": "SALMO 9",
       "color": "yellow",
       "location": "37167",
       "page": "167",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2561",
-      "text": "Alabanza a Dios, que juzga y castiga a los impíos (h8)",
+      "text": "Alabanza a Dios, que juzga y castiga a los impíos",
       "color": "yellow",
       "location": "37169",
       "page": "169",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20194",
-      "text": "SALMO 10 (h7)",
+      "text": "SALMO 10",
       "color": "yellow",
       "location": "37247",
       "page": "247",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59370",
-      "text": "Grito angustioso al Señor ante la arrogancia de los impíos (h8)",
+      "text": "Grito angustioso al Señor ante la arrogancia de los impíos",
       "color": "yellow",
       "location": "37249",
       "page": "249",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "950",
@@ -11339,83 +12272,91 @@ export const bibleHighlights = [
   },
   {
       "id": "20451",
-      "text": "SALMO 11 (h7)",
+      "text": "SALMO 11",
       "color": "yellow",
       "location": "37319",
       "page": "319",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3721",
-      "text": "Lo mejor siempre es permanecer junto al Señor (h8)",
+      "text": "Lo mejor siempre es permanecer junto al Señor",
       "color": "yellow",
       "location": "37321",
       "page": "321",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20708",
-      "text": "SALMO 12 (h7)",
+      "text": "SALMO 12",
       "color": "yellow",
       "location": "37351",
       "page": "351",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29787",
-      "text": "Súplica apoyada en la palabra de Dios (h8)",
+      "text": "Súplica apoyada en la palabra de Dios",
       "color": "yellow",
       "location": "37353",
       "page": "353",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20965",
-      "text": "SALMO 13 (h7)",
+      "text": "SALMO 13",
       "color": "yellow",
       "location": "37389",
       "page": "389",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47670",
-      "text": "Dramática apelación al Señor en la desgracia (h8)",
+      "text": "Dramática apelación al Señor en la desgracia",
       "color": "yellow",
       "location": "37391",
       "page": "391",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21222",
-      "text": "SALMO 14 (h7)",
+      "text": "SALMO 14",
       "color": "yellow",
       "location": "37416",
       "page": "416",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39726",
-      "text": "Reflexión ante la necedad de quienes niegan a Dios (h8)",
+      "text": "Reflexión ante la necedad de quienes niegan a Dios",
       "color": "yellow",
       "location": "37417",
       "page": "417",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10340",
@@ -11427,33 +12368,36 @@ export const bibleHighlights = [
   },
   {
       "id": "26736",
-      "text": "Salmos 15-24 Introducción (h6)",
+      "text": "Salmos 15-24 Introducción",
       "color": "yellow",
       "location": "37445",
       "page": "445",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21479",
-      "text": "SALMO 15 (h7)",
+      "text": "SALMO 15",
       "color": "yellow",
       "location": "37450",
       "page": "450",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63438",
-      "text": "Condiciones para permanecer en la presencia del Señor (h8)",
+      "text": "Condiciones para permanecer en la presencia del Señor",
       "color": "yellow",
       "location": "37452",
       "page": "452",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62874",
@@ -11473,13 +12417,14 @@ export const bibleHighlights = [
   },
   {
       "id": "39992",
-      "text": "Confianza en el Señor de quien dedica a Él su vida (h8)",
+      "text": "Confianza en el Señor de quien dedica a Él su vida",
       "color": "yellow",
       "location": "37478",
       "page": "478",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53199",
@@ -11683,43 +12628,47 @@ export const bibleHighlights = [
   },
   {
       "id": "58684",
-      "text": "Salmos Libro II: (h5)",
+      "text": "Salmos Libro II:",
       "color": "yellow",
       "location": "39224",
       "page": "224",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15920",
-      "text": "Salmos 42-72 Introducción (h6)",
+      "text": "Salmos 42-72 Introducción",
       "color": "yellow",
       "location": "39224",
       "page": "224",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22247",
-      "text": "SALMO 42 (h7)",
+      "text": "SALMO 42",
       "color": "yellow",
       "location": "39231",
       "page": "231",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57370",
-      "text": "LXX / Vulgata  41 Anhelo de Dios y esperanza en Él desde la turbación interior (h8)",
+      "text": "LXX / Vulgata  41 Anhelo de Dios y esperanza en Él desde la turbación interior",
       "color": "yellow",
       "location": "39232",
       "page": "232",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62611",
@@ -11763,33 +12712,36 @@ export const bibleHighlights = [
   },
   {
       "id": "24322",
-      "text": "Salmos Libro III: Salmos 73-89 Introducción (h5)",
+      "text": "Salmos Libro III: Salmos 73-89 Introducción",
       "color": "yellow",
       "location": "41070",
       "page": "070",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24043",
-      "text": "SALMO 73 (h6)",
+      "text": "SALMO 73",
       "color": "yellow",
       "location": "41078",
       "page": "078",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4136",
-      "text": "LXX / Vulgata  72 Drama interior y decisión final por Dios de un justo tentado por el éxito de los impíos (h7)",
+      "text": "LXX / Vulgata  72 Drama interior y decisión final por Dios de un justo tentado por el éxito de los impíos",
       "color": "yellow",
       "location": "41079",
       "page": "079",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19566",
@@ -11833,33 +12785,36 @@ export const bibleHighlights = [
   },
   {
       "id": "1738",
-      "text": "Salmos Libro IV: Salmos 90-106 Introducción (h5)",
+      "text": "Salmos Libro IV: Salmos 90-106 Introducción",
       "color": "yellow",
       "location": "42334",
       "page": "334",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24298",
-      "text": "SALMO 90 (h6)",
+      "text": "SALMO 90",
       "color": "yellow",
       "location": "42339",
       "page": "339",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3646",
-      "text": "LXX / Vulgata  89 Súplica al Señor, santo y eterno, ante la brevedad de la vida y sus penalidades (h7)",
+      "text": "LXX / Vulgata  89 Súplica al Señor, santo y eterno, ante la brevedad de la vida y sus penalidades",
       "color": "yellow",
       "location": "42340",
       "page": "340",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57587",
@@ -11943,33 +12898,36 @@ export const bibleHighlights = [
   },
   {
       "id": "12498",
-      "text": "Salmos Libro V: Salmos 107-150 Introducción (h5)",
+      "text": "Salmos Libro V: Salmos 107-150 Introducción",
       "color": "yellow",
       "location": "43451",
       "page": "451",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26650",
-      "text": "SALMO 107 (h6)",
+      "text": "SALMO 107",
       "color": "yellow",
       "location": "43457",
       "page": "457",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63396",
-      "text": "LXX / Vulgata  106 Invitación a dar gracias a Dios, que puede cambiar la situación del pueblo (h7)",
+      "text": "LXX / Vulgata  106 Invitación a dar gracias a Dios, que puede cambiar la situación del pueblo",
       "color": "yellow",
       "location": "43458",
       "page": "458",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42119",
@@ -12405,13 +13363,14 @@ export const bibleHighlights = [
   },
   {
       "id": "23247",
-      "text": "CANTAR DE LOS CANTARES (h4)",
+      "text": "CANTAR DE LOS CANTARES",
       "color": "yellow",
       "location": "49478",
       "page": "478",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -12463,33 +13422,36 @@ export const bibleHighlights = [
   },
   {
       "id": "42933",
-      "text": "TÍTULO Y PRÓLOGO (h5)",
+      "text": "TÍTULO Y PRÓLOGO",
       "color": "yellow",
       "location": "49498",
       "page": "498",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46326",
-      "text": "PRIMER POEMA: ENCUENTRO (h5)",
+      "text": "PRIMER POEMA: ENCUENTRO",
       "color": "yellow",
       "location": "49515",
       "page": "515",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38723",
-      "text": "Canto primero: promesas (h6)",
+      "text": "Canto primero: promesas",
       "color": "yellow",
       "location": "49517",
       "page": "517",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21287",
@@ -12509,23 +13471,25 @@ export const bibleHighlights = [
   },
   {
       "id": "13940",
-      "text": "SEGUNDO POEMA: CELEBRACIÓN DEL AMOR (h5)",
+      "text": "SEGUNDO POEMA: CELEBRACIÓN DEL AMOR",
       "color": "yellow",
       "location": "49600",
       "page": "600",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37253",
-      "text": "Canto segundo: la primavera (h6)",
+      "text": "Canto segundo: la primavera",
       "color": "yellow",
       "location": "49602",
       "page": "602",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46498",
@@ -12553,13 +13517,14 @@ export const bibleHighlights = [
   },
   {
       "id": "3911",
-      "text": "Canto tercero: nocturno (h6)",
+      "text": "Canto tercero: nocturno",
       "color": "yellow",
       "location": "49650",
       "page": "650",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21211",
@@ -12571,63 +13536,69 @@ export const bibleHighlights = [
   },
   {
       "id": "19621",
-      "text": "TERCER POEMA: DÍA DE BODAS (h5)",
+      "text": "TERCER POEMA: DÍA DE BODAS",
       "color": "yellow",
       "location": "49678",
       "page": "678",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54384",
-      "text": "Canto cuarto: bodas (h6)",
+      "text": "Canto cuarto: bodas",
       "color": "yellow",
       "location": "49680",
       "page": "680",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22150",
-      "text": "Canto quinto: belleza de la amada y unión esponsal (h6)",
+      "text": "Canto quinto: belleza de la amada y unión esponsal",
       "color": "yellow",
       "location": "49708",
       "page": "708",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15456",
-      "text": "CUARTO POEMA: CELEBRACIÓN DEL AMADO (h5)",
+      "text": "CUARTO POEMA: CELEBRACIÓN DEL AMADO",
       "color": "yellow",
       "location": "49795",
       "page": "795",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17285",
-      "text": "Canto sexto: nocturno (h6)",
+      "text": "Canto sexto: nocturno",
       "color": "yellow",
       "location": "49797",
       "page": "797",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24557",
-      "text": "Canto séptimo: excelencias del amado y posesión mutua (h6)",
+      "text": "Canto séptimo: excelencias del amado y posesión mutua",
       "color": "yellow",
       "location": "49835",
       "page": "835",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56084",
@@ -12639,33 +13610,36 @@ export const bibleHighlights = [
   },
   {
       "id": "48681",
-      "text": "QUINTO POEMA: CELEBRACIÓN DE LA AMADA (h5)",
+      "text": "QUINTO POEMA: CELEBRACIÓN DE LA AMADA",
       "color": "yellow",
       "location": "49889",
       "page": "889",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1558",
-      "text": "Canto octavo: elogio de la amada (h6)",
+      "text": "Canto octavo: elogio de la amada",
       "color": "yellow",
       "location": "49891",
       "page": "891",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50367",
-      "text": "Canto noveno: retrato poético de la amada (h6)",
+      "text": "Canto noveno: retrato poético de la amada",
       "color": "yellow",
       "location": "49922",
       "page": "922",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58012",
@@ -12677,13 +13651,14 @@ export const bibleHighlights = [
   },
   {
       "id": "30713",
-      "text": "EPÍLOGO (h5)",
+      "text": "EPÍLOGO",
       "color": "yellow",
       "location": "50013",
       "page": "013",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51534",
@@ -12695,33 +13670,36 @@ export const bibleHighlights = [
   },
   {
       "id": "7863",
-      "text": "APÉNDICES (h5)",
+      "text": "APÉNDICES",
       "color": "yellow",
       "location": "50035",
       "page": "035",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23487",
-      "text": "SABIDURÍA (h4)",
+      "text": "SABIDURÍA",
       "color": "yellow",
       "location": "50066",
       "page": "066",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22457",
-      "text": "ECLESIÁSTICO (SIRÁCIDA) (h4)",
+      "text": "ECLESIÁSTICO (SIRÁCIDA)",
       "color": "yellow",
       "location": "51729",
       "page": "729",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12850",
@@ -12741,53 +13719,58 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "PRÓLOGO (h5)",
+      "text": "PRÓLOGO",
       "color": "yellow",
       "location": "51798",
       "page": "798",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12250",
-      "text": "I. DIOS TIENE LA PLENITUD DE LA SABIDURÍA (h5)",
+      "text": "I. DIOS TIENE LA PLENITUD DE LA SABIDURÍA",
       "color": "yellow",
       "location": "51835",
       "page": "835",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14824",
-      "text": "INTRODUCCIÓN: ORIGEN DIVINO DE LA SABIDURÍA (h6)",
+      "text": "INTRODUCCIÓN: ORIGEN DIVINO DE LA SABIDURÍA",
       "color": "yellow",
       "location": "51837",
       "page": "837",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24440",
-      "text": "Toda sabiduría procede del Señor (h7)",
+      "text": "Toda sabiduría procede del Señor",
       "color": "yellow",
       "location": "51838",
       "page": "838",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10986",
-      "text": "El Señor infundió la sabiduría en sus obras (h7)",
+      "text": "El Señor infundió la sabiduría en sus obras",
       "color": "yellow",
       "location": "51864",
       "page": "864",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15876",
@@ -12839,23 +13822,25 @@ export const bibleHighlights = [
   },
   {
       "id": "6647",
-      "text": "LIBROS PROFÉTICOS (h2)",
+      "text": "LIBROS PROFÉTICOS",
       "color": "yellow",
       "location": "57462",
       "page": "462",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52100",
-      "text": "ISAÍAS (h4)",
+      "text": "ISAÍAS",
       "color": "yellow",
       "location": "57465",
       "page": "465",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -13163,13 +14148,14 @@ export const bibleHighlights = [
   },
   {
       "id": "56155",
-      "text": "JEREMÍAS (h4)",
+      "text": "JEREMÍAS",
       "color": "yellow",
       "location": "62902",
       "page": "902",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -13261,33 +14247,36 @@ export const bibleHighlights = [
   },
   {
       "id": "38248",
-      "text": "LAMENTACIONES (h4)",
+      "text": "LAMENTACIONES",
       "color": "yellow",
       "location": "67476",
       "page": "476",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5903",
-      "text": "BARUC (h4)",
+      "text": "BARUC",
       "color": "yellow",
       "location": "68191",
       "page": "191",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25959",
-      "text": "EZEQUIEL (h4)",
+      "text": "EZEQUIEL",
       "color": "yellow",
       "location": "68741",
       "page": "741",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39527",
@@ -13315,163 +14304,179 @@ export const bibleHighlights = [
   },
   {
       "id": "21688",
-      "text": "PRIMERA PARTE: JUICIO Y CONDENA DE ISRAEL (h5)",
+      "text": "PRIMERA PARTE: JUICIO Y CONDENA DE ISRAEL",
       "color": "yellow",
       "location": "68806",
       "page": "806",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20766",
-      "text": "Introducción (h6)",
+      "text": "Introducción",
       "color": "yellow",
       "location": "68808",
       "page": "808",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53510",
-      "text": "I. VOCACIÓN DEL PROFETA (h6)",
+      "text": "I. VOCACIÓN DEL PROFETA",
       "color": "yellow",
       "location": "68817",
       "page": "817",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22137",
-      "text": "La visión de la gloria del Señor (h7)",
+      "text": "La visión de la gloria del Señor",
       "color": "yellow",
       "location": "68819",
       "page": "819",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24490",
-      "text": "Función del profeta (h7)",
+      "text": "Función del profeta",
       "color": "yellow",
       "location": "68863",
       "page": "863",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42936",
-      "text": "El profeta, centinela de Israel (h7)",
+      "text": "El profeta, centinela de Israel",
       "color": "yellow",
       "location": "68917",
       "page": "917",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63363",
-      "text": "El profeta se queda sin voz (h7)",
+      "text": "El profeta se queda sin voz",
       "color": "yellow",
       "location": "68930",
       "page": "930",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12395",
-      "text": "II. ACCIONES SIMBÓLICAS Y ORÁCULOS (h6)",
+      "text": "II. ACCIONES SIMBÓLICAS Y ORÁCULOS",
       "color": "yellow",
       "location": "68943",
       "page": "943",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17698",
-      "text": "III. VISIÓN DE LOS PECADOS DE ISRAEL (h6)",
+      "text": "III. VISIÓN DE LOS PECADOS DE ISRAEL",
       "color": "yellow",
       "location": "69103",
       "page": "103",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31900",
-      "text": "IV. ORÁCULOS ANTE LA INMINENTE INVASIÓN (h6)",
+      "text": "IV. ORÁCULOS ANTE LA INMINENTE INVASIÓN",
       "color": "yellow",
       "location": "69279",
       "page": "279",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40341",
-      "text": "El perdón y la Alianza (h7)",
+      "text": "El perdón y la Alianza",
       "color": "yellow",
       "location": "69568",
       "page": "568",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34264",
-      "text": "Alegoría de las dos águilas (h7)",
+      "text": "Alegoría de las dos águilas",
       "color": "yellow",
       "location": "69578",
       "page": "578",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22821",
-      "text": "SEGUNDA PARTE: JUICIO Y CONDENA DE LAS NACIONES (h5)",
+      "text": "SEGUNDA PARTE: JUICIO Y CONDENA DE LAS NACIONES",
       "color": "yellow",
       "location": "70200",
       "page": "200",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57381",
-      "text": "Alegoría del gran cedro (h7)",
+      "text": "Alegoría del gran cedro",
       "color": "yellow",
       "location": "70672",
       "page": "672",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4443",
-      "text": "TERCERA PARTE: ESPERANZA Y RENOVACIÓN DE ISRAEL (h5)",
+      "text": "TERCERA PARTE: ESPERANZA Y RENOVACIÓN DE ISRAEL",
       "color": "yellow",
       "location": "70838",
       "page": "838",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63705",
-      "text": "El Señor, pastor de Israel (h7)",
+      "text": "El Señor, pastor de Israel",
       "color": "yellow",
       "location": "70932",
       "page": "932",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50256",
@@ -13483,23 +14488,25 @@ export const bibleHighlights = [
   },
   {
       "id": "20511",
-      "text": "Bendición de los montes de Israel (h7)",
+      "text": "Bendición de los montes de Israel",
       "color": "yellow",
       "location": "71005",
       "page": "005",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41447",
-      "text": "I. RESTAURACIÓN DE ISRAEL (h6)",
+      "text": "I. RESTAURACIÓN DE ISRAEL",
       "color": "yellow",
       "location": "71037",
       "page": "037",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32940",
@@ -13511,13 +14518,14 @@ export const bibleHighlights = [
   },
   {
       "id": "3534",
-      "text": "Los huesos secos (h7)",
+      "text": "Los huesos secos",
       "color": "pink",
       "location": "71082",
       "page": "082",
       "note": ".h7 .favoritosbiblia",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": "❤️"
   },
   {
       "id": "34916",
@@ -13537,13 +14545,14 @@ export const bibleHighlights = [
   },
   {
       "id": "28271",
-      "text": "DANIEL (h4)",
+      "text": "DANIEL",
       "color": "yellow",
       "location": "71792",
       "page": "792",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14135",
@@ -13587,303 +14596,333 @@ export const bibleHighlights = [
   },
   {
       "id": "20855",
-      "text": "PRIMERA PARTE: HISTORIAS DE DANIEL Y SUS COMPAÑEROS EN LA CORTE DE BABILONIA (h5)",
+      "text": "PRIMERA PARTE: HISTORIAS DE DANIEL Y SUS COMPAÑEROS EN LA CORTE DE BABILONIA",
       "color": "yellow",
       "location": "71819",
       "page": "819",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6573",
-      "text": "I. DANIEL Y SUS COMPAÑEROS AL SERVICIO DE NABUCODONOSOR (h6)",
+      "text": "I. DANIEL Y SUS COMPAÑEROS AL SERVICIO DE NABUCODONOSOR",
       "color": "yellow",
       "location": "71821",
       "page": "821",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60162",
-      "text": "Llegada a la corte (h7)",
+      "text": "Llegada a la corte",
       "color": "yellow",
       "location": "71823",
       "page": "823",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43366",
-      "text": "La prueba de la comida real (h7)",
+      "text": "La prueba de la comida real",
       "color": "yellow",
       "location": "71840",
       "page": "840",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61358",
-      "text": "La sabiduría de los jóvenes judíos (h7)",
+      "text": "La sabiduría de los jóvenes judíos",
       "color": "yellow",
       "location": "71858",
       "page": "858",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60471",
-      "text": "II. DANIEL INTERPRETA EL SUEÑO DE LA ESTATUA (h6)",
+      "text": "II. DANIEL INTERPRETA EL SUEÑO DE LA ESTATUA",
       "color": "yellow",
       "location": "71868",
       "page": "868",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7513",
-      "text": "Petición imposible del rey (h7)",
+      "text": "Petición imposible del rey",
       "color": "yellow",
       "location": "71870",
       "page": "870",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14650",
-      "text": "Dios revela a Daniel el sueño del rey (h7)",
+      "text": "Dios revela a Daniel el sueño del rey",
       "color": "yellow",
       "location": "71900",
       "page": "900",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8079",
-      "text": "Daniel expone el sueño al rey (h7)",
+      "text": "Daniel expone el sueño al rey",
       "color": "yellow",
       "location": "71928",
       "page": "928",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63901",
-      "text": "Daniel interpreta el sueño (h7)",
+      "text": "Daniel interpreta el sueño",
       "color": "yellow",
       "location": "71953",
       "page": "953",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24605",
-      "text": "El rey reconoce al verdadero Dios (h7)",
+      "text": "El rey reconoce al verdadero Dios",
       "color": "yellow",
       "location": "71973",
       "page": "973",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46208",
-      "text": "III. LOS TRES JÓVENES JUDÍOS ARROJADOS AL HORNO (h6)",
+      "text": "III. LOS TRES JÓVENES JUDÍOS ARROJADOS AL HORNO",
       "color": "yellow",
       "location": "71983",
       "page": "983",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45143",
-      "text": "Condena por no adorar la estatua de oro (h7)",
+      "text": "Condena por no adorar la estatua de oro",
       "color": "yellow",
       "location": "71985",
       "page": "985",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17248",
-      "text": "Oraciones de los tres jóvenes en el horno (h7)",
+      "text": "Oraciones de los tres jóvenes en el horno",
       "color": "yellow",
       "location": "72036",
       "page": "036",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55437",
-      "text": "Nabucodonosor reconoce al Dios de los judíos (h7)",
+      "text": "Nabucodonosor reconoce al Dios de los judíos",
       "color": "yellow",
       "location": "72233",
       "page": "233",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17814",
-      "text": "IV. DANIEL INTERPRETA EL SUEÑO DEL ÁRBOL DERRIBADO A TIERRA (h6)",
+      "text": "IV. DANIEL INTERPRETA EL SUEÑO DEL ÁRBOL DERRIBADO A TIERRA",
       "color": "yellow",
       "location": "72263",
       "page": "263",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22320",
-      "text": "El sueño del rey (h7)",
+      "text": "El sueño del rey",
       "color": "yellow",
       "location": "72265",
       "page": "265",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53985",
-      "text": "Interpretación del sueño (h7)",
+      "text": "Interpretación del sueño",
       "color": "yellow",
       "location": "72300",
       "page": "300",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37787",
-      "text": "El sueño y la interpretación se cumplen (h7)",
+      "text": "El sueño y la interpretación se cumplen",
       "color": "yellow",
       "location": "72321",
       "page": "321",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26708",
-      "text": "V. LA VISIÓN DEL REY BALTASAR (h6)",
+      "text": "V. LA VISIÓN DEL REY BALTASAR",
       "color": "yellow",
       "location": "72349",
       "page": "349",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18656",
-      "text": "La mano que escribe en la pared (h7)",
+      "text": "La mano que escribe en la pared",
       "color": "yellow",
       "location": "72351",
       "page": "351",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29830",
-      "text": "Daniel lee e interpreta el escrito (h7)",
+      "text": "Daniel lee e interpreta el escrito",
       "color": "yellow",
       "location": "72381",
       "page": "381",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19598",
-      "text": "Cumplimiento de la interpretación (h7)",
+      "text": "Cumplimiento de la interpretación",
       "color": "yellow",
       "location": "72412",
       "page": "412",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13998",
-      "text": "VI. DANIEL EN EL FOSO DE LOS LEONES (h6)",
+      "text": "VI. DANIEL EN EL FOSO DE LOS LEONES",
       "color": "yellow",
       "location": "72418",
       "page": "418",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26161",
-      "text": "Daniel condenado a ser arrojado al foso (h7)",
+      "text": "Daniel condenado a ser arrojado al foso",
       "color": "yellow",
       "location": "72419",
       "page": "419",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4291",
-      "text": "Liberación milagrosa de Daniel (h7)",
+      "text": "Liberación milagrosa de Daniel",
       "color": "yellow",
       "location": "72465",
       "page": "465",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16352",
-      "text": "Reconocimiento de Dios por parte del rey (h7)",
+      "text": "Reconocimiento de Dios por parte del rey",
       "color": "yellow",
       "location": "72479",
       "page": "479",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11606",
-      "text": "SEGUNDA PARTE: SUEÑOS Y VISIONES DE DANIEL (h5)",
+      "text": "SEGUNDA PARTE: SUEÑOS Y VISIONES DE DANIEL",
       "color": "yellow",
       "location": "72492",
       "page": "492",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26470",
-      "text": "I. VISIÓN DE LAS CUATRO BESTIAS Y DEL HIJO DEL HOMBRE (h6)",
+      "text": "I. VISIÓN DE LAS CUATRO BESTIAS Y DEL HIJO DEL HOMBRE",
       "color": "yellow",
       "location": "72494",
       "page": "494",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33119",
-      "text": "Visión de Daniel (h7)",
+      "text": "Visión de Daniel",
       "color": "yellow",
       "location": "72496",
       "page": "496",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23441",
@@ -13903,43 +14942,47 @@ export const bibleHighlights = [
   },
   {
       "id": "41125",
-      "text": "Significado de la visión (h7)",
+      "text": "Significado de la visión",
       "color": "yellow",
       "location": "72539",
       "page": "539",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50710",
-      "text": "Silencio de Daniel (h7)",
+      "text": "Silencio de Daniel",
       "color": "yellow",
       "location": "72564",
       "page": "564",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61349",
-      "text": "II. VISIÓN DEL CARNERO Y DEL MACHO CABRÍO (h6)",
+      "text": "II. VISIÓN DEL CARNERO Y DEL MACHO CABRÍO",
       "color": "yellow",
       "location": "72568",
       "page": "568",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33119",
-      "text": "Visión de Daniel (h7)",
+      "text": "Visión de Daniel",
       "color": "yellow",
       "location": "72570",
       "page": "570",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11671",
@@ -13975,63 +15018,69 @@ export const bibleHighlights = [
   },
   {
       "id": "52502",
-      "text": "Interpretación de la visión (h7)",
+      "text": "Interpretación de la visión",
       "color": "yellow",
       "location": "72599",
       "page": "599",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5644",
-      "text": "Reacción de Daniel (h7)",
+      "text": "Reacción de Daniel",
       "color": "yellow",
       "location": "72623",
       "page": "623",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17846",
-      "text": "III. INTERPRETACIÓN DE LAS SETENTA SEMANAS (h6)",
+      "text": "III. INTERPRETACIÓN DE LAS SETENTA SEMANAS",
       "color": "yellow",
       "location": "72627",
       "page": "627",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52202",
-      "text": "La profecía de Jeremías (h7)",
+      "text": "La profecía de Jeremías",
       "color": "yellow",
       "location": "72629",
       "page": "629",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15971",
-      "text": "Oración penitencial de Daniel (h7)",
+      "text": "Oración penitencial de Daniel",
       "color": "yellow",
       "location": "72639",
       "page": "639",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4928",
-      "text": "Revelación por medio de Gabriel (h7)",
+      "text": "Revelación por medio de Gabriel",
       "color": "yellow",
       "location": "72672",
       "page": "672",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18949",
@@ -14051,203 +15100,223 @@ export const bibleHighlights = [
   },
   {
       "id": "56779",
-      "text": "IV. ÚLTIMA VISIÓN (h6)",
+      "text": "IV. ÚLTIMA VISIÓN",
       "color": "yellow",
       "location": "72693",
       "page": "693",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6397",
-      "text": "Visión del hombre vestido de lino (h7)",
+      "text": "Visión del hombre vestido de lino",
       "color": "yellow",
       "location": "72695",
       "page": "695",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23633",
-      "text": "Saludo del ángel (h7)",
+      "text": "Saludo del ángel",
       "color": "yellow",
       "location": "72714",
       "page": "714",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23575",
-      "text": "V. REVELACIÓN DE GUERRAS Y DEL FIN (h6)",
+      "text": "V. REVELACIÓN DE GUERRAS Y DEL FIN",
       "color": "yellow",
       "location": "72746",
       "page": "746",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52272",
-      "text": "Guerras entre persas y griegos, lágidas y seléucidas (h7)",
+      "text": "Guerras entre persas y griegos, lágidas y seléucidas",
       "color": "yellow",
       "location": "72748",
       "page": "748",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44788",
-      "text": "Antíoco IV Epífanes (h7)",
+      "text": "Antíoco IV Epífanes",
       "color": "yellow",
       "location": "72783",
       "page": "783",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24582",
-      "text": "Desenlace final y definitivo (h7)",
+      "text": "Desenlace final y definitivo",
       "color": "yellow",
       "location": "72818",
       "page": "818",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48250",
-      "text": "El tiempo del fin (h7)",
+      "text": "El tiempo del fin",
       "color": "yellow",
       "location": "72841",
       "page": "841",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36195",
-      "text": "TERCERA PARTE: OTRAS HISTORIAS DE DANIEL (h5)",
+      "text": "TERCERA PARTE: OTRAS HISTORIAS DE DANIEL",
       "color": "yellow",
       "location": "72860",
       "page": "860",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20284",
-      "text": "I. HISTORIA DE SUSANA (h6)",
+      "text": "I. HISTORIA DE SUSANA",
       "color": "yellow",
       "location": "72862",
       "page": "862",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36691",
-      "text": "Perversión de los dos ancianos (h7)",
+      "text": "Perversión de los dos ancianos",
       "color": "yellow",
       "location": "72864",
       "page": "864",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27829",
-      "text": "Condena de Susana (h7)",
+      "text": "Condena de Susana",
       "color": "yellow",
       "location": "72889",
       "page": "889",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32733",
-      "text": "Intervención de Daniel (h7)",
+      "text": "Intervención de Daniel",
       "color": "yellow",
       "location": "72939",
       "page": "939",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31818",
-      "text": "II. DOS HISTORIAS SOBRE LOS ÍDOLOS (h6)",
+      "text": "II. DOS HISTORIAS SOBRE LOS ÍDOLOS",
       "color": "yellow",
       "location": "72981",
       "page": "981",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49645",
-      "text": "El ídolo Bel (h7)",
+      "text": "El ídolo Bel",
       "color": "yellow",
       "location": "72983",
       "page": "983",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42956",
-      "text": "El dragón tenido por Dios vivo (h7)",
+      "text": "El dragón tenido por Dios vivo",
       "color": "yellow",
       "location": "73032",
       "page": "032",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6280",
-      "text": "Salvación de Daniel (h7)",
+      "text": "Salvación de Daniel",
       "color": "yellow",
       "location": "73045",
       "page": "045",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24861",
-      "text": "OSEAS (h4)",
+      "text": "OSEAS",
       "color": "yellow",
       "location": "73074",
       "page": "074",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12203",
-      "text": "JOEL (h4)",
+      "text": "JOEL",
       "color": "yellow",
       "location": "74005",
       "page": "005",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49849",
-      "text": "AMÓS (h4)",
+      "text": "AMÓS",
       "color": "yellow",
       "location": "74386",
       "page": "386",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14135",
@@ -14275,23 +15344,25 @@ export const bibleHighlights = [
   },
   {
       "id": "15470",
-      "text": "ABDÍAS (h4)",
+      "text": "ABDÍAS",
       "color": "yellow",
       "location": "75090",
       "page": "090",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26401",
-      "text": "JONÁS (h4)",
+      "text": "JONÁS",
       "color": "yellow",
       "location": "75207",
       "page": "207",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12850",
@@ -14303,23 +15374,25 @@ export const bibleHighlights = [
   },
   {
       "id": "4760",
-      "text": "I. MISIÓN DE DIOS A JONÁS (h5)",
+      "text": "I. MISIÓN DE DIOS A JONÁS",
       "color": "yellow",
       "location": "75223",
       "page": "223",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62458",
-      "text": "Misión profética y huida de Jonás (h6)",
+      "text": "Misión profética y huida de Jonás",
       "color": "yellow",
       "location": "75225",
       "page": "225",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59118",
@@ -14339,13 +15412,14 @@ export const bibleHighlights = [
   },
   {
       "id": "12958",
-      "text": "La tormenta (h6)",
+      "text": "La tormenta",
       "color": "yellow",
       "location": "75235",
       "page": "235",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27135",
@@ -14397,13 +15471,14 @@ export const bibleHighlights = [
   },
   {
       "id": "43773",
-      "text": "Jonás en el vientre de la ballena (h6)",
+      "text": "Jonás en el vientre de la ballena",
       "color": "yellow",
       "location": "75267",
       "page": "267",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34791",
@@ -14415,13 +15490,14 @@ export const bibleHighlights = [
   },
   {
       "id": "45314",
-      "text": "Salmo de acción de gracias de Jonás desde el vientre del pez (h7)",
+      "text": "Salmo de acción de gracias de Jonás desde el vientre del pez",
       "color": "yellow",
       "location": "75275",
       "page": "275",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21623",
@@ -14449,23 +15525,25 @@ export const bibleHighlights = [
   },
   {
       "id": "48240",
-      "text": "II. JONÁS EN NÍNIVE (h5)",
+      "text": "II. JONÁS EN NÍNIVE",
       "color": "yellow",
       "location": "75310",
       "page": "310",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43238",
-      "text": "Predicación de Jonás en Nínive (h6)",
+      "text": "Predicación de Jonás en Nínive",
       "color": "yellow",
       "location": "75311",
       "page": "311",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59118",
@@ -14485,13 +15563,14 @@ export const bibleHighlights = [
   },
   {
       "id": "25340",
-      "text": "Penitencia de los ninivitas (h6)",
+      "text": "Penitencia de los ninivitas",
       "color": "yellow",
       "location": "75324",
       "page": "324",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13930",
@@ -14527,13 +15606,14 @@ export const bibleHighlights = [
   },
   {
       "id": "60604",
-      "text": "Despecho de Jonás (h6)",
+      "text": "Despecho de Jonás",
       "color": "yellow",
       "location": "75337",
       "page": "337",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3791",
@@ -14569,13 +15649,14 @@ export const bibleHighlights = [
   },
   {
       "id": "13724",
-      "text": "Reprensión divina y razón de la misericordia de Dios (h6)",
+      "text": "Reprensión divina y razón de la misericordia de Dios",
       "color": "yellow",
       "location": "75356",
       "page": "356",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59624",
@@ -14587,13 +15668,14 @@ export const bibleHighlights = [
   },
   {
       "id": "59895",
-      "text": "MIQUEAS (h4)",
+      "text": "MIQUEAS",
       "color": "yellow",
       "location": "75366",
       "page": "366",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13621",
@@ -14629,43 +15711,47 @@ export const bibleHighlights = [
   },
   {
       "id": "3529",
-      "text": "HABACUC (h4)",
+      "text": "HABACUC",
       "color": "yellow",
       "location": "76186",
       "page": "186",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27245",
-      "text": "SOFONÍAS (h4)",
+      "text": "SOFONÍAS",
       "color": "yellow",
       "location": "76466",
       "page": "466",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62877",
-      "text": "AGEO (h4)",
+      "text": "AGEO",
       "color": "yellow",
       "location": "76773",
       "page": "773",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58201",
-      "text": "ZACARÍAS (h4)",
+      "text": "ZACARÍAS",
       "color": "yellow",
       "location": "76919",
       "page": "919",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37730",
@@ -14693,13 +15779,14 @@ export const bibleHighlights = [
   },
   {
       "id": "713",
-      "text": "MALAQUÍAS (h4)",
+      "text": "MALAQUÍAS",
       "color": "yellow",
       "location": "77666",
       "page": "666",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -14719,33 +15806,36 @@ export const bibleHighlights = [
   },
   {
       "id": "32663",
-      "text": "NUEVO TESTAMENTO (h1)",
+      "text": "NUEVO TESTAMENTO",
       "color": "yellow",
       "location": "77888",
       "page": "888",
       "note": ".h1",
       "header": "\n##",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58091",
-      "text": "SANTOS EVANGELIOS (h2)",
+      "text": "SANTOS EVANGELIOS",
       "color": "yellow",
       "location": "77893",
       "page": "893",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51433",
-      "text": "EVANGELIO SEGÚN SAN MATEO (h4)",
+      "text": "EVANGELIO SEGÚN SAN MATEO",
       "color": "yellow",
       "location": "77898",
       "page": "898",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -14909,33 +15999,36 @@ export const bibleHighlights = [
   },
   {
       "id": "25805",
-      "text": "I. NACIMIENTO E INFANCIA DE JESÚS (h6)",
+      "text": "I. NACIMIENTO E INFANCIA DE JESÚS",
       "color": "yellow",
       "location": "77941",
       "page": "941",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58804",
-      "text": "Genealogía de Jesucristo (h7)",
+      "text": "Genealogía de Jesucristo",
       "color": "yellow",
       "location": "77943",
       "page": "943",
       "note": ".h7\n[[Lc-03]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53079",
-      "text": "Concepción virginal y nacimiento de Jesús (h7)",
+      "text": "Concepción virginal y nacimiento de Jesús",
       "color": "yellow",
       "location": "77973",
       "page": "973",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62024",
@@ -14947,53 +16040,58 @@ export const bibleHighlights = [
   },
   {
       "id": "35540",
-      "text": "Adoración de los Magos (h7)",
+      "text": "Adoración de los Magos",
       "color": "yellow",
       "location": "77993",
       "page": "993",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18219",
-      "text": "Huida a Egipto. Muerte de los Inocentes (h7)",
+      "text": "Huida a Egipto. Muerte de los Inocentes",
       "color": "yellow",
       "location": "78022",
       "page": "022",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35048",
-      "text": "Retorno a Nazaret (h7)",
+      "text": "Retorno a Nazaret",
       "color": "yellow",
       "location": "78038",
       "page": "038",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14984",
-      "text": "II. PREPARACIÓN DEL MINISTERIO DE JESÚS (h6)",
+      "text": "II. PREPARACIÓN DEL MINISTERIO DE JESÚS",
       "color": "yellow",
       "location": "78050",
       "page": "050",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63476",
-      "text": "Predicación de San Juan Bautista (h7)",
+      "text": "Predicación de San Juan Bautista",
       "color": "yellow",
       "location": "78052",
       "page": "052",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19089",
@@ -15005,13 +16103,14 @@ export const bibleHighlights = [
   },
   {
       "id": "21481",
-      "text": "Bautismo de Jesús (h7)",
+      "text": "Bautismo de Jesús",
       "color": "yellow",
       "location": "78082",
       "page": "082",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64974",
@@ -15023,63 +16122,69 @@ export const bibleHighlights = [
   },
   {
       "id": "37199",
-      "text": "Ayuno y tentaciones de Jesús (h7)",
+      "text": "Ayuno y tentaciones de Jesús",
       "color": "yellow",
       "location": "78097",
       "page": "097",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61566",
-      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA (h5)",
+      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA",
       "color": "yellow",
       "location": "78129",
       "page": "129",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39184",
-      "text": "Predicación de Jesús (h7)",
+      "text": "Predicación de Jesús",
       "color": "yellow",
       "location": "78131",
       "page": "131",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35968",
-      "text": "Vocación de los primeros discípulos (h7)",
+      "text": "Vocación de los primeros discípulos",
       "color": "yellow",
       "location": "78150",
       "page": "150",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22181",
-      "text": "III. EL DISCURSO DE LA MONTAÑA (h6)",
+      "text": "III. EL DISCURSO DE LA MONTAÑA",
       "color": "yellow",
       "location": "78169",
       "page": "169",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14187",
-      "text": "Las Bienaventuranzas (h7)",
+      "text": "Las Bienaventuranzas",
       "color": "yellow",
       "location": "78171",
       "page": "171",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39413",
@@ -15099,23 +16204,25 @@ export const bibleHighlights = [
   },
   {
       "id": "56018",
-      "text": "Sal de la tierra. Luz del mundo (h7)",
+      "text": "Sal de la tierra. Luz del mundo",
       "color": "yellow",
       "location": "78196",
       "page": "196",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19028",
-      "text": "Jesús y su doctrina, plenitud de la Ley (h7)",
+      "text": "Jesús y su doctrina, plenitud de la Ley",
       "color": "yellow",
       "location": "78208",
       "page": "208",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36595",
@@ -15151,13 +16258,14 @@ export const bibleHighlights = [
   },
   {
       "id": "41541",
-      "text": "Rectitud de intención: limosna, oración y ayuno (h7)",
+      "text": "Rectitud de intención: limosna, oración y ayuno",
       "color": "yellow",
       "location": "78266",
       "page": "266",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10617",
@@ -15177,13 +16285,14 @@ export const bibleHighlights = [
   },
   {
       "id": "33366",
-      "text": "Confianza en la Providencia paternal de Dios (h7)",
+      "text": "Confianza en la Providencia paternal de Dios",
       "color": "pink",
       "location": "78305",
       "page": "305",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "11711",
@@ -15203,23 +16312,25 @@ export const bibleHighlights = [
   },
   {
       "id": "29698",
-      "text": "Respeto de las cosas santas (h7)",
+      "text": "Respeto de las cosas santas",
       "color": "yellow",
       "location": "78349",
       "page": "349",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15004",
-      "text": "Eficacia de la oración (h7)",
+      "text": "Eficacia de la oración",
       "color": "yellow",
       "location": "78352",
       "page": "352",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4837",
@@ -15231,83 +16342,91 @@ export const bibleHighlights = [
   },
   {
       "id": "62598",
-      "text": "La «regla de oro» (h7)",
+      "text": "La «regla de oro»",
       "color": "yellow",
       "location": "78362",
       "page": "362",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47128",
-      "text": "La puerta angosta (h7)",
+      "text": "La puerta angosta",
       "color": "yellow",
       "location": "78367",
       "page": "367",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18440",
-      "text": "Los falsos profetas (h7)",
+      "text": "Los falsos profetas",
       "color": "yellow",
       "location": "78374",
       "page": "374",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31422",
-      "text": "Cumplir la voluntad de Dios (h7)",
+      "text": "Cumplir la voluntad de Dios",
       "color": "yellow",
       "location": "78384",
       "page": "384",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46721",
-      "text": "Edificar sobre roca (h7)",
+      "text": "Edificar sobre roca",
       "color": "yellow",
       "location": "78392",
       "page": "392",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58767",
-      "text": "Autoridad de la enseñanza de Jesús (h7)",
+      "text": "Autoridad de la enseñanza de Jesús",
       "color": "yellow",
       "location": "78403",
       "page": "403",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60552",
-      "text": "IV. LOS MILAGROS DEL MESÍAS (h6)",
+      "text": "IV. LOS MILAGROS DEL MESÍAS",
       "color": "yellow",
       "location": "78407",
       "page": "407",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20218",
-      "text": "Curación de un leproso (h7)",
+      "text": "Curación de un leproso",
       "color": "yellow",
       "location": "78409",
       "page": "409",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58049",
@@ -15319,13 +16438,14 @@ export const bibleHighlights = [
   },
   {
       "id": "12953",
-      "text": "La fe del centurión (h7)",
+      "text": "La fe del centurión",
       "color": "yellow",
       "location": "78425",
       "page": "425",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62344",
@@ -15353,23 +16473,25 @@ export const bibleHighlights = [
   },
   {
       "id": "976",
-      "text": "Curación de la suegra de Pedro (h7)",
+      "text": "Curación de la suegra de Pedro",
       "color": "yellow",
       "location": "78447",
       "page": "447",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34238",
-      "text": "Otras curaciones (h7)",
+      "text": "Otras curaciones",
       "color": "yellow",
       "location": "78455",
       "page": "455",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55739",
@@ -15381,33 +16503,36 @@ export const bibleHighlights = [
   },
   {
       "id": "30248",
-      "text": "Exigencias para el que sigue a Jesús (h7)",
+      "text": "Exigencias para el que sigue a Jesús",
       "color": "yellow",
       "location": "78464",
       "page": "464",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49957",
-      "text": "La tempestad calmada (h7)",
+      "text": "La tempestad calmada",
       "color": "yellow",
       "location": "78478",
       "page": "478",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63581",
-      "text": "Los endemoniados de Gadara (h7)",
+      "text": "Los endemoniados de Gadara",
       "color": "yellow",
       "location": "78492",
       "page": "492",
       "note": ".h7\nEste capítulo está relacionado con el anterior. Los demonios se percatan de la calma de la naturaleza causada por Cristo.",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50640",
@@ -15419,13 +16544,14 @@ export const bibleHighlights = [
   },
   {
       "id": "4136",
-      "text": "Curación de un paralítico (h7)",
+      "text": "Curación de un paralítico",
       "color": "yellow",
       "location": "78510",
       "page": "510",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33474",
@@ -15461,13 +16587,14 @@ export const bibleHighlights = [
   },
   {
       "id": "20162",
-      "text": "Vocación de Mateo (h7)",
+      "text": "Vocación de Mateo",
       "color": "yellow",
       "location": "78530",
       "page": "530",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3494",
@@ -15479,83 +16606,91 @@ export const bibleHighlights = [
   },
   {
       "id": "31353",
-      "text": "Cuestión sobre el ayuno (h7)",
+      "text": "Cuestión sobre el ayuno",
       "color": "yellow",
       "location": "78545",
       "page": "545",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14017",
-      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa (h7)",
+      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa",
       "color": "yellow",
       "location": "78559",
       "page": "559",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4703",
-      "text": "Curación de dos ciegos. El demonio mudo (h7)",
+      "text": "Curación de dos ciegos. El demonio mudo",
       "color": "yellow",
       "location": "78580",
       "page": "580",
       "note": ".h7\n[[Lc-11]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17751",
-      "text": "Necesidad de buenos pastores (h7)",
+      "text": "Necesidad de buenos pastores",
       "color": "yellow",
       "location": "78601",
       "page": "601",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4992",
-      "text": "V. DEL ANTIGUO AL NUEVO PUEBLO DE DIOS (h6)",
+      "text": "V. DEL ANTIGUO AL NUEVO PUEBLO DE DIOS",
       "color": "yellow",
       "location": "78613",
       "page": "613",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30771",
-      "text": "Elección de los Doce Apóstoles (h7)",
+      "text": "Elección de los Doce Apóstoles",
       "color": "yellow",
       "location": "78614",
       "page": "614",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65170",
-      "text": "Primera misión de los Apóstoles (h7)",
+      "text": "Primera misión de los Apóstoles",
       "color": "yellow",
       "location": "78628",
       "page": "628",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21856",
-      "text": "Instrucciones de Jesús para la misión apostólica (h7)",
+      "text": "Instrucciones de Jesús para la misión apostólica",
       "color": "yellow",
       "location": "78648",
       "page": "648",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64106",
@@ -15575,13 +16710,14 @@ export const bibleHighlights = [
   },
   {
       "id": "7311",
-      "text": "Embajada de San Juan Bautista (h7)",
+      "text": "Embajada de San Juan Bautista",
       "color": "yellow",
       "location": "78697",
       "page": "697",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40707",
@@ -15593,33 +16729,36 @@ export const bibleHighlights = [
   },
   {
       "id": "13305",
-      "text": "Reproches contra la incredulidad (h7)",
+      "text": "Reproches contra la incredulidad",
       "color": "yellow",
       "location": "78729",
       "page": "729",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26786",
-      "text": "Jesús increpa a las ciudades incrédulas (h7)",
+      "text": "Jesús increpa a las ciudades incrédulas",
       "color": "yellow",
       "location": "78742",
       "page": "742",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9252",
-      "text": "Acción de gracias de Jesús (h7)",
+      "text": "Acción de gracias de Jesús",
       "color": "yellow",
       "location": "78755",
       "page": "755",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55528",
@@ -15631,33 +16770,36 @@ export const bibleHighlights = [
   },
   {
       "id": "25787",
-      "text": "Cuestión sobre el sábado (h7)",
+      "text": "Cuestión sobre el sábado",
       "color": "yellow",
       "location": "78768",
       "page": "768",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42692",
-      "text": "Curación del hombre de la mano seca (h7)",
+      "text": "Curación del hombre de la mano seca",
       "color": "yellow",
       "location": "78789",
       "page": "789",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20250",
-      "text": "Jesús, Siervo de Dios (h7)",
+      "text": "Jesús, Siervo de Dios",
       "color": "yellow",
       "location": "78805",
       "page": "805",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6410",
@@ -15669,13 +16811,14 @@ export const bibleHighlights = [
   },
   {
       "id": "40307",
-      "text": "Calumnia de los fariseos. Pecado contra el Espíritu Santo (h7)",
+      "text": "Calumnia de los fariseos. Pecado contra el Espíritu Santo",
       "color": "yellow",
       "location": "78820",
       "page": "820",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43216",
@@ -15687,13 +16830,14 @@ export const bibleHighlights = [
   },
   {
       "id": "14523",
-      "text": "La señal de Jonás (h7)",
+      "text": "La señal de Jonás",
       "color": "yellow",
       "location": "78852",
       "page": "852",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17060",
@@ -15705,13 +16849,14 @@ export const bibleHighlights = [
   },
   {
       "id": "6916",
-      "text": "El verdadero parentesco con Jesús (h7)",
+      "text": "El verdadero parentesco con Jesús",
       "color": "yellow",
       "location": "78872",
       "page": "872",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20139",
@@ -15723,13 +16868,14 @@ export const bibleHighlights = [
   },
   {
       "id": "9147",
-      "text": "Parábola del sembrador. Sentido de las parábolas (h7)",
+      "text": "Parábola del sembrador. Sentido de las parábolas",
       "color": "yellow",
       "location": "78888",
       "page": "888",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45444",
@@ -15789,23 +16935,25 @@ export const bibleHighlights = [
   },
   {
       "id": "56903",
-      "text": "Parábola de la cizaña (h7)",
+      "text": "Parábola de la cizaña",
       "color": "yellow",
       "location": "78936",
       "page": "936",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7758",
-      "text": "Parábolas del grano de mostaza y de la levadura (h7)",
+      "text": "Parábolas del grano de mostaza y de la levadura",
       "color": "yellow",
       "location": "78948",
       "page": "948",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23077",
@@ -15833,13 +16981,14 @@ export const bibleHighlights = [
   },
   {
       "id": "49761",
-      "text": "Explicación de la parábola de la cizaña (h7)",
+      "text": "Explicación de la parábola de la cizaña",
       "color": "yellow",
       "location": "78965",
       "page": "965",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10879",
@@ -15883,13 +17032,14 @@ export const bibleHighlights = [
   },
   {
       "id": "8710",
-      "text": "Parábolas del tesoro escondido, de la perla y de la red (h7)",
+      "text": "Parábolas del tesoro escondido, de la perla y de la red",
       "color": "yellow",
       "location": "78979",
       "page": "979",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18554",
@@ -15917,73 +17067,80 @@ export const bibleHighlights = [
   },
   {
       "id": "2626",
-      "text": "VII. JESÚS SE RETIRA A LAS REGIONES CERCANAS (h6)",
+      "text": "VII. JESÚS SE RETIRA A LAS REGIONES CERCANAS",
       "color": "yellow",
       "location": "78997",
       "page": "997",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34176",
-      "text": "Nadie es profeta en su tierra (h7)",
+      "text": "Nadie es profeta en su tierra",
       "color": "yellow",
       "location": "78999",
       "page": "999",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17873",
-      "text": "Martirio de San Juan Bautista (h7)",
+      "text": "Martirio de San Juan Bautista",
       "color": "yellow",
       "location": "79013",
       "page": "013",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17431",
-      "text": "Primera multiplicación de los panes (h7)",
+      "text": "Primera multiplicación de los panes",
       "color": "yellow",
       "location": "79038",
       "page": "038",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22553",
-      "text": "Jesús camina sobre las aguas (h7)",
+      "text": "Jesús camina sobre las aguas",
       "color": "yellow",
       "location": "79060",
       "page": "060",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55113",
-      "text": "Curaciones en Genesaret (h7)",
+      "text": "Curaciones en Genesaret",
       "color": "yellow",
       "location": "79088",
       "page": "088",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55912",
-      "text": "Las tradiciones de los antiguos La verdadera pureza (h7)",
+      "text": "Las tradiciones de los antiguos La verdadera pureza",
       "color": "yellow",
       "location": "79096",
       "page": "096",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23260",
@@ -16011,13 +17168,14 @@ export const bibleHighlights = [
   },
   {
       "id": "29571",
-      "text": "La mujer cananea (h7)",
+      "text": "La mujer cananea",
       "color": "yellow",
       "location": "79138",
       "page": "138",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20781",
@@ -16037,43 +17195,47 @@ export const bibleHighlights = [
   },
   {
       "id": "22276",
-      "text": "Curación de muchos enfermos (h7)",
+      "text": "Curación de muchos enfermos",
       "color": "yellow",
       "location": "79160",
       "page": "160",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2062",
-      "text": "Segunda multiplicación de los panes (h7)",
+      "text": "Segunda multiplicación de los panes",
       "color": "yellow",
       "location": "79167",
       "page": "167",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35675",
-      "text": "Insidias de fariseos y saduceos (h7)",
+      "text": "Insidias de fariseos y saduceos",
       "color": "yellow",
       "location": "79186",
       "page": "186",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38091",
-      "text": "Confesión y primado de San Pedro (h7)",
+      "text": "Confesión y primado de San Pedro",
       "color": "yellow",
       "location": "79213",
       "page": "213",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57760",
@@ -16085,53 +17247,58 @@ export const bibleHighlights = [
   },
   {
       "id": "1925",
-      "text": "SEGUNDA PARTE: MINISTERIO CAMINO DE JERUSALÉN (h5)",
+      "text": "SEGUNDA PARTE: MINISTERIO CAMINO DE JERUSALÉN",
       "color": "yellow",
       "location": "79234",
       "page": "234",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17721",
-      "text": "VIII. HACIA JUDEA Y JERUSALÉN (h6)",
+      "text": "VIII. HACIA JUDEA Y JERUSALÉN",
       "color": "yellow",
       "location": "79237",
       "page": "237",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2501",
-      "text": "Jesús predice su Pasión y su Gloria. La ley de la renuncia cristiana (h7)",
+      "text": "Jesús predice su Pasión y su Gloria. La ley de la renuncia cristiana",
       "color": "yellow",
       "location": "79238",
       "page": "238",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22414",
-      "text": "La Transfiguración (h7)",
+      "text": "La Transfiguración",
       "color": "yellow",
       "location": "79260",
       "page": "260",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28718",
-      "text": "Curación del muchacho lunático (h7)",
+      "text": "Curación del muchacho lunático",
       "color": "yellow",
       "location": "79291",
       "page": "291",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24234",
@@ -16143,33 +17310,36 @@ export const bibleHighlights = [
   },
   {
       "id": "54941",
-      "text": "Segundo anuncio de la Pasión. Tributo al Templo (h7)",
+      "text": "Segundo anuncio de la Pasión. Tributo al Templo",
       "color": "yellow",
       "location": "79310",
       "page": "310",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61312",
-      "text": "IX. DISCURSO SOBRE LA VIDA EN LA IGLESIA (h6)",
+      "text": "IX. DISCURSO SOBRE LA VIDA EN LA IGLESIA",
       "color": "yellow",
       "location": "79330",
       "page": "330",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1843",
-      "text": "Los «pequeños» y el Reino. El escándalo. La oveja perdida (h7)",
+      "text": "Los «pequeños» y el Reino. El escándalo. La oveja perdida",
       "color": "yellow",
       "location": "79332",
       "page": "332",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34460",
@@ -16181,13 +17351,14 @@ export const bibleHighlights = [
   },
   {
       "id": "24530",
-      "text": "Corrección fraterna. Poderes de los Apóstoles (h7)",
+      "text": "Corrección fraterna. Poderes de los Apóstoles",
       "color": "yellow",
       "location": "79365",
       "page": "365",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36696",
@@ -16207,13 +17378,14 @@ export const bibleHighlights = [
   },
   {
       "id": "52439",
-      "text": "Perdón de las ofensas. Parábola del siervo despiadado (h7)",
+      "text": "Perdón de las ofensas. Parábola del siervo despiadado",
       "color": "yellow",
       "location": "79379",
       "page": "379",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38023",
@@ -16225,13 +17397,14 @@ export const bibleHighlights = [
   },
   {
       "id": "22629",
-      "text": "Matrimonio y virginidad (h7)",
+      "text": "Matrimonio y virginidad",
       "color": "yellow",
       "location": "79405",
       "page": "405",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14424",
@@ -16243,13 +17416,14 @@ export const bibleHighlights = [
   },
   {
       "id": "41705",
-      "text": "Jesús bendice a los niños (h7)",
+      "text": "Jesús bendice a los niños",
       "color": "yellow",
       "location": "79436",
       "page": "436",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47712",
@@ -16261,13 +17435,14 @@ export const bibleHighlights = [
   },
   {
       "id": "44455",
-      "text": "El joven rico. Pobreza y entrega cristianas (h7)",
+      "text": "El joven rico. Pobreza y entrega cristianas",
       "color": "yellow",
       "location": "79446",
       "page": "446",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19488",
@@ -16279,33 +17454,36 @@ export const bibleHighlights = [
   },
   {
       "id": "14461",
-      "text": "Parábola de los obreros de la viña (h7)",
+      "text": "Parábola de los obreros de la viña",
       "color": "yellow",
       "location": "79484",
       "page": "484",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57770",
-      "text": "Tercer anuncio de la Pasión (h7)",
+      "text": "Tercer anuncio de la Pasión",
       "color": "yellow",
       "location": "79510",
       "page": "510",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7997",
-      "text": "Petición de la madre de los hijos de Zebedeo (h7)",
+      "text": "Petición de la madre de los hijos de Zebedeo",
       "color": "yellow",
       "location": "79520",
       "page": "520",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59915",
@@ -16333,73 +17511,80 @@ export const bibleHighlights = [
   },
   {
       "id": "44719",
-      "text": "Curación de los ciegos de Jericó (h7)",
+      "text": "Curación de los ciegos de Jericó",
       "color": "yellow",
       "location": "79542",
       "page": "542",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39799",
-      "text": "TERCERA PARTE: MINISTERIO DE JESÚS EN JERUSALÉN (h5)",
+      "text": "TERCERA PARTE: MINISTERIO DE JESÚS EN JERUSALÉN",
       "color": "yellow",
       "location": "79558",
       "page": "558",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27892",
-      "text": "X. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS (h6)",
+      "text": "X. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS",
       "color": "yellow",
       "location": "79560",
       "page": "560",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18585",
-      "text": "Entrada del Mesías en la Ciudad Santa (h7)",
+      "text": "Entrada del Mesías en la Ciudad Santa",
       "color": "yellow",
       "location": "79562",
       "page": "562",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61269",
-      "text": "Jesús en el Templo (h7)",
+      "text": "Jesús en el Templo",
       "color": "yellow",
       "location": "79593",
       "page": "593",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37922",
-      "text": "Maldición de la higuera (h7)",
+      "text": "Maldición de la higuera",
       "color": "yellow",
       "location": "79612",
       "page": "612",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56553",
-      "text": "Potestad de Jesús (h7)",
+      "text": "Potestad de Jesús",
       "color": "yellow",
       "location": "79625",
       "page": "625",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24785",
@@ -16411,63 +17596,69 @@ export const bibleHighlights = [
   },
   {
       "id": "56339",
-      "text": "Parábola de los dos hijos (h7)",
+      "text": "Parábola de los dos hijos",
       "color": "yellow",
       "location": "79642",
       "page": "642",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34103",
-      "text": "Parábola de los viñadores homicidas (h7)",
+      "text": "Parábola de los viñadores homicidas",
       "color": "yellow",
       "location": "79653",
       "page": "653",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48050",
-      "text": "Parábola de los invitados a las bodas (h7)",
+      "text": "Parábola de los invitados a las bodas",
       "color": "yellow",
       "location": "79684",
       "page": "684",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18858",
-      "text": "El tributo al César (h7)",
+      "text": "El tributo al César",
       "color": "yellow",
       "location": "79710",
       "page": "710",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24609",
-      "text": "La resurrección de los muertos (h7)",
+      "text": "La resurrección de los muertos",
       "color": "yellow",
       "location": "79730",
       "page": "730",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54971",
-      "text": "El primer mandamiento (h7)",
+      "text": "El primer mandamiento",
       "color": "yellow",
       "location": "79752",
       "page": "752",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35444",
@@ -16479,23 +17670,25 @@ export const bibleHighlights = [
   },
   {
       "id": "20725",
-      "text": "Divinidad del Mesías (h7)",
+      "text": "Divinidad del Mesías",
       "color": "yellow",
       "location": "79767",
       "page": "767",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65271",
-      "text": "Censuras a escribas y fariseos (h7)",
+      "text": "Censuras a escribas y fariseos",
       "color": "yellow",
       "location": "79784",
       "page": "784",
       "note": ".h7\n[[Mc-12]], [[Lc-11]], [[Mt-20]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18856",
@@ -16523,43 +17716,47 @@ export const bibleHighlights = [
   },
   {
       "id": "54777",
-      "text": "Queja contra Jerusalén (h7)",
+      "text": "Queja contra Jerusalén",
       "color": "yellow",
       "location": "79846",
       "page": "846",
       "note": ".h7\n[[Lc-13]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18117",
-      "text": "XI. DISCURSO ESCATOLÓGICO Y PARÁBOLAS (h6)",
+      "text": "XI. DISCURSO ESCATOLÓGICO Y PARÁBOLAS",
       "color": "yellow",
       "location": "79855",
       "page": "855",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2411",
-      "text": "Anuncio de la destrucción del Templo (h7)",
+      "text": "Anuncio de la destrucción del Templo",
       "color": "yellow",
       "location": "79857",
       "page": "857",
       "note": ".h7\n[[Mc-13]], [[Lc-21]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30202",
-      "text": "Comienzo de las tribulaciones. Persecuciones por causa del Evangelio (h7)",
+      "text": "Comienzo de las tribulaciones. Persecuciones por causa del Evangelio",
       "color": "yellow",
       "location": "79869",
       "page": "869",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59796",
@@ -16571,23 +17768,25 @@ export const bibleHighlights = [
   },
   {
       "id": "17638",
-      "text": "La gran tribulación (h7)",
+      "text": "La gran tribulación",
       "color": "yellow",
       "location": "79891",
       "page": "891",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55814",
-      "text": "La venida del Hijo del Hombre (h7)",
+      "text": "La venida del Hijo del Hombre",
       "color": "yellow",
       "location": "79915",
       "page": "915",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20622",
@@ -16599,13 +17798,14 @@ export const bibleHighlights = [
   },
   {
       "id": "24770",
-      "text": "Certeza del fin: la lección de la higuera (h7)",
+      "text": "Certeza del fin: la lección de la higuera",
       "color": "yellow",
       "location": "79926",
       "page": "926",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30334",
@@ -16617,13 +17817,14 @@ export const bibleHighlights = [
   },
   {
       "id": "33257",
-      "text": "Tiempos de la segunda venida de Cristo (h7)",
+      "text": "Tiempos de la segunda venida de Cristo",
       "color": "yellow",
       "location": "79936",
       "page": "936",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39329",
@@ -16651,33 +17852,36 @@ export const bibleHighlights = [
   },
   {
       "id": "61858",
-      "text": "Parábola del siervo fiel (h7)",
+      "text": "Parábola del siervo fiel",
       "color": "yellow",
       "location": "79953",
       "page": "953",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39194",
-      "text": "Parábola de las vírgenes necias y prudentes (h7)",
+      "text": "Parábola de las vírgenes necias y prudentes",
       "color": "yellow",
       "location": "79967",
       "page": "967",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48054",
-      "text": "Parábola de los talentos (h7)",
+      "text": "Parábola de los talentos",
       "color": "yellow",
       "location": "79988",
       "page": "988",
       "note": ".h7\n[[Lc-19]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26536",
@@ -16721,63 +17925,69 @@ export const bibleHighlights = [
   },
   {
       "id": "28202",
-      "text": "El Juicio Final (h7)",
+      "text": "El Juicio Final",
       "color": "yellow",
       "location": "80017",
       "page": "017",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8178",
-      "text": "XII. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS (h6)",
+      "text": "XII. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS",
       "color": "yellow",
       "location": "80041",
       "page": "041",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64541",
-      "text": "Último anuncio de la Pasión y conspiración contra Jesús (h7)",
+      "text": "Último anuncio de la Pasión y conspiración contra Jesús",
       "color": "yellow",
       "location": "80043",
       "page": "043",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51638",
-      "text": "Unción en Betania y traición de Judas Iscariote (h7)",
+      "text": "Unción en Betania y traición de Judas Iscariote",
       "color": "yellow",
       "location": "80060",
       "page": "060",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19365",
-      "text": "Preparación de la Última Cena y anuncio de la traición de Judas (h7)",
+      "text": "Preparación de la Última Cena y anuncio de la traición de Judas",
       "color": "yellow",
       "location": "80084",
       "page": "084",
       "note": ".h7 .últimacena\n[[Mc-14]], [[Lc-22]], [[Jn-13]]",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17843",
-      "text": "Institución de la Sagrada Eucaristía (h7)",
+      "text": "Institución de la Sagrada Eucaristía",
       "color": "yellow",
       "location": "80109",
       "page": "109",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54553",
@@ -16789,23 +17999,25 @@ export const bibleHighlights = [
   },
   {
       "id": "39043",
-      "text": "Predicción del abandono de sus discípulos (h7)",
+      "text": "Predicción del abandono de sus discípulos",
       "color": "yellow",
       "location": "80122",
       "page": "122",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "533",
-      "text": "Oración y agonía de Jesús en el huerto (h7)",
+      "text": "Oración y agonía de Jesús en el huerto",
       "color": "yellow",
       "location": "80142",
       "page": "142",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52211",
@@ -16833,23 +18045,25 @@ export const bibleHighlights = [
   },
   {
       "id": "35733",
-      "text": "Prendimiento de Jesús (h7)",
+      "text": "Prendimiento de Jesús",
       "color": "yellow",
       "location": "80168",
       "page": "168",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44708",
-      "text": "Interrogatorio ante los príncipes de los sacerdotes (h7)",
+      "text": "Interrogatorio ante los príncipes de los sacerdotes",
       "color": "yellow",
       "location": "80194",
       "page": "194",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27621",
@@ -16861,103 +18075,113 @@ export const bibleHighlights = [
   },
   {
       "id": "657",
-      "text": "Las negaciones de San Pedro (h7)",
+      "text": "Las negaciones de San Pedro",
       "color": "yellow",
       "location": "80222",
       "page": "222",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45349",
-      "text": "Conducen a Jesús ante Pilato (h7)",
+      "text": "Conducen a Jesús ante Pilato",
       "color": "yellow",
       "location": "80243",
       "page": "243",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15466",
-      "text": "Desesperación y muerte de Judas (h7)",
+      "text": "Desesperación y muerte de Judas",
       "color": "yellow",
       "location": "80252",
       "page": "252",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15808",
-      "text": "Juicio de Jesús ante Pilato (h7)",
+      "text": "Juicio de Jesús ante Pilato",
       "color": "yellow",
       "location": "80270",
       "page": "270",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13946",
-      "text": "Coronación de espinas (h7)",
+      "text": "Coronación de espinas",
       "color": "yellow",
       "location": "80310",
       "page": "310",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61635",
-      "text": "Crucifixión y muerte de Jesús (h7)",
+      "text": "Crucifixión y muerte de Jesús",
       "color": "yellow",
       "location": "80323",
       "page": "323",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23209",
-      "text": "Jesús es sepultado (h7)",
+      "text": "Jesús es sepultado",
       "color": "yellow",
       "location": "80371",
       "page": "371",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55354",
-      "text": "El Señor resucita y se aparece a las mujeres (h7)",
+      "text": "El Señor resucita y se aparece a las mujeres",
       "color": "yellow",
       "location": "80393",
       "page": "393",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61688",
-      "text": "Soborno a los soldados (h7)",
+      "text": "Soborno a los soldados",
       "color": "yellow",
       "location": "80416",
       "page": "416",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5051",
-      "text": "Aparición en Galilea y mandato apostólico universal (h7)",
+      "text": "Aparición en Galilea y mandato apostólico universal",
       "color": "yellow",
       "location": "80427",
       "page": "427",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4143",
@@ -16969,13 +18193,14 @@ export const bibleHighlights = [
   },
   {
       "id": "6233",
-      "text": "EVANGELIO SEGÚN SAN MARCOS (h4)",
+      "text": "EVANGELIO SEGÚN SAN MARCOS",
       "color": "yellow",
       "location": "80440",
       "page": "440",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -17083,83 +18308,91 @@ export const bibleHighlights = [
   },
   {
       "id": "11182",
-      "text": "Ministerio de San Juan Bautista (h7)",
+      "text": "Ministerio de San Juan Bautista",
       "color": "yellow",
       "location": "80471",
       "page": "471",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21481",
-      "text": "Bautismo de Jesús (h7)",
+      "text": "Bautismo de Jesús",
       "color": "yellow",
       "location": "80494",
       "page": "494",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38436",
-      "text": "Tentaciones de Jesús (h7)",
+      "text": "Tentaciones de Jesús",
       "color": "yellow",
       "location": "80504",
       "page": "504",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61566",
-      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA (h5)",
+      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA",
       "color": "yellow",
       "location": "80511",
       "page": "511",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53698",
-      "text": "II. COMIENZOS DEL MINISTERIO DE JESÚS (h6)",
+      "text": "II. COMIENZOS DEL MINISTERIO DE JESÚS",
       "color": "yellow",
       "location": "80513",
       "page": "513",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39184",
-      "text": "Predicación de Jesús (h7)",
+      "text": "Predicación de Jesús",
       "color": "yellow",
       "location": "80515",
       "page": "515",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35968",
-      "text": "Vocación de los primeros discípulos (h7)",
+      "text": "Vocación de los primeros discípulos",
       "color": "yellow",
       "location": "80523",
       "page": "523",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15123",
-      "text": "Jesús en la sinagoga de Cafarnaún (h7)",
+      "text": "Jesús en la sinagoga de Cafarnaún",
       "color": "yellow",
       "location": "80537",
       "page": "537",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54841",
@@ -17171,53 +18404,58 @@ export const bibleHighlights = [
   },
   {
       "id": "1143",
-      "text": "Curación de la suegra de San Pedro (h7)",
+      "text": "Curación de la suegra de San Pedro",
       "color": "yellow",
       "location": "80555",
       "page": "555",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34238",
-      "text": "Otras curaciones (h7)",
+      "text": "Otras curaciones",
       "color": "yellow",
       "location": "80564",
       "page": "564",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "968",
-      "text": "Sale a un lugar solitario para orar (h7)",
+      "text": "Sale a un lugar solitario para orar",
       "color": "yellow",
       "location": "80572",
       "page": "572",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20218",
-      "text": "Curación de un leproso (h7)",
+      "text": "Curación de un leproso",
       "color": "yellow",
       "location": "80584",
       "page": "584",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4136",
-      "text": "Curación de un paralítico (h7)",
+      "text": "Curación de un paralítico",
       "color": "yellow",
       "location": "80601",
       "page": "601",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61869",
@@ -17237,63 +18475,69 @@ export const bibleHighlights = [
   },
   {
       "id": "20162",
-      "text": "Vocación de Mateo (h7)",
+      "text": "Vocación de Mateo",
       "color": "yellow",
       "location": "80628",
       "page": "628",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31353",
-      "text": "Cuestión sobre el ayuno (h7)",
+      "text": "Cuestión sobre el ayuno",
       "color": "yellow",
       "location": "80643",
       "page": "643",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25787",
-      "text": "Cuestión sobre el sábado (h7)",
+      "text": "Cuestión sobre el sábado",
       "color": "yellow",
       "location": "80658",
       "page": "658",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42692",
-      "text": "Curación del hombre de la mano seca (h7)",
+      "text": "Curación del hombre de la mano seca",
       "color": "yellow",
       "location": "80674",
       "page": "674",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4639",
-      "text": "Sana a muchos junto al mar de Galilea (h7)",
+      "text": "Sana a muchos junto al mar de Galilea",
       "color": "yellow",
       "location": "80694",
       "page": "694",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30771",
-      "text": "Elección de los Doce Apóstoles (h7)",
+      "text": "Elección de los Doce Apóstoles",
       "color": "yellow",
       "location": "80705",
       "page": "705",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9033",
@@ -17305,13 +18549,14 @@ export const bibleHighlights = [
   },
   {
       "id": "7981",
-      "text": "Inquietud de los parientes de Jesús (h7)",
+      "text": "Inquietud de los parientes de Jesús",
       "color": "yellow",
       "location": "80718",
       "page": "718",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21177",
@@ -17331,83 +18576,91 @@ export const bibleHighlights = [
   },
   {
       "id": "6916",
-      "text": "El verdadero parentesco con Jesús (h7)",
+      "text": "El verdadero parentesco con Jesús",
       "color": "yellow",
       "location": "80743",
       "page": "743",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39009",
-      "text": "III. PARÁBOLAS DEL REINO DE DIOS (h6)",
+      "text": "III. PARÁBOLAS DEL REINO DE DIOS",
       "color": "yellow",
       "location": "80757",
       "page": "757",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9147",
-      "text": "Parábola del sembrador. Sentido de las parábolas (h7)",
+      "text": "Parábola del sembrador. Sentido de las parábolas",
       "color": "yellow",
       "location": "80759",
       "page": "759",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51870",
-      "text": "Parábolas de la lámpara y de la medida (h7)",
+      "text": "Parábolas de la lámpara y de la medida",
       "color": "yellow",
       "location": "80800",
       "page": "800",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59360",
-      "text": "Parábolas de la semilla y del grano de mostaza (h7)",
+      "text": "Parábolas de la semilla y del grano de mostaza",
       "color": "yellow",
       "location": "80814",
       "page": "814",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21281",
-      "text": "Conclusión del discurso de las parábolas (h7)",
+      "text": "Conclusión del discurso de las parábolas",
       "color": "yellow",
       "location": "80829",
       "page": "829",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52776",
-      "text": "IV. MILAGROS Y ACTIVIDAD DE JESÚS EN GALILEA (h6)",
+      "text": "IV. MILAGROS Y ACTIVIDAD DE JESÚS EN GALILEA",
       "color": "pink",
       "location": "80836",
       "page": "836",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "49957",
-      "text": "La tempestad calmada (h7)",
+      "text": "La tempestad calmada",
       "color": "pink",
       "location": "80838",
       "page": "838",
       "note": ".h7\nRelacionado con el Salmo 107, 28-30. Los discípulos se llenan de temor tras el milagro porque son conscientes que están ante Dios todopoderoso.",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "56081",
@@ -17419,13 +18672,14 @@ export const bibleHighlights = [
   },
   {
       "id": "21347",
-      "text": "Curación del endemoniado de Gerasa (h7)",
+      "text": "Curación del endemoniado de Gerasa",
       "color": "pink",
       "location": "80856",
       "page": "856",
       "note": ".h7\nTras manifestar el poder de Dios ante la naturaleza en el pasaje anterior, los endemoniados se rinden ante Cristo. Cristo tiene control sobre la naturaleza y lo sobrenatural.\nVer youtube https://youtu.be/1ZR62KbZHw0",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": "❤️"
   },
   {
       "id": "24002",
@@ -17469,23 +18723,25 @@ export const bibleHighlights = [
   },
   {
       "id": "14017",
-      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa (h7)",
+      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa",
       "color": "yellow",
       "location": "80896",
       "page": "896",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34176",
-      "text": "Nadie es profeta en su tierra (h7)",
+      "text": "Nadie es profeta en su tierra",
       "color": "yellow",
       "location": "80941",
       "page": "941",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15684",
@@ -17497,23 +18753,25 @@ export const bibleHighlights = [
   },
   {
       "id": "13830",
-      "text": "V. VIAJE DE JESÚS CON SUS APÓSTOLES (h6)",
+      "text": "V. VIAJE DE JESÚS CON SUS APÓSTOLES",
       "color": "yellow",
       "location": "80960",
       "page": "960",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60287",
-      "text": "Misión de los Apóstoles (h7)",
+      "text": "Misión de los Apóstoles",
       "color": "yellow",
       "location": "80962",
       "page": "962",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60980",
@@ -17525,13 +18783,14 @@ export const bibleHighlights = [
   },
   {
       "id": "7341",
-      "text": "Opiniones sobre Jesús (h7)",
+      "text": "Opiniones sobre Jesús",
       "color": "yellow",
       "location": "80977",
       "page": "977",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17873",
@@ -17543,23 +18802,25 @@ export const bibleHighlights = [
   },
   {
       "id": "10053",
-      "text": "Regreso de los Apóstoles. Primera multiplicación de los panes (h7)",
+      "text": "Regreso de los Apóstoles. Primera multiplicación de los panes",
       "color": "yellow",
       "location": "81018",
       "page": "018",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22553",
-      "text": "Jesús camina sobre las aguas (h7)",
+      "text": "Jesús camina sobre las aguas",
       "color": "yellow",
       "location": "81052",
       "page": "052",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62650",
@@ -17571,13 +18832,14 @@ export const bibleHighlights = [
   },
   {
       "id": "55113",
-      "text": "Curaciones en Genesaret (h7)",
+      "text": "Curaciones en Genesaret",
       "color": "yellow",
       "location": "81069",
       "page": "069",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29789",
@@ -17589,13 +18851,14 @@ export const bibleHighlights = [
   },
   {
       "id": "27030",
-      "text": "Las tradiciones de los antiguos. La verdadera pureza (h7)",
+      "text": "Las tradiciones de los antiguos. La verdadera pureza",
       "color": "yellow",
       "location": "81078",
       "page": "078",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12815",
@@ -17615,93 +18878,102 @@ export const bibleHighlights = [
   },
   {
       "id": "9290",
-      "text": "La mujer sirofenicia (h7)",
+      "text": "La mujer sirofenicia",
       "color": "yellow",
       "location": "81127",
       "page": "127",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49107",
-      "text": "Curación de un sordomudo (h7)",
+      "text": "Curación de un sordomudo",
       "color": "yellow",
       "location": "81143",
       "page": "143",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2062",
-      "text": "Segunda multiplicación de los panes (h7)",
+      "text": "Segunda multiplicación de los panes",
       "color": "yellow",
       "location": "81156",
       "page": "156",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3192",
-      "text": "La levadura de los fariseos y de Herodes (h7)",
+      "text": "La levadura de los fariseos y de Herodes",
       "color": "yellow",
       "location": "81180",
       "page": "180",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12719",
-      "text": "Curación del ciego de Betsaida (h7)",
+      "text": "Curación del ciego de Betsaida",
       "color": "yellow",
       "location": "81205",
       "page": "205",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62175",
-      "text": "Confesión de San Pedro (h7)",
+      "text": "Confesión de San Pedro",
       "color": "yellow",
       "location": "81216",
       "page": "216",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1925",
-      "text": "SEGUNDA PARTE: MINISTERIO CAMINO DE JERUSALÉN (h5)",
+      "text": "SEGUNDA PARTE: MINISTERIO CAMINO DE JERUSALÉN",
       "color": "yellow",
       "location": "81230",
       "page": "230",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26568",
-      "text": "VI. ENSEÑANZAS SOBRE LA VIDA CRISTIANA (h6)",
+      "text": "VI. ENSEÑANZAS SOBRE LA VIDA CRISTIANA",
       "color": "yellow",
       "location": "81232",
       "page": "232",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2501",
-      "text": "Jesús predice su Pasión y su Gloria. La ley de la renuncia cristiana (h7)",
+      "text": "Jesús predice su Pasión y su Gloria. La ley de la renuncia cristiana",
       "color": "yellow",
       "location": "81234",
       "page": "234",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56401",
@@ -17713,23 +18985,25 @@ export const bibleHighlights = [
   },
   {
       "id": "22414",
-      "text": "La Transfiguración (h7)",
+      "text": "La Transfiguración",
       "color": "yellow",
       "location": "81260",
       "page": "260",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28718",
-      "text": "Curación del muchacho lunático (h7)",
+      "text": "Curación del muchacho lunático",
       "color": "yellow",
       "location": "81285",
       "page": "285",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57426",
@@ -17773,43 +19047,47 @@ export const bibleHighlights = [
   },
   {
       "id": "27675",
-      "text": "Segundo anuncio de la Pasión (h7)",
+      "text": "Segundo anuncio de la Pasión",
       "color": "yellow",
       "location": "81323",
       "page": "323",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34195",
-      "text": "Humildad y caridad de los discípulos. El escándalo (h7)",
+      "text": "Humildad y caridad de los discípulos. El escándalo",
       "color": "yellow",
       "location": "81333",
       "page": "333",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3023",
-      "text": "VII. HACIA JUDEA Y JERUSALÉN (h6)",
+      "text": "VII. HACIA JUDEA Y JERUSALÉN",
       "color": "yellow",
       "location": "81367",
       "page": "367",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2355",
-      "text": "Indisolubilidad del matrimonio (h7)",
+      "text": "Indisolubilidad del matrimonio",
       "color": "yellow",
       "location": "81369",
       "page": "369",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47629",
@@ -17821,23 +19099,25 @@ export const bibleHighlights = [
   },
   {
       "id": "41705",
-      "text": "Jesús bendice a los niños (h7)",
+      "text": "Jesús bendice a los niños",
       "color": "yellow",
       "location": "81395",
       "page": "395",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44455",
-      "text": "El joven rico. Pobreza y entrega cristianas (h7)",
+      "text": "El joven rico. Pobreza y entrega cristianas",
       "color": "yellow",
       "location": "81406",
       "page": "406",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52275",
@@ -17849,33 +19129,36 @@ export const bibleHighlights = [
   },
   {
       "id": "57770",
-      "text": "Tercer anuncio de la Pasión (h7)",
+      "text": "Tercer anuncio de la Pasión",
       "color": "yellow",
       "location": "81443",
       "page": "443",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45491",
-      "text": "Petición de los hijos de Zebedeo (h7)",
+      "text": "Petición de los hijos de Zebedeo",
       "color": "yellow",
       "location": "81453",
       "page": "453",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13019",
-      "text": "Curación del ciego Bartimeo (h7)",
+      "text": "Curación del ciego Bartimeo",
       "color": "yellow",
       "location": "81477",
       "page": "477",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55771",
@@ -17919,103 +19202,113 @@ export const bibleHighlights = [
   },
   {
       "id": "33268",
-      "text": "TERCERA PARTE: MINISTERIO EN JERUSALÉN (h5)",
+      "text": "TERCERA PARTE: MINISTERIO EN JERUSALÉN",
       "color": "yellow",
       "location": "81498",
       "page": "498",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33327",
-      "text": "VIII. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS (h6)",
+      "text": "VIII. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS",
       "color": "yellow",
       "location": "81500",
       "page": "500",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18585",
-      "text": "Entrada del Mesías en la Ciudad Santa (h7)",
+      "text": "Entrada del Mesías en la Ciudad Santa",
       "color": "yellow",
       "location": "81502",
       "page": "502",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42878",
-      "text": "Maldición de la higuera y expulsión de los mercaderes del Templo (h7)",
+      "text": "Maldición de la higuera y expulsión de los mercaderes del Templo",
       "color": "yellow",
       "location": "81531",
       "page": "531",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56553",
-      "text": "Potestad de Jesús (h7)",
+      "text": "Potestad de Jesús",
       "color": "yellow",
       "location": "81563",
       "page": "563",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34103",
-      "text": "Parábola de los viñadores homicidas (h7)",
+      "text": "Parábola de los viñadores homicidas",
       "color": "yellow",
       "location": "81580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18858",
-      "text": "El tributo al César (h7)",
+      "text": "El tributo al César",
       "color": "yellow",
       "location": "81608",
       "page": "608",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24609",
-      "text": "La resurrección de los muertos (h7)",
+      "text": "La resurrección de los muertos",
       "color": "yellow",
       "location": "81626",
       "page": "626",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54971",
-      "text": "El primer mandamiento (h7)",
+      "text": "El primer mandamiento",
       "color": "yellow",
       "location": "81647",
       "page": "647",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20725",
-      "text": "Divinidad del Mesías (h7)",
+      "text": "Divinidad del Mesías",
       "color": "yellow",
       "location": "81668",
       "page": "668",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2168",
@@ -18027,43 +19320,47 @@ export const bibleHighlights = [
   },
   {
       "id": "15694",
-      "text": "Censuras a los escribas (h7)",
+      "text": "Censuras a los escribas",
       "color": "yellow",
       "location": "81681",
       "page": "681",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29545",
-      "text": "La ofrenda de la viuda (h7)",
+      "text": "La ofrenda de la viuda",
       "color": "yellow",
       "location": "81690",
       "page": "690",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60172",
-      "text": "IX. DISCURSO ESCATOLÓGICO (h6)",
+      "text": "IX. DISCURSO ESCATOLÓGICO",
       "color": "yellow",
       "location": "81702",
       "page": "702",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2411",
-      "text": "Anuncio de la destrucción del Templo (h7)",
+      "text": "Anuncio de la destrucción del Templo",
       "color": "yellow",
       "location": "81704",
       "page": "704",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30202",
@@ -18099,23 +19396,25 @@ export const bibleHighlights = [
   },
   {
       "id": "17638",
-      "text": "La gran tribulación (h7)",
+      "text": "La gran tribulación",
       "color": "yellow",
       "location": "81740",
       "page": "740",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55814",
-      "text": "La venida del Hijo del Hombre (h7)",
+      "text": "La venida del Hijo del Hombre",
       "color": "yellow",
       "location": "81760",
       "page": "760",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20622",
@@ -18135,13 +19434,14 @@ export const bibleHighlights = [
   },
   {
       "id": "24770",
-      "text": "Certeza del fin: la lección de la higuera (h7)",
+      "text": "Certeza del fin: la lección de la higuera",
       "color": "yellow",
       "location": "81771",
       "page": "771",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33269",
@@ -18161,83 +19461,91 @@ export const bibleHighlights = [
   },
   {
       "id": "10358",
-      "text": "Tiempo de la segunda venida de Cristo (h7)",
+      "text": "Tiempo de la segunda venida de Cristo",
       "color": "yellow",
       "location": "81781",
       "page": "781",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4128",
-      "text": "X. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS (h6)",
+      "text": "X. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS",
       "color": "yellow",
       "location": "81793",
       "page": "793",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61074",
-      "text": "Conspiración de los sacerdotes y escribas (h7)",
+      "text": "Conspiración de los sacerdotes y escribas",
       "color": "yellow",
       "location": "81795",
       "page": "795",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19596",
-      "text": "Unción en Betania y traición de Judas (h7)",
+      "text": "Unción en Betania y traición de Judas",
       "color": "yellow",
       "location": "81806",
       "page": "806",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19365",
-      "text": "Preparación de la Última Cena y anuncio de la traición de Judas (h7)",
+      "text": "Preparación de la Última Cena y anuncio de la traición de Judas",
       "color": "yellow",
       "location": "81828",
       "page": "828",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17843",
-      "text": "Institución de la Sagrada Eucaristía (h7)",
+      "text": "Institución de la Sagrada Eucaristía",
       "color": "yellow",
       "location": "81853",
       "page": "853",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39043",
-      "text": "Predicción del abandono de sus discípulos (h7)",
+      "text": "Predicción del abandono de sus discípulos",
       "color": "yellow",
       "location": "81866",
       "page": "866",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47915",
-      "text": "Oración y agonía de Jesús en el huerto de Getsemaní (h7)",
+      "text": "Oración y agonía de Jesús en el huerto de Getsemaní",
       "color": "yellow",
       "location": "81885",
       "page": "885",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34443",
@@ -18257,13 +19565,14 @@ export const bibleHighlights = [
   },
   {
       "id": "35733",
-      "text": "Prendimiento de Jesús (h7)",
+      "text": "Prendimiento de Jesús",
       "color": "yellow",
       "location": "81909",
       "page": "909",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19428",
@@ -18275,13 +19584,14 @@ export const bibleHighlights = [
   },
   {
       "id": "44708",
-      "text": "Interrogatorio ante los príncipes de los sacerdotes (h7)",
+      "text": "Interrogatorio ante los príncipes de los sacerdotes",
       "color": "yellow",
       "location": "81931",
       "page": "931",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58339",
@@ -18301,93 +19611,102 @@ export const bibleHighlights = [
   },
   {
       "id": "657",
-      "text": "Las negaciones de San Pedro (h7)",
+      "text": "Las negaciones de San Pedro",
       "color": "yellow",
       "location": "81961",
       "page": "961",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38893",
-      "text": "Jesús ante Pilato (h7)",
+      "text": "Jesús ante Pilato",
       "color": "yellow",
       "location": "81982",
       "page": "982",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13946",
-      "text": "Coronación de espinas (h7)",
+      "text": "Coronación de espinas",
       "color": "yellow",
       "location": "82018",
       "page": "018",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61635",
-      "text": "Crucifixión y muerte de Jesús (h7)",
+      "text": "Crucifixión y muerte de Jesús",
       "color": "yellow",
       "location": "82030",
       "page": "030",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23209",
-      "text": "Jesús es sepultado (h7)",
+      "text": "Jesús es sepultado",
       "color": "yellow",
       "location": "82072",
       "page": "072",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38423",
-      "text": "Resurrección de Jesús. El sepulcro vacío (h7)",
+      "text": "Resurrección de Jesús. El sepulcro vacío",
       "color": "yellow",
       "location": "82087",
       "page": "087",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58555",
-      "text": "Aparición a María Magdalena (h7)",
+      "text": "Aparición a María Magdalena",
       "color": "yellow",
       "location": "82109",
       "page": "109",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34972",
-      "text": "Aparición a dos discípulos (h7)",
+      "text": "Aparición a dos discípulos",
       "color": "yellow",
       "location": "82117",
       "page": "117",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53965",
-      "text": "Aparición a los Once. Misión de los Apóstoles (h7)",
+      "text": "Aparición a los Once. Misión de los Apóstoles",
       "color": "yellow",
       "location": "82123",
       "page": "123",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24399",
@@ -18399,33 +19718,36 @@ export const bibleHighlights = [
   },
   {
       "id": "17848",
-      "text": "Ascensión del Señor (h7)",
+      "text": "Ascensión del Señor",
       "color": "yellow",
       "location": "82136",
       "page": "136",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11635",
-      "text": "Predicación de los Apóstoles (h7)",
+      "text": "Predicación de los Apóstoles",
       "color": "yellow",
       "location": "82141",
       "page": "141",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56555",
-      "text": "EVANGELIO SEGÚN SAN LUCAS (h4)",
+      "text": "EVANGELIO SEGÚN SAN LUCAS",
       "color": "yellow",
       "location": "82145",
       "page": "145",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -18565,43 +19887,47 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "Prólogo (h7)",
+      "text": "Prólogo",
       "color": "yellow",
       "location": "82183",
       "page": "183",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54689",
-      "text": "I. NACIMIENTO E INFANCIA DE JUAN BAUTISTA Y DE JESÚS (h6)",
+      "text": "I. NACIMIENTO E INFANCIA DE JUAN BAUTISTA Y DE JESÚS",
       "color": "yellow",
       "location": "82194",
       "page": "194",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46331",
-      "text": "Anunciación de San Juan Bautista (h7)",
+      "text": "Anunciación de San Juan Bautista",
       "color": "yellow",
       "location": "82196",
       "page": "196",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57730",
-      "text": "Anunciación y Encarnación del Hijo de Dios (h7)",
+      "text": "Anunciación y Encarnación del Hijo de Dios",
       "color": "yellow",
       "location": "82231",
       "page": "231",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4812",
@@ -18613,13 +19939,14 @@ export const bibleHighlights = [
   },
   {
       "id": "41725",
-      "text": "Visitación de María a Isabel (h7)",
+      "text": "Visitación de María a Isabel",
       "color": "yellow",
       "location": "82258",
       "page": "258",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51205",
@@ -18631,13 +19958,14 @@ export const bibleHighlights = [
   },
   {
       "id": "47020",
-      "text": "El Cántico de María: Magnificat (h8)",
+      "text": "El Cántico de María: Magnificat",
       "color": "yellow",
       "location": "82268",
       "page": "268",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51877",
@@ -18649,13 +19977,14 @@ export const bibleHighlights = [
   },
   {
       "id": "59397",
-      "text": "El Cántico de Zacarías: Benedictus (h8)",
+      "text": "El Cántico de Zacarías: Benedictus",
       "color": "yellow",
       "location": "82311",
       "page": "311",
       "note": ".h8",
-      "header": "\n\t    *",
-      "icon": "🟨"
+      "header": "\n    -",
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12591",
@@ -18667,23 +19996,25 @@ export const bibleHighlights = [
   },
   {
       "id": "16813",
-      "text": "Nacimiento de Jesús (h7)",
+      "text": "Nacimiento de Jesús",
       "color": "yellow",
       "location": "82343",
       "page": "343",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64724",
-      "text": "Anuncio de los ángeles a los pastores (h7)",
+      "text": "Anuncio de los ángeles a los pastores",
       "color": "yellow",
       "location": "82359",
       "page": "359",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36700",
@@ -18711,33 +20042,36 @@ export const bibleHighlights = [
   },
   {
       "id": "23960",
-      "text": "Circuncisión de Jesús (h7)",
+      "text": "Circuncisión de Jesús",
       "color": "yellow",
       "location": "82382",
       "page": "382",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49653",
-      "text": "Purificación de María y Presentación del Niño (h7)",
+      "text": "Purificación de María y Presentación del Niño",
       "color": "yellow",
       "location": "82388",
       "page": "388",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30690",
-      "text": "Profecía del anciano Simeón (h7)",
+      "text": "Profecía del anciano Simeón",
       "color": "yellow",
       "location": "82394",
       "page": "394",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13959",
@@ -18749,63 +20083,69 @@ export const bibleHighlights = [
   },
   {
       "id": "48790",
-      "text": "La profetisa Ana (h7)",
+      "text": "La profetisa Ana",
       "color": "yellow",
       "location": "82415",
       "page": "415",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8382",
-      "text": "Infancia de Jesús (h7)",
+      "text": "Infancia de Jesús",
       "color": "yellow",
       "location": "82422",
       "page": "422",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25038",
-      "text": "El Niño en el Templo (h7)",
+      "text": "El Niño en el Templo",
       "color": "yellow",
       "location": "82427",
       "page": "427",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40226",
-      "text": "Vida oculta de Jesús en Nazaret (h7)",
+      "text": "Vida oculta de Jesús en Nazaret",
       "color": "yellow",
       "location": "82444",
       "page": "444",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14984",
-      "text": "II. PREPARACIÓN DEL MINISTERIO DE JESÚS (h6)",
+      "text": "II. PREPARACIÓN DEL MINISTERIO DE JESÚS",
       "color": "yellow",
       "location": "82451",
       "page": "451",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63476",
-      "text": "Predicación de San Juan Bautista (h7)",
+      "text": "Predicación de San Juan Bautista",
       "color": "yellow",
       "location": "82453",
       "page": "453",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16168",
@@ -18817,43 +20157,47 @@ export const bibleHighlights = [
   },
   {
       "id": "36982",
-      "text": "Prisión de San Juan Bautista (h7)",
+      "text": "Prisión de San Juan Bautista",
       "color": "yellow",
       "location": "82500",
       "page": "500",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21481",
-      "text": "Bautismo de Jesús (h7)",
+      "text": "Bautismo de Jesús",
       "color": "yellow",
       "location": "82505",
       "page": "505",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22682",
-      "text": "Genealogía de Jesús (h7)",
+      "text": "Genealogía de Jesús",
       "color": "yellow",
       "location": "82514",
       "page": "514",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37199",
-      "text": "Ayuno y tentaciones de Jesús (h7)",
+      "text": "Ayuno y tentaciones de Jesús",
       "color": "yellow",
       "location": "82536",
       "page": "536",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40110",
@@ -18865,33 +20209,36 @@ export const bibleHighlights = [
   },
   {
       "id": "61566",
-      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA (h5)",
+      "text": "PRIMERA PARTE: MINISTERIO DE JESÚS EN GALILEA",
       "color": "yellow",
       "location": "82571",
       "page": "571",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7468",
-      "text": "III. COMIENZOS DEL MINISTERIO DE JESÚS (h6)",
+      "text": "III. COMIENZOS DEL MINISTERIO DE JESÚS",
       "color": "yellow",
       "location": "82573",
       "page": "573",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11484",
-      "text": "Predicación en Nazaret (h7)",
+      "text": "Predicación en Nazaret",
       "color": "yellow",
       "location": "82578",
       "page": "578",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1654",
@@ -18919,13 +20266,14 @@ export const bibleHighlights = [
   },
   {
       "id": "1143",
-      "text": "Curación de la suegra de San Pedro (h7)",
+      "text": "Curación de la suegra de San Pedro",
       "color": "yellow",
       "location": "82629",
       "page": "629",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36049",
@@ -18937,33 +20285,36 @@ export const bibleHighlights = [
   },
   {
       "id": "34238",
-      "text": "Otras curaciones (h7)",
+      "text": "Otras curaciones",
       "color": "yellow",
       "location": "82637",
       "page": "637",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23757",
-      "text": "Predicación en otras ciudades de Judea (h7)",
+      "text": "Predicación en otras ciudades de Judea",
       "color": "yellow",
       "location": "82646",
       "page": "646",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29038",
-      "text": "Pesca milagrosa y vocación de los primeros discípulos (h7)",
+      "text": "Pesca milagrosa y vocación de los primeros discípulos",
       "color": "yellow",
       "location": "82655",
       "page": "655",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20628",
@@ -18975,83 +20326,91 @@ export const bibleHighlights = [
   },
   {
       "id": "20218",
-      "text": "Curación de un leproso (h7)",
+      "text": "Curación de un leproso",
       "color": "yellow",
       "location": "82684",
       "page": "684",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4136",
-      "text": "Curación de un paralítico (h7)",
+      "text": "Curación de un paralítico",
       "color": "yellow",
       "location": "82700",
       "page": "700",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61683",
-      "text": "La vocación de Mateo (h7)",
+      "text": "La vocación de Mateo",
       "color": "yellow",
       "location": "82724",
       "page": "724",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31353",
-      "text": "Cuestión sobre el ayuno (h7)",
+      "text": "Cuestión sobre el ayuno",
       "color": "yellow",
       "location": "82739",
       "page": "739",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25787",
-      "text": "Cuestión sobre el sábado (h7)",
+      "text": "Cuestión sobre el sábado",
       "color": "yellow",
       "location": "82757",
       "page": "757",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42692",
-      "text": "Curación del hombre de la mano seca (h7)",
+      "text": "Curación del hombre de la mano seca",
       "color": "yellow",
       "location": "82774",
       "page": "774",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52776",
-      "text": "IV. MILAGROS Y ACTIVIDAD DE JESÚS EN GALILEA (h6)",
+      "text": "IV. MILAGROS Y ACTIVIDAD DE JESÚS EN GALILEA",
       "color": "yellow",
       "location": "82790",
       "page": "790",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30771",
-      "text": "Elección de los Doce Apóstoles (h7)",
+      "text": "Elección de los Doce Apóstoles",
       "color": "yellow",
       "location": "82792",
       "page": "792",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41899",
@@ -19063,63 +20422,69 @@ export const bibleHighlights = [
   },
   {
       "id": "16134",
-      "text": "El Discurso en el llano (h7)",
+      "text": "El Discurso en el llano",
       "color": "yellow",
       "location": "82803",
       "page": "803",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52411",
-      "text": "Las Bienaventuranzas e imprecaciones (h7)",
+      "text": "Las Bienaventuranzas e imprecaciones",
       "color": "yellow",
       "location": "82810",
       "page": "810",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6562",
-      "text": "Amor a los enemigos (h7)",
+      "text": "Amor a los enemigos",
       "color": "yellow",
       "location": "82828",
       "page": "828",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16827",
-      "text": "Rectitud de corazón (h7)",
+      "text": "Rectitud de corazón",
       "color": "yellow",
       "location": "82850",
       "page": "850",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12953",
-      "text": "La fe del centurión (h7)",
+      "text": "La fe del centurión",
       "color": "yellow",
       "location": "82875",
       "page": "875",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45341",
-      "text": "Resurrección del hijo de la viuda de Naín (h7)",
+      "text": "Resurrección del hijo de la viuda de Naín",
       "color": "yellow",
       "location": "82900",
       "page": "900",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21791",
@@ -19131,13 +20496,14 @@ export const bibleHighlights = [
   },
   {
       "id": "7311",
-      "text": "Embajada de San Juan Bautista (h7)",
+      "text": "Embajada de San Juan Bautista",
       "color": "yellow",
       "location": "82915",
       "page": "915",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62219",
@@ -19157,83 +20523,91 @@ export const bibleHighlights = [
   },
   {
       "id": "1785",
-      "text": "Reproches contra la incredulidad (h7)",
+      "text": "Reproches contra la incredulidad",
       "color": "yellow",
       "location": "82943",
       "page": "943",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36301",
-      "text": "El perdón de la mujer pecadora (h7)",
+      "text": "El perdón de la mujer pecadora",
       "color": "yellow",
       "location": "82957",
       "page": "957",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32658",
-      "text": "Las santas mujeres (h7)",
+      "text": "Las santas mujeres",
       "color": "yellow",
       "location": "82989",
       "page": "989",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9147",
-      "text": "Parábola del sembrador. Sentido de las parábolas (h7)",
+      "text": "Parábola del sembrador. Sentido de las parábolas",
       "color": "yellow",
       "location": "82998",
       "page": "998",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21420",
-      "text": "Parábola de la lámpara (h7)",
+      "text": "Parábola de la lámpara",
       "color": "yellow",
       "location": "83025",
       "page": "025",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6916",
-      "text": "El verdadero parentesco con Jesús (h7)",
+      "text": "El verdadero parentesco con Jesús",
       "color": "yellow",
       "location": "83033",
       "page": "033",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49957",
-      "text": "La tempestad calmada (h7)",
+      "text": "La tempestad calmada",
       "color": "yellow",
       "location": "83045",
       "page": "045",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32639",
-      "text": "El endemoniado de Gerasa (h7)",
+      "text": "El endemoniado de Gerasa",
       "color": "yellow",
       "location": "83060",
       "page": "060",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40525",
@@ -19245,33 +20619,36 @@ export const bibleHighlights = [
   },
   {
       "id": "14017",
-      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa (h7)",
+      "text": "Resurrección de la hija de Jairo y curación de la hemorroísa",
       "color": "yellow",
       "location": "83091",
       "page": "091",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13830",
-      "text": "V. VIAJE DE JESÚS CON SUS APÓSTOLES (h6)",
+      "text": "V. VIAJE DE JESÚS CON SUS APÓSTOLES",
       "color": "yellow",
       "location": "83127",
       "page": "127",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60287",
-      "text": "Misión de los Apóstoles (h7)",
+      "text": "Misión de los Apóstoles",
       "color": "yellow",
       "location": "83129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49984",
@@ -19283,113 +20660,124 @@ export const bibleHighlights = [
   },
   {
       "id": "13079",
-      "text": "Opinión de Herodes sobre Jesús (h7)",
+      "text": "Opinión de Herodes sobre Jesús",
       "color": "yellow",
       "location": "83145",
       "page": "145",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26930",
-      "text": "Regreso de los Apóstoles. Multiplicación de los panes (h7)",
+      "text": "Regreso de los Apóstoles. Multiplicación de los panes",
       "color": "yellow",
       "location": "83155",
       "page": "155",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62175",
-      "text": "Confesión de San Pedro (h7)",
+      "text": "Confesión de San Pedro",
       "color": "yellow",
       "location": "83179",
       "page": "179",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29460",
-      "text": "Jesús predice su Pasión y su Gloria. Necesidad de la abnegación para seguir a Jesús (h7)",
+      "text": "Jesús predice su Pasión y su Gloria. Necesidad de la abnegación para seguir a Jesús",
       "color": "yellow",
       "location": "83193",
       "page": "193",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22414",
-      "text": "La Transfiguración (h7)",
+      "text": "La Transfiguración",
       "color": "yellow",
       "location": "83209",
       "page": "209",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28718",
-      "text": "Curación del muchacho lunático (h7)",
+      "text": "Curación del muchacho lunático",
       "color": "yellow",
       "location": "83229",
       "page": "229",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27675",
-      "text": "Segundo anuncio de la Pasión (h7)",
+      "text": "Segundo anuncio de la Pasión",
       "color": "yellow",
       "location": "83245",
       "page": "245",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32878",
-      "text": "Humildad y tolerancia (h7)",
+      "text": "Humildad y tolerancia",
       "color": "yellow",
       "location": "83255",
       "page": "255",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44422",
-      "text": "SEGUNDA PARTE: MINISTERIO EN LA SUBIDA A JERUSALÉN (h5)",
+      "text": "SEGUNDA PARTE: MINISTERIO EN LA SUBIDA A JERUSALÉN",
       "color": "yellow",
       "location": "83269",
       "page": "269",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62137",
-      "text": "VI. INICIO DEL VIAJE (h6)",
+      "text": "VI. INICIO DEL VIAJE",
       "color": "yellow",
       "location": "83271",
       "page": "271",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20588",
-      "text": "Los samaritanos no reciben a Jesús (h7)",
+      "text": "Los samaritanos no reciben a Jesús",
       "color": "yellow",
       "location": "83273",
       "page": "273",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30248",
@@ -19409,13 +20797,14 @@ export const bibleHighlights = [
   },
   {
       "id": "28547",
-      "text": "Misión de los setenta y dos discípulos (h7)",
+      "text": "Misión de los setenta y dos discípulos",
       "color": "yellow",
       "location": "83302",
       "page": "302",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51783",
@@ -19427,13 +20816,14 @@ export const bibleHighlights = [
   },
   {
       "id": "26786",
-      "text": "Jesús increpa a las ciudades incrédulas (h7)",
+      "text": "Jesús increpa a las ciudades incrédulas",
       "color": "yellow",
       "location": "83323",
       "page": "323",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36004",
@@ -19445,13 +20835,14 @@ export const bibleHighlights = [
   },
   {
       "id": "9234",
-      "text": "Regreso de la misión (h7)",
+      "text": "Regreso de la misión",
       "color": "yellow",
       "location": "83334",
       "page": "334",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7132",
@@ -19471,13 +20862,14 @@ export const bibleHighlights = [
   },
   {
       "id": "9252",
-      "text": "Acción de gracias de Jesús (h7)",
+      "text": "Acción de gracias de Jesús",
       "color": "yellow",
       "location": "83344",
       "page": "344",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55783",
@@ -19505,23 +20897,25 @@ export const bibleHighlights = [
   },
   {
       "id": "56119",
-      "text": "VII. AMPLIACIÓN DE LAS ENSEÑANZAS (h6)",
+      "text": "VII. AMPLIACIÓN DE LAS ENSEÑANZAS",
       "color": "yellow",
       "location": "83356",
       "page": "356",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52037",
-      "text": "Parábola del buen samaritano (h7)",
+      "text": "Parábola del buen samaritano",
       "color": "yellow",
       "location": "83358",
       "page": "358",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37198",
@@ -19533,43 +20927,47 @@ export const bibleHighlights = [
   },
   {
       "id": "44241",
-      "text": "Marta y María acogen a Jesús (h7)",
+      "text": "Marta y María acogen a Jesús",
       "color": "yellow",
       "location": "83386",
       "page": "386",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20822",
-      "text": "El Padrenuestro (h7)",
+      "text": "El Padrenuestro",
       "color": "yellow",
       "location": "83397",
       "page": "397",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15004",
-      "text": "Eficacia de la oración (h7)",
+      "text": "Eficacia de la oración",
       "color": "yellow",
       "location": "83414",
       "page": "414",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4462",
-      "text": "Expulsión de los demonios y Reino de Dios (h7)",
+      "text": "Expulsión de los demonios y Reino de Dios",
       "color": "yellow",
       "location": "83432",
       "page": "432",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60674",
@@ -19581,83 +20979,91 @@ export const bibleHighlights = [
   },
   {
       "id": "26371",
-      "text": "Exigencia de la palabra de Dios (h7)",
+      "text": "Exigencia de la palabra de Dios",
       "color": "yellow",
       "location": "83457",
       "page": "457",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14523",
-      "text": "La señal de Jonás (h7)",
+      "text": "La señal de Jonás",
       "color": "yellow",
       "location": "83466",
       "page": "466",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62885",
-      "text": "Luz del cuerpo, luz del alma (h7)",
+      "text": "Luz del cuerpo, luz del alma",
       "color": "yellow",
       "location": "83478",
       "page": "478",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47455",
-      "text": "Reproches a escribas y fariseos (h7)",
+      "text": "Reproches a escribas y fariseos",
       "color": "yellow",
       "location": "83490",
       "page": "490",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40285",
-      "text": "VIII. ANUNCIO ESCATOLÓGICO (h6)",
+      "text": "VIII. ANUNCIO ESCATOLÓGICO",
       "color": "yellow",
       "location": "83525",
       "page": "525",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25452",
-      "text": "Varias enseñanzas de Jesús (h7)",
+      "text": "Varias enseñanzas de Jesús",
       "color": "yellow",
       "location": "83527",
       "page": "527",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7642",
-      "text": "La parábola del rico insensato (h7)",
+      "text": "La parábola del rico insensato",
       "color": "yellow",
       "location": "83554",
       "page": "554",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21348",
-      "text": "Abandono en la Providencia de Dios (h7)",
+      "text": "Abandono en la Providencia de Dios",
       "color": "yellow",
       "location": "83572",
       "page": "572",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56397",
@@ -19709,13 +21115,14 @@ export const bibleHighlights = [
   },
   {
       "id": "39512",
-      "text": "Exhortación a la vigilancia y parábola del administrador (h7)",
+      "text": "Exhortación a la vigilancia y parábola del administrador",
       "color": "yellow",
       "location": "83595",
       "page": "595",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56578",
@@ -19727,43 +21134,47 @@ export const bibleHighlights = [
   },
   {
       "id": "6713",
-      "text": "Saber discernir (h7)",
+      "text": "Saber discernir",
       "color": "yellow",
       "location": "83632",
       "page": "632",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1140",
-      "text": "Necesidad de la conversión (h7)",
+      "text": "Necesidad de la conversión",
       "color": "yellow",
       "location": "83647",
       "page": "647",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38166",
-      "text": "Parábola de la higuera estéril (h7)",
+      "text": "Parábola de la higuera estéril",
       "color": "yellow",
       "location": "83659",
       "page": "659",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37500",
-      "text": "Jesús cura a una mujer en sábado (h7)",
+      "text": "Jesús cura a una mujer en sábado",
       "color": "yellow",
       "location": "83668",
       "page": "668",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33263",
@@ -19807,93 +21218,102 @@ export const bibleHighlights = [
   },
   {
       "id": "7758",
-      "text": "Parábolas del grano de mostaza y de la levadura (h7)",
+      "text": "Parábolas del grano de mostaza y de la levadura",
       "color": "yellow",
       "location": "83685",
       "page": "685",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47128",
-      "text": "La puerta angosta (h7)",
+      "text": "La puerta angosta",
       "color": "yellow",
       "location": "83697",
       "page": "697",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56116",
-      "text": "Respuesta de Jesús a Herodes (h7)",
+      "text": "Respuesta de Jesús a Herodes",
       "color": "yellow",
       "location": "83715",
       "page": "715",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54777",
-      "text": "Queja contra Jerusalén (h7)",
+      "text": "Queja contra Jerusalén",
       "color": "yellow",
       "location": "83722",
       "page": "722",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54210",
-      "text": "Jesús cura a un hidrópico en sábado (h7)",
+      "text": "Jesús cura a un hidrópico en sábado",
       "color": "yellow",
       "location": "83731",
       "page": "731",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20741",
-      "text": "Lección sobre la humildad (h7)",
+      "text": "Lección sobre la humildad",
       "color": "yellow",
       "location": "83745",
       "page": "745",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27998",
-      "text": "Actitud ante los pobres (h7)",
+      "text": "Actitud ante los pobres",
       "color": "yellow",
       "location": "83755",
       "page": "755",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48050",
-      "text": "Parábola de los invitados a las bodas (h7)",
+      "text": "Parábola de los invitados a las bodas",
       "color": "yellow",
       "location": "83763",
       "page": "763",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8484",
-      "text": "Condiciones para seguir a Jesús (h7)",
+      "text": "Condiciones para seguir a Jesús",
       "color": "yellow",
       "location": "83782",
       "page": "782",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52300",
@@ -19905,23 +21325,25 @@ export const bibleHighlights = [
   },
   {
       "id": "19374",
-      "text": "IX. PARÁBOLAS DE LA MISERICORDIA (h6)",
+      "text": "IX. PARÁBOLAS DE LA MISERICORDIA",
       "color": "yellow",
       "location": "83803",
       "page": "803",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28551",
-      "text": "La oveja perdida (h7)",
+      "text": "La oveja perdida",
       "color": "yellow",
       "location": "83805",
       "page": "805",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53234",
@@ -19933,13 +21355,14 @@ export const bibleHighlights = [
   },
   {
       "id": "41946",
-      "text": "La dracma perdida (h7)",
+      "text": "La dracma perdida",
       "color": "yellow",
       "location": "83822",
       "page": "822",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52035",
@@ -19951,23 +21374,25 @@ export const bibleHighlights = [
   },
   {
       "id": "39375",
-      "text": "X. ENSEÑANZAS DIVERSAS (h6)",
+      "text": "X. ENSEÑANZAS DIVERSAS",
       "color": "yellow",
       "location": "83863",
       "page": "863",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "904",
-      "text": "El administrador infiel (h7)",
+      "text": "El administrador infiel",
       "color": "yellow",
       "location": "83864",
       "page": "864",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30945",
@@ -19995,203 +21420,223 @@ export const bibleHighlights = [
   },
   {
       "id": "47657",
-      "text": "La Ley y el Evangelio (h7)",
+      "text": "La Ley y el Evangelio",
       "color": "yellow",
       "location": "83895",
       "page": "895",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56989",
-      "text": "El rico Epulón y el pobre Lázaro (h7)",
+      "text": "El rico Epulón y el pobre Lázaro",
       "color": "yellow",
       "location": "83907",
       "page": "907",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32742",
-      "text": "El escándalo (h7)",
+      "text": "El escándalo",
       "color": "yellow",
       "location": "83928",
       "page": "928",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41590",
-      "text": "Perdón de las ofensas (h7)",
+      "text": "Perdón de las ofensas",
       "color": "yellow",
       "location": "83939",
       "page": "939",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2521",
-      "text": "Fuerza de la fe (h7)",
+      "text": "Fuerza de la fe",
       "color": "yellow",
       "location": "83944",
       "page": "944",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64319",
-      "text": "Humildad en el servicio (h7)",
+      "text": "Humildad en el servicio",
       "color": "yellow",
       "location": "83952",
       "page": "952",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45374",
-      "text": "Los diez leprosos (h7)",
+      "text": "Los diez leprosos",
       "color": "yellow",
       "location": "83961",
       "page": "961",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57662",
-      "text": "La venida del Reino de Dios (h7)",
+      "text": "La venida del Reino de Dios",
       "color": "yellow",
       "location": "83977",
       "page": "977",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13317",
-      "text": "El día de la venida de Cristo (h7)",
+      "text": "El día de la venida de Cristo",
       "color": "yellow",
       "location": "83982",
       "page": "982",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64367",
-      "text": "Perseverancia en la oración. Parábola del juez injusto (h7)",
+      "text": "Perseverancia en la oración. Parábola del juez injusto",
       "color": "yellow",
       "location": "84008",
       "page": "008",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37601",
-      "text": "Parábola del fariseo y el publicano (h7)",
+      "text": "Parábola del fariseo y el publicano",
       "color": "yellow",
       "location": "84025",
       "page": "025",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41705",
-      "text": "Jesús bendice a los niños (h7)",
+      "text": "Jesús bendice a los niños",
       "color": "yellow",
       "location": "84037",
       "page": "037",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44455",
-      "text": "El joven rico. Pobreza y entrega cristianas (h7)",
+      "text": "El joven rico. Pobreza y entrega cristianas",
       "color": "yellow",
       "location": "84047",
       "page": "047",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57770",
-      "text": "Tercer anuncio de la Pasión (h7)",
+      "text": "Tercer anuncio de la Pasión",
       "color": "yellow",
       "location": "84077",
       "page": "077",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37365",
-      "text": "Curación del ciego de Jericó (h7)",
+      "text": "Curación del ciego de Jericó",
       "color": "yellow",
       "location": "84089",
       "page": "089",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47415",
-      "text": "Conversión de Zaqueo (h7)",
+      "text": "Conversión de Zaqueo",
       "color": "yellow",
       "location": "84109",
       "page": "109",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28501",
-      "text": "Parábola de las minas (h7)",
+      "text": "Parábola de las minas",
       "color": "yellow",
       "location": "84129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33268",
-      "text": "TERCERA PARTE: MINISTERIO EN JERUSALÉN (h5)",
+      "text": "TERCERA PARTE: MINISTERIO EN JERUSALÉN",
       "color": "yellow",
       "location": "84157",
       "page": "157",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54622",
-      "text": "XI. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS (h6)",
+      "text": "XI. PURIFICACIÓN DEL TEMPLO Y CONTROVERSIAS",
       "color": "yellow",
       "location": "84159",
       "page": "159",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18585",
-      "text": "Entrada del Mesías en la Ciudad Santa (h7)",
+      "text": "Entrada del Mesías en la Ciudad Santa",
       "color": "yellow",
       "location": "84161",
       "page": "161",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56815",
@@ -20219,13 +21664,14 @@ export const bibleHighlights = [
   },
   {
       "id": "45956",
-      "text": "Llanto de Jesús sobre Jerusalén (h7)",
+      "text": "Llanto de Jesús sobre Jerusalén",
       "color": "yellow",
       "location": "84189",
       "page": "189",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58088",
@@ -20237,23 +21683,25 @@ export const bibleHighlights = [
   },
   {
       "id": "61269",
-      "text": "Jesús en el Templo (h7)",
+      "text": "Jesús en el Templo",
       "color": "yellow",
       "location": "84198",
       "page": "198",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56553",
-      "text": "Potestad de Jesús (h7)",
+      "text": "Potestad de Jesús",
       "color": "yellow",
       "location": "84211",
       "page": "211",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25771",
@@ -20265,183 +21713,201 @@ export const bibleHighlights = [
   },
   {
       "id": "34103",
-      "text": "Parábola de los viñadores homicidas (h7)",
+      "text": "Parábola de los viñadores homicidas",
       "color": "yellow",
       "location": "84231",
       "page": "231",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18858",
-      "text": "El tributo al César (h7)",
+      "text": "El tributo al César",
       "color": "yellow",
       "location": "84258",
       "page": "258",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24609",
-      "text": "La resurrección de los muertos (h7)",
+      "text": "La resurrección de los muertos",
       "color": "yellow",
       "location": "84276",
       "page": "276",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20725",
-      "text": "Divinidad del Mesías (h7)",
+      "text": "Divinidad del Mesías",
       "color": "yellow",
       "location": "84302",
       "page": "302",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15694",
-      "text": "Censuras a los escribas (h7)",
+      "text": "Censuras a los escribas",
       "color": "yellow",
       "location": "84315",
       "page": "315",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29545",
-      "text": "La ofrenda de la viuda (h7)",
+      "text": "La ofrenda de la viuda",
       "color": "yellow",
       "location": "84325",
       "page": "325",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37237",
-      "text": "XII. DISCURSO ESCATOLÓGICO (h6)",
+      "text": "XII. DISCURSO ESCATOLÓGICO",
       "color": "yellow",
       "location": "84338",
       "page": "338",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2411",
-      "text": "Anuncio de la destrucción del Templo (h7)",
+      "text": "Anuncio de la destrucción del Templo",
       "color": "yellow",
       "location": "84340",
       "page": "340",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30202",
-      "text": "Comienzo de las tribulaciones. Persecuciones por causa del Evangelio (h7)",
+      "text": "Comienzo de las tribulaciones. Persecuciones por causa del Evangelio",
       "color": "yellow",
       "location": "84348",
       "page": "348",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33932",
-      "text": "La gran tribulación en Jerusalén (h7)",
+      "text": "La gran tribulación en Jerusalén",
       "color": "yellow",
       "location": "84372",
       "page": "372",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55814",
-      "text": "La venida del Hijo del Hombre (h7)",
+      "text": "La venida del Hijo del Hombre",
       "color": "yellow",
       "location": "84385",
       "page": "385",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24770",
-      "text": "Certeza del fin: la lección de la higuera (h7)",
+      "text": "Certeza del fin: la lección de la higuera",
       "color": "yellow",
       "location": "84397",
       "page": "397",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11325",
-      "text": "Necesidad de la vigilancia (h7)",
+      "text": "Necesidad de la vigilancia",
       "color": "yellow",
       "location": "84408",
       "page": "408",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29944",
-      "text": "Jesús enseña en el Templo (h7)",
+      "text": "Jesús enseña en el Templo",
       "color": "yellow",
       "location": "84416",
       "page": "416",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50268",
-      "text": "XIII. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS (h6)",
+      "text": "XIII. PASIÓN, MUERTE Y RESURRECCIÓN DE JESÚS",
       "color": "yellow",
       "location": "84421",
       "page": "421",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51658",
-      "text": "Traición de Judas (h7)",
+      "text": "Traición de Judas",
       "color": "yellow",
       "location": "84423",
       "page": "423",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39602",
-      "text": "Preparación de la Última Cena (h7)",
+      "text": "Preparación de la Última Cena",
       "color": "yellow",
       "location": "84438",
       "page": "438",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17843",
-      "text": "Institución de la Sagrada Eucaristía (h7)",
+      "text": "Institución de la Sagrada Eucaristía",
       "color": "yellow",
       "location": "84454",
       "page": "454",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44387",
@@ -20453,133 +21919,146 @@ export const bibleHighlights = [
   },
   {
       "id": "54841",
-      "text": "Anuncio de la traición de Judas (h7)",
+      "text": "Anuncio de la traición de Judas",
       "color": "yellow",
       "location": "84473",
       "page": "473",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19481",
-      "text": "Discusión entre los Apóstoles (h7)",
+      "text": "Discusión entre los Apóstoles",
       "color": "yellow",
       "location": "84482",
       "page": "482",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60713",
-      "text": "Jesús predice las negaciones de San Pedro (h7)",
+      "text": "Jesús predice las negaciones de San Pedro",
       "color": "yellow",
       "location": "84495",
       "page": "495",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24110",
-      "text": "Exhortación a los Apóstoles (h7)",
+      "text": "Exhortación a los Apóstoles",
       "color": "yellow",
       "location": "84508",
       "page": "508",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "533",
-      "text": "Oración y agonía de Jesús en el huerto (h7)",
+      "text": "Oración y agonía de Jesús en el huerto",
       "color": "yellow",
       "location": "84520",
       "page": "520",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35733",
-      "text": "Prendimiento de Jesús (h7)",
+      "text": "Prendimiento de Jesús",
       "color": "yellow",
       "location": "84538",
       "page": "538",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "657",
-      "text": "Las negaciones de San Pedro (h7)",
+      "text": "Las negaciones de San Pedro",
       "color": "yellow",
       "location": "84557",
       "page": "557",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "34439",
-      "text": "Ultrajes a Jesús (h7)",
+      "text": "Ultrajes a Jesús",
       "color": "yellow",
       "location": "84580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44708",
-      "text": "Interrogatorio ante los príncipes de los sacerdotes (h7)",
+      "text": "Interrogatorio ante los príncipes de los sacerdotes",
       "color": "yellow",
       "location": "84588",
       "page": "588",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38893",
-      "text": "Jesús ante Pilato (h7)",
+      "text": "Jesús ante Pilato",
       "color": "yellow",
       "location": "84606",
       "page": "606",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47695",
-      "text": "Jesús ante Herodes (h7)",
+      "text": "Jesús ante Herodes",
       "color": "yellow",
       "location": "84625",
       "page": "625",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41597",
-      "text": "Jesús condenado a muerte (h7)",
+      "text": "Jesús condenado a muerte",
       "color": "yellow",
       "location": "84636",
       "page": "636",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61635",
-      "text": "Crucifixión y muerte de Jesús (h7)",
+      "text": "Crucifixión y muerte de Jesús",
       "color": "yellow",
       "location": "84662",
       "page": "662",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "523",
@@ -20591,33 +22070,36 @@ export const bibleHighlights = [
   },
   {
       "id": "23209",
-      "text": "Jesús es sepultado (h7)",
+      "text": "Jesús es sepultado",
       "color": "yellow",
       "location": "84713",
       "page": "713",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38423",
-      "text": "Resurrección de Jesús. El sepulcro vacío (h7)",
+      "text": "Resurrección de Jesús. El sepulcro vacío",
       "color": "yellow",
       "location": "84728",
       "page": "728",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45336",
-      "text": "Aparición a los discípulos de Emaús (h7)",
+      "text": "Aparición a los discípulos de Emaús",
       "color": "yellow",
       "location": "84753",
       "page": "753",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62088",
@@ -20645,13 +22127,14 @@ export const bibleHighlights = [
   },
   {
       "id": "14210",
-      "text": "Aparición a los discípulos en el Cenáculo (h7)",
+      "text": "Aparición a los discípulos en el Cenáculo",
       "color": "yellow",
       "location": "84797",
       "page": "797",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2452",
@@ -20687,23 +22170,25 @@ export const bibleHighlights = [
   },
   {
       "id": "31721",
-      "text": "La Ascensión del Señor (h7)",
+      "text": "La Ascensión del Señor",
       "color": "yellow",
       "location": "84826",
       "page": "826",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61825",
-      "text": "EVANGELIO SEGÚN SAN JUAN (h4)",
+      "text": "EVANGELIO SEGÚN SAN JUAN",
       "color": "yellow",
       "location": "84835",
       "page": "835",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -20835,13 +22320,14 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "PRÓLOGO (h5)",
+      "text": "PRÓLOGO",
       "color": "yellow",
       "location": "84870",
       "page": "870",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56978",
@@ -20917,33 +22403,36 @@ export const bibleHighlights = [
   },
   {
       "id": "44398",
-      "text": "PRIMERA PARTE: LA MANIFESTACIÓN DE JESÚS COMO EL MESÍAS, MEDIANTE SUS SIGNOS Y PALABRAS (h5)",
+      "text": "PRIMERA PARTE: LA MANIFESTACIÓN DE JESÚS COMO EL MESÍAS, MEDIANTE SUS SIGNOS Y PALABRAS",
       "color": "yellow",
       "location": "84917",
       "page": "917",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26137",
-      "text": "I. INTRODUCCIÓN (h6)",
+      "text": "I. INTRODUCCIÓN",
       "color": "yellow",
       "location": "84920",
       "page": "920",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47209",
-      "text": "Testimonio del Bautista (h7)",
+      "text": "Testimonio del Bautista",
       "color": "yellow",
       "location": "84922",
       "page": "922",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64956",
@@ -20979,13 +22468,14 @@ export const bibleHighlights = [
   },
   {
       "id": "35968",
-      "text": "Vocación de los primeros discípulos (h7)",
+      "text": "Vocación de los primeros discípulos",
       "color": "yellow",
       "location": "84960",
       "page": "960",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2442",
@@ -21093,23 +22583,25 @@ export const bibleHighlights = [
   },
   {
       "id": "18903",
-      "text": "II. JESÚS, PORTADOR DE LA SALVACIÓN: PRIMERAS MANIFESTACIONES DE FE (h6)",
+      "text": "II. JESÚS, PORTADOR DE LA SALVACIÓN: PRIMERAS MANIFESTACIONES DE FE",
       "color": "yellow",
       "location": "85005",
       "page": "005",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54281",
-      "text": "Bodas de Caná: primer signo realizado por Jesús (h7)",
+      "text": "Bodas de Caná: primer signo realizado por Jesús",
       "color": "yellow",
       "location": "85007",
       "page": "007",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8655",
@@ -21129,13 +22621,14 @@ export const bibleHighlights = [
   },
   {
       "id": "25460",
-      "text": "Purificación del Templo: Cristo, nuevo Templo de Dios (h7)",
+      "text": "Purificación del Templo: Cristo, nuevo Templo de Dios",
       "color": "yellow",
       "location": "85034",
       "page": "034",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "520",
@@ -21195,13 +22688,14 @@ export const bibleHighlights = [
   },
   {
       "id": "29802",
-      "text": "Revelación a Nicodemo (h7)",
+      "text": "Revelación a Nicodemo",
       "color": "yellow",
       "location": "85062",
       "page": "062",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46416",
@@ -21253,13 +22747,14 @@ export const bibleHighlights = [
   },
   {
       "id": "696",
-      "text": "Nuevo testimonio del Bautista (h7)",
+      "text": "Nuevo testimonio del Bautista",
       "color": "yellow",
       "location": "85101",
       "page": "101",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9913",
@@ -21271,13 +22766,14 @@ export const bibleHighlights = [
   },
   {
       "id": "1647",
-      "text": "Revelación a la samaritana (h7)",
+      "text": "Revelación a la samaritana",
       "color": "yellow",
       "location": "85125",
       "page": "125",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43041",
@@ -21345,13 +22841,14 @@ export const bibleHighlights = [
   },
   {
       "id": "3090",
-      "text": "Curación del hijo de un funcionario: segundo signo de Jesús (h7)",
+      "text": "Curación del hijo de un funcionario: segundo signo de Jesús",
       "color": "yellow",
       "location": "85207",
       "page": "207",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17811",
@@ -21379,13 +22876,14 @@ export const bibleHighlights = [
   },
   {
       "id": "64495",
-      "text": "Curación en sábado de un paralítico (h7)",
+      "text": "Curación en sábado de un paralítico",
       "color": "yellow",
       "location": "85231",
       "page": "231",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49690",
@@ -21413,13 +22911,14 @@ export const bibleHighlights = [
   },
   {
       "id": "11906",
-      "text": "Jesús actúa con el poder de Dios (h7)",
+      "text": "Jesús actúa con el poder de Dios",
       "color": "yellow",
       "location": "85268",
       "page": "268",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30927",
@@ -21495,23 +22994,25 @@ export const bibleHighlights = [
   },
   {
       "id": "10347",
-      "text": "IV. JESÚS ES EL PAN DE VIDA (h6)",
+      "text": "IV. JESÚS ES EL PAN DE VIDA",
       "color": "yellow",
       "location": "85312",
       "page": "312",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57238",
-      "text": "El signo de la multiplicación de los panes (h7)",
+      "text": "El signo de la multiplicación de los panes",
       "color": "yellow",
       "location": "85313",
       "page": "313",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60716",
@@ -21579,13 +23080,14 @@ export const bibleHighlights = [
   },
   {
       "id": "11875",
-      "text": "El milagro de caminar sobre las aguas (h7)",
+      "text": "El milagro de caminar sobre las aguas",
       "color": "yellow",
       "location": "85349",
       "page": "349",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45749",
@@ -21597,23 +23099,25 @@ export const bibleHighlights = [
   },
   {
       "id": "12142",
-      "text": "Las multitudes buscan a Jesús (h7)",
+      "text": "Las multitudes buscan a Jesús",
       "color": "yellow",
       "location": "85363",
       "page": "363",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13148",
-      "text": "Discurso del Pan de Vida (h7)",
+      "text": "Discurso del Pan de Vida",
       "color": "yellow",
       "location": "85373",
       "page": "373",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14518",
@@ -21641,13 +23145,14 @@ export const bibleHighlights = [
   },
   {
       "id": "1532",
-      "text": "Jesús es el Pan de Vida porque revela al Padre (h7)",
+      "text": "Jesús es el Pan de Vida porque revela al Padre",
       "color": "yellow",
       "location": "85393",
       "page": "393",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36751",
@@ -21771,13 +23276,14 @@ export const bibleHighlights = [
   },
   {
       "id": "29850",
-      "text": "Reacción de los discípulos (h7)",
+      "text": "Reacción de los discípulos",
       "color": "yellow",
       "location": "85435",
       "page": "435",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57817",
@@ -21805,23 +23311,25 @@ export const bibleHighlights = [
   },
   {
       "id": "54310",
-      "text": "V. JESÚS, ENVIADO DEL PADRE, LUZ DEL MUNDO Y BUEN PASTOR (h6)",
+      "text": "V. JESÚS, ENVIADO DEL PADRE, LUZ DEL MUNDO Y BUEN PASTOR",
       "color": "yellow",
       "location": "85459",
       "page": "459",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14931",
-      "text": "Jesús en Jerusalén durante la fiesta de los Tabernáculos (h7)",
+      "text": "Jesús en Jerusalén durante la fiesta de los Tabernáculos",
       "color": "yellow",
       "location": "85461",
       "page": "461",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30745",
@@ -21889,13 +23397,14 @@ export const bibleHighlights = [
   },
   {
       "id": "34186",
-      "text": "Origen divino de la doctrina de Jesús (h7)",
+      "text": "Origen divino de la doctrina de Jesús",
       "color": "yellow",
       "location": "85488",
       "page": "488",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33665",
@@ -21915,13 +23424,14 @@ export const bibleHighlights = [
   },
   {
       "id": "17588",
-      "text": "Origen divino de Jesús (h7)",
+      "text": "Origen divino de Jesús",
       "color": "yellow",
       "location": "85509",
       "page": "509",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59984",
@@ -21941,13 +23451,14 @@ export const bibleHighlights = [
   },
   {
       "id": "30794",
-      "text": "Jesús debe volver al Padre (h7)",
+      "text": "Jesús debe volver al Padre",
       "color": "yellow",
       "location": "85521",
       "page": "521",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35421",
@@ -21975,13 +23486,14 @@ export const bibleHighlights = [
   },
   {
       "id": "2342",
-      "text": "Diversos pareceres sobre Jesús (h7)",
+      "text": "Diversos pareceres sobre Jesús",
       "color": "yellow",
       "location": "85540",
       "page": "540",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9506",
@@ -22017,13 +23529,14 @@ export const bibleHighlights = [
   },
   {
       "id": "30788",
-      "text": "La mujer adúltera: Jesús Juez (h7)",
+      "text": "La mujer adúltera: Jesús Juez",
       "color": "yellow",
       "location": "85568",
       "page": "568",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13433",
@@ -22075,13 +23588,14 @@ export const bibleHighlights = [
   },
   {
       "id": "60092",
-      "text": "Jesús, Luz del mundo (h7)",
+      "text": "Jesús, Luz del mundo",
       "color": "yellow",
       "location": "85592",
       "page": "592",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27432",
@@ -22101,13 +23615,14 @@ export const bibleHighlights = [
   },
   {
       "id": "13105",
-      "text": "Jesús se declara Enviado del Padre (h7)",
+      "text": "Jesús se declara Enviado del Padre",
       "color": "yellow",
       "location": "85611",
       "page": "611",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2675",
@@ -22135,13 +23650,14 @@ export const bibleHighlights = [
   },
   {
       "id": "52210",
-      "text": "La libertad de quien crea en Jesús (h7)",
+      "text": "La libertad de quien crea en Jesús",
       "color": "yellow",
       "location": "85633",
       "page": "633",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55087",
@@ -22169,13 +23685,14 @@ export const bibleHighlights = [
   },
   {
       "id": "26728",
-      "text": "El verdadero linaje de Abrahán (h7)",
+      "text": "El verdadero linaje de Abrahán",
       "color": "yellow",
       "location": "85648",
       "page": "648",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22912",
@@ -22235,13 +23752,14 @@ export const bibleHighlights = [
   },
   {
       "id": "54176",
-      "text": "Jesús se declara anterior a Abrahán (h7)",
+      "text": "Jesús se declara anterior a Abrahán",
       "color": "yellow",
       "location": "85673",
       "page": "673",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61506",
@@ -22253,13 +23771,14 @@ export const bibleHighlights = [
   },
   {
       "id": "57754",
-      "text": "Curación del ciego de nacimiento (h7)",
+      "text": "Curación del ciego de nacimiento",
       "color": "yellow",
       "location": "85691",
       "page": "691",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23846",
@@ -22303,13 +23822,14 @@ export const bibleHighlights = [
   },
   {
       "id": "50463",
-      "text": "Ceguera de los judíos incrédulos (h7)",
+      "text": "Ceguera de los judíos incrédulos",
       "color": "yellow",
       "location": "85744",
       "page": "744",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33430",
@@ -22345,13 +23865,14 @@ export const bibleHighlights = [
   },
   {
       "id": "63073",
-      "text": "Jesús, el Buen Pastor (h7)",
+      "text": "Jesús, el Buen Pastor",
       "color": "yellow",
       "location": "85782",
       "page": "782",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1319",
@@ -22411,13 +23932,14 @@ export const bibleHighlights = [
   },
   {
       "id": "49168",
-      "text": "Jesús declara su unidad con el Padre (h7)",
+      "text": "Jesús declara su unidad con el Padre",
       "color": "yellow",
       "location": "85821",
       "page": "821",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1337",
@@ -22437,13 +23959,14 @@ export const bibleHighlights = [
   },
   {
       "id": "45327",
-      "text": "Reacciones entre los judíos (h7)",
+      "text": "Reacciones entre los judíos",
       "color": "yellow",
       "location": "85835",
       "page": "835",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32910",
@@ -22463,23 +23986,25 @@ export const bibleHighlights = [
   },
   {
       "id": "22351",
-      "text": "VII. JESÚS ES LA RESURRECCIÓN Y LA VIDA (h6)",
+      "text": "VII. JESÚS ES LA RESURRECCIÓN Y LA VIDA",
       "color": "yellow",
       "location": "85856",
       "page": "856",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5982",
-      "text": "Reacción de Jesús ante la muerte de Lázaro (h7)",
+      "text": "Reacción de Jesús ante la muerte de Lázaro",
       "color": "yellow",
       "location": "85858",
       "page": "858",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51516",
@@ -22539,13 +24064,14 @@ export const bibleHighlights = [
   },
   {
       "id": "64813",
-      "text": "Jesús resucita a Lázaro (h7)",
+      "text": "Jesús resucita a Lázaro",
       "color": "yellow",
       "location": "85928",
       "page": "928",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8882",
@@ -22573,13 +24099,14 @@ export const bibleHighlights = [
   },
   {
       "id": "48564",
-      "text": "El Sanedrín decreta la muerte de Jesús (h7)",
+      "text": "El Sanedrín decreta la muerte de Jesús",
       "color": "yellow",
       "location": "85945",
       "page": "945",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22014",
@@ -22599,23 +24126,25 @@ export const bibleHighlights = [
   },
   {
       "id": "29839",
-      "text": "VIII. JESÚS, ACLAMADO REY MESIÁNICO (h6)",
+      "text": "VIII. JESÚS, ACLAMADO REY MESIÁNICO",
       "color": "yellow",
       "location": "85972",
       "page": "972",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21508",
-      "text": "Jesús es ungido por María (h7)",
+      "text": "Jesús es ungido por María",
       "color": "yellow",
       "location": "85974",
       "page": "974",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39047",
@@ -22627,13 +24156,14 @@ export const bibleHighlights = [
   },
   {
       "id": "39830",
-      "text": "Entrada triunfal en Jerusalén (h7)",
+      "text": "Entrada triunfal en Jerusalén",
       "color": "yellow",
       "location": "86000",
       "page": "000",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49271",
@@ -22653,13 +24183,14 @@ export const bibleHighlights = [
   },
   {
       "id": "46520",
-      "text": "Jesús anuncia su glorificación mediante su muerte (h7)",
+      "text": "Jesús anuncia su glorificación mediante su muerte",
       "color": "yellow",
       "location": "86023",
       "page": "023",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59340",
@@ -22695,13 +24226,14 @@ export const bibleHighlights = [
   },
   {
       "id": "32136",
-      "text": "Jesús invita de nuevo a creer en Él (h7)",
+      "text": "Jesús invita de nuevo a creer en Él",
       "color": "yellow",
       "location": "86056",
       "page": "056",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21378",
@@ -22737,33 +24269,36 @@ export const bibleHighlights = [
   },
   {
       "id": "27518",
-      "text": "SEGUNDA PARTE: MANIFESTACIÓN DE JESÚS COMO EL MESÍAS, HIJO DE DIOS, EN SU PASIÓN, MUERTE Y RESURRECCIÓN (h5)",
+      "text": "SEGUNDA PARTE: MANIFESTACIÓN DE JESÚS COMO EL MESÍAS, HIJO DE DIOS, EN SU PASIÓN, MUERTE Y RESURRECCIÓN",
       "color": "yellow",
       "location": "86083",
       "page": "083",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27313",
-      "text": "IX. LA ÚLTIMA CENA (h6)",
+      "text": "IX. LA ÚLTIMA CENA",
       "color": "yellow",
       "location": "86086",
       "page": "086",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22896",
-      "text": "Jesús lava los pies a sus discípulos (h7)",
+      "text": "Jesús lava los pies a sus discípulos",
       "color": "yellow",
       "location": "86087",
       "page": "087",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22436",
@@ -22823,23 +24358,25 @@ export const bibleHighlights = [
   },
   {
       "id": "54841",
-      "text": "Anuncio de la traición de Judas (h7)",
+      "text": "Anuncio de la traición de Judas",
       "color": "yellow",
       "location": "86127",
       "page": "127",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42660",
-      "text": "El mandamiento nuevo. Predicción del abandono de sus discípulos (h7)",
+      "text": "El mandamiento nuevo. Predicción del abandono de sus discípulos",
       "color": "yellow",
       "location": "86154",
       "page": "154",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29973",
@@ -22851,13 +24388,14 @@ export const bibleHighlights = [
   },
   {
       "id": "46201",
-      "text": "Jesús revela al Padre (h7)",
+      "text": "Jesús revela al Padre",
       "color": "yellow",
       "location": "86173",
       "page": "173",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49255",
@@ -22893,13 +24431,14 @@ export const bibleHighlights = [
   },
   {
       "id": "36798",
-      "text": "Promesa del Espíritu Santo (h7)",
+      "text": "Promesa del Espíritu Santo",
       "color": "yellow",
       "location": "86200",
       "page": "200",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53277",
@@ -22975,13 +24514,14 @@ export const bibleHighlights = [
   },
   {
       "id": "57387",
-      "text": "La vid y los sarmientos (h7)",
+      "text": "La vid y los sarmientos",
       "color": "yellow",
       "location": "86227",
       "page": "227",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "39195",
@@ -23009,13 +24549,14 @@ export const bibleHighlights = [
   },
   {
       "id": "30115",
-      "text": "La ley del amor (h7)",
+      "text": "La ley del amor",
       "color": "yellow",
       "location": "86243",
       "page": "243",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31039",
@@ -23027,23 +24568,25 @@ export const bibleHighlights = [
   },
   {
       "id": "22880",
-      "text": "El odio del mundo a los discípulos (h7)",
+      "text": "El odio del mundo a los discípulos",
       "color": "yellow",
       "location": "86257",
       "page": "257",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3370",
-      "text": "La acción del Espíritu Santo (h7)",
+      "text": "La acción del Espíritu Santo",
       "color": "yellow",
       "location": "86275",
       "page": "275",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1124",
@@ -23055,33 +24598,36 @@ export const bibleHighlights = [
   },
   {
       "id": "47294",
-      "text": "Oración sacerdotal de Jesús (h7)",
+      "text": "Oración sacerdotal de Jesús",
       "color": "yellow",
       "location": "86333",
       "page": "333",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27826",
-      "text": "X. PASIÓN Y MUERTE DE JESÚS (h6)",
+      "text": "X. PASIÓN Y MUERTE DE JESÚS",
       "color": "yellow",
       "location": "86375",
       "page": "375",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35733",
-      "text": "Prendimiento de Jesús (h7)",
+      "text": "Prendimiento de Jesús",
       "color": "yellow",
       "location": "86377",
       "page": "377",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51186",
@@ -23093,93 +24639,102 @@ export const bibleHighlights = [
   },
   {
       "id": "53283",
-      "text": "Interrogatorio ante los príncipes de los sacerdotes. Negaciones de San Pedro (h7)",
+      "text": "Interrogatorio ante los príncipes de los sacerdotes. Negaciones de San Pedro",
       "color": "yellow",
       "location": "86409",
       "page": "409",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51519",
-      "text": "Juicio ante Pilato: Jesús Rey (h7)",
+      "text": "Juicio ante Pilato: Jesús Rey",
       "color": "yellow",
       "location": "86446",
       "page": "446",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46328",
-      "text": "Flagelación y coronación de espinas (h7)",
+      "text": "Flagelación y coronación de espinas",
       "color": "yellow",
       "location": "86483",
       "page": "483",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31662",
-      "text": "Pilato entrega a Jesús (h7)",
+      "text": "Pilato entrega a Jesús",
       "color": "yellow",
       "location": "86495",
       "page": "495",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61635",
-      "text": "Crucifixión y muerte de Jesús (h7)",
+      "text": "Crucifixión y muerte de Jesús",
       "color": "yellow",
       "location": "86532",
       "page": "532",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62223",
-      "text": "La lanzada (h7)",
+      "text": "La lanzada",
       "color": "yellow",
       "location": "86568",
       "page": "568",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31339",
-      "text": "Sepultura de Jesús (h7)",
+      "text": "Sepultura de Jesús",
       "color": "yellow",
       "location": "86580",
       "page": "580",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35039",
-      "text": "XI. APARICIONES DE JESÚS RESUCITADO (h6)",
+      "text": "XI. APARICIONES DE JESÚS RESUCITADO",
       "color": "yellow",
       "location": "86595",
       "page": "595",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8997",
-      "text": "El sepulcro vacío (h7)",
+      "text": "El sepulcro vacío",
       "color": "yellow",
       "location": "86597",
       "page": "597",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5388",
@@ -23191,43 +24746,47 @@ export const bibleHighlights = [
   },
   {
       "id": "58555",
-      "text": "Aparición a María Magdalena (h7)",
+      "text": "Aparición a María Magdalena",
       "color": "yellow",
       "location": "86620",
       "page": "620",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8388",
-      "text": "Primera aparición a sus discípulos (h7)",
+      "text": "Primera aparición a sus discípulos",
       "color": "yellow",
       "location": "86644",
       "page": "644",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31876",
-      "text": "Nueva aparición a los discípulos estando Tomás (h7)",
+      "text": "Nueva aparición a los discípulos estando Tomás",
       "color": "yellow",
       "location": "86660",
       "page": "660",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24933",
-      "text": "La pesca milagrosa (h7)",
+      "text": "La pesca milagrosa",
       "color": "yellow",
       "location": "86680",
       "page": "680",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11856",
@@ -23239,13 +24798,14 @@ export const bibleHighlights = [
   },
   {
       "id": "10224",
-      "text": "El Primado de San Pedro (h7)",
+      "text": "El Primado de San Pedro",
       "color": "yellow",
       "location": "86715",
       "page": "715",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53774",
@@ -23329,13 +24889,14 @@ export const bibleHighlights = [
   },
   {
       "id": "23625",
-      "text": "Conclusión (h5)",
+      "text": "Conclusión",
       "color": "yellow",
       "location": "86744",
       "page": "744",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2670",
@@ -23355,23 +24916,25 @@ export const bibleHighlights = [
   },
   {
       "id": "20511",
-      "text": "HECHOS DE LOS APÓSTOLES (h2)",
+      "text": "HECHOS DE LOS APÓSTOLES",
       "color": "yellow",
       "location": "86749",
       "page": "749",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26676",
-      "text": "Hch (h4)",
+      "text": "Hch",
       "color": "yellow",
       "location": "86751",
       "page": "751",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -23431,23 +24994,25 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "Prólogo (h5)",
+      "text": "Prólogo",
       "color": "yellow",
       "location": "86791",
       "page": "791",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17663",
-      "text": "La Ascensión (h5)",
+      "text": "La Ascensión",
       "color": "yellow",
       "location": "86804",
       "page": "804",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33315",
@@ -23467,43 +25032,47 @@ export const bibleHighlights = [
   },
   {
       "id": "43654",
-      "text": "PRIMERA PARTE: LA IGLESIA EN JERUSALÉN (h5)",
+      "text": "PRIMERA PARTE: LA IGLESIA EN JERUSALÉN",
       "color": "yellow",
       "location": "86818",
       "page": "818",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59283",
-      "text": "I. EL GRUPO DE LOS DISCÍPULOS EN JERUSALÉN (h6)",
+      "text": "I. EL GRUPO DE LOS DISCÍPULOS EN JERUSALÉN",
       "color": "yellow",
       "location": "86820",
       "page": "820",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15302",
-      "text": "El Colegio Apostólico (h7)",
+      "text": "El Colegio Apostólico",
       "color": "yellow",
       "location": "86822",
       "page": "822",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45514",
-      "text": "Elección de San Matías (h7)",
+      "text": "Elección de San Matías",
       "color": "yellow",
       "location": "86830",
       "page": "830",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22526",
@@ -23515,23 +25084,25 @@ export const bibleHighlights = [
   },
   {
       "id": "50974",
-      "text": "II. PENTECOSTÉS (h6)",
+      "text": "II. PENTECOSTÉS",
       "color": "yellow",
       "location": "86854",
       "page": "854",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30508",
-      "text": "La venida del Espíritu Santo (h7)",
+      "text": "La venida del Espíritu Santo",
       "color": "yellow",
       "location": "86856",
       "page": "856",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23923",
@@ -23551,13 +25122,14 @@ export const bibleHighlights = [
   },
   {
       "id": "1663",
-      "text": "Discurso de San Pedro (h7)",
+      "text": "Discurso de San Pedro",
       "color": "yellow",
       "location": "86881",
       "page": "881",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51015",
@@ -23577,13 +25149,14 @@ export const bibleHighlights = [
   },
   {
       "id": "34929",
-      "text": "Bautismo de los oyentes (h7)",
+      "text": "Bautismo de los oyentes",
       "color": "yellow",
       "location": "86935",
       "page": "935",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50353",
@@ -23595,43 +25168,47 @@ export const bibleHighlights = [
   },
   {
       "id": "38861",
-      "text": "Los primeros cristianos (h7)",
+      "text": "Los primeros cristianos",
       "color": "yellow",
       "location": "86947",
       "page": "947",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49154",
-      "text": "III. ACTIVIDAD APOSTÓLICA EN JERUSALÉN (h6)",
+      "text": "III. ACTIVIDAD APOSTÓLICA EN JERUSALÉN",
       "color": "yellow",
       "location": "86958",
       "page": "958",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31294",
-      "text": "Curación del cojo de nacimiento (h7)",
+      "text": "Curación del cojo de nacimiento",
       "color": "yellow",
       "location": "86960",
       "page": "960",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54431",
-      "text": "Discurso de San Pedro en el Templo (h7)",
+      "text": "Discurso de San Pedro en el Templo",
       "color": "yellow",
       "location": "86980",
       "page": "980",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2429",
@@ -23643,83 +25220,91 @@ export const bibleHighlights = [
   },
   {
       "id": "46940",
-      "text": "Prisión de San Pedro y de San Juan (h7)",
+      "text": "Prisión de San Pedro y de San Juan",
       "color": "yellow",
       "location": "87009",
       "page": "009",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1347",
-      "text": "Declaración ante el Sanedrín (h7)",
+      "text": "Declaración ante el Sanedrín",
       "color": "yellow",
       "location": "87019",
       "page": "019",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37619",
-      "text": "Acción de gracias y oración de la Iglesia (h7)",
+      "text": "Acción de gracias y oración de la Iglesia",
       "color": "yellow",
       "location": "87052",
       "page": "052",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22208",
-      "text": "Vida de los primeros cristianos (h7)",
+      "text": "Vida de los primeros cristianos",
       "color": "yellow",
       "location": "87072",
       "page": "072",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42268",
-      "text": "El engaño de Ananías y Safira (h7)",
+      "text": "El engaño de Ananías y Safira",
       "color": "yellow",
       "location": "87084",
       "page": "084",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19957",
-      "text": "Crecimiento de la Iglesia (h7)",
+      "text": "Crecimiento de la Iglesia",
       "color": "yellow",
       "location": "87108",
       "page": "108",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31660",
-      "text": "Nuevo encarcelamiento de los Apóstoles y milagrosa liberación (h7)",
+      "text": "Nuevo encarcelamiento de los Apóstoles y milagrosa liberación",
       "color": "yellow",
       "location": "87119",
       "page": "119",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2839",
-      "text": "Los Apóstoles ante el Sanedrín (h7)",
+      "text": "Los Apóstoles ante el Sanedrín",
       "color": "yellow",
       "location": "87137",
       "page": "137",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63133",
@@ -23731,73 +25316,80 @@ export const bibleHighlights = [
   },
   {
       "id": "28589",
-      "text": "Intervención de Gamaliel (h7)",
+      "text": "Intervención de Gamaliel",
       "color": "yellow",
       "location": "87152",
       "page": "152",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37735",
-      "text": "Flagelación de los Apóstoles (h7)",
+      "text": "Flagelación de los Apóstoles",
       "color": "yellow",
       "location": "87164",
       "page": "164",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35757",
-      "text": "IV. LOS «DIÁCONOS» Y SAN ESTEBAN (h6)",
+      "text": "IV. LOS «DIÁCONOS» Y SAN ESTEBAN",
       "color": "yellow",
       "location": "87171",
       "page": "171",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6761",
-      "text": "Elección de los Siete (h7)",
+      "text": "Elección de los Siete",
       "color": "yellow",
       "location": "87172",
       "page": "172",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49895",
-      "text": "Prisión de San Esteban (h7)",
+      "text": "Prisión de San Esteban",
       "color": "yellow",
       "location": "87190",
       "page": "190",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53258",
-      "text": "Discurso de San Esteban ante el Sanedrín (h7)",
+      "text": "Discurso de San Esteban ante el Sanedrín",
       "color": "yellow",
       "location": "87205",
       "page": "205",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63299",
-      "text": "Martirio de San Esteban (h7)",
+      "text": "Martirio de San Esteban",
       "color": "yellow",
       "location": "87303",
       "page": "303",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9581",
@@ -23809,83 +25401,91 @@ export const bibleHighlights = [
   },
   {
       "id": "62234",
-      "text": "SEGUNDA PARTE: EXPANSIÓN DE LA IGLESIA FUERA DE JERUSALÉN (h5)",
+      "text": "SEGUNDA PARTE: EXPANSIÓN DE LA IGLESIA FUERA DE JERUSALÉN",
       "color": "yellow",
       "location": "87319",
       "page": "319",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60951",
-      "text": "V. LA IGLESIA EN SAMARÍA (h6)",
+      "text": "V. LA IGLESIA EN SAMARÍA",
       "color": "yellow",
       "location": "87321",
       "page": "321",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44747",
-      "text": "Persecución contra la Iglesia (h7)",
+      "text": "Persecución contra la Iglesia",
       "color": "yellow",
       "location": "87323",
       "page": "323",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53906",
-      "text": "Predicación de Felipe en Samaría (h7)",
+      "text": "Predicación de Felipe en Samaría",
       "color": "yellow",
       "location": "87334",
       "page": "334",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43886",
-      "text": "Simón el mago (h7)",
+      "text": "Simón el mago",
       "color": "yellow",
       "location": "87341",
       "page": "341",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19987",
-      "text": "San Pedro y San Juan en Samaría (h7)",
+      "text": "San Pedro y San Juan en Samaría",
       "color": "yellow",
       "location": "87352",
       "page": "352",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12712",
-      "text": "El pecado de simonía (h7)",
+      "text": "El pecado de simonía",
       "color": "yellow",
       "location": "87359",
       "page": "359",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47526",
-      "text": "Bautismo del eunuco etíope (h7)",
+      "text": "Bautismo del eunuco etíope",
       "color": "yellow",
       "location": "87375",
       "page": "375",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53691",
@@ -23897,273 +25497,300 @@ export const bibleHighlights = [
   },
   {
       "id": "38799",
-      "text": "VI. VOCACIÓN DE SAN PABLO (h6)",
+      "text": "VI. VOCACIÓN DE SAN PABLO",
       "color": "yellow",
       "location": "87407",
       "page": "407",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20756",
-      "text": "Saulo, camino de Damasco (h7)",
+      "text": "Saulo, camino de Damasco",
       "color": "yellow",
       "location": "87409",
       "page": "409",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6916",
-      "text": "Ananías bautiza a Saulo (h7)",
+      "text": "Ananías bautiza a Saulo",
       "color": "yellow",
       "location": "87428",
       "page": "428",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30472",
-      "text": "Inicio de la actividad apostólica de San Pablo (h7)",
+      "text": "Inicio de la actividad apostólica de San Pablo",
       "color": "yellow",
       "location": "87450",
       "page": "450",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14353",
-      "text": "Huida de San Pablo (h7)",
+      "text": "Huida de San Pablo",
       "color": "yellow",
       "location": "87459",
       "page": "459",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4006",
-      "text": "San Bernabé y San Pablo, en Jerusalén con los Apóstoles (h7)",
+      "text": "San Bernabé y San Pablo, en Jerusalén con los Apóstoles",
       "color": "yellow",
       "location": "87464",
       "page": "464",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19957",
-      "text": "Crecimiento de la Iglesia (h7)",
+      "text": "Crecimiento de la Iglesia",
       "color": "yellow",
       "location": "87474",
       "page": "474",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10836",
-      "text": "VII. ACTIVIDAD DE SAN PEDRO (h6)",
+      "text": "VII. ACTIVIDAD DE SAN PEDRO",
       "color": "yellow",
       "location": "87478",
       "page": "478",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28319",
-      "text": "San Pedro cura en Lida a un paralítico (h7)",
+      "text": "San Pedro cura en Lida a un paralítico",
       "color": "yellow",
       "location": "87479",
       "page": "479",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53094",
-      "text": "San Pedro resucita en Jope a Tabita (h7)",
+      "text": "San Pedro resucita en Jope a Tabita",
       "color": "yellow",
       "location": "87488",
       "page": "488",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36353",
-      "text": "Visión del centurión Cornelio (h7)",
+      "text": "Visión del centurión Cornelio",
       "color": "yellow",
       "location": "87505",
       "page": "505",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1564",
-      "text": "Éxtasis de San Pedro (h7)",
+      "text": "Éxtasis de San Pedro",
       "color": "yellow",
       "location": "87523",
       "page": "523",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "30777",
-      "text": "San Pedro, en casa del centurión (h7)",
+      "text": "San Pedro, en casa del centurión",
       "color": "yellow",
       "location": "87549",
       "page": "549",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48352",
-      "text": "Predicación de San Pedro a Cornelio (h7)",
+      "text": "Predicación de San Pedro a Cornelio",
       "color": "yellow",
       "location": "87568",
       "page": "568",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11826",
-      "text": "Bautismo de Cornelio y su familia (h7)",
+      "text": "Bautismo de Cornelio y su familia",
       "color": "yellow",
       "location": "87585",
       "page": "585",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19239",
-      "text": "San Pedro explica en Jerusalén su actuación (h7)",
+      "text": "San Pedro explica en Jerusalén su actuación",
       "color": "yellow",
       "location": "87596",
       "page": "596",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46440",
-      "text": "Comienzos de la Iglesia en Antioquía (h7)",
+      "text": "Comienzos de la Iglesia en Antioquía",
       "color": "yellow",
       "location": "87628",
       "page": "628",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37267",
-      "text": "Ayuda de Antioquía a la Iglesia en Judea (h7)",
+      "text": "Ayuda de Antioquía a la Iglesia en Judea",
       "color": "yellow",
       "location": "87642",
       "page": "642",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10990",
-      "text": "Persecución de Herodes Agripa. Prisión y milagrosa liberación de San Pedro (h7)",
+      "text": "Persecución de Herodes Agripa. Prisión y milagrosa liberación de San Pedro",
       "color": "yellow",
       "location": "87650",
       "page": "650",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21710",
-      "text": "Muerte de Herodes (h7)",
+      "text": "Muerte de Herodes",
       "color": "yellow",
       "location": "87693",
       "page": "693",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20178",
-      "text": "San Bernabé y San Pablo vuelven a Jerusalén (h7)",
+      "text": "San Bernabé y San Pablo vuelven a Jerusalén",
       "color": "yellow",
       "location": "87702",
       "page": "702",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43966",
-      "text": "TERCERA PARTE: DIFUSIÓN DE LA IGLESIA ENTRE LOS GENTILES. VIAJES MISIONEROS DE SAN PABLO (h5)",
+      "text": "TERCERA PARTE: DIFUSIÓN DE LA IGLESIA ENTRE LOS GENTILES. VIAJES MISIONEROS DE SAN PABLO",
       "color": "yellow",
       "location": "87706",
       "page": "706",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41009",
-      "text": "VIII. PRIMER VIAJE APOSTÓLICO DE SAN PABLO (h6)",
+      "text": "VIII. PRIMER VIAJE APOSTÓLICO DE SAN PABLO",
       "color": "yellow",
       "location": "87709",
       "page": "709",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49403",
-      "text": "Designación de San Pablo y de San Bernabé (h7)",
+      "text": "Designación de San Pablo y de San Bernabé",
       "color": "yellow",
       "location": "87711",
       "page": "711",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61876",
-      "text": "En Chipre (h7)",
+      "text": "En Chipre",
       "color": "yellow",
       "location": "87721",
       "page": "721",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29996",
-      "text": "Paso al Asia Menor (h7)",
+      "text": "Paso al Asia Menor",
       "color": "yellow",
       "location": "87738",
       "page": "738",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29625",
-      "text": "Predicación en la sinagoga de Antioquía de Pisidia (h7)",
+      "text": "Predicación en la sinagoga de Antioquía de Pisidia",
       "color": "yellow",
       "location": "87743",
       "page": "743",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23774",
@@ -24175,193 +25802,212 @@ export const bibleHighlights = [
   },
   {
       "id": "28712",
-      "text": "San Pablo y San Bernabé se dirigen a los gentiles (h7)",
+      "text": "San Pablo y San Bernabé se dirigen a los gentiles",
       "color": "yellow",
       "location": "87796",
       "page": "796",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19119",
-      "text": "Evangelización en Iconio y posterior persecución (h7)",
+      "text": "Evangelización en Iconio y posterior persecución",
       "color": "yellow",
       "location": "87814",
       "page": "814",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16521",
-      "text": "Curación de un cojo en Listra (h7)",
+      "text": "Curación de un cojo en Listra",
       "color": "yellow",
       "location": "87829",
       "page": "829",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33828",
-      "text": "Lapidación de San Pablo (h7)",
+      "text": "Lapidación de San Pablo",
       "color": "yellow",
       "location": "87852",
       "page": "852",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10572",
-      "text": "Regreso hacia Antioquía (h7)",
+      "text": "Regreso hacia Antioquía",
       "color": "yellow",
       "location": "87856",
       "page": "856",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10728",
-      "text": "IX. CONCILIO DE JERUSALÉN (h6)",
+      "text": "IX. CONCILIO DE JERUSALÉN",
       "color": "yellow",
       "location": "87870",
       "page": "870",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50961",
-      "text": "Conflicto con los judaizantes en Antioquía (h7)",
+      "text": "Conflicto con los judaizantes en Antioquía",
       "color": "yellow",
       "location": "87872",
       "page": "872",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53265",
-      "text": "San Pablo y San Bernabé van a Jerusalén (h7)",
+      "text": "San Pablo y San Bernabé van a Jerusalén",
       "color": "yellow",
       "location": "87881",
       "page": "881",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8228",
-      "text": "Discurso de San Pedro al Concilio (h7)",
+      "text": "Discurso de San Pedro al Concilio",
       "color": "yellow",
       "location": "87889",
       "page": "889",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6343",
-      "text": "Intervención de Santiago (h7)",
+      "text": "Intervención de Santiago",
       "color": "yellow",
       "location": "87901",
       "page": "901",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37468",
-      "text": "Resolución del Concilio (h7)",
+      "text": "Resolución del Concilio",
       "color": "yellow",
       "location": "87922",
       "page": "922",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36238",
-      "text": "Efectos del decreto (h7)",
+      "text": "Efectos del decreto",
       "color": "yellow",
       "location": "87938",
       "page": "938",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10077",
-      "text": "X. SEGUNDO VIAJE APOSTÓLICO DE SAN PABLO (h6)",
+      "text": "X. SEGUNDO VIAJE APOSTÓLICO DE SAN PABLO",
       "color": "yellow",
       "location": "87947",
       "page": "947",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31037",
-      "text": "Silas, compañero de San Pablo (h7)",
+      "text": "Silas, compañero de San Pablo",
       "color": "yellow",
       "location": "87949",
       "page": "949",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56074",
-      "text": "Timoteo acompaña a San Pablo (h7)",
+      "text": "Timoteo acompaña a San Pablo",
       "color": "yellow",
       "location": "87960",
       "page": "960",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17501",
-      "text": "Visita a las iglesias de Asia (h7)",
+      "text": "Visita a las iglesias de Asia",
       "color": "yellow",
       "location": "87970",
       "page": "970",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "28478",
-      "text": "Paso a Macedonia (h7)",
+      "text": "Paso a Macedonia",
       "color": "yellow",
       "location": "87982",
       "page": "982",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6564",
-      "text": "Conversión de Lidia (h7)",
+      "text": "Conversión de Lidia",
       "color": "yellow",
       "location": "87986",
       "page": "986",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11263",
-      "text": "Curación de una endemoniada y encarcelamiento de San Pablo (h7)",
+      "text": "Curación de una endemoniada y encarcelamiento de San Pablo",
       "color": "yellow",
       "location": "87994",
       "page": "994",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36052",
@@ -24381,143 +26027,157 @@ export const bibleHighlights = [
   },
   {
       "id": "52183",
-      "text": "Liberación y salida de Filipos (h7)",
+      "text": "Liberación y salida de Filipos",
       "color": "yellow",
       "location": "88032",
       "page": "032",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26741",
-      "text": "En Tesalónica, dificultades con los judíos (h7)",
+      "text": "En Tesalónica, dificultades con los judíos",
       "color": "yellow",
       "location": "88046",
       "page": "046",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31779",
-      "text": "Acogida en Berea (h7)",
+      "text": "Acogida en Berea",
       "color": "yellow",
       "location": "88066",
       "page": "066",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22089",
-      "text": "San Pablo en Atenas (h7)",
+      "text": "San Pablo en Atenas",
       "color": "yellow",
       "location": "88077",
       "page": "077",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64853",
-      "text": "Discurso en el Areópago (h7)",
+      "text": "Discurso en el Areópago",
       "color": "yellow",
       "location": "88090",
       "page": "090",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26259",
-      "text": "San Pablo en Corinto, con Aquila y Priscila (h7)",
+      "text": "San Pablo en Corinto, con Aquila y Priscila",
       "color": "yellow",
       "location": "88114",
       "page": "114",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25446",
-      "text": "Predicación a judíos y gentiles (h7)",
+      "text": "Predicación a judíos y gentiles",
       "color": "yellow",
       "location": "88125",
       "page": "125",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3621",
-      "text": "San Pablo ante Galión (h7)",
+      "text": "San Pablo ante Galión",
       "color": "yellow",
       "location": "88139",
       "page": "139",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41648",
-      "text": "Regreso a Antioquía pasando por Éfeso (h7)",
+      "text": "Regreso a Antioquía pasando por Éfeso",
       "color": "yellow",
       "location": "88152",
       "page": "152",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53846",
-      "text": "XI. TERCER VIAJE APOSTÓLICO DE SAN PABLO (h6)",
+      "text": "XI. TERCER VIAJE APOSTÓLICO DE SAN PABLO",
       "color": "yellow",
       "location": "88162",
       "page": "162",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14707",
-      "text": "Comienzo por Galacia y Frigia (h7)",
+      "text": "Comienzo por Galacia y Frigia",
       "color": "yellow",
       "location": "88163",
       "page": "163",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18574",
-      "text": "Apolo en Éfeso y Corinto (h7)",
+      "text": "Apolo en Éfeso y Corinto",
       "color": "yellow",
       "location": "88167",
       "page": "167",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11234",
-      "text": "Discípulos de San Juan Bautista en Éfeso (h7)",
+      "text": "Discípulos de San Juan Bautista en Éfeso",
       "color": "yellow",
       "location": "88178",
       "page": "178",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24419",
-      "text": "Predicación y milagros de San Pablo en Éfeso (h7)",
+      "text": "Predicación y milagros de San Pablo en Éfeso",
       "color": "yellow",
       "location": "88196",
       "page": "196",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13126",
@@ -24537,83 +26197,91 @@ export const bibleHighlights = [
   },
   {
       "id": "23619",
-      "text": "Quema de libros mágicos (h7)",
+      "text": "Quema de libros mágicos",
       "color": "yellow",
       "location": "88215",
       "page": "215",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49998",
-      "text": "Proyectos de viaje de San Pablo (h7)",
+      "text": "Proyectos de viaje de San Pablo",
       "color": "yellow",
       "location": "88223",
       "page": "223",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63752",
-      "text": "Motín de los plateros de Éfeso (h7)",
+      "text": "Motín de los plateros de Éfeso",
       "color": "yellow",
       "location": "88228",
       "page": "228",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12152",
-      "text": "Paso a Macedonia. Comienza el regreso (h7)",
+      "text": "Paso a Macedonia. Comienza el regreso",
       "color": "yellow",
       "location": "88262",
       "page": "262",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53807",
-      "text": "Celebración de la Eucaristía y resurrección de Eutico (h7)",
+      "text": "Celebración de la Eucaristía y resurrección de Eutico",
       "color": "yellow",
       "location": "88276",
       "page": "276",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54244",
-      "text": "De Tróade a Mileto (h7)",
+      "text": "De Tróade a Mileto",
       "color": "yellow",
       "location": "88289",
       "page": "289",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27939",
-      "text": "Discurso de despedida a los presbíteros de Éfeso (h7)",
+      "text": "Discurso de despedida a los presbíteros de Éfeso",
       "color": "yellow",
       "location": "88297",
       "page": "297",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49932",
-      "text": "CUARTA PARTE: SAN PABLO, PRISIONERO Y TESTIGO DE CRISTO (h5)",
+      "text": "CUARTA PARTE: SAN PABLO, PRISIONERO Y TESTIGO DE CRISTO",
       "color": "yellow",
       "location": "88331",
       "page": "331",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42364",
@@ -24625,243 +26293,267 @@ export const bibleHighlights = [
   },
   {
       "id": "62258",
-      "text": "De Mileto a Cesarea (h7)",
+      "text": "De Mileto a Cesarea",
       "color": "yellow",
       "location": "88335",
       "page": "335",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "61580",
-      "text": "El profeta Ágabo (h7)",
+      "text": "El profeta Ágabo",
       "color": "yellow",
       "location": "88353",
       "page": "353",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "21781",
-      "text": "Llegada a Jerusalén y encuentro con los cristianos (h7)",
+      "text": "Llegada a Jerusalén y encuentro con los cristianos",
       "color": "yellow",
       "location": "88365",
       "page": "365",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5972",
-      "text": "San Pablo, apresado en el Templo de Jerusalén (h7)",
+      "text": "San Pablo, apresado en el Templo de Jerusalén",
       "color": "yellow",
       "location": "88388",
       "page": "388",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46209",
-      "text": "Discurso de defensa ante el pueblo (h7)",
+      "text": "Discurso de defensa ante el pueblo",
       "color": "yellow",
       "location": "88417",
       "page": "417",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23712",
-      "text": "San Pablo, ciudadano romano (h7)",
+      "text": "San Pablo, ciudadano romano",
       "color": "yellow",
       "location": "88454",
       "page": "454",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56113",
-      "text": "Discurso ante el Sanedrín (h7)",
+      "text": "Discurso ante el Sanedrín",
       "color": "yellow",
       "location": "88474",
       "page": "474",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "516",
-      "text": "Conjuración de los judíos contra San Pablo (h7)",
+      "text": "Conjuración de los judíos contra San Pablo",
       "color": "yellow",
       "location": "88505",
       "page": "505",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44442",
-      "text": "XIII. DE JERUSALÉN A ROMA (h6)",
+      "text": "XIII. DE JERUSALÉN A ROMA",
       "color": "yellow",
       "location": "88528",
       "page": "528",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52761",
-      "text": "Traslado a Cesarea (h7)",
+      "text": "Traslado a Cesarea",
       "color": "yellow",
       "location": "88530",
       "page": "530",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8409",
-      "text": "Proceso ante el Procurador romano Félix (h7)",
+      "text": "Proceso ante el Procurador romano Félix",
       "color": "yellow",
       "location": "88554",
       "page": "554",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59615",
-      "text": "Nueva comparecencia ante Félix (h7)",
+      "text": "Nueva comparecencia ante Félix",
       "color": "yellow",
       "location": "88593",
       "page": "593",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42064",
-      "text": "Festo reanuda el proceso. San Pablo apela al César (h7)",
+      "text": "Festo reanuda el proceso. San Pablo apela al César",
       "color": "yellow",
       "location": "88603",
       "page": "603",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57229",
-      "text": "Festo informa a Agripa (h7)",
+      "text": "Festo informa a Agripa",
       "color": "yellow",
       "location": "88631",
       "page": "631",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24253",
-      "text": "San Pablo ante el rey Agripa (h7)",
+      "text": "San Pablo ante el rey Agripa",
       "color": "yellow",
       "location": "88649",
       "page": "649",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58227",
-      "text": "Discurso de San Pablo (h7)",
+      "text": "Discurso de San Pablo",
       "color": "yellow",
       "location": "88661",
       "page": "661",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "44172",
-      "text": "Efecto en los oyentes (h7)",
+      "text": "Efecto en los oyentes",
       "color": "yellow",
       "location": "88702",
       "page": "702",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8596",
-      "text": "Camino de Roma. Navegación hasta Creta (h7)",
+      "text": "Camino de Roma. Navegación hasta Creta",
       "color": "yellow",
       "location": "88722",
       "page": "722",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33096",
-      "text": "Reanudación del viaje contra el parecer de San Pablo (h7)",
+      "text": "Reanudación del viaje contra el parecer de San Pablo",
       "color": "yellow",
       "location": "88738",
       "page": "738",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12746",
-      "text": "Tempestad (h7)",
+      "text": "Tempestad",
       "color": "yellow",
       "location": "88747",
       "page": "747",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41810",
-      "text": "Visión de San Pablo y exhortación a los viajeros (h7)",
+      "text": "Visión de San Pablo y exhortación a los viajeros",
       "color": "yellow",
       "location": "88760",
       "page": "760",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49574",
-      "text": "Naufragio y rescate (h7)",
+      "text": "Naufragio y rescate",
       "color": "yellow",
       "location": "88791",
       "page": "791",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37555",
-      "text": "Estancia en Malta (h7)",
+      "text": "Estancia en Malta",
       "color": "yellow",
       "location": "88803",
       "page": "803",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33122",
-      "text": "Llegada a Roma (h7)",
+      "text": "Llegada a Roma",
       "color": "yellow",
       "location": "88824",
       "page": "824",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8889",
@@ -24873,33 +26565,36 @@ export const bibleHighlights = [
   },
   {
       "id": "63252",
-      "text": "Actividad apostólica de San Pablo en Roma (h7)",
+      "text": "Actividad apostólica de San Pablo en Roma",
       "color": "yellow",
       "location": "88866",
       "page": "866",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42722",
-      "text": "LOS ESCRITOS DE SAN PABLO (h2)",
+      "text": "LOS ESCRITOS DE SAN PABLO",
       "color": "yellow",
       "location": "88870",
       "page": "870",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62819",
-      "text": "CARTA A LOS ROMANOS (h4)",
+      "text": "CARTA A LOS ROMANOS",
       "color": "yellow",
       "location": "88873",
       "page": "873",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -24943,83 +26638,91 @@ export const bibleHighlights = [
   },
   {
       "id": "9240",
-      "text": "PRESENTACIÓN (h5)",
+      "text": "PRESENTACIÓN",
       "color": "yellow",
       "location": "88903",
       "page": "903",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58762",
-      "text": "Saludo (h6)",
+      "text": "Saludo",
       "color": "yellow",
       "location": "88904",
       "page": "904",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24225",
-      "text": "Acción de gracias (h6)",
+      "text": "Acción de gracias",
       "color": "yellow",
       "location": "88918",
       "page": "918",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49460",
-      "text": "Tema de la carta (h6)",
+      "text": "Tema de la carta",
       "color": "yellow",
       "location": "88933",
       "page": "933",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47238",
-      "text": "PRIMERA PARTE: JUSTIFICACIÓN POR MEDIO DE JESUCRISTO (h5)",
+      "text": "PRIMERA PARTE: JUSTIFICACIÓN POR MEDIO DE JESUCRISTO",
       "color": "yellow",
       "location": "88938",
       "page": "938",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25627",
-      "text": "I. LA JUSTICIA POR LA FE (h6)",
+      "text": "I. LA JUSTICIA POR LA FE",
       "color": "yellow",
       "location": "88940",
       "page": "940",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22623",
-      "text": "Culpa y castigo de los gentiles (h7)",
+      "text": "Culpa y castigo de los gentiles",
       "color": "yellow",
       "location": "88942",
       "page": "942",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19689",
-      "text": "Los judíos también son culpables (h7)",
+      "text": "Los judíos también son culpables",
       "color": "yellow",
       "location": "88969",
       "page": "969",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35404",
@@ -25031,33 +26734,36 @@ export const bibleHighlights = [
   },
   {
       "id": "22980",
-      "text": "La circuncisión del corazón (h7)",
+      "text": "La circuncisión del corazón",
       "color": "yellow",
       "location": "89009",
       "page": "009",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31104",
-      "text": "Judíos y gentiles son pecadores delante de Dios (h7)",
+      "text": "Judíos y gentiles son pecadores delante de Dios",
       "color": "yellow",
       "location": "89036",
       "page": "036",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11035",
-      "text": "Justificación gratuita por medio de la fe en Cristo (h7)",
+      "text": "Justificación gratuita por medio de la fe en Cristo",
       "color": "yellow",
       "location": "89060",
       "page": "060",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15744",
@@ -25069,33 +26775,36 @@ export const bibleHighlights = [
   },
   {
       "id": "41730",
-      "text": "El ejemplo de Abrahán (h7)",
+      "text": "El ejemplo de Abrahán",
       "color": "yellow",
       "location": "89079",
       "page": "079",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62864",
-      "text": "II. LA SALVACIÓN Y LA VIDA CRISTIANA (h6)",
+      "text": "II. LA SALVACIÓN Y LA VIDA CRISTIANA",
       "color": "yellow",
       "location": "89127",
       "page": "127",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4560",
-      "text": "La reconciliación por el Sacrificio de Cristo, fundamento de nuestra esperanza (h7)",
+      "text": "La reconciliación por el Sacrificio de Cristo, fundamento de nuestra esperanza",
       "color": "yellow",
       "location": "89129",
       "page": "129",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "14769",
@@ -25107,13 +26816,14 @@ export const bibleHighlights = [
   },
   {
       "id": "42847",
-      "text": "El pecado original (h7)",
+      "text": "El pecado original",
       "color": "yellow",
       "location": "89151",
       "page": "151",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24165",
@@ -25133,63 +26843,69 @@ export const bibleHighlights = [
   },
   {
       "id": "47260",
-      "text": "El Bautismo (h7)",
+      "text": "El Bautismo",
       "color": "yellow",
       "location": "89172",
       "page": "172",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23610",
-      "text": "La liberación del pecado (h7)",
+      "text": "La liberación del pecado",
       "color": "yellow",
       "location": "89193",
       "page": "193",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5964",
-      "text": "Los cristianos, libres de la Ley (h7)",
+      "text": "Los cristianos, libres de la Ley",
       "color": "yellow",
       "location": "89215",
       "page": "215",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57140",
-      "text": "La Ley y la concupiscencia (h7)",
+      "text": "La Ley y la concupiscencia",
       "color": "yellow",
       "location": "89230",
       "page": "230",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25363",
-      "text": "La lucha interior (h7)",
+      "text": "La lucha interior",
       "color": "yellow",
       "location": "89244",
       "page": "244",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5792",
-      "text": "La vida en el Espíritu (h7)",
+      "text": "La vida en el Espíritu",
       "color": "yellow",
       "location": "89262",
       "page": "262",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55636",
@@ -25209,13 +26925,14 @@ export const bibleHighlights = [
   },
   {
       "id": "62670",
-      "text": "La filiación divina del cristiano (h7)",
+      "text": "La filiación divina del cristiano",
       "color": "pink",
       "location": "89288",
       "page": "288",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "62527",
@@ -25259,13 +26976,14 @@ export const bibleHighlights = [
   },
   {
       "id": "18098",
-      "text": "La confianza en Dios (h7)",
+      "text": "La confianza en Dios",
       "color": "yellow",
       "location": "89318",
       "page": "318",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40597",
@@ -25285,103 +27003,113 @@ export const bibleHighlights = [
   },
   {
       "id": "24706",
-      "text": "III. EL PLAN DE DIOS SOBRE EL PUEBLO ELEGIDO (h6)",
+      "text": "III. EL PLAN DE DIOS SOBRE EL PUEBLO ELEGIDO",
       "color": "yellow",
       "location": "89335",
       "page": "335",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33046",
-      "text": "Privilegios de Israel y fidelidad de Dios (h7)",
+      "text": "Privilegios de Israel y fidelidad de Dios",
       "color": "yellow",
       "location": "89337",
       "page": "337",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "22043",
-      "text": "La vocación de Israel (h7)",
+      "text": "La vocación de Israel",
       "color": "yellow",
       "location": "89362",
       "page": "362",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42287",
-      "text": "La infidelidad de Israel (h7)",
+      "text": "La infidelidad de Israel",
       "color": "yellow",
       "location": "89402",
       "page": "402",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56239",
-      "text": "Salvación de una parte de Israel (h7)",
+      "text": "Salvación de una parte de Israel",
       "color": "yellow",
       "location": "89452",
       "page": "452",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40269",
-      "text": "El nuevo pueblo elegido (h7)",
+      "text": "El nuevo pueblo elegido",
       "color": "yellow",
       "location": "89480",
       "page": "480",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3344",
-      "text": "La conversión de Israel (h7)",
+      "text": "La conversión de Israel",
       "color": "yellow",
       "location": "89501",
       "page": "501",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10458",
-      "text": "SEGUNDA PARTE: VIVIR SEGÚN LA CARIDAD (h5)",
+      "text": "SEGUNDA PARTE: VIVIR SEGÚN LA CARIDAD",
       "color": "yellow",
       "location": "89526",
       "page": "526",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55869",
-      "text": "IV. LA CONDUCTA DEL CRISTIANO (h6)",
+      "text": "IV. LA CONDUCTA DEL CRISTIANO",
       "color": "yellow",
       "location": "89528",
       "page": "528",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51478",
-      "text": "La unidad del Cuerpo Místico (h7)",
+      "text": "La unidad del Cuerpo Místico",
       "color": "yellow",
       "location": "89530",
       "page": "530",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33184",
@@ -25401,33 +27129,36 @@ export const bibleHighlights = [
   },
   {
       "id": "36797",
-      "text": "La caridad con el prójimo (h7)",
+      "text": "La caridad con el prójimo",
       "color": "yellow",
       "location": "89550",
       "page": "550",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63453",
-      "text": "Obediencia a la autoridad (h7)",
+      "text": "Obediencia a la autoridad",
       "color": "yellow",
       "location": "89571",
       "page": "571",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10039",
-      "text": "La caridad, plenitud de la Ley (h7)",
+      "text": "La caridad, plenitud de la Ley",
       "color": "yellow",
       "location": "89587",
       "page": "587",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62329",
@@ -25439,103 +27170,113 @@ export const bibleHighlights = [
   },
   {
       "id": "39097",
-      "text": "V. LA COMPRENSIÓN CON LOS DEMÁS A LA HORA DE EMITIR UN JUICIO MORAL (h6)",
+      "text": "V. LA COMPRENSIÓN CON LOS DEMÁS A LA HORA DE EMITIR UN JUICIO MORAL",
       "color": "yellow",
       "location": "89601",
       "page": "601",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "52383",
-      "text": "Ponerse en las circunstancias del prójimo (h7)",
+      "text": "Ponerse en las circunstancias del prójimo",
       "color": "yellow",
       "location": "89603",
       "page": "603",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54999",
-      "text": "Evitar el escándalo (h7)",
+      "text": "Evitar el escándalo",
       "color": "yellow",
       "location": "89628",
       "page": "628",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16580",
-      "text": "El ejemplo de Cristo (h7)",
+      "text": "El ejemplo de Cristo",
       "color": "yellow",
       "location": "89647",
       "page": "647",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50782",
-      "text": "VI. CONCLUSIÓN Y DESPEDIDA (h6)",
+      "text": "VI. CONCLUSIÓN Y DESPEDIDA",
       "color": "yellow",
       "location": "89678",
       "page": "678",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48582",
-      "text": "Actuación de San Pablo (h7)",
+      "text": "Actuación de San Pablo",
       "color": "yellow",
       "location": "89680",
       "page": "680",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26339",
-      "text": "Planes de viaje (h7)",
+      "text": "Planes de viaje",
       "color": "yellow",
       "location": "89696",
       "page": "696",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45872",
-      "text": "Recomendaciones y saludos (h7)",
+      "text": "Recomendaciones y saludos",
       "color": "yellow",
       "location": "89716",
       "page": "716",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1233",
-      "text": "Doxología (h7)",
+      "text": "Doxología",
       "color": "yellow",
       "location": "89755",
       "page": "755",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55701",
-      "text": "PRIMERA CARTA A LOS CORINTIOS (h4)",
+      "text": "PRIMERA CARTA A LOS CORINTIOS",
       "color": "yellow",
       "location": "89762",
       "page": "762",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -25579,73 +27320,80 @@ export const bibleHighlights = [
   },
   {
       "id": "9240",
-      "text": "PRESENTACIÓN (h5)",
+      "text": "PRESENTACIÓN",
       "color": "yellow",
       "location": "89791",
       "page": "791",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58762",
-      "text": "Saludo (h6)",
+      "text": "Saludo",
       "color": "yellow",
       "location": "89793",
       "page": "793",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24225",
-      "text": "Acción de gracias (h6)",
+      "text": "Acción de gracias",
       "color": "yellow",
       "location": "89802",
       "page": "802",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42012",
-      "text": "PRIMERA PARTE: CORRECCIÓN DE ALGUNAS DESVIACIONES (h5)",
+      "text": "PRIMERA PARTE: CORRECCIÓN DE ALGUNAS DESVIACIONES",
       "color": "yellow",
       "location": "89812",
       "page": "812",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55597",
-      "text": "I. DIVISIONES ENTRE LOS CORINTIOS (h6)",
+      "text": "I. DIVISIONES ENTRE LOS CORINTIOS",
       "color": "yellow",
       "location": "89814",
       "page": "814",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6974",
-      "text": "Exhortación a la unidad (h7)",
+      "text": "Exhortación a la unidad",
       "color": "yellow",
       "location": "89816",
       "page": "816",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40689",
-      "text": "La sabiduría de la cruz (h7)",
+      "text": "La sabiduría de la cruz",
       "color": "yellow",
       "location": "89830",
       "page": "830",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49486",
@@ -25665,173 +27413,190 @@ export const bibleHighlights = [
   },
   {
       "id": "57833",
-      "text": "Predicación de San Pablo en Corinto (h7)",
+      "text": "Predicación de San Pablo en Corinto",
       "color": "yellow",
       "location": "89855",
       "page": "855",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "977",
-      "text": "La sabiduría divina (h7)",
+      "text": "La sabiduría divina",
       "color": "yellow",
       "location": "89867",
       "page": "867",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43972",
-      "text": "Los corintios son todavía carnales (h7)",
+      "text": "Los corintios son todavía carnales",
       "color": "yellow",
       "location": "89889",
       "page": "889",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "36072",
-      "text": "Naturaleza del ministerio apostólico (h7)",
+      "text": "Naturaleza del ministerio apostólico",
       "color": "yellow",
       "location": "89898",
       "page": "898",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "49871",
-      "text": "Ministros de Cristo (h7)",
+      "text": "Ministros de Cristo",
       "color": "yellow",
       "location": "89932",
       "page": "932",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27031",
-      "text": "Dureza de la vida de los apóstoles (h7)",
+      "text": "Dureza de la vida de los apóstoles",
       "color": "yellow",
       "location": "89948",
       "page": "948",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "55006",
-      "text": "Amonestaciones (h7)",
+      "text": "Amonestaciones",
       "color": "yellow",
       "location": "89960",
       "page": "960",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29094",
-      "text": "II. EL INCESTUOSO (h6)",
+      "text": "II. EL INCESTUOSO",
       "color": "yellow",
       "location": "89974",
       "page": "974",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "51591",
-      "text": "Castigo del pecador (h7)",
+      "text": "Castigo del pecador",
       "color": "yellow",
       "location": "89976",
       "page": "976",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "2835",
-      "text": "Comportamiento con pecadores obstinados (h7)",
+      "text": "Comportamiento con pecadores obstinados",
       "color": "yellow",
       "location": "89993",
       "page": "993",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "32438",
-      "text": "III. PROCESOS ANTE JUECES PAGANOS (h6)",
+      "text": "III. PROCESOS ANTE JUECES PAGANOS",
       "color": "yellow",
       "location": "90003",
       "page": "003",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18632",
-      "text": "IV. GRAVEDAD DE LA FORNICACIÓN (h6)",
+      "text": "IV. GRAVEDAD DE LA FORNICACIÓN",
       "color": "yellow",
       "location": "90025",
       "page": "025",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6529",
-      "text": "Dignidad del cuerpo (h7)",
+      "text": "Dignidad del cuerpo",
       "color": "yellow",
       "location": "90027",
       "page": "027",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8171",
-      "text": "Ofensa a Jesucristo y al Espíritu Santo (h7)",
+      "text": "Ofensa a Jesucristo y al Espíritu Santo",
       "color": "yellow",
       "location": "90034",
       "page": "034",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12200",
-      "text": "SEGUNDA PARTE: RESPUESTAS A ALGUNAS CONSULTAS (h5)",
+      "text": "SEGUNDA PARTE: RESPUESTAS A ALGUNAS CONSULTAS",
       "color": "yellow",
       "location": "90045",
       "page": "045",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "41837",
-      "text": "V. MATRIMONIO Y VIRGINIDAD (h6)",
+      "text": "V. MATRIMONIO Y VIRGINIDAD",
       "color": "yellow",
       "location": "90047",
       "page": "047",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48526",
-      "text": "Relaciones entre los esposos (h7)",
+      "text": "Relaciones entre los esposos",
       "color": "yellow",
       "location": "90049",
       "page": "049",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11213",
@@ -25859,73 +27624,80 @@ export const bibleHighlights = [
   },
   {
       "id": "2355",
-      "text": "Indisolubilidad del matrimonio (h7)",
+      "text": "Indisolubilidad del matrimonio",
       "color": "yellow",
       "location": "90067",
       "page": "067",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31441",
-      "text": "El privilegio paulino (h7)",
+      "text": "El privilegio paulino",
       "color": "yellow",
       "location": "90072",
       "page": "072",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40542",
-      "text": "Permanencia en la propia vocación (h7)",
+      "text": "Permanencia en la propia vocación",
       "color": "yellow",
       "location": "90082",
       "page": "082",
       "note": ".h7 .vocacion",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": "❤️"
   },
   {
       "id": "17336",
-      "text": "Excelencia de la virginidad (h7)",
+      "text": "Excelencia de la virginidad",
       "color": "yellow",
       "location": "90096",
       "page": "096",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "47372",
-      "text": "Consejo a las viudas (h7)",
+      "text": "Consejo a las viudas",
       "color": "yellow",
       "location": "90120",
       "page": "120",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5058",
-      "text": "VI. LAS CARNES SACRIFICADAS A LOS ÍDOLOS (h6)",
+      "text": "VI. LAS CARNES SACRIFICADAS A LOS ÍDOLOS",
       "color": "yellow",
       "location": "90125",
       "page": "125",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35247",
-      "text": "Los ídolos no son nada (h7)",
+      "text": "Los ídolos no son nada",
       "color": "yellow",
       "location": "90127",
       "page": "127",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64375",
@@ -25937,83 +27709,91 @@ export const bibleHighlights = [
   },
   {
       "id": "14760",
-      "text": "Derecho de los Apóstoles a ser sostenidos por los fieles (h7)",
+      "text": "Derecho de los Apóstoles a ser sostenidos por los fieles",
       "color": "yellow",
       "location": "90154",
       "page": "154",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64052",
-      "text": "Renuncia de San Pablo a este derecho (h7)",
+      "text": "Renuncia de San Pablo a este derecho",
       "color": "yellow",
       "location": "90180",
       "page": "180",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29916",
-      "text": "Necesidad de la lucha ascética (h7)",
+      "text": "Necesidad de la lucha ascética",
       "color": "yellow",
       "location": "90197",
       "page": "197",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63477",
-      "text": "Enseñanzas de la historia de Israel (h7)",
+      "text": "Enseñanzas de la historia de Israel",
       "color": "yellow",
       "location": "90205",
       "page": "205",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24087",
-      "text": "La idolatría y la Eucaristía (h7)",
+      "text": "La idolatría y la Eucaristía",
       "color": "yellow",
       "location": "90228",
       "page": "228",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38518",
-      "text": "Solución de algunos casos concretos (h7)",
+      "text": "Solución de algunos casos concretos",
       "color": "yellow",
       "location": "90243",
       "page": "243",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20629",
-      "text": "VII. EL MODO DE CELEBRAR LA EUCARISTÍA (h6)",
+      "text": "VII. EL MODO DE CELEBRAR LA EUCARISTÍA",
       "color": "yellow",
       "location": "90261",
       "page": "261",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35218",
-      "text": "La mujer en las reuniones litúrgicas (h7)",
+      "text": "La mujer en las reuniones litúrgicas",
       "color": "yellow",
       "location": "90263",
       "page": "263",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13204",
@@ -26025,23 +27805,25 @@ export const bibleHighlights = [
   },
   {
       "id": "27472",
-      "text": "Abusos en la celebración de la Eucaristía (h7)",
+      "text": "Abusos en la celebración de la Eucaristía",
       "color": "yellow",
       "location": "90289",
       "page": "289",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24316",
-      "text": "Institución de la Eucaristía. Recibirla dignamente (h7)",
+      "text": "Institución de la Eucaristía. Recibirla dignamente",
       "color": "yellow",
       "location": "90300",
       "page": "300",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38932",
@@ -26053,43 +27835,47 @@ export const bibleHighlights = [
   },
   {
       "id": "21586",
-      "text": "VIII. LOS DISTINTOS CARISMAS (h6)",
+      "text": "VIII. LOS DISTINTOS CARISMAS",
       "color": "yellow",
       "location": "90322",
       "page": "322",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "17088",
-      "text": "Diversidad de los dones espirituales (h7)",
+      "text": "Diversidad de los dones espirituales",
       "color": "yellow",
       "location": "90324",
       "page": "324",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29844",
-      "text": "Variedad en la unidad del Cuerpo místico de Cristo (h7)",
+      "text": "Variedad en la unidad del Cuerpo místico de Cristo",
       "color": "yellow",
       "location": "90344",
       "page": "344",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9469",
-      "text": "Himno a la caridad (h7)",
+      "text": "Himno a la caridad",
       "color": "pink",
       "location": "90374",
       "page": "374",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "7790",
@@ -26109,43 +27895,47 @@ export const bibleHighlights = [
   },
   {
       "id": "39679",
-      "text": "Profecía, don de lenguas e interpretación (h7)",
+      "text": "Profecía, don de lenguas e interpretación",
       "color": "yellow",
       "location": "90398",
       "page": "398",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18818",
-      "text": "Normas prácticas para las reuniones litúrgicas (h7)",
+      "text": "Normas prácticas para las reuniones litúrgicas",
       "color": "yellow",
       "location": "90445",
       "page": "445",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58260",
-      "text": "IX. LA RESURRECCIÓN DE LOS MUERTOS (h6)",
+      "text": "IX. LA RESURRECCIÓN DE LOS MUERTOS",
       "color": "pink",
       "location": "90468",
       "page": "468",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "25748",
-      "text": "Resurrección y apariciones de Cristo (h7)",
+      "text": "Resurrección y apariciones de Cristo",
       "color": "pink",
       "location": "90470",
       "page": "470",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟥"
+      "icon": "🟥",
+      "isFavorite": ""
   },
   {
       "id": "31680",
@@ -26157,13 +27947,14 @@ export const bibleHighlights = [
   },
   {
       "id": "35766",
-      "text": "Fundamento de nuestra fe (h7)",
+      "text": "Fundamento de nuestra fe",
       "color": "yellow",
       "location": "90489",
       "page": "489",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64349",
@@ -26175,23 +27966,25 @@ export const bibleHighlights = [
   },
   {
       "id": "7141",
-      "text": "Causa de nuestra resurrección (h7)",
+      "text": "Causa de nuestra resurrección",
       "color": "yellow",
       "location": "90502",
       "page": "502",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6736",
-      "text": "Modo de la resurrección (h7)",
+      "text": "Modo de la resurrección",
       "color": "yellow",
       "location": "90526",
       "page": "526",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "48281",
@@ -26203,53 +27996,58 @@ export const bibleHighlights = [
   },
   {
       "id": "60945",
-      "text": "X. ANUNCIOS Y DESPEDIDA (h6)",
+      "text": "X. ANUNCIOS Y DESPEDIDA",
       "color": "yellow",
       "location": "90566",
       "page": "566",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58825",
-      "text": "La colecta para los cristianos de Jerusalén (h7)",
+      "text": "La colecta para los cristianos de Jerusalén",
       "color": "yellow",
       "location": "90567",
       "page": "567",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15178",
-      "text": "Proyectos de viaje (h7)",
+      "text": "Proyectos de viaje",
       "color": "yellow",
       "location": "90578",
       "page": "578",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4988",
-      "text": "Exhortaciones y saludos (h7)",
+      "text": "Exhortaciones y saludos",
       "color": "yellow",
       "location": "90591",
       "page": "591",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56460",
-      "text": "SEGUNDA CARTA A LOS CORINTIOS (h4)",
+      "text": "SEGUNDA CARTA A LOS CORINTIOS",
       "color": "yellow",
       "location": "90607",
       "page": "607",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -26277,33 +28075,36 @@ export const bibleHighlights = [
   },
   {
       "id": "9240",
-      "text": "PRESENTACIÓN (h5)",
+      "text": "PRESENTACIÓN",
       "color": "yellow",
       "location": "90633",
       "page": "633",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58762",
-      "text": "Saludo (h6)",
+      "text": "Saludo",
       "color": "yellow",
       "location": "90635",
       "page": "635",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24225",
-      "text": "Acción de gracias (h6)",
+      "text": "Acción de gracias",
       "color": "yellow",
       "location": "90643",
       "page": "643",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60193",
@@ -26315,103 +28116,113 @@ export const bibleHighlights = [
   },
   {
       "id": "21165",
-      "text": "PRIMERA PARTE: DEFENSA DE SAN PABLO ANTE LAS ACUSACIONES DE SUS ENEMIGOS (h5)",
+      "text": "PRIMERA PARTE: DEFENSA DE SAN PABLO ANTE LAS ACUSACIONES DE SUS ENEMIGOS",
       "color": "yellow",
       "location": "90662",
       "page": "662",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "27250",
-      "text": "I. NO ES VOLUBLE EN SUS DECISIONES (h6)",
+      "text": "I. NO ES VOLUBLE EN SUS DECISIONES",
       "color": "yellow",
       "location": "90664",
       "page": "664",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "65071",
-      "text": "Sinceridad de su conducta y de sus cartas (h7)",
+      "text": "Sinceridad de su conducta y de sus cartas",
       "color": "yellow",
       "location": "90666",
       "page": "666",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25493",
-      "text": "Explicación del cambio de planes (h7)",
+      "text": "Explicación del cambio de planes",
       "color": "yellow",
       "location": "90673",
       "page": "673",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50232",
-      "text": "Perdón al causante de la ofensa (h7)",
+      "text": "Perdón al causante de la ofensa",
       "color": "yellow",
       "location": "90700",
       "page": "700",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6887",
-      "text": "Su inquietud por no tener noticias de Corinto (h7)",
+      "text": "Su inquietud por no tener noticias de Corinto",
       "color": "yellow",
       "location": "90711",
       "page": "711",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43640",
-      "text": "II. NO ES ORGULLO MOSTRAR LA GRANDEZA DE SU MINISTERIO APOSTÓLICO (h6)",
+      "text": "II. NO ES ORGULLO MOSTRAR LA GRANDEZA DE SU MINISTERIO APOSTÓLICO",
       "color": "yellow",
       "location": "90723",
       "page": "723",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62663",
-      "text": "Su carta de recomendación (h7)",
+      "text": "Su carta de recomendación",
       "color": "yellow",
       "location": "90725",
       "page": "725",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "63869",
-      "text": "Esplendor del ministerio apostólico (h7)",
+      "text": "Esplendor del ministerio apostólico",
       "color": "yellow",
       "location": "90735",
       "page": "735",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37128",
-      "text": "Sinceridad de su conducta (h7)",
+      "text": "Sinceridad de su conducta",
       "color": "yellow",
       "location": "90760",
       "page": "760",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25036",
@@ -26423,173 +28234,190 @@ export const bibleHighlights = [
   },
   {
       "id": "22336",
-      "text": "Tribulaciones del Apóstol (h7)",
+      "text": "Tribulaciones del Apóstol",
       "color": "yellow",
       "location": "90775",
       "page": "775",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40823",
-      "text": "Sostenido por la esperanza del Cielo (h7)",
+      "text": "Sostenido por la esperanza del Cielo",
       "color": "yellow",
       "location": "90786",
       "page": "786",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46983",
-      "text": "El ministerio de la reconciliación (h7)",
+      "text": "El ministerio de la reconciliación",
       "color": "yellow",
       "location": "90815",
       "page": "815",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58612",
-      "text": "El Apóstol, digno ministro de Dios (h7)",
+      "text": "El Apóstol, digno ministro de Dios",
       "color": "yellow",
       "location": "90835",
       "page": "835",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4432",
-      "text": "III. LLAMADA DE SAN PABLO AL CORAZÓN DE LOS CORINTIOS (h6)",
+      "text": "III. LLAMADA DE SAN PABLO AL CORAZÓN DE LOS CORINTIOS",
       "color": "yellow",
       "location": "90856",
       "page": "856",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "29420",
-      "text": "Amor del Apóstol a los corintios (h7)",
+      "text": "Amor del Apóstol a los corintios",
       "color": "yellow",
       "location": "90858",
       "page": "858",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33420",
-      "text": "Relaciones con los paganos (h7)",
+      "text": "Relaciones con los paganos",
       "color": "yellow",
       "location": "90864",
       "page": "864",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "56162",
-      "text": "Alegría por las noticias traídas por Tito (h7)",
+      "text": "Alegría por las noticias traídas por Tito",
       "color": "yellow",
       "location": "90884",
       "page": "884",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12831",
-      "text": "SEGUNDA PARTE: LA COLECTA EN FAVOR DE LOS FIELES DE JERUSALÉN (h5)",
+      "text": "SEGUNDA PARTE: LA COLECTA EN FAVOR DE LOS FIELES DE JERUSALÉN",
       "color": "yellow",
       "location": "90913",
       "page": "913",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1045",
-      "text": "Ejemplo de los macedonios (h6)",
+      "text": "Ejemplo de los macedonios",
       "color": "yellow",
       "location": "90915",
       "page": "915",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13900",
-      "text": "Llamada a la generosidad de los corintios (h6)",
+      "text": "Llamada a la generosidad de los corintios",
       "color": "yellow",
       "location": "90929",
       "page": "929",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25622",
-      "text": "San Pablo elogia a los encargados de la colecta (h6)",
+      "text": "San Pablo elogia a los encargados de la colecta",
       "color": "yellow",
       "location": "90946",
       "page": "946",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45752",
-      "text": "Exhortación a la rapidez (h6)",
+      "text": "Exhortación a la rapidez",
       "color": "yellow",
       "location": "90963",
       "page": "963",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "54228",
-      "text": "Frutos de la limosna generosa (h6)",
+      "text": "Frutos de la limosna generosa",
       "color": "yellow",
       "location": "90976",
       "page": "976",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20633",
-      "text": "TERCERA PARTE: APOLOGÍA DE SAN PABLO (h5)",
+      "text": "TERCERA PARTE: APOLOGÍA DE SAN PABLO",
       "color": "yellow",
       "location": "90995",
       "page": "995",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35286",
-      "text": "IV. RESPUESTA A ALGUNAS ACUSACIONES (h6)",
+      "text": "IV. RESPUESTA A ALGUNAS ACUSACIONES",
       "color": "yellow",
       "location": "90997",
       "page": "997",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57253",
-      "text": "Decidido a usar su autoridad apostólica (h7)",
+      "text": "Decidido a usar su autoridad apostólica",
       "color": "yellow",
       "location": "90999",
       "page": "999",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15372",
@@ -26601,73 +28429,80 @@ export const bibleHighlights = [
   },
   {
       "id": "34834",
-      "text": "Su campo de trabajo incluye Corinto (h7)",
+      "text": "Su campo de trabajo incluye Corinto",
       "color": "yellow",
       "location": "91021",
       "page": "021",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24240",
-      "text": "V. MOTIVOS DE GLORIA DEL APÓSTOL (h6)",
+      "text": "V. MOTIVOS DE GLORIA DEL APÓSTOL",
       "color": "yellow",
       "location": "91036",
       "page": "036",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "42767",
-      "text": "Celo de San Pablo por los corintios (h7)",
+      "text": "Celo de San Pablo por los corintios",
       "color": "yellow",
       "location": "91037",
       "page": "037",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "45257",
-      "text": "Rectitud con que predica el Evangelio (h7)",
+      "text": "Rectitud con que predica el Evangelio",
       "color": "yellow",
       "location": "91052",
       "page": "052",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31526",
-      "text": "Se excusa por gloriarse (h7)",
+      "text": "Se excusa por gloriarse",
       "color": "yellow",
       "location": "91067",
       "page": "067",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18646",
-      "text": "Padecimientos por Cristo (h7)",
+      "text": "Padecimientos por Cristo",
       "color": "yellow",
       "location": "91077",
       "page": "077",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26741",
-      "text": "Visiones y revelaciones (h7)",
+      "text": "Visiones y revelaciones",
       "color": "yellow",
       "location": "91097",
       "page": "097",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "38974",
@@ -26743,63 +28578,69 @@ export const bibleHighlights = [
   },
   {
       "id": "32363",
-      "text": "Se excusa de nuevo por haberse gloriado (h7)",
+      "text": "Se excusa de nuevo por haberse gloriado",
       "color": "yellow",
       "location": "91118",
       "page": "118",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62691",
-      "text": "VI. LA PRÓXIMA VISITA DEL APÓSTOL (h6)",
+      "text": "VI. LA PRÓXIMA VISITA DEL APÓSTOL",
       "color": "yellow",
       "location": "91133",
       "page": "133",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37907",
-      "text": "La razón de su apología (h7)",
+      "text": "La razón de su apología",
       "color": "yellow",
       "location": "91135",
       "page": "135",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50792",
-      "text": "Recomendaciones para su próxima visita (h7)",
+      "text": "Recomendaciones para su próxima visita",
       "color": "yellow",
       "location": "91144",
       "page": "144",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20097",
-      "text": "VII. DESPEDIDA (h6)",
+      "text": "VII. DESPEDIDA",
       "color": "yellow",
       "location": "91165",
       "page": "165",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "59528",
-      "text": "CARTA A LOS GÁLATAS (h4)",
+      "text": "CARTA A LOS GÁLATAS",
       "color": "yellow",
       "location": "91172",
       "page": "172",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -26875,13 +28716,14 @@ export const bibleHighlights = [
   },
   {
       "id": "12693",
-      "text": "CARTA A LOS EFESIOS (h4)",
+      "text": "CARTA A LOS EFESIOS",
       "color": "yellow",
       "location": "91474",
       "page": "474",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -27077,13 +28919,14 @@ export const bibleHighlights = [
   },
   {
       "id": "40343",
-      "text": "CARTA A LOS FILIPENSES (h4)",
+      "text": "CARTA A LOS FILIPENSES",
       "color": "yellow",
       "location": "91792",
       "page": "792",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12850",
@@ -27111,13 +28954,14 @@ export const bibleHighlights = [
   },
   {
       "id": "61859",
-      "text": "CARTA A LOS COLOSENSES (h4)",
+      "text": "CARTA A LOS COLOSENSES",
       "color": "yellow",
       "location": "92022",
       "page": "022",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -27169,33 +29013,36 @@ export const bibleHighlights = [
   },
   {
       "id": "34650",
-      "text": "PRIMERA CARTA A LOS TESALONICENSES (h4)",
+      "text": "PRIMERA CARTA A LOS TESALONICENSES",
       "color": "yellow",
       "location": "92236",
       "page": "236",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26193",
-      "text": "SEGUNDA CARTA A LOS TESALONICENSES (h4)",
+      "text": "SEGUNDA CARTA A LOS TESALONICENSES",
       "color": "yellow",
       "location": "92429",
       "page": "429",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5641",
-      "text": "PRIMERA CARTA A TIMOTEO (h4)",
+      "text": "PRIMERA CARTA A TIMOTEO",
       "color": "yellow",
       "location": "92549",
       "page": "549",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -27247,13 +29094,14 @@ export const bibleHighlights = [
   },
   {
       "id": "22783",
-      "text": "SEGUNDA CARTA A TIMOTEO (h4)",
+      "text": "SEGUNDA CARTA A TIMOTEO",
       "color": "yellow",
       "location": "92814",
       "page": "814",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -27297,33 +29145,36 @@ export const bibleHighlights = [
   },
   {
       "id": "17843",
-      "text": "CARTA A TITO (h4)",
+      "text": "CARTA A TITO",
       "color": "yellow",
       "location": "92998",
       "page": "998",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6374",
-      "text": "CARTA A FILEMÓN (h4)",
+      "text": "CARTA A FILEMÓN",
       "color": "yellow",
       "location": "93118",
       "page": "118",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "8591",
-      "text": "CARTA A LOS HEBREOS (h4)",
+      "text": "CARTA A LOS HEBREOS",
       "color": "yellow",
       "location": "93175",
       "page": "175",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -27503,23 +29354,25 @@ export const bibleHighlights = [
   },
   {
       "id": "9823",
-      "text": "CARTAS CATÓLICAS (h2)",
+      "text": "CARTAS CATÓLICAS",
       "color": "yellow",
       "location": "93875",
       "page": "875",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "57011",
-      "text": "CARTA DE SANTIAGO (h4)",
+      "text": "CARTA DE SANTIAGO",
       "color": "yellow",
       "location": "93879",
       "page": "879",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -27603,13 +29456,14 @@ export const bibleHighlights = [
   },
   {
       "id": "2540",
-      "text": "PRIMERA CARTA DE SAN PEDRO (h4)",
+      "text": "PRIMERA CARTA DE SAN PEDRO",
       "color": "yellow",
       "location": "94114",
       "page": "114",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -27669,23 +29523,25 @@ export const bibleHighlights = [
   },
   {
       "id": "12515",
-      "text": "SEGUNDA CARTA DE SAN PEDRO (h4)",
+      "text": "SEGUNDA CARTA DE SAN PEDRO",
       "color": "yellow",
       "location": "94389",
       "page": "389",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "10880",
-      "text": "PRIMERA CARTA DE SAN JUAN (h4)",
+      "text": "PRIMERA CARTA DE SAN JUAN",
       "color": "yellow",
       "location": "94555",
       "page": "555",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13364",
@@ -27721,33 +29577,36 @@ export const bibleHighlights = [
   },
   {
       "id": "23159",
-      "text": "SEGUNDA CARTA DE SAN JUAN (h4)",
+      "text": "SEGUNDA CARTA DE SAN JUAN",
       "color": "yellow",
       "location": "94793",
       "page": "793",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "15990",
-      "text": "TERCERA CARTA DE SAN JUAN (h4)",
+      "text": "TERCERA CARTA DE SAN JUAN",
       "color": "yellow",
       "location": "94836",
       "page": "836",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "37590",
-      "text": "CARTA DE SAN JUDAS (h4)",
+      "text": "CARTA DE SAN JUDAS",
       "color": "yellow",
       "location": "94882",
       "page": "882",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12593",
@@ -27767,23 +29626,25 @@ export const bibleHighlights = [
   },
   {
       "id": "16284",
-      "text": "APOCALIPSIS (h2)",
+      "text": "APOCALIPSIS",
       "color": "yellow",
       "location": "94963",
       "page": "963",
       "note": ".h2",
       "header": "\n###",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13265",
-      "text": "Ap (h4)",
+      "text": "Ap",
       "color": "yellow",
       "location": "94965",
       "page": "965",
       "note": ".h4",
       "header": "\n#####",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "13107",
@@ -27811,113 +29672,124 @@ export const bibleHighlights = [
   },
   {
       "id": "64269",
-      "text": "Prólogo (h5)",
+      "text": "Prólogo",
       "color": "yellow",
       "location": "94998",
       "page": "998",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "3110",
-      "text": "PRIMERA PARTE: CARTAS A LAS SIETE IGLESIAS (h5)",
+      "text": "PRIMERA PARTE: CARTAS A LAS SIETE IGLESIAS",
       "color": "yellow",
       "location": "95008",
       "page": "008",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11527",
-      "text": "Saludo y destinatarios (h6)",
+      "text": "Saludo y destinatarios",
       "color": "yellow",
       "location": "95010",
       "page": "010",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58710",
-      "text": "Motivo del escrito (h6)",
+      "text": "Motivo del escrito",
       "color": "yellow",
       "location": "95021",
       "page": "021",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60525",
-      "text": "Carta a la iglesia de Éfeso (h6)",
+      "text": "Carta a la iglesia de Éfeso",
       "color": "yellow",
       "location": "95045",
       "page": "045",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "4163",
-      "text": "Carta a la iglesia de Esmirna (h6)",
+      "text": "Carta a la iglesia de Esmirna",
       "color": "yellow",
       "location": "95061",
       "page": "061",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "43079",
-      "text": "Carta a la iglesia de Pérgamo (h6)",
+      "text": "Carta a la iglesia de Pérgamo",
       "color": "yellow",
       "location": "95071",
       "page": "071",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "6722",
-      "text": "Carta a la iglesia de Tiatira (h6)",
+      "text": "Carta a la iglesia de Tiatira",
       "color": "yellow",
       "location": "95085",
       "page": "085",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46805",
-      "text": "Carta a la iglesia de Sardes (h6)",
+      "text": "Carta a la iglesia de Sardes",
       "color": "yellow",
       "location": "95105",
       "page": "105",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "23382",
-      "text": "Carta a la iglesia de Filadelfia (h6)",
+      "text": "Carta a la iglesia de Filadelfia",
       "color": "yellow",
       "location": "95121",
       "page": "121",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9350",
-      "text": "Carta a la iglesia de Laodicea (h6)",
+      "text": "Carta a la iglesia de Laodicea",
       "color": "yellow",
       "location": "95136",
       "page": "136",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7877",
@@ -27929,43 +29801,47 @@ export const bibleHighlights = [
   },
   {
       "id": "3716",
-      "text": "SEGUNDA PARTE: VISIONES ESCATOLÓGICAS (h5)",
+      "text": "SEGUNDA PARTE: VISIONES ESCATOLÓGICAS",
       "color": "yellow",
       "location": "95153",
       "page": "153",
       "note": ".h5",
       "header": "\n######",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "31306",
-      "text": "I. VISIÓN INTRODUCTORIA (h6)",
+      "text": "I. VISIÓN INTRODUCTORIA",
       "color": "yellow",
       "location": "95155",
       "page": "155",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "24203",
-      "text": "Dios en el trono de su gloria (h7)",
+      "text": "Dios en el trono de su gloria",
       "color": "yellow",
       "location": "95156",
       "page": "156",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "25654",
-      "text": "El libro sellado y el Cordero (h7)",
+      "text": "El libro sellado y el Cordero",
       "color": "yellow",
       "location": "95186",
       "page": "186",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "9215",
@@ -27977,23 +29853,25 @@ export const bibleHighlights = [
   },
   {
       "id": "11517",
-      "text": "Cristo abre los seis primeros sellos. Visión de los cuatro jinetes (h7)",
+      "text": "Cristo abre los seis primeros sellos. Visión de los cuatro jinetes",
       "color": "yellow",
       "location": "95226",
       "page": "226",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "26259",
-      "text": "La gran multitud de los salvados (h7)",
+      "text": "La gran multitud de los salvados",
       "color": "yellow",
       "location": "95267",
       "page": "267",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "20809",
@@ -28005,23 +29883,25 @@ export const bibleHighlights = [
   },
   {
       "id": "37553",
-      "text": "Apertura del séptimo sello (h7)",
+      "text": "Apertura del séptimo sello",
       "color": "yellow",
       "location": "95306",
       "page": "306",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46557",
-      "text": "El toque de las seis primeras trompetas. Los tres lamentos (h7)",
+      "text": "El toque de las seis primeras trompetas. Los tres lamentos",
       "color": "yellow",
       "location": "95321",
       "page": "321",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53315",
@@ -28033,53 +29913,58 @@ export const bibleHighlights = [
   },
   {
       "id": "19056",
-      "text": "El pequeño libro dado a comer al vidente (h7)",
+      "text": "El pequeño libro dado a comer al vidente",
       "color": "yellow",
       "location": "95378",
       "page": "378",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "5605",
-      "text": "Muerte y exaltación de los dos testigos (h7)",
+      "text": "Muerte y exaltación de los dos testigos",
       "color": "yellow",
       "location": "95406",
       "page": "406",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11218",
-      "text": "III. VICTORIA DE CRISTO SOBRE LOS PODERES DEL MAL Y GLORIFICACIÓN DE LA IGLESIA (h6)",
+      "text": "III. VICTORIA DE CRISTO SOBRE LOS PODERES DEL MAL Y GLORIFICACIÓN DE LA IGLESIA",
       "color": "yellow",
       "location": "95436",
       "page": "436",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "7793",
-      "text": "El toque de la séptima trompeta (h7)",
+      "text": "El toque de la séptima trompeta",
       "color": "yellow",
       "location": "95438",
       "page": "438",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "60474",
-      "text": "La mujer perseguida por la serpiente (h7)",
+      "text": "La mujer perseguida por la serpiente",
       "color": "yellow",
       "location": "95458",
       "page": "458",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62161",
@@ -28107,113 +29992,124 @@ export const bibleHighlights = [
   },
   {
       "id": "40583",
-      "text": "Las bestias que reciben poder de la serpiente (h7)",
+      "text": "Las bestias que reciben poder de la serpiente",
       "color": "yellow",
       "location": "95501",
       "page": "501",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12400",
-      "text": "La bestia de la tierra (h7)",
+      "text": "La bestia de la tierra",
       "color": "yellow",
       "location": "95525",
       "page": "525",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "53825",
-      "text": "El Cordero y su séquito (h7)",
+      "text": "El Cordero y su séquito",
       "color": "yellow",
       "location": "95541",
       "page": "541",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "11368",
-      "text": "Anuncio e imágenes del Juicio (h7)",
+      "text": "Anuncio e imágenes del Juicio",
       "color": "yellow",
       "location": "95555",
       "page": "555",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16759",
-      "text": "La siega y la vendimia (h7)",
+      "text": "La siega y la vendimia",
       "color": "yellow",
       "location": "95576",
       "page": "576",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "16954",
-      "text": "El cántico de los salvados (h7)",
+      "text": "El cántico de los salvados",
       "color": "yellow",
       "location": "95592",
       "page": "592",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "50201",
-      "text": "Las siete copas con las siete plagas (h7)",
+      "text": "Las siete copas con las siete plagas",
       "color": "yellow",
       "location": "95609",
       "page": "609",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "19930",
-      "text": "La gran ramera y la bestia (h7)",
+      "text": "La gran ramera y la bestia",
       "color": "yellow",
       "location": "95662",
       "page": "662",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "1628",
-      "text": "Anuncio de la caída de Babilonia (h7)",
+      "text": "Anuncio de la caída de Babilonia",
       "color": "yellow",
       "location": "95700",
       "page": "700",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "33090",
-      "text": "Cantos de triunfo de los salvados (h7)",
+      "text": "Cantos de triunfo de los salvados",
       "color": "yellow",
       "location": "95755",
       "page": "755",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "62958",
-      "text": "Primer combate: es derrotada la bestia (h7)",
+      "text": "Primer combate: es derrotada la bestia",
       "color": "yellow",
       "location": "95791",
       "page": "791",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "64808",
@@ -28225,63 +30121,69 @@ export const bibleHighlights = [
   },
   {
       "id": "61609",
-      "text": "Segundo combate: es derrotado Satanás (h7)",
+      "text": "Segundo combate: es derrotado Satanás",
       "color": "yellow",
       "location": "95829",
       "page": "829",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "35671",
-      "text": "Juicio final sobre vivos y muertos (h7)",
+      "text": "Juicio final sobre vivos y muertos",
       "color": "yellow",
       "location": "95838",
       "page": "838",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "46763",
-      "text": "Instauración de un mundo nuevo: la nueva creación. La Jerusalén mesiánica (h7)",
+      "text": "Instauración de un mundo nuevo: la nueva creación. La Jerusalén mesiánica",
       "color": "yellow",
       "location": "95849",
       "page": "849",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "58030",
-      "text": "Conclusión de las visiones (h7)",
+      "text": "Conclusión de las visiones",
       "color": "yellow",
       "location": "95915",
       "page": "915",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "40043",
-      "text": "IV. EPÍLOGO (h6)",
+      "text": "IV. EPÍLOGO",
       "color": "yellow",
       "location": "95935",
       "page": "935",
       "note": ".h6",
       "header": "\n*",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "18651",
-      "text": "Oración del Espíritu y la esposa. Advertencias y despedida (h7)",
+      "text": "Oración del Espíritu y la esposa. Advertencias y despedida",
       "color": "yellow",
       "location": "95939",
       "page": "939",
       "note": ".h7",
       "header": "\n  *",
-      "icon": "🟨"
+      "icon": "🟨",
+      "isFavorite": ""
   },
   {
       "id": "12271",
@@ -30835,4 +32737,4 @@ export const bibleHighlights = [
       "page": "207",
       "note": ""
   }
-];
+]

@@ -6,7 +6,10 @@ import { DiffManager } from '../diffManager';
 import { Renderer } from '~/renderer';
 import { diffBooks } from './diffBooks';
 import type FileManager from '~/fileManager';
-import type { Book, BookMetadata, Highlight, HighlightToc, KindleFile } from '~/models';
+
+// import type { Book, BookMetadata, Highlight, HighlightToc, KindleFile } from '~/models';
+import type { Book, BookMetadata, Highlight, KindleFile } from '~/models';
+
 import type { DiffResult } from '../diffManager';
 
 export default class SyncManager {
