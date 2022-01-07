@@ -72,7 +72,20 @@ modal that gives you several two options to sync.
 Start syncing by choosing between uploading a copy of your `My Clippings.txt` file or using
 your online Amazon account.
 
-### Developers
+### Contributing Developers
+
+#### Adding features
+
+1. Edit changes in VSCODE and:
+
+```
+cd /vault/.obsidian/plugins/kindtocs
+npm run dev
+```
+
+2. Test your changes. Go to Obsidian -> Community plugins -> Kindtocs -> Re-enable plugin -> Start sync
+
+#### Command list
 
 | Command                                        | Description                                                                               | App    |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
@@ -81,6 +94,7 @@ your online Amazon account.
 | `npm run dev`                                  | Create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
 | `npm run test`                                 | Run all tests                                                                             | VSCODE |
 | `npm test -- ./src/suma`                       | Run specific test: suma.spec.ts                                                           | VSCODE |
+| `sudo npm install -g npm@8.3.0`                | Update npm core to 8.3.0                                                                  | VSCODE |
 
 ### Template tags
 
