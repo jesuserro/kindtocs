@@ -7,8 +7,8 @@ import { Renderer } from '~/renderer';
 import { diffBooks } from './diffBooks';
 import type FileManager from '~/fileManager';
 
-// import type { Book, BookMetadata, Highlight, HighlightToc, KindleFile } from '~/models';
-import type { Book, BookMetadata, Highlight, KindleFile } from '~/models';
+import type { Book, BookMetadata, Highlight, HighlightToc, KindleFile } from '~/models';
+// import type { Book, BookMetadata, Highlight, KindleFile } from '~/models';
 
 import type { DiffResult } from '../diffManager';
 
@@ -88,7 +88,7 @@ export default class SyncManager {
    * @param book
    * @param highlights
    */
-  private async createToc(book: Book, highlights: Highlight[]): Promise<void> {
+  private async createToc(book: Book, highlights: HighlightToc[]): Promise<void> {
     const metadata = await this.syncMetadata(book);
 
     const content = this.renderer.renderToc({ book, highlights, metadata });

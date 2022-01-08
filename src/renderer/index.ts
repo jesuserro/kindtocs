@@ -11,7 +11,7 @@ import { shortenTitle } from '~/utils';
 import { settingsStore } from '~/store';
 import { trimMultipleLines } from './helper';
 import type { Book, BookHighlight, Highlight, HighlightToc, RenderTemplate } from '~/models';
-import { getHeader, getHeaderMarkdown, getColorIcon, getIsFavorite } from '~/kindtocs/global';
+import { getHeader, getHeaderMarkdown, getColorIcon, getIsFavorite, getRef } from '~/kindtocs/global';
 
 export const HighlightIdBlockRefPrefix = '^ref-';
 
@@ -80,11 +80,13 @@ export class Renderer {
    */
   public renderTocHighlight(book: Book, highlight: HighlightToc): string {
 
-    const header = getHeader(highlight.note);
+    const note = highlight.note;
+    const header = getHeader(note);
     highlight.header = getHeaderMarkdown(header);
     highlight.icon = getColorIcon(highlight.color);
     // highlight.text += " ("+header+")";
-    highlight.isFavorite = getIsFavorite(highlight.note);
+    highlight.isFavorite = getIsFavorite(note);
+    highlight.ref = getRef(note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const userTemplate = this.tocHighlightTemplate();

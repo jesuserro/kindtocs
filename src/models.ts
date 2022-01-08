@@ -25,6 +25,7 @@ export type HighlightToc = {
   location?: string;
   page?: string;
   note?: string;
+  ref?: string;
   color?: 'pink' | 'blue' | 'yellow' | 'orange';
   header?: string;
   icon?: string;
