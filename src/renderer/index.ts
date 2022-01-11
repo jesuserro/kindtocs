@@ -84,7 +84,7 @@ export class Renderer {
     const header = getHeader(note);
     highlight.header = getHeaderMarkdown(header);
     highlight.icon = getColorIcon(highlight.color);
-    // highlight.text += " ("+header+")";
+    highlight.text += " ("+header+")";
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
 
