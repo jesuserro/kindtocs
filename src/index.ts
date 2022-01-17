@@ -11,6 +11,8 @@ import { registerNotifications } from '~/notifications';
 import kindleIcon from '~/assets/kindleIcon.svg';
 import { ee } from '~/eventEmitter';
 
+import SyncModalKind from '~/components/syncModal/kindModal';
+
 import '~/sentry';
 
 
@@ -37,7 +39,7 @@ export default class KindlePlugin extends Plugin {
     // });
 
     const ribbonEl = this.addRibbonIcon('dice', 'Sync your Kindtocs highlights', () => {
-      this.showSyncModal();
+      this.showSyncKindtocModal();
     });
     ribbonEl.addClass('kindtocs-ribbon');
 
@@ -84,10 +86,15 @@ export default class KindlePlugin extends Plugin {
     });
   }
 
+  private showSyncKindtocModal(): void {
+    new SyncModalKind(this.app, {
+      onTocSync: () => this.startKindtocs()
+    }).show();
+  }
+
   private showSyncModal(): void {
     new SyncModal(this.app, {
-      // onOnlineSync: () => this.startAmazonSync(),
-      onOnlineSync: () => this.startKindtocs(),
+      onOnlineSync: () => this.startAmazonSync(),
       onMyClippingsSync: () => this.syncClippings.startSync(),
     }).show();
   }
