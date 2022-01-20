@@ -1,4 +1,4 @@
-import { addIcon, Plugin } from 'obsidian';
+import { addIcon, Plugin, Notice } from 'obsidian';
 import { get } from 'svelte/store';
 
 import FileManager from '~/fileManager';
@@ -87,6 +87,7 @@ export default class KindlePlugin extends Plugin {
   }
 
   private showSyncKindtocModal(): void {
+    new Notice('patata 1');
     new SyncModalKind(this.app, {
       onTocSync: () => this.startKindtocs()
     }).show();

@@ -1,9 +1,9 @@
-import { App, Modal } from 'obsidian';
+import { App, Modal, Notice } from 'obsidian';
 
-import SyncModalContent from './SyncModalContent.svelte';
+import SyncModalContentKind from './SyncModalContentKind.svelte';
 import { settingsStore } from '~/store';
 import { SyncModalState, store } from './store';
-import type { SyncMode } from '~/models';
+import type { SyncModeKind } from '~/models';
 
 const SyncModalTitle: Record<SyncModalState['status'], string> = {
   'upgrade-warning': 'Breaking change notice',
@@ -15,16 +15,12 @@ const SyncModalTitle: Record<SyncModalState['status'], string> = {
   'choose-sync-method': 'Choose a sync method...',
 };
 
-type SyncModalProps = {
-  onOnlineSync: () => void;
-  onMyClippingsSync: () => void;
-};
 type SyncModalPropsKind = {
   onTocSync: () => void;
 };
 
 export default class SyncModalKind extends Modal {
-  private modalContent: SyncModalContent;
+  private modalContent: SyncModalContentKind;
 
   constructor(app: App, private props: SyncModalPropsKind) {
     super(app);
@@ -36,14 +32,15 @@ export default class SyncModalKind extends Modal {
     const initialState: SyncModalState['status'] = isLegacy ? 'upgrade-warning' : 'idle';
     store.update((state) => ({ ...state, status: initialState }));
 
-    this.modalContent = new SyncModalContent({
+    this.modalContent = new SyncModalContentKind({
       target: this.contentEl,
       props: {
         onDone: () => {
           this.close();
         },
-        onClick: (mode: SyncMode) => {
-          this.props.onTocSync();
+        onClick: (mode: SyncModeKind) => {
+          new Notice('Patata: '+ mode);
+          // this.props.onTocSync(); // ejecuta la sincronización!!
         },
         onUpgrade: async () => {
           await settingsStore.actions.upgradeStoreState();

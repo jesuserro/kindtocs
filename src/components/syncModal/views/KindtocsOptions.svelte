@@ -1,24 +1,11 @@
 <script lang="ts">
-  let selectedPlugin = 1;
-  let yesBook = false;
-  let yesNote = true;
+  import type { SyncModeKind } from '~/models';
+
+  export let yesBook = false;
+  export let yesNote = true;
 </script>
 
-
-<fieldset>
-  <label>
-    <input type=radio bind:group={selectedPlugin} value={0}>
-    Default Plugin
-  </label>
-
-  <label>
-    <input type=radio bind:group={selectedPlugin} value={1}>
-    Kindtocs
-  </label>
-</fieldset>
-
-
-<fieldset class="toc-chks" disabled={!selectedPlugin}>
+<fieldset class="toc-chks">
   <legend>Create</legend>
   <label>
     <input type=checkbox bind:checked={yesBook}>

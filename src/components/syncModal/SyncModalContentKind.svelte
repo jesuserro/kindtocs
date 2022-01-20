@@ -1,11 +1,13 @@
 <script lang="ts">
-  import SyncStats from './SyncStats.svelte';
+  import IdleViewKind from './views/IdleViewKind.svelte';
 
   export let onClick: () => void;
 </script>
 
-<SyncStats />
+<IdleViewKind />
 
 <div class="setting-item-control">
   <button class="mod-cta" on:click={onClick}>Sync...</button>
 </div>
+
+
