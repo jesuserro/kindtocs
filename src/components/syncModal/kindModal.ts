@@ -22,8 +22,11 @@ type SyncModalPropsKind = {
 export default class SyncModalKind extends Modal {
   private modalContent: SyncModalContentKind;
 
+  onSubmit: (result: string) => void;
+
   constructor(app: App, private props: SyncModalPropsKind) {
     super(app);
+    // this.onSubmit = onSubmit;
   }
 
   public async show(): Promise<void> {
@@ -35,16 +38,9 @@ export default class SyncModalKind extends Modal {
     this.modalContent = new SyncModalContentKind({
       target: this.contentEl,
       props: {
-        onDone: () => {
-          this.close();
-        },
         onClick: (mode: SyncModeKind) => {
           new Notice('Patata: '+ mode);
           // this.props.onTocSync(); // ejecuta la sincronización!!
-        },
-        onUpgrade: async () => {
-          await settingsStore.actions.upgradeStoreState();
-          store.update((state) => ({ ...state, status: 'idle' }));
         },
       },
     });
