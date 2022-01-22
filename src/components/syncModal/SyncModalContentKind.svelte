@@ -4,23 +4,20 @@
 
   export let onClick: (mode: SyncModeKind) => void;
 
-  export let yesBook = false;
-  export let yesNote = false;
-
   let selectedSyncType: SyncModeKind = {
-    bookMetadata: yesBook,
-    noteContext: yesNote
+    bookMetadata: false,
+    noteContext: false
   };
 </script>
 
 <fieldset class="toc-chks">
   <legend>Create</legend>
   <label>
-    <input type=checkbox bind:checked={yesBook}>
+    <input type=checkbox bind:checked={selectedSyncType.bookMetadata}>
     Book Metadata e Índice Simple
   </label>
   <label>
-    <input type=checkbox bind:checked={yesNote}>
+    <input type=checkbox bind:checked={selectedSyncType.noteContext}>
     Índice Completo para notas
   </label>
 </fieldset>
