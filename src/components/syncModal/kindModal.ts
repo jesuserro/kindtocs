@@ -22,7 +22,7 @@ type SyncModalPropsKind = {
 export default class SyncModalKind extends Modal {
   private modalContent: SyncModalContentKind;
 
-  onSubmit: (result: string) => void;
+  // onSubmit: (result: string) => void;
 
   constructor(app: App, private props: SyncModalPropsKind) {
     super(app);
@@ -39,7 +39,8 @@ export default class SyncModalKind extends Modal {
       target: this.contentEl,
       props: {
         onClick: (mode: SyncModeKind) => {
-          new Notice('Patata: '+ mode);
+          new Notice('book: '+ mode.bookMetadata);
+          new Notice('note: '+ mode.noteContext);
           // this.props.onTocSync(); // ejecuta la sincronización!!
         },
       },

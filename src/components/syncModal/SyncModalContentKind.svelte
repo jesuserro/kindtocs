@@ -7,7 +7,10 @@
   export let yesBook = false;
   export let yesNote = false;
 
-  let selectedSyncType: SyncModeKind = "kindtocs";
+  let selectedSyncType: SyncModeKind = {
+    bookMetadata: yesBook,
+    noteContext: yesNote
+  };
 </script>
 
 <fieldset class="toc-chks">

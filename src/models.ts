@@ -54,7 +54,10 @@ export type RenderTemplate = Book &
   };
 
 export type SyncMode = 'amazon' | 'my-clippings';
-export type SyncModeKind = 'kindtocs' | 'origin';
+export type SyncModeKind = {
+  bookMetadata: boolean,
+  noteContext: boolean
+};
 
 export type AmazonAccountRegion = 'global' | 'india' | 'japan' | 'spain' | 'germany' | 'italy';
 
