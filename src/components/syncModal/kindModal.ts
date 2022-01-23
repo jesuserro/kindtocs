@@ -1,4 +1,4 @@
-import { App, Modal, Notice } from 'obsidian';
+import { App, Modal } from 'obsidian';
 
 import SyncModalContentKind from './SyncModalContentKind.svelte';
 import { settingsStore } from '~/store';
@@ -16,7 +16,7 @@ const SyncModalTitle: Record<SyncModalState['status'], string> = {
 };
 
 type SyncModalPropsKind = {
-  onTocSync: () => void;
+  onTocSync: (mode: SyncModeKind) => void;
 };
 
 export default class SyncModalKind extends Modal {
@@ -39,9 +39,7 @@ export default class SyncModalKind extends Modal {
       target: this.contentEl,
       props: {
         onClick: (mode: SyncModeKind) => {
-          new Notice('book: '+ mode.bookMetadata);
-          new Notice('note: '+ mode.noteContext);
-          // this.props.onTocSync(); // ejecuta la sincronización!!
+          this.props.onTocSync(mode); // ejecuta la sincronización!!
         },
       },
     });

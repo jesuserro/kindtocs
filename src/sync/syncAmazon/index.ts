@@ -2,9 +2,11 @@ import AmazonLoginModal from '~/components/amazonLoginModal';
 import { scrapeHighlightsForBook, scrapeBooks } from '~/scraper';
 import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
-import type { Book, KindleFile } from '~/models';
+import type { Book, KindleFile, SyncModeKind } from '~/models';
 
 import { bibleHighlights } from '~/kindtocs/bibleHighlights.spec';
+
+import { Notice } from 'obsidian';
 
 export default class SyncAmazon {
 
@@ -16,7 +18,7 @@ export default class SyncAmazon {
  *
  * @returns Clon de startSync()
  */
-  public async startKindtocs(): Promise<void> {
+  public async startKindtocs(mode: SyncModeKind): Promise<void> {
     ee.emit('syncSessionStart', 'amazon');
 
     const success = await this.login();
@@ -36,6 +38,9 @@ export default class SyncAmazon {
       this.remoteBooks = remoteBooks;
 
       if (remoteBooks.length > 0) {
+
+        new Notice('book: '+ mode.bookMetadata);
+        new Notice('note: '+ mode.noteContext);
 
         // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
         const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia

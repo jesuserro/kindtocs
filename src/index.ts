@@ -12,6 +12,7 @@ import kindleIcon from '~/assets/kindleIcon.svg';
 import { ee } from '~/eventEmitter';
 
 import SyncModalKind from '~/components/syncModal/kindModal';
+import type { SyncModeKind } from '~/models';
 
 import '~/sentry';
 
@@ -89,7 +90,7 @@ export default class KindlePlugin extends Plugin {
   private showSyncKindtocModal(): void {
     new Notice('patata 1');
     new SyncModalKind(this.app, {
-      onTocSync: () => this.startKindtocs()
+      onTocSync: (mode:SyncModeKind) => this.startKindtocs(mode)
     }).show();
   }
 
@@ -107,8 +108,8 @@ export default class KindlePlugin extends Plugin {
   /**
    * Clon de startAmazonSync()
    */
-  private startKindtocs(): void {
-    this.syncAmazon.startKindtocs();
+  private startKindtocs(mode: SyncModeKind): void {
+    this.syncAmazon.startKindtocs(mode);
   }
 
   public async onunload(): Promise<void> {
