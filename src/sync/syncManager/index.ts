@@ -56,7 +56,21 @@ export default class SyncManager {
       return; // No highlights for book. Skip sync
     }
 
-    await this.createToc(book, highlights);
+    await this.createLibro(book, highlights);
+  }
+
+  /**
+   *
+   * @param book Clon de syncBook()
+   * @param highlights
+   * @returns
+   */
+  public async createNoteToc(book: Book, highlights: any[]): Promise<void> {
+    if (highlights.length === 0) {
+      return; // No highlights for book. Skip sync
+    }
+
+    await this.createNotes(book, highlights);
   }
 
   public async resyncBook(
@@ -88,10 +102,23 @@ export default class SyncManager {
    * @param book
    * @param highlights
    */
-  private async createToc(book: Book, highlights: HighlightToc[]): Promise<void> {
+  private async createLibro(book: Book, highlights: HighlightToc[]): Promise<void> {
     const metadata = await this.syncMetadata(book);
 
-    const content = this.renderer.renderToc({ book, highlights, metadata });
+    const content = this.renderer.renderTocNotes({ book, highlights, metadata });
+
+    await this.fileManager.createFile(book, content, highlights.length);
+  }
+
+  /**
+   * Clon de createBook()
+   * @param book
+   * @param highlights
+   */
+  private async createNotes(book: Book, highlights: HighlightToc[]): Promise<void> {
+    const metadata = await this.syncMetadata(book);
+
+    const content = this.renderer.renderTocNotes2({ book, highlights, metadata });
 
     await this.fileManager.createFile(book, content, highlights.length);
   }

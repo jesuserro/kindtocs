@@ -46,7 +46,12 @@ export default class SyncAmazon {
         const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
 
         if (oneBook.length > 0) {
-          await this.createTocs(oneBook);
+          if(mode.bookMetadata){
+            await this.createTocs(oneBook);
+          }
+          if(mode.noteContext){
+            await this.createNotes(oneBook);
+          }
         }
       }
 
@@ -150,6 +155,30 @@ export default class SyncAmazon {
         const highlights = bibleHighlights;
 
         await this.syncManager.createBookToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        // const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        const highlights = bibleHighlights;
+
+        await this.syncManager.createNoteToc(book, highlights);
 
         // ee.emit('syncBookSuccess', book, highlights);
       } catch (error) {

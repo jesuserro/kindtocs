@@ -15,5 +15,7 @@
 {% if appLink %}* [Kindle link]({{appLink}}){% endif %}
 {% endtrim %}
 
-## Highlights
-{{highlights}}
+## Índice
+{% trim %}
+{% if highlights %}{{highlights}}{% endif %}
+{% endtrim %}
