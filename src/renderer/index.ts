@@ -4,7 +4,8 @@ import { get } from 'svelte/store';
 import bookTemplate from './templates/bookTemplate.njk';
 import notesTemplate from './templates/notesTemplate.njk';
 import defaultHighlightTemplate from './templates/defaultHighlightTemplate.njk';
-import tocHighlightTemplate from './templates/tocHighlightTemplate.njk';
+import bookTpl from './templates/book.njk';
+import noteTpl from './templates/note.njk';
 import highlightTemplateWrapper from './templates/highlightTemplateWrapper.njk';
 import { BlockReferenceExtension, TrimAllEmptyLinesExtension } from './nunjucks.extensions';
 import { shortenTitle } from '~/utils';
@@ -43,8 +44,11 @@ export class Renderer {
     }
   }
 
-  public tocHighlightTemplate(): string {
-    return tocHighlightTemplate.trim();
+  public bookTpl(): string {
+    return bookTpl.trim();
+  }
+  public noteTpl(): string {
+    return noteTpl.trim();
   }
 
   public defaultHighlightTemplate(): string {
@@ -110,7 +114,7 @@ export class Renderer {
     highlight.ref = getRef(note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
-    const userTemplate = this.tocHighlightTemplate();
+    const userTemplate = this.noteTpl();
     const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
     const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
     return trimMultipleLines(renderedHighlight);
@@ -129,7 +133,7 @@ export class Renderer {
     highlight.ref = getRef(note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
-    const userTemplate = this.tocHighlightTemplate();
+    const userTemplate = this.bookTpl();
     const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
     const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
     return trimMultipleLines(renderedHighlight);
