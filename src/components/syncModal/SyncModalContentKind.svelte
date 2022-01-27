@@ -5,8 +5,8 @@
   export let onClick: (mode: SyncModeKind) => void;
 
   let selectedSyncType: SyncModeKind = {
-    bookMetadata: false,
-    noteContext: false
+    bookMetadata: true,
+    noteContext: true
   };
 </script>
 
