@@ -11,7 +11,7 @@ export function getRef (note: string): string {
   return "";
 }
 
-export function getHeaderMarkdown (header: string): string {
+export function getTabHeader (header: string): string {
   const headers = {
     h1: '##',
     h2: '###',

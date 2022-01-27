@@ -28,6 +28,7 @@ export type HighlightToc = {
   ref?: string;
   color?: 'pink' | 'blue' | 'yellow' | 'orange';
   header?: string;
+  tab?: string;
   icon?: string;
   isFavorite?: string
 };
