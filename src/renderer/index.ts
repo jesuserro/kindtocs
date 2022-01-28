@@ -12,7 +12,7 @@ import { shortenTitle } from '~/utils';
 import { settingsStore } from '~/store';
 import { trimMultipleLines } from './helper';
 import type { Book, BookHighlight, Highlight, HighlightToc, RenderTemplate } from '~/models';
-import { getHeader, getTabHeader, getColorIcon, getIsFavorite, getRef } from '~/kindtocs/global';
+import { getHeader, getTabHeader, getTabHeaderSimple, getColorIcon, getColorIconSimple, getIsFavorite, getRef } from '~/kindtocs/global';
 
 export const HighlightIdBlockRefPrefix = '^ref-';
 
@@ -125,10 +125,9 @@ export class Renderer {
 
     const note = highlight.note;
     const header = getHeader(note);
-    highlight.header = header;
-    highlight.tab = getTabHeader(header);
-    // highlight.icon = getColorIcon(highlight.color);
-    highlight.icon = "";
+    highlight.header = header.trim();
+    highlight.tab = getTabHeaderSimple(header);
+    highlight.icon = getColorIconSimple(header);
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
 

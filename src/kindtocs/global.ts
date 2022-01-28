@@ -20,6 +20,20 @@ export function getTabHeader (header: string): string {
     h5: '######',
     h6: '*',
     h7: "  *",
+    h8: "    *"
+  };
+  return "\n"+headers[header];
+}
+
+export function getTabHeaderSimple (header: string): string {
+  const headers = {
+    h1: '##',
+    h2: '###',
+    h3: '####',
+    h4: '#####',
+    h5: '######',
+    h6: '-',
+    h7: "  -",
     h8: "    -"
   };
   return "\n"+headers[header];
@@ -33,6 +47,16 @@ export function getColorIcon (color: string): string {
     default: "🟨"
   };
   return colors[color] || colors['default'];
+}
+
+export function getColorIconSimple (header: string): string {
+  const colors = {
+    h6:      "▫️",
+    h7:      "▫️",
+    h8:      "▫️",
+    default: ""
+  };
+  return colors[header] || colors['default'];
 }
 
 export function getIsFavorite (note: string): string {
