@@ -51,8 +51,8 @@ export function getColorIcon (color: string): string {
 
 export function getColorIconSimple (header: string): string {
   const colors = {
-    h7:      "▪️",
-    h8:      "▪️",
+    h7:      "&nbsp;",
+    h8:      "&nbsp;",
     default: ""
   };
   return colors[header] || colors['default'];
