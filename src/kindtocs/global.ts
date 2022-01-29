@@ -27,14 +27,14 @@ export function getTabHeader (header: string): string {
 
 export function getTabHeaderSimple (header: string): string {
   const headers = {
-    h1: '##',
-    h2: '###',
-    h3: '####',
-    h4: '#####',
-    h5: '######',
-    h6: '-',
-    h7: "  -",
-    h8: "    -"
+    h1: '#',
+    h2: '##',
+    h3: '###',
+    h4: '####',
+    h5: '#####',
+    h6: '######',
+    h7: "*",
+    h8: "  *"
   };
   return "\n"+headers[header];
 }
@@ -51,7 +51,6 @@ export function getColorIcon (color: string): string {
 
 export function getColorIconSimple (header: string): string {
   const colors = {
-    h6:      "▫️",
     h7:      "▫️",
     h8:      "▫️",
     default: ""
