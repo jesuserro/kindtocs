@@ -25,6 +25,17 @@ export function getTabHeader (header: string): string {
   return "\n"+headers[header];
 }
 
+export function getTabHeaderChapter (header: string): string {
+  const headers = {
+    h4: '#',
+    h5: '##',
+    h6: '###',
+    h7: "####",
+    h8: "#####"
+  };
+  return "\n"+headers[header];
+}
+
 export function getTabHeaderSimple (header: string): string {
   const headers = {
     h1: '#',

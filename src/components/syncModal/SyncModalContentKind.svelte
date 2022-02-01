@@ -5,8 +5,9 @@
   export let onClick: (mode: SyncModeKind) => void;
 
   let selectedSyncType: SyncModeKind = {
-    bookMetadata: true,
-    noteContext: true
+    bookMetadata: false,
+    noteContext: false,
+    chapterContext: true
   };
 </script>
 
@@ -18,7 +19,11 @@
   </label>
   <label>
     <input type=checkbox bind:checked={selectedSyncType.noteContext}>
-    Índice Completo para notas
+    Índice para notas
+  </label>
+  <label>
+    <input type=checkbox bind:checked={selectedSyncType.chapterContext}>
+    Índice por capítulos
   </label>
 </fieldset>
 

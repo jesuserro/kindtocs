@@ -39,9 +39,6 @@ export default class SyncAmazon {
 
       if (remoteBooks.length > 0) {
 
-        new Notice('book: '+ mode.bookMetadata);
-        new Notice('note: '+ mode.noteContext);
-
         // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
         const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
 
@@ -51,6 +48,9 @@ export default class SyncAmazon {
           }
           if(mode.noteContext){
             await this.createNotes(oneBook);
+          }
+          if(mode.chapterContext){
+            await this.createChapters(oneBook);
           }
         }
       }
@@ -164,7 +164,6 @@ export default class SyncAmazon {
     }
   }
 
-
   /**
    * Clon de syncBooks()
    * @param books
@@ -179,6 +178,30 @@ export default class SyncAmazon {
         const highlights = bibleHighlights;
 
         await this.syncManager.createNoteToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createChapters(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        // const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        const highlights = bibleHighlights;
+
+        await this.syncManager.createChapterToc(book, highlights);
 
         // ee.emit('syncBookSuccess', book, highlights);
       } catch (error) {

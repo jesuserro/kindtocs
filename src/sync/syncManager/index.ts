@@ -73,6 +73,20 @@ export default class SyncManager {
     await this.createNotes(book, highlights);
   }
 
+  /**
+   *
+   * @param book Clon de syncBook()
+   * @param highlights
+   * @returns
+   */
+  public async createChapterToc(book: Book, highlights: any[]): Promise<void> {
+    if (highlights.length === 0) {
+      return; // No highlights for book. Skip sync
+    }
+
+    await this.createChapters(book, highlights);
+  }
+
   public async resyncBook(
     file: KindleFile,
     remoteBook: Book,
@@ -119,6 +133,19 @@ export default class SyncManager {
     const metadata = await this.syncMetadata(book);
 
     const content = this.renderer.renderTocNotes2({ book, highlights, metadata });
+
+    await this.fileManager.createFile(book, content, highlights.length);
+  }
+
+  /**
+   * Clon de createBook()
+   * @param book
+   * @param highlights
+   */
+  private async createChapters(book: Book, highlights: HighlightToc[]): Promise<void> {
+    const metadata = await this.syncMetadata(book);
+
+    const content = this.renderer.renderTocChapters({ book, highlights, metadata });
 
     await this.fileManager.createFile(book, content, highlights.length);
   }
