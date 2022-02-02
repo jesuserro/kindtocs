@@ -15,11 +15,11 @@
   <legend>Create</legend>
   <label>
     <input type=checkbox bind:checked={selectedSyncType.bookMetadata}>
-    Book Metadata e Índice Simple
+    Book Metadata e Índice simple
   </label>
   <label>
     <input type=checkbox bind:checked={selectedSyncType.noteContext}>
-    Índice para notas
+    Índice personal
   </label>
   <label>
     <input type=checkbox bind:checked={selectedSyncType.chapterContext}>

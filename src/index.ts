@@ -88,7 +88,6 @@ export default class KindlePlugin extends Plugin {
   }
 
   private showSyncKindtocModal(): void {
-    new Notice('patata 1');
     new SyncModalKind(this.app, {
       onTocSync: (mode:SyncModeKind) => this.startKindtocs(mode)
     }).show();

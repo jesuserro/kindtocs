@@ -1,6 +1,8 @@
 # {{title}}
-![{{title}}](http://images.amazon.com/images/P/{{asin}}._PE30_PI_SCMZZZZZZZ_.jpg)
+![{{title}}]({{imageUrl}})
 {% trim %}
+* Último subrayado: {{lastAnnotatedDate | date("YYYY-MM-DD HH:mm") }}
+* Subrayados: {{highlightsCount}}
 {% if authorUrl %}
 * Author: [{{author}}]({{authorUrl}})
 {% elif author %}

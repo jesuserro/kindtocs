@@ -1,5 +1,6 @@
 import nunjucks, { Environment } from 'nunjucks';
 import { get } from 'svelte/store';
+import moment  from 'moment';
 
 import bookTemplate from './templates/bookTemplate.njk';
 import notesTemplate from './templates/notesTemplate.njk';
@@ -34,6 +35,12 @@ export class Renderer {
     this.nunjucks = new nunjucks.Environment(null, { autoescape: false });
     this.nunjucks.addExtension('BlockRef', new BlockReferenceExtension());
     this.nunjucks.addExtension('Trim', new TrimAllEmptyLinesExtension());
+    this.nunjucks.addFilter("date", function(date, format) {
+      return moment(date).format(format);
+    });
+
+    // const dateFilter = require('nunjucks-date-filter');
+    // this.nunjucks.addFilter('date', dateFilter);
   }
 
   public validate(template: string): boolean {
