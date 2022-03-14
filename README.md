@@ -94,7 +94,7 @@ npm run dev
 | `npm run dev`                                  | Create `main.js` and `dist` files for Obsidian.                                           | VSCODE |
 | `npm run test`                                 | Run all tests                                                                             | VSCODE |
 | `npm test -- ./src/suma`                       | Run specific test: suma.spec.ts                                                           | VSCODE |
-| `sudo npm install -g npm@8.3.0`                | Update npm core to 8.3.0                                                                  | VSCODE |
+| `sudo npm install -g npm@8.3.0`                | Update npm core to 8.3.0 - the "npm -v" new version)                                      | VSCODE |
 
 ### Template tags
 
