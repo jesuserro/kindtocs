@@ -1,4 +1,4 @@
-import { addIcon, Plugin, Notice } from 'obsidian';
+import { addIcon, Plugin } from 'obsidian';
 import { get } from 'svelte/store';
 
 import FileManager from '~/fileManager';

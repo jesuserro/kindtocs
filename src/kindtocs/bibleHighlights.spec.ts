@@ -403,7 +403,7 @@ export const bibleHighlights = [
       "color": "pink",
       "location": "133",
       "page": "133",
-      "note": ".h4",
+      "note": ".h4\nLínea 1.\nLínea número 2.\nLínea número 3.",
       "header": "\n#####",
       "icon": "🟥",
       "isFavorite": ""

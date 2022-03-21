@@ -7,7 +7,8 @@
   let selectedSyncType: SyncModeKind = {
     bookMetadata: false,
     noteContext: false,
-    chapterContext: true
+    chapterContext: false,
+    chapterNotesContext: true
   };
 </script>
 
@@ -24,6 +25,10 @@
   <label>
     <input type=checkbox bind:checked={selectedSyncType.chapterContext}>
     Índice por capítulos
+  </label>
+  <label>
+    <input type=checkbox bind:checked={selectedSyncType.chapterNotesContext}>
+    Índice capítulos con notas
   </label>
 </fieldset>
 

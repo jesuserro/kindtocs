@@ -1,4 +1,25 @@
 /**
+ * "note": ".h4\nLínea 1.\nLínea número 2.\nLínea número 3.",
+ * Descartar primera línea de tags con puntos.
+ * @param note: string
+ * @returns
+ */
+export function getNoteText (note: string): string {
+  const refs = note.match(/(.*?)\n|(.*\s)/);
+  let text = "";
+  let splitted = [];
+  if(refs && refs.input){
+    console.log("refs", refs);
+    text = refs.input;
+    splitted = text.split("\n");
+    // splitted.shift(); // Quita la primera línea de tags .patata
+    text = splitted.join("\n  ");
+    return "> " + text.trim();
+  }
+  return "";
+}
+
+/**
  * "note": ".h7 [[Gn-01#v1]] [[Gn-02#v4a]]\nAquí se explica la creación del universo.",
  * @param note: string
  * @returns

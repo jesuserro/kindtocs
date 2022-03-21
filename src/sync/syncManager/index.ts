@@ -79,6 +79,21 @@ export default class SyncManager {
    * @param highlights
    * @returns
    */
+  public async createChapterNotes(book: Book, highlights: any[]): Promise<void> {
+    if (highlights.length === 0) {
+      return; // No highlights for book. Skip sync
+    }
+
+    await this.createChaptersNotes(book, highlights);
+  }
+
+
+  /**
+   *
+   * @param book Clon de syncBook()
+   * @param highlights
+   * @returns
+   */
   public async createChapterToc(book: Book, highlights: any[]): Promise<void> {
     if (highlights.length === 0) {
       return; // No highlights for book. Skip sync
@@ -136,6 +151,20 @@ export default class SyncManager {
 
     await this.fileManager.createFile(book, content, highlights.length);
   }
+
+  /**
+   * Clon de createBook()
+   * @param book
+   * @param highlights
+   */
+  private async createChaptersNotes(book: Book, highlights: HighlightToc[]): Promise<void> {
+    const metadata = await this.syncMetadata(book);
+
+    const content = this.renderer.renderTocChaptersNotes({ book, highlights, metadata });
+
+    await this.fileManager.createFile(book, content, highlights.length);
+  }
+
 
   /**
    * Clon de createBook()

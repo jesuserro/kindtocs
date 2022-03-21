@@ -8,13 +8,14 @@ import defaultHighlightTemplate from './templates/defaultHighlightTemplate.njk';
 import bookTpl from './templates/book.njk';
 import noteTpl from './templates/note.njk';
 import chapterTpl from './templates/chapter.njk';
+import chapterNotesTpl from './templates/chapterNotes.njk';
 import highlightTemplateWrapper from './templates/highlightTemplateWrapper.njk';
 import { BlockReferenceExtension, TrimAllEmptyLinesExtension } from './nunjucks.extensions';
 import { shortenTitle } from '~/utils';
 import { settingsStore } from '~/store';
 import { trimMultipleLines } from './helper';
 import type { Book, BookHighlight, Highlight, HighlightToc, RenderTemplate } from '~/models';
-import { getHeader, getTabHeader, getTabHeaderSimple, getTabHeaderChapter, getColorIcon, getColorIconSimple, getIsFavorite, getRef } from '~/kindtocs/global';
+import { getHeader, getTabHeader, getTabHeaderSimple, getTabHeaderChapter, getColorIcon, getColorIconSimple, getIsFavorite, getRef, getNoteText } from '~/kindtocs/global';
 
 export const HighlightIdBlockRefPrefix = '^ref-';
 
@@ -60,6 +61,9 @@ export class Renderer {
   }
   public chapterTpl(): string {
     return chapterTpl.trim();
+  }
+  public chapterNotesTpl(): string {
+    return chapterNotesTpl.trim();
   }
 
   public defaultHighlightTemplate(): string {
@@ -112,6 +116,27 @@ export class Renderer {
    * @param entry Clon de render()
    * @returns
    */
+  public renderTocChaptersNotes(entry: BookHighlight): string {
+    const { book, highlights } = entry;
+
+    const params: RenderTemplate = {
+      ...book,
+      fullTitle: book.title,
+      title: shortenTitle(book.title),
+      appLink: appLink(book),
+      ...entry.metadata,
+      highlights: this.renderChaptersNotes(book, highlights),
+    };
+
+    return this.nunjucks.renderString(notesTemplate, params);
+  }
+
+
+  /**
+   *
+   * @param entry Clon de render()
+   * @returns
+   */
   public renderTocChapters(entry: BookHighlight): string {
     const { book, highlights } = entry;
 
@@ -125,6 +150,37 @@ export class Renderer {
     };
 
     return this.nunjucks.renderString(notesTemplate, params);
+  }
+
+
+  /**
+   * Clon de renderHighlight()
+   * @param book
+   * @param highlight
+   * @returns
+   */
+  public renderChapterNotes(book: Book, highlight: HighlightToc): string {
+
+    const note = highlight.note;
+    const header = getHeader(note);
+    if(header == "h1" || header == "h2" || header == "h3"){
+      return;
+    }
+    if( typeof note == 'undefined' || !note || note.trim() == "" ){
+      return;
+    }
+    highlight.header = header;
+    highlight.tab = getTabHeaderChapter(header);
+    highlight.icon = getColorIcon(highlight.color);
+    highlight.isFavorite = getIsFavorite(note);
+    highlight.ref = getRef(note);
+    highlight.noteText = getNoteText(note);
+
+    const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
+    const userTemplate = this.chapterNotesTpl();
+    const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
+    const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
+    return trimMultipleLines(renderedHighlight);
   }
 
 
@@ -208,6 +264,12 @@ export class Renderer {
   private renderChapters(book: Book, highlights: Highlight[]): string {
     const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
     return h1Highlights.map((h) => this.renderChapter(book, h)).join('');
+  }
+
+
+  private renderChaptersNotes(book: Book, highlights: Highlight[]): string {
+    const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
+    return h1Highlights.map((h) => this.renderChapterNotes(book, h)).join('');
   }
 
   public render(entry: BookHighlight): string {

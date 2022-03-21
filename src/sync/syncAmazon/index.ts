@@ -6,7 +6,6 @@ import type { Book, KindleFile, SyncModeKind } from '~/models';
 
 import { bibleHighlights } from '~/kindtocs/bibleHighlights.spec';
 
-import { Notice } from 'obsidian';
 
 export default class SyncAmazon {
 
@@ -51,6 +50,9 @@ export default class SyncAmazon {
           }
           if(mode.chapterContext){
             await this.createChapters(oneBook);
+          }
+          if(mode.chapterNotesContext){
+            await this.createChaptersNotes(oneBook);
           }
         }
       }
@@ -202,6 +204,30 @@ export default class SyncAmazon {
         const highlights = bibleHighlights;
 
         await this.syncManager.createChapterToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createChaptersNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        // const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        const highlights = bibleHighlights;
+
+        await this.syncManager.createChapterNotes(book, highlights);
 
         // ee.emit('syncBookSuccess', book, highlights);
       } catch (error) {

@@ -30,7 +30,8 @@ export type HighlightToc = {
   header?: string;
   tab?: string;
   icon?: string;
-  isFavorite?: string
+  isFavorite?: string,
+  noteText?: string
 };
 
 export type BookHighlight = {
@@ -58,7 +59,8 @@ export type SyncMode = 'amazon' | 'my-clippings';
 export type SyncModeKind = {
   bookMetadata: boolean,
   noteContext: boolean,
-  chapterContext: boolean
+  chapterContext: boolean,
+  chapterNotesContext: boolean
 };
 
 export type AmazonAccountRegion = 'global' | 'india' | 'japan' | 'spain' | 'germany' | 'italy';
