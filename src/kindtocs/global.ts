@@ -1,5 +1,5 @@
 /**
- * "note": ".h4\nLínea 1.\nLínea número 2.\nLínea número 3.",
+ * "note": ".h4 .patata\nLínea 1.\nLínea número 2.\nLínea número 3.",
  * Descartar primera línea de tags con puntos.
  * @param note: string
  * @returns
@@ -9,7 +9,7 @@ export function getNoteText (note: string): string {
   let text = "";
   let splitted = [];
   if(refs && refs.input){
-    console.log("refs", refs);
+    // console.log("refs", refs);
     text = refs.input;
     splitted = text.split("\n");
     // splitted.shift(); // Quita la primera línea de tags .patata
