@@ -95,7 +95,8 @@ function BlockReferenceExtension(): void {
     const renderedTemplate: string = bodyCallback();
     const buffer = sb(renderedTemplate);
 
-    const blockRef = `${HighlightIdBlockRefPrefix}${context.ctx[highlightId]}`;
+    // TODO: eliminar ñapa ".  "
+    const blockRef = `.  ${HighlightIdBlockRefPrefix}${context.ctx[highlightId]}`;
     const blockRefSuffixLine = `${buffer.getLine(this.lineNumber + 1)} ${blockRef}`;
 
     buffer.replace({ line: this.lineNumber, content: blockRefSuffixLine });
