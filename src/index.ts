@@ -25,7 +25,7 @@ export default class KindlePlugin extends Plugin {
   private syncClippings!: SyncClippings;
 
   public async onload(): Promise<void> {
-    console.log('Kindtocs: loading plugin', new Date().toLocaleString());
+    // console.log('Kindtocs: loading plugin', new Date().toLocaleString());
 
     this.fileManager = new FileManager(this.app.vault, this.app.metadataCache);
     const syncManager = new SyncManager(this.fileManager);
@@ -114,6 +114,6 @@ export default class KindlePlugin extends Plugin {
   public async onunload(): Promise<void> {
     ee.removeAllListeners();
 
-    console.log('Kindle Highlights plugin: unloading plugin', new Date().toLocaleString());
+    // console.log('Kindle Highlights plugin: unloading plugin', new Date().toLocaleString());
   }
 }
