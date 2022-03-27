@@ -273,7 +273,9 @@ export class Renderer {
     return h1Highlights.map((h) => this.renderChapter(book, h)).join('');
   }
 
-
+  /**
+   * IMPORTANTE: aquí capturamos encabezados o subrayados
+   */
   private renderChaptersNotes(book: Book, highlights: Highlight[]): string {
     const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
     return h1Highlights.map((h) => this.renderChapterNotes(book, h)).join('');
