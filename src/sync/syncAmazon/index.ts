@@ -38,8 +38,8 @@ export default class SyncAmazon {
 
       if (remoteBooks.length > 0) {
 
-        // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
-        const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
+        const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
+        // const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
 
         if (oneBook.length > 0) {
           if(mode.bookMetadata){
@@ -152,9 +152,9 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        // const highlights = await scrapeHighlightsForBook(book);
+        const highlights = await scrapeHighlightsForBook(book);
         // console.log("highlights", highlights);
-        const highlights = bibleHighlights;
+        // const highlights = bibleHighlights;
 
         await this.syncManager.createBookToc(book, highlights);
 
@@ -175,9 +175,9 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        // const highlights = await scrapeHighlightsForBook(book);
+        const highlights = await scrapeHighlightsForBook(book);
         // console.log("highlights", highlights);
-        const highlights = bibleHighlights;
+        // const highlights = bibleHighlights;
 
         await this.syncManager.createNoteToc(book, highlights);
 
@@ -199,9 +199,9 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        // const highlights = await scrapeHighlightsForBook(book);
+        const highlights = await scrapeHighlightsForBook(book);
         // console.log("highlights", highlights);
-        const highlights = bibleHighlights;
+        // const highlights = bibleHighlights;
 
         await this.syncManager.createChapterToc(book, highlights);
 
@@ -223,9 +223,9 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        // const highlights = await scrapeHighlightsForBook(book);
+        const highlights = await scrapeHighlightsForBook(book);
         // console.log("highlights", highlights);
-        const highlights = bibleHighlights;
+        // const highlights = bibleHighlights;
 
         await this.syncManager.createChapterNotes(book, highlights);
 

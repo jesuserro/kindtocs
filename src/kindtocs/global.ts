@@ -46,6 +46,7 @@ export function getTabHeader (header: string): string {
   return "\n"+headers[header];
 }
 
+// Para la Biblia
 export function getTabHeaderChapter (header: string): string {
   const headers = {
     h4: '#',

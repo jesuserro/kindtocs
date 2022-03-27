@@ -163,14 +163,21 @@ export class Renderer {
 
     const note = highlight.note;
     const header = getHeader(note);
+
+    // Este if para la biblia, no para Abandono
     if(header == "h1" || header == "h2" || header == "h3"){
-      return;
+      // return;
     }
+    // Para poner subrayados? No. En el Abandono no influye, en Biblia sí.
     if( typeof note == 'undefined' || !note || note.trim() == "" ){
-      return;
+      // return;
+    }else{
+      // Nota existente
+      // console.log("highlight", highlight);
     }
+
     highlight.header = header;
-    highlight.tab = getTabHeaderChapter(header);
+    highlight.tab = getTabHeaderSimple(header);
     highlight.icon = getColorIcon(highlight.color);
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
