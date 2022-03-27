@@ -274,7 +274,20 @@ export class Renderer {
   }
 
   /**
-   * IMPORTANTE: aquí capturamos encabezados o subrayados
+   * IMPORTANTE: aquí capturamos encabezados y/o subrayados!
+   *
+   * Tener en cuenta subrayados como el siguiente (no sólo encabezados), el atributo "note" carece de headers (.h1, .h2, etc.):
+   *
+   * color: "yellow",
+   * note: ".test .abandono
+Pruebas, está es la nota para el subrayado de color amarillo",
+   * page: "63",
+   * text: "Esta breve obra se compone de cartas escritas por un eclesiástico a la superiora de una comunidad religiosa. En ella se ve claro que el autor fue un hombre espiritual, interior y gran amigo de Dios. Él descubre en sus cartas, aquí abreviadas a veces, el verdadero método, el más corto y realmente el único para llegar a Dios."
+   *
+   *
+   * Notas con encabezados, tiene el atributo note así, con un .h1:
+   * note: ".h1\nEl autor habla de aceptar cada evento presente, por muy pequeño que sea."
+   *
    */
   private renderChaptersNotes(book: Book, highlights: Highlight[]): string {
     const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
