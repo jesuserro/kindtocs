@@ -100,7 +100,7 @@ export function getIsFavorite (note: string): string {
 }
 
 export function getHeader (note: string): string {
-  const headers = note.match(/\.(h[0-9]{1})/);
+  const headers = note.match(/\.(h[0-9]{1})/gm);
   return headers[1];
 }
 

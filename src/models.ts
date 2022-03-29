@@ -60,7 +60,8 @@ export type SyncModeKind = {
   bookMetadata: boolean,
   noteContext: boolean,
   chapterContext: boolean,
-  chapterNotesContext: boolean
+  chapterNotesContext: boolean,
+  specialNotes: boolean
 };
 
 export type AmazonAccountRegion = 'global' | 'india' | 'japan' | 'spain' | 'germany' | 'italy';
