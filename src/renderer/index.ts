@@ -344,11 +344,6 @@ Pruebas, está es la nota para el subrayado de color amarillo",
   }
 
   private renderSpecial(book: Book, highlights: Highlight[]): string {
-    const h1Highlights = highlights.filter((highlight) => highlight.note.match(/\.h[0-9]{1}/gm) !== null );
-    return h1Highlights.map((h) => this.renderMySpecialHighlights(book, h)).join('');
-  }
-
-  private renderSpecialHighlights(book: Book, highlights: Highlight[]): string {
     return highlights.map((h) => this.renderMySpecialHighlights(book, h)).join('');
   }
 
