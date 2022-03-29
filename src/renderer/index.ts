@@ -194,13 +194,19 @@ export class Renderer {
 
     highlight.header = header;
     highlight.tab = getTabHeaderSimple(header);
+    let userTemplate = this.chapterNotesTpl();
+    if(header == ""){
+      userTemplate = this.notesSinHeaderTpl();
+      highlight.tab = "\n\n";
+    }
+
+
     highlight.icon = getColorIcon(highlight.color);
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
     highlight.noteText = getNoteText(note);
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
-    const userTemplate = this.chapterNotesTpl();
     const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
     const renderedHighlight = this.nunjucks.renderString(highlightTemplate, highlightParams);
     return trimMultipleLines(renderedHighlight);
