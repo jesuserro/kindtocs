@@ -205,6 +205,9 @@ export class Renderer {
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
     highlight.noteText = getNoteText(note);
+    if(header == ""){
+      highlight.text += "\n\r";
+    }
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };
     const highlightTemplate = highlightTemplateWrapper.replace('{{ content }}', userTemplate);
