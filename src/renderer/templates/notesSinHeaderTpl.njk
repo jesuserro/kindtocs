@@ -1,6 +1,3 @@
-{{ tab }}> {{icon}}{{ isFavorite }} {{text}} {% if ref %}({{ ref }}){% endif %} <small>[{{ location }}]({{ appLink }})</small>
+{{ tab }}> {{icon}}{{ isFavorite }} {{text}} {% if ref %}({{ ref }}){% endif %} <small>[{{ location }}]({{ appLink }})</small> {% if newLine %}{{ newLine }}{% endif %}
 
 {% trim %}{% if noteText %}{{ noteText }}{% endif %}{% endtrim %}
-
-
-

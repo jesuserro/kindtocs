@@ -200,13 +200,12 @@ export class Renderer {
       highlight.tab = "\n\n\r";
     }
 
-
     highlight.icon = getColorIcon(highlight.color);
     highlight.isFavorite = getIsFavorite(note);
     highlight.ref = getRef(note);
     highlight.noteText = getNoteText(note);
     if(header == ""){
-      highlight.text += "\n\r";
+      highlight.newLine = "\n\r";
     }
 
     const highlightParams = { ...highlight, appLink: appLink(book, highlight) };

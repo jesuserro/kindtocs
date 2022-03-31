@@ -31,7 +31,8 @@ export type HighlightToc = {
   tab?: string;
   icon?: string;
   isFavorite?: string,
-  noteText?: string
+  noteText?: string,
+  newLine?: string
 };
 
 export type BookHighlight = {
