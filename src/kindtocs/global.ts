@@ -14,7 +14,7 @@ export function getNoteText (note: string): string {
     splitted = text.split("\n");
     // splitted.shift(); // Quita la primera línea de tags .patata
     text = splitted.join("\n  ");
-    return "> " + text.trim();
+    return text.trim() + "<span></span>  ";
   }
   return "";
 }

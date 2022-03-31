@@ -197,7 +197,7 @@ export class Renderer {
     let userTemplate = this.chapterNotesTpl();
     if(header == ""){
       userTemplate = this.notesSinHeaderTpl();
-      highlight.tab = "<span></span>\n\n";
+      highlight.tab = "\n\n\r<br /><br />";
     }
 
 
