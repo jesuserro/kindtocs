@@ -5,6 +5,7 @@
 </script>
 
 <SyncStats />
+
 <div class="setting-item-control">
   <button class="mod-cta" on:click={onClick}>Sync...</button>
 </div>

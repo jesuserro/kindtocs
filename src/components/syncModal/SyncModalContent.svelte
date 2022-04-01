@@ -5,7 +5,7 @@
   import SyncButtons from './views/SyncButtons.svelte';
   import UpgradeView from './views/UpgradeView.svelte';
   import { store } from './store';
-  import type { SyncMode } from '~/models';
+  import type { SyncMode, SyncModeKind } from '~/models';
 
   export let onUpgrade: () => void;
   export let onDone: () => void;

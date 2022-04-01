@@ -28,8 +28,11 @@ export type HighlightToc = {
   ref?: string;
   color?: 'pink' | 'blue' | 'yellow' | 'orange';
   header?: string;
+  tab?: string;
   icon?: string;
-  isFavorite?: string
+  isFavorite?: string,
+  noteText?: string,
+  newLine?: string
 };
 
 export type BookHighlight = {
@@ -54,6 +57,13 @@ export type RenderTemplate = Book &
   };
 
 export type SyncMode = 'amazon' | 'my-clippings';
+export type SyncModeKind = {
+  bookMetadata: boolean,
+  noteContext: boolean,
+  chapterContext: boolean,
+  chapterNotesContext: boolean,
+  specialNotes: boolean
+};
 
 export type AmazonAccountRegion = 'global' | 'india' | 'japan' | 'spain' | 'germany' | 'italy';
 

@@ -1,6 +1,8 @@
 # {{title}}
-## Metadata
+![{{title}}]({{imageUrl}})
 {% trim %}
+* Último subrayado: {{lastAnnotatedDate | date("LLLL") }}
+* Subrayados: {{highlightsCount}}
 {% if authorUrl %}
 * Author: [{{author}}]({{authorUrl}})
 {% elif author %}
@@ -15,5 +17,6 @@
 {% if appLink %}* [Kindle link]({{appLink}}){% endif %}
 {% endtrim %}
 
-## Highlights
-{{highlights}}
+{% trim %}
+{% if highlights %}{{highlights}}{% endif %}
+{% endtrim %}

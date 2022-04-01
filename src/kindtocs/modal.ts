@@ -42,7 +42,7 @@ export class TocModal extends Modal {
         .setPlaceholder('Enter your secret')
         .setValue(this.plugin.settings.mySetting)
         .onChange(async (value) => {
-          console.log('Secret: ' + value);
+          // console.log('Secret: ' + value);
           this.plugin.settings.mySetting = value;
           await this.plugin.saveData( this.settings );
         })

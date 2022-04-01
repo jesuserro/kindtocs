@@ -11,6 +11,9 @@ import { registerNotifications } from '~/notifications';
 import kindleIcon from '~/assets/kindleIcon.svg';
 import { ee } from '~/eventEmitter';
 
+import SyncModalKind from '~/components/syncModal/kindModal';
+import type { SyncModeKind } from '~/models';
+
 import '~/sentry';
 
 
@@ -22,7 +25,7 @@ export default class KindlePlugin extends Plugin {
   private syncClippings!: SyncClippings;
 
   public async onload(): Promise<void> {
-    console.log('Kindtocs: loading plugin', new Date().toLocaleString());
+    // console.log('Kindtocs: loading plugin', new Date().toLocaleString());
 
     this.fileManager = new FileManager(this.app.vault, this.app.metadataCache);
     const syncManager = new SyncManager(this.fileManager);
@@ -37,7 +40,7 @@ export default class KindlePlugin extends Plugin {
     // });
 
     const ribbonEl = this.addRibbonIcon('dice', 'Sync your Kindtocs highlights', () => {
-      this.showSyncModal();
+      this.showSyncKindtocModal();
     });
     ribbonEl.addClass('kindtocs-ribbon');
 
@@ -84,10 +87,15 @@ export default class KindlePlugin extends Plugin {
     });
   }
 
+  private showSyncKindtocModal(): void {
+    new SyncModalKind(this.app, {
+      onTocSync: (mode:SyncModeKind) => this.startKindtocs(mode)
+    }).show();
+  }
+
   private showSyncModal(): void {
     new SyncModal(this.app, {
-      // onOnlineSync: () => this.startAmazonSync(),
-      onOnlineSync: () => this.startKindtocs(),
+      onOnlineSync: () => this.startAmazonSync(),
       onMyClippingsSync: () => this.syncClippings.startSync(),
     }).show();
   }
@@ -99,13 +107,13 @@ export default class KindlePlugin extends Plugin {
   /**
    * Clon de startAmazonSync()
    */
-  private startKindtocs(): void {
-    this.syncAmazon.startKindtocs();
+  private startKindtocs(mode: SyncModeKind): void {
+    this.syncAmazon.startKindtocs(mode);
   }
 
   public async onunload(): Promise<void> {
     ee.removeAllListeners();
 
-    console.log('Kindle Highlights plugin: unloading plugin', new Date().toLocaleString());
+    // console.log('Kindle Highlights plugin: unloading plugin', new Date().toLocaleString());
   }
 }

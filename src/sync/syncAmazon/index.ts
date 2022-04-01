@@ -2,9 +2,10 @@ import AmazonLoginModal from '~/components/amazonLoginModal';
 import { scrapeHighlightsForBook, scrapeBooks } from '~/scraper';
 import { ee } from '~/eventEmitter';
 import type { SyncManager } from '~/sync';
-import type { Book, KindleFile } from '~/models';
+import type { Book, KindleFile, SyncModeKind } from '~/models';
 
 import { bibleHighlights } from '~/kindtocs/bibleHighlights.spec';
+
 
 export default class SyncAmazon {
 
@@ -16,7 +17,7 @@ export default class SyncAmazon {
  *
  * @returns Clon de startSync()
  */
-  public async startKindtocs(): Promise<void> {
+  public async startKindtocs(mode: SyncModeKind): Promise<void> {
     ee.emit('syncSessionStart', 'amazon');
 
     const success = await this.login();
@@ -37,11 +38,25 @@ export default class SyncAmazon {
 
       if (remoteBooks.length > 0) {
 
-        // const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
-        const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
+        const oneBook = this.getBookByAsin('B00UVRQDA8'); // Abandono
+        // const oneBook = this.getBookByAsin('B01LY1D0KZ'); // Biblia
 
         if (oneBook.length > 0) {
-          await this.createTocs(oneBook);
+          if(mode.bookMetadata){
+            await this.createTocs(oneBook);
+          }
+          if(mode.noteContext){
+            await this.createNotes(oneBook);
+          }
+          if(mode.chapterContext){
+            await this.createChapters(oneBook);
+          }
+          if(mode.chapterNotesContext){
+            await this.createChaptersNotes(oneBook);
+          }
+          if(mode.specialNotes){
+            await this.createSpecialsNotes(oneBook);
+          }
         }
       }
 
@@ -140,11 +155,105 @@ export default class SyncAmazon {
       try {
         ee.emit('syncBook', book, index);
 
-        // const highlights = await scrapeHighlightsForBook(book);
+        const highlights = await scrapeHighlightsForBook(book);
         // console.log("highlights", highlights);
-        const highlights = bibleHighlights;
+        // const highlights = bibleHighlights;
 
         await this.syncManager.createBookToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        // const highlights = bibleHighlights;
+
+        await this.syncManager.createNoteToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createChapters(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        // const highlights = bibleHighlights;
+
+        await this.syncManager.createChapterToc(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createSpecialsNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        // const highlights = bibleHighlights;
+
+        await this.syncManager.createSpecialNotes(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createChaptersNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        // const highlights = bibleHighlights;
+
+        await this.syncManager.createChapterNotes(book, highlights);
 
         // ee.emit('syncBookSuccess', book, highlights);
       } catch (error) {
