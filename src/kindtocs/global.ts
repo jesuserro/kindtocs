@@ -13,7 +13,7 @@ export function getNoteText (note: string): string {
     text = refs.input;
     lines = text.split("\n");
 
-    const regex = /\.([a-zA-Z0-9ñÑáéíóú]+)\s?/gm;
+    const regex = /\.([a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜçÇ]+)\s?/gm;
     const subst = `[[$1]] `;
     let newLine = lines.shift();
     newLine = newLine.replace(regex, subst);
