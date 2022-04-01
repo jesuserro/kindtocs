@@ -8,7 +8,8 @@
     bookMetadata: false,
     noteContext: false,
     chapterContext: false,
-    chapterNotesContext: true
+    chapterNotesContext: false,
+    specialNotes: true
   };
 </script>
 
@@ -29,6 +30,10 @@
   <label>
     <input type=checkbox bind:checked={selectedSyncType.chapterNotesContext}>
     Índice capítulos con notas
+  </label>
+  <label>
+    <input type=checkbox bind:checked={selectedSyncType.specialNotes}>
+    Índice capítulos con TODAS las notas
   </label>
 </fieldset>
 

@@ -54,6 +54,9 @@ export default class SyncAmazon {
           if(mode.chapterNotesContext){
             await this.createChaptersNotes(oneBook);
           }
+          if(mode.specialNotes){
+            await this.createSpecialsNotes(oneBook);
+          }
         }
       }
 
@@ -213,6 +216,29 @@ export default class SyncAmazon {
     }
   }
 
+
+  /**
+   * Clon de syncBooks()
+   * @param books
+   */
+  private async createSpecialsNotes(books: Book[]): Promise<void> {
+    for (const [index, book] of books.entries()) {
+      try {
+        ee.emit('syncBook', book, index);
+
+        const highlights = await scrapeHighlightsForBook(book);
+        // console.log("highlights", highlights);
+        // const highlights = bibleHighlights;
+
+        await this.syncManager.createSpecialNotes(book, highlights);
+
+        // ee.emit('syncBookSuccess', book, highlights);
+      } catch (error) {
+        console.error('Error syncing book', book, error);
+        ee.emit('syncBookFailure', book, String(error));
+      }
+    }
+  }
 
   /**
    * Clon de syncBooks()

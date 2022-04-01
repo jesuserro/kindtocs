@@ -31,7 +31,8 @@ export type HighlightToc = {
   tab?: string;
   icon?: string;
   isFavorite?: string,
-  noteText?: string
+  noteText?: string,
+  newLine?: string
 };
 
 export type BookHighlight = {
@@ -60,7 +61,8 @@ export type SyncModeKind = {
   bookMetadata: boolean,
   noteContext: boolean,
   chapterContext: boolean,
-  chapterNotesContext: boolean
+  chapterNotesContext: boolean,
+  specialNotes: boolean
 };
 
 export type AmazonAccountRegion = 'global' | 'india' | 'japan' | 'spain' | 'germany' | 'italy';

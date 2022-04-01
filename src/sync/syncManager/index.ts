@@ -88,6 +88,15 @@ export default class SyncManager {
   }
 
 
+  public async createSpecialNotes(book: Book, highlights: any[]): Promise<void> {
+    if (highlights.length === 0) {
+      return; // No highlights for book. Skip sync
+    }
+
+    await this.createSpecialsNotes(book, highlights);
+  }
+
+
   /**
    *
    * @param book Clon de syncBook()
@@ -151,6 +160,20 @@ export default class SyncManager {
 
     await this.fileManager.createFile(book, content, highlights.length);
   }
+
+  /**
+   * Clon de createBook()
+   * @param book
+   * @param highlights
+   */
+  private async createSpecialsNotes(book: Book, highlights: HighlightToc[]): Promise<void> {
+    const metadata = await this.syncMetadata(book);
+
+    const content = this.renderer.renderSpecial0({ book, highlights, metadata });
+
+    await this.fileManager.createFile(book, content, highlights.length);
+  }
+
 
   /**
    * Clon de createBook()
