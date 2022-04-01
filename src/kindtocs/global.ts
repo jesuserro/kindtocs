@@ -7,13 +7,19 @@
 export function getNoteText (note: string): string {
   const refs = note.match(/(.*?)\n|(.*\s)/);
   let text = "";
-  let splitted = [];
+  let lines = [];
   if(refs && refs.input){
     // console.log("refs", refs);
     text = refs.input;
-    splitted = text.split("\n");
-    // splitted.shift(); // Quita la primera línea de tags .patata
-    text = splitted.join("\n  ");
+    lines = text.split("\n");
+
+    const regex = /\.([a-zA-Z0-9ñÑáéíóú]*)\s?/gm;
+    const subst = `[[$1]] `;
+    let newLine = lines.shift();
+    newLine = newLine.replace(regex, subst);
+    lines.unshift(newLine);
+
+    text = lines.join("\n  ");
     return text.trim() + "<span></span>  ";
   }
   return "";
