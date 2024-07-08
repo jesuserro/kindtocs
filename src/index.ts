@@ -1,15 +1,15 @@
 import { addIcon, Plugin } from 'obsidian';
 import { get } from 'svelte/store';
 
-import FileManager from '~/fileManager';
 import SyncModal from '~/components/syncModal';
+import FileManager from '~/fileManager';
 import { SettingsTab } from '~/settingsTab';
 //import { StatusBar } from '~/components/statusBar';
-import { initializeStores, settingsStore } from '~/store';
-import { SyncAmazon, SyncClippings, SyncManager } from '~/sync';
-import { registerNotifications } from '~/notifications';
 import kindleIcon from '~/assets/kindleIcon.svg';
 import { ee } from '~/eventEmitter';
+import { registerNotifications } from '~/notifications';
+import { initializeStores, settingsStore } from '~/store';
+import { SyncAmazon, SyncClippings, SyncManager } from '~/sync';
 
 import SyncModalKind from '~/components/syncModal/kindModal';
 import type { SyncModeKind } from '~/models';
@@ -39,7 +39,7 @@ export default class KindlePlugin extends Plugin {
     //   this.showSyncModal();
     // });
 
-    const ribbonEl = this.addRibbonIcon('dice', 'Sync your Kindtocs highlights', () => {
+    const ribbonEl = this.addRibbonIcon('book-heart', 'Sync your Kindtocs highlights', () => {
       this.showSyncKindtocModal();
     });
     ribbonEl.addClass('kindtocs-ribbon');
