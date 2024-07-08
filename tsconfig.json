@@ -1,23 +1,22 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
-
-  "include": ["src/**/*", "tests/**/*", "webpack.config.ts"],
-  "exclude": ["node_modules/*"],
-  "compilerOptions": {
-    "types": ["node", "svelte", "jest"],
-    "baseUrl": ".",
-    "outDir": "./dist",
-    "paths": {
-      "src": ["src/*", "tests/*"],
-      "~/*": ["src/*"]
-    },
-    "resolveJsonModule": true
-  },
-  // Fixes errors when changing `module` to ES in the above compiler options
-  // See: https://github.com/webpack/webpack-cli/issues/2458#issuecomment-846635277
-  "ts-node": {
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": ["src/**/*", "tests/**/*", "webpack.config.ts"],
+    "exclude": ["node_modules/*"],
     "compilerOptions": {
-      "module": "commonjs"
+      "types": ["node", "svelte", "jest"],
+      "baseUrl": ".",
+      "outDir": "./dist",
+      "paths": {
+        "src": ["src/*", "tests/*"],
+        "~/*": ["src/*"]
+      },
+      "resolveJsonModule": true,
+      "ignoreDeprecations": "5.0"
+    },
+    "ts-node": {
+      "compilerOptions": {
+        "module": "commonjs"
+      }
     }
   }
-}
+  
